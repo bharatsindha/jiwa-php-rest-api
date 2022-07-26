@@ -1,0 +1,51 @@
+# WarehouseTransferOutPOSTRequest
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**destination_warehouse_id** | **string** |  | [optional] 
+**last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**transfer_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**activated_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**status** | **string** |  | [optional] 
+**created_by_staff_id** | **string** |  | [optional] 
+**created_by_staff_user_name** | **string** |  | [optional] 
+**created_by_staff_title** | **string** |  | [optional] 
+**created_by_staff_first_name** | **string** |  | [optional] 
+**created_by_staff_surname** | **string** |  | [optional] 
+**source** | **string** |  | [optional] 
+**source_type** | **string** |  | [optional] 
+**source_id** | **string** |  | [optional] 
+**source_no** | **string** |  | [optional] 
+**notes** | **string** |  | [optional] 
+**source_warehouse_id** | **string** |  | [optional] 
+**source_warehouse_logical_description** | **string** |  | [optional] 
+**source_warehouse_physical_description** | **string** |  | [optional] 
+**source_warehouse_mask** | **string** |  | [optional] 
+**destination_warehouse_logical_description** | **string** |  | [optional] 
+**destination_warehouse_physical_description** | **string** |  | [optional] 
+**destination_warehouse_mask** | **string** |  | [optional] 
+**transfer_no** | **string** |  | [optional] 
+**use_in_transit** | **bool** |  | [optional] 
+**transit_notes** | **string** |  | [optional] 
+**in_transit_warehouse_id** | **string** |  | [optional] 
+**in_transit_warehouse_logical_description** | **string** |  | [optional] 
+**in_transit_warehouse_physical_description** | **string** |  | [optional] 
+**in_transit_warehouse_mask** | **string** |  | [optional] 
+**added_cost1** | **double** |  | [optional] 
+**added_cost2** | **double** |  | [optional] 
+**added_cost3** | **double** |  | [optional] 
+**picked_by_staff_id** | **string** |  | [optional] 
+**picked_by_staff_user_name** | **string** |  | [optional] 
+**picked_by_staff_title** | **string** |  | [optional] 
+**picked_by_staff_first_name** | **string** |  | [optional] 
+**picked_by_staff_surname** | **string** |  | [optional] 
+**added_cost_method_name** | **string** |  | [optional] 
+**transferred_cost** | **double** |  | [optional] 
+**total_cost** | **double** |  | [optional] 
+**receive_ins** | [**\Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[]**](WarehouseTransferOutReceiveIn.md) |  | [optional] 
+**lines** | [**\Jiwa\JiwaModel\WarehouseTransferOutLine[]**](WarehouseTransferOutLine.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

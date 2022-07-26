@@ -1,0 +1,53 @@
+# FRCarriersQuery
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**rec_id** | **string** |  | [optional] 
+**rec_id_starts_with** | **string** |  | [optional] 
+**rec_id_ends_with** | **string** |  | [optional] 
+**rec_id_contains** | **string** |  | [optional] 
+**rec_id_like** | **string** |  | [optional] 
+**rec_id_between** | **string[]** |  | [optional] 
+**rec_id_in** | **string[]** |  | [optional] 
+**carrier_name** | **string** |  | [optional] 
+**carrier_name_starts_with** | **string** |  | [optional] 
+**carrier_name_ends_with** | **string** |  | [optional] 
+**carrier_name_contains** | **string** |  | [optional] 
+**carrier_name_like** | **string** |  | [optional] 
+**carrier_name_between** | **string[]** |  | [optional] 
+**carrier_name_in** | **string[]** |  | [optional] 
+**carrier_enabled** | **bool** |  | [optional] 
+**last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_greater_than_or_equal_to** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_greater_than** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_less_than** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_less_than_or_equal_to** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_not_equal_to** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_between** | [**\DateTime[]**](\DateTime.md) |  | [optional] 
+**last_saved_date_time_in** | [**\DateTime[]**](\DateTime.md) |  | [optional] 
+**notes** | **string** |  | [optional] 
+**notes_starts_with** | **string** |  | [optional] 
+**notes_ends_with** | **string** |  | [optional] 
+**notes_contains** | **string** |  | [optional] 
+**notes_like** | **string** |  | [optional] 
+**notes_between** | **string[]** |  | [optional] 
+**notes_in** | **string[]** |  | [optional] 
+**account_no** | **string** |  | [optional] 
+**account_no_starts_with** | **string** |  | [optional] 
+**account_no_ends_with** | **string** |  | [optional] 
+**account_no_contains** | **string** |  | [optional] 
+**account_no_like** | **string** |  | [optional] 
+**account_no_between** | **string[]** |  | [optional] 
+**account_no_in** | **string[]** |  | [optional] 
+**skip** | **int** |  | [optional] 
+**take** | **int** |  | [optional] 
+**order_by** | **string** |  | [optional] 
+**order_by_desc** | **string** |  | [optional] 
+**include** | **string** |  | [optional] 
+**fields** | **string** |  | [optional] 
+**meta** | [**\Jiwa\JiwaModel\DictionaryStringString_**](DictionaryStringString_.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
