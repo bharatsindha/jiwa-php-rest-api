@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **taxRateABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object taxRateABANDONRequestAbandonDelete($accept, $jiwa_stateful)
+> \Jiwa\Model\Object taxRateABANDONRequestAbandonDelete($accept, $jiwa_stateful)
 
 Abandons a stateful TaxRate collection.
 
@@ -57,7 +57,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -71,7 +71,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxRateDELETERequestTaxIDDelete**
-> \Jiwa\JiwaModel\Object taxRateDELETERequestTaxIDDelete($accept, $tax_id, $jiwa_stateful)
+> \Jiwa\Model\Object taxRateDELETERequestTaxIDDelete($accept, $tax_id, $jiwa_stateful)
 
 Deletes a tax rate.
 
@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -131,7 +131,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxRateGETRequestTaxIDGet**
-> \Jiwa\JiwaModel\TaxRate taxRateGETRequestTaxIDGet($accept, $tax_id, $jiwa_stateful)
+> \Jiwa\Model\TaxRate taxRateGETRequestTaxIDGet($accept, $tax_id, $jiwa_stateful)
 
 Retrieves a tax rate.
 
@@ -177,7 +177,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\TaxRate**](../Model/TaxRate.md)
+[**\Jiwa\Model\TaxRate**](../Model/TaxRate.md)
 
 ### Authorization
 
@@ -191,7 +191,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxRatePATCHRequestTaxIDUpdate**
-> \Jiwa\JiwaModel\TaxRate taxRatePATCHRequestTaxIDUpdate($accept, $tax_id, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body)
+> \Jiwa\Model\TaxRate taxRatePATCHRequestTaxIDUpdate($accept, $tax_id, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body)
 
 Updates a tax rate.
 
@@ -226,7 +226,7 @@ $bas_code = 1.2; // double |
 $is_default_rate_in_group = true; // bool | 
 $is_enabled = true; // bool | 
 $ledger_account = "ledger_account_example"; // string | 
-$body = new \Jiwa\JiwaModel\TaxRatePATCHRequest(); // \Jiwa\JiwaModel\TaxRatePATCHRequest | 
+$body = new \Jiwa\Model\TaxRatePATCHRequest(); // \Jiwa\Model\TaxRatePATCHRequest | 
 
 try {
     $result = $apiInstance->taxRatePATCHRequestTaxIDUpdate($accept, $tax_id, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body);
@@ -253,11 +253,11 @@ Name | Type | Description  | Notes
  **is_default_rate_in_group** | **bool**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
  **ledger_account** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\TaxRatePATCHRequest**](../Model/TaxRatePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\TaxRatePATCHRequest**](../Model/TaxRatePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\TaxRate**](../Model/TaxRate.md)
+[**\Jiwa\Model\TaxRate**](../Model/TaxRate.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxRatePOSTRequestPost**
-> \Jiwa\JiwaModel\TaxRate taxRatePOSTRequestPost($accept, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body)
+> \Jiwa\Model\TaxRate taxRatePOSTRequestPost($accept, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body)
 
 Creates a tax rate.
 
@@ -305,7 +305,7 @@ $bas_code = 1.2; // double |
 $is_default_rate_in_group = true; // bool | 
 $is_enabled = true; // bool | 
 $ledger_account = "ledger_account_example"; // string | 
-$body = new \Jiwa\JiwaModel\TaxRatePOSTRequest(); // \Jiwa\JiwaModel\TaxRatePOSTRequest | 
+$body = new \Jiwa\Model\TaxRatePOSTRequest(); // \Jiwa\Model\TaxRatePOSTRequest | 
 
 try {
     $result = $apiInstance->taxRatePOSTRequestPost($accept, $jiwa_stateful, $rec_id, $description, $gst_tax_group, $rate, $is_default_rate, $bas_code, $is_default_rate_in_group, $is_enabled, $ledger_account, $body);
@@ -331,11 +331,11 @@ Name | Type | Description  | Notes
  **is_default_rate_in_group** | **bool**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
  **ledger_account** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\TaxRatePOSTRequest**](../Model/TaxRatePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\TaxRatePOSTRequest**](../Model/TaxRatePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\TaxRate**](../Model/TaxRate.md)
+[**\Jiwa\Model\TaxRate**](../Model/TaxRate.md)
 
 ### Authorization
 
@@ -349,7 +349,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **taxRateSAVERequestSaveGet**
-> \Jiwa\JiwaModel\TaxRate[] taxRateSAVERequestSaveGet($accept, $jiwa_stateful)
+> \Jiwa\Model\TaxRate[] taxRateSAVERequestSaveGet($accept, $jiwa_stateful)
 
 Saves a stateful TaxRate collection.
 
@@ -393,7 +393,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\TaxRate[]**](../Model/TaxRate.md)
+[**\Jiwa\Model\TaxRate[]**](../Model/TaxRate.md)
 
 ### Authorization
 

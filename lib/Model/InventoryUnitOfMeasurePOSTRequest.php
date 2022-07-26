@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class InventoryUnitOfMeasurePOSTRequest implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'inventory_id' => 'string',
         'rec_id' => 'string',
-        'inner_unit_of_measure' => '\Jiwa\JiwaModel\InventoryUnitOfMeasure',
+        'inner_unit_of_measure' => '\Jiwa\Model\InventoryUnitOfMeasure',
         'quantity_inners_per_unit_of_measure' => 'double',
         'is_sell' => 'bool',
         'is_purchase' => 'bool',
@@ -316,7 +316,7 @@ class InventoryUnitOfMeasurePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inner_unit_of_measure
      *
-     * @return \Jiwa\JiwaModel\InventoryUnitOfMeasure
+     * @return \Jiwa\Model\InventoryUnitOfMeasure
      */
     public function getInnerUnitOfMeasure()
     {
@@ -326,7 +326,7 @@ class InventoryUnitOfMeasurePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inner_unit_of_measure
      *
-     * @param \Jiwa\JiwaModel\InventoryUnitOfMeasure $inner_unit_of_measure inner_unit_of_measure
+     * @param \Jiwa\Model\InventoryUnitOfMeasure $inner_unit_of_measure inner_unit_of_measure
      *
      * @return $this
      */

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class InventorySellingPricePATCHRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'inventory_id' => 'string',
-        'sell_prices' => '\Jiwa\JiwaModel\InventorySellingPrice[]',
+        'sell_prices' => '\Jiwa\Model\InventorySellingPrice[]',
         'current_price_date' => '\DateTime',
         'forward_price_date' => '\DateTime'
     ];
@@ -250,7 +250,7 @@ class InventorySellingPricePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets sell_prices
      *
-     * @return \Jiwa\JiwaModel\InventorySellingPrice[]
+     * @return \Jiwa\Model\InventorySellingPrice[]
      */
     public function getSellPrices()
     {
@@ -260,7 +260,7 @@ class InventorySellingPricePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets sell_prices
      *
-     * @param \Jiwa\JiwaModel\InventorySellingPrice[] $sell_prices sell_prices
+     * @param \Jiwa\Model\InventorySellingPrice[] $sell_prices sell_prices
      *
      * @return $this
      */

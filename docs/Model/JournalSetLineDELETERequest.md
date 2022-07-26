@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 **debit_amount** | **double** |  | [optional] 
 **credit_amount** | **double** |  | [optional] 
 **allow_group** | **bool** |  | [optional] 
-**staff** | [**\Jiwa\JiwaModel\StaffMember**](StaffMember.md) |  | [optional] 
+**staff** | [**\Jiwa\Model\StaffMember**](StaffMember.md) |  | [optional] 
 **job_costing_stage_id** | **string** |  | [optional] 
 **job_costing_full_job_no** | **string** |  | [optional] 
 **general_ledger_account_rec_id** | **string** |  | [optional] 

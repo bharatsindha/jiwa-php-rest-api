@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **authenticateGet**
-> \Jiwa\JiwaModel\AuthenticateResponse authenticateGet($accept, $jiwa_stateful, $provider, $state, $oauth_token, $oauth_verifier, $user_name, $password, $remember_me, $continue, $nonce, $uri, $response, $qop, $nc, $cnonce, $use_token_cookie, $access_token, $access_token_secret, $meta)
+> \Jiwa\Model\AuthenticateResponse authenticateGet($accept, $jiwa_stateful, $provider, $state, $oauth_token, $oauth_verifier, $user_name, $password, $remember_me, $continue, $nonce, $uri, $response, $qop, $nc, $cnonce, $use_token_cookie, $access_token, $access_token_secret, $meta)
 
 Logs in using Jiwa username and password
 
@@ -82,7 +82,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\AuthenticateResponse**](../Model/AuthenticateResponse.md)
+[**\Jiwa\Model\AuthenticateResponse**](../Model/AuthenticateResponse.md)
 
 ### Authorization
 
@@ -96,7 +96,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **logoutGetRequestlogoutGet**
-> \Jiwa\JiwaModel\LogoutGetResponse logoutGetRequestlogoutGet($accept, $jiwa_stateful)
+> \Jiwa\Model\LogoutGetResponse logoutGetRequestlogoutGet($accept, $jiwa_stateful)
 
 Logs an authenticated user out.
 
@@ -140,7 +140,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\LogoutGetResponse**](../Model/LogoutGetResponse.md)
+[**\Jiwa\Model\LogoutGetResponse**](../Model/LogoutGetResponse.md)
 
 ### Authorization
 

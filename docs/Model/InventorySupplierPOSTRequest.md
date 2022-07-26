@@ -21,9 +21,9 @@ Name | Type | Description | Notes
 **spare_string1** | **string** |  | [optional] 
 **spare_string2** | **string** |  | [optional] 
 **spare_string3** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
-**supplier_warehouses** | [**\Jiwa\JiwaModel\InventorySupplierWarehouse[]**](InventorySupplierWarehouse.md) |  | [optional] 
-**supplier_quantity_price_breaks** | [**\Jiwa\JiwaModel\InventorySupplierQuantityPriceBreak[]**](InventorySupplierQuantityPriceBreak.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**supplier_warehouses** | [**\Jiwa\Model\InventorySupplierWarehouse[]**](InventorySupplierWarehouse.md) |  | [optional] 
+**supplier_quantity_price_breaks** | [**\Jiwa\Model\InventorySupplierQuantityPriceBreak[]**](InventorySupplierQuantityPriceBreak.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

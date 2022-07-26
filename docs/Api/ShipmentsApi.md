@@ -22,7 +22,7 @@ Method | HTTP request | Description
 
 
 # **landedCostShipmentABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object landedCostShipmentABANDONRequestAbandonDelete($accept, $jiwa_stateful, $shipment_id)
+> \Jiwa\Model\Object landedCostShipmentABANDONRequestAbandonDelete($accept, $jiwa_stateful, $shipment_id)
 
 Abandons a stateful shipment.
 
@@ -68,7 +68,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -82,7 +82,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentACTIVATERequestActivateShipmentIDPost**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentACTIVATERequestActivateShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body)
+> \Jiwa\Model\Shipment landedCostShipmentACTIVATERequestActivateShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body)
 
 Activates a shipment.
 
@@ -108,7 +108,7 @@ $apiInstance = new Jiwa\Api\ShipmentsApi(
 $accept = "accept_example"; // string | Accept Header
 $shipment_id = "shipment_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\LandedCostShipmentACTIVATERequest(); // \Jiwa\JiwaModel\LandedCostShipmentACTIVATERequest | 
+$body = new \Jiwa\Model\LandedCostShipmentACTIVATERequest(); // \Jiwa\Model\LandedCostShipmentACTIVATERequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentACTIVATERequestActivateShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body);
@@ -126,11 +126,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **shipment_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentACTIVATERequest**](../Model/LandedCostShipmentACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentACTIVATERequest**](../Model/LandedCostShipmentACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentCREATEFromPORequestFromPurchaseOrdersOrderNosPost**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body)
+> \Jiwa\Model\Shipment landedCostShipmentCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body)
 
 Creates a shipment from the supplied purchase orders.
 
@@ -170,7 +170,7 @@ $apiInstance = new Jiwa\Api\ShipmentsApi(
 $accept = "accept_example"; // string | Accept Header
 $order_nos = "order_nos_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\LandedCostShipmentCREATEFromPORequest(); // \Jiwa\JiwaModel\LandedCostShipmentCREATEFromPORequest | 
+$body = new \Jiwa\Model\LandedCostShipmentCREATEFromPORequest(); // \Jiwa\Model\LandedCostShipmentCREATEFromPORequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body);
@@ -188,11 +188,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **order_nos** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentCREATEFromPORequest**](../Model/LandedCostShipmentCREATEFromPORequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentCREATEFromPORequest**](../Model/LandedCostShipmentCREATEFromPORequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentDELETERequestShipmentIDDelete**
-> \Jiwa\JiwaModel\Object landedCostShipmentDELETERequestShipmentIDDelete($accept, $shipment_id, $jiwa_stateful)
+> \Jiwa\Model\Object landedCostShipmentDELETERequestShipmentIDDelete($accept, $shipment_id, $jiwa_stateful)
 
 Deletes a shipment.
 
@@ -252,7 +252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentGETRequestShipmentIDGet**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentGETRequestShipmentIDGet($accept, $shipment_id, $jiwa_stateful)
+> \Jiwa\Model\Shipment landedCostShipmentGETRequestShipmentIDGet($accept, $shipment_id, $jiwa_stateful)
 
 Retrieves a shipment.
 
@@ -312,7 +312,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentLineGETRequestShipmentIDLinesLineIDGet**
-> \Jiwa\JiwaModel\ShipmentLine landedCostShipmentLineGETRequestShipmentIDLinesLineIDGet($accept, $shipment_id, $line_id, $jiwa_stateful)
+> \Jiwa\Model\ShipmentLine landedCostShipmentLineGETRequestShipmentIDLinesLineIDGet($accept, $shipment_id, $line_id, $jiwa_stateful)
 
 Retrieves a shipment line.
 
@@ -374,7 +374,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentLine**](../Model/ShipmentLine.md)
+[**\Jiwa\Model\ShipmentLine**](../Model/ShipmentLine.md)
 
 ### Authorization
 
@@ -388,7 +388,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentLinePATCHRequestShipmentIDLinesLineIDUpdate**
-> \Jiwa\JiwaModel\ShipmentLine landedCostShipmentLinePATCHRequestShipmentIDLinesLineIDUpdate($accept, $shipment_id, $line_id, $jiwa_stateful, $item_no, $inventory_id, $inventory_part_no, $inventory_description, $creditor_id, $creditor_account_no, $creditor_name, $sh_invoices_rec_id, $sh_invoices_invoice_no, $purchase_order_line_id, $purchase_order_line_order_line_no, $purchase_order_line_order_id, $purchase_order_line_order_no, $purchase_order_line_quantity, $purchase_order_line_quantity_delivered, $quantity_ordered, $quantity_this_shipment, $ordered_cost, $fx_ordered_cost, $unit_cost_ex_tax, $fx_rate, $fx_unit_cost_ex_tax, $tax_rate, $tax_amount, $unit_cost_inc_tax, $line_total_ex_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $landed_cost_line_total, $landed_cost, $body)
+> \Jiwa\Model\ShipmentLine landedCostShipmentLinePATCHRequestShipmentIDLinesLineIDUpdate($accept, $shipment_id, $line_id, $jiwa_stateful, $item_no, $inventory_id, $inventory_part_no, $inventory_description, $creditor_id, $creditor_account_no, $creditor_name, $sh_invoices_rec_id, $sh_invoices_invoice_no, $purchase_order_line_id, $purchase_order_line_order_line_no, $purchase_order_line_order_id, $purchase_order_line_order_no, $purchase_order_line_quantity, $purchase_order_line_quantity_delivered, $quantity_ordered, $quantity_this_shipment, $ordered_cost, $fx_ordered_cost, $unit_cost_ex_tax, $fx_rate, $fx_unit_cost_ex_tax, $tax_rate, $tax_amount, $unit_cost_inc_tax, $line_total_ex_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $landed_cost_line_total, $landed_cost, $body)
 
 Updates a line for a shipment.
 
@@ -445,7 +445,7 @@ $line_total_inc_tax = 1.2; // double |
 $fx_line_total_ex_tax = 1.2; // double | 
 $landed_cost_line_total = 1.2; // double | 
 $landed_cost = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\LandedCostShipmentLinePATCHRequest(); // \Jiwa\JiwaModel\LandedCostShipmentLinePATCHRequest | 
+$body = new \Jiwa\Model\LandedCostShipmentLinePATCHRequest(); // \Jiwa\Model\LandedCostShipmentLinePATCHRequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentLinePATCHRequestShipmentIDLinesLineIDUpdate($accept, $shipment_id, $line_id, $jiwa_stateful, $item_no, $inventory_id, $inventory_part_no, $inventory_description, $creditor_id, $creditor_account_no, $creditor_name, $sh_invoices_rec_id, $sh_invoices_invoice_no, $purchase_order_line_id, $purchase_order_line_order_line_no, $purchase_order_line_order_id, $purchase_order_line_order_no, $purchase_order_line_quantity, $purchase_order_line_quantity_delivered, $quantity_ordered, $quantity_this_shipment, $ordered_cost, $fx_ordered_cost, $unit_cost_ex_tax, $fx_rate, $fx_unit_cost_ex_tax, $tax_rate, $tax_amount, $unit_cost_inc_tax, $line_total_ex_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $landed_cost_line_total, $landed_cost, $body);
@@ -494,11 +494,11 @@ Name | Type | Description  | Notes
  **fx_line_total_ex_tax** | **double**|  | [optional]
  **landed_cost_line_total** | **double**|  | [optional]
  **landed_cost** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentLinePATCHRequest**](../Model/LandedCostShipmentLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentLinePATCHRequest**](../Model/LandedCostShipmentLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentLine**](../Model/ShipmentLine.md)
+[**\Jiwa\Model\ShipmentLine**](../Model/ShipmentLine.md)
 
 ### Authorization
 
@@ -512,7 +512,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentLinesGETManyRequestShipmentIDLinesGet**
-> \Jiwa\JiwaModel\ShipmentLine[] landedCostShipmentLinesGETManyRequestShipmentIDLinesGet($accept, $shipment_id, $jiwa_stateful)
+> \Jiwa\Model\ShipmentLine[] landedCostShipmentLinesGETManyRequestShipmentIDLinesGet($accept, $shipment_id, $jiwa_stateful)
 
 Retrieves a list of shipment lines.
 
@@ -558,7 +558,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentLine[]**](../Model/ShipmentLine.md)
+[**\Jiwa\Model\ShipmentLine[]**](../Model/ShipmentLine.md)
 
 ### Authorization
 
@@ -572,7 +572,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPATCHRequestShipmentIDUpdate**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentPATCHRequestShipmentIDUpdate($accept, $shipment_id, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body)
+> \Jiwa\Model\Shipment landedCostShipmentPATCHRequestShipmentIDUpdate($accept, $shipment_id, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body)
 
 Updates a shipment.
 
@@ -621,7 +621,7 @@ $import_costs = "import_costs_example"; // string |
 $vot_is = "vot_is_example"; // string | 
 $invoices = "invoices_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\LandedCostShipmentPATCHRequest(); // \Jiwa\JiwaModel\LandedCostShipmentPATCHRequest | 
+$body = new \Jiwa\Model\LandedCostShipmentPATCHRequest(); // \Jiwa\Model\LandedCostShipmentPATCHRequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentPATCHRequestShipmentIDUpdate($accept, $shipment_id, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body);
@@ -662,11 +662,11 @@ Name | Type | Description  | Notes
  **vot_is** | **string**|  | [optional]
  **invoices** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentPATCHRequest**](../Model/LandedCostShipmentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentPATCHRequest**](../Model/LandedCostShipmentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 
@@ -680,7 +680,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPOSTRequestPost**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentPOSTRequestPost($accept, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body)
+> \Jiwa\Model\Shipment landedCostShipmentPOSTRequestPost($accept, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body)
 
 Creates a shipment.
 
@@ -728,7 +728,7 @@ $import_costs = "import_costs_example"; // string |
 $vot_is = "vot_is_example"; // string | 
 $invoices = "invoices_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\LandedCostShipmentPOSTRequest(); // \Jiwa\JiwaModel\LandedCostShipmentPOSTRequest | 
+$body = new \Jiwa\Model\LandedCostShipmentPOSTRequest(); // \Jiwa\Model\LandedCostShipmentPOSTRequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentPOSTRequestPost($accept, $jiwa_stateful, $shipment_no, $last_saved_date_time, $initiated_date, $departure_date, $expected_arrival_date, $scheduled_arrival_date, $receipt_date, $delivery_notes, $status, $way_bill_no, $vessel_name, $container_no, $use_voti, $shipping_agent_creditor_id, $shipping_agent_creditor_account_no, $shipping_agent_creditor_name, $import_cost_clearing_account, $lines, $purchase_orders, $import_costs, $vot_is, $invoices, $custom_field_values, $body);
@@ -768,11 +768,11 @@ Name | Type | Description  | Notes
  **vot_is** | **string**|  | [optional]
  **invoices** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentPOSTRequest**](../Model/LandedCostShipmentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentPOSTRequest**](../Model/LandedCostShipmentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 
@@ -786,7 +786,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPurchaseOrderDELETERequestShipmentIDPurchaseOrdersOrderIDDelete**
-> \Jiwa\JiwaModel\Object landedCostShipmentPurchaseOrderDELETERequestShipmentIDPurchaseOrdersOrderIDDelete($accept, $shipment_id, $order_id, $jiwa_stateful, $purchase_order_received_id, $order_no, $ordered_date, $item_no, $user_field1, $user_field2, $user_field3, $user_field4, $user_field5, $user_field6, $user_field7, $user_field8, $user_field9, $user_field10)
+> \Jiwa\Model\Object landedCostShipmentPurchaseOrderDELETERequestShipmentIDPurchaseOrdersOrderIDDelete($accept, $shipment_id, $order_id, $jiwa_stateful, $purchase_order_received_id, $order_no, $ordered_date, $item_no, $user_field1, $user_field2, $user_field3, $user_field4, $user_field5, $user_field6, $user_field7, $user_field8, $user_field9, $user_field10)
 
 Deletes a purchase order from a shipment.
 
@@ -862,7 +862,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -876,7 +876,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPurchaseOrderGETRequestShipmentIDPurchaseOrdersOrderIDGet**
-> \Jiwa\JiwaModel\ShipmentPurchaseOrderReceived landedCostShipmentPurchaseOrderGETRequestShipmentIDPurchaseOrdersOrderIDGet($accept, $shipment_id, $order_id, $jiwa_stateful)
+> \Jiwa\Model\ShipmentPurchaseOrderReceived landedCostShipmentPurchaseOrderGETRequestShipmentIDPurchaseOrdersOrderIDGet($accept, $shipment_id, $order_id, $jiwa_stateful)
 
 Retrieves a shipment purchase order.
 
@@ -924,7 +924,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentPurchaseOrderReceived**](../Model/ShipmentPurchaseOrderReceived.md)
+[**\Jiwa\Model\ShipmentPurchaseOrderReceived**](../Model/ShipmentPurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -938,7 +938,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPurchaseOrderPOSTRequestShipmentIDPurchaseOrdersPost**
-> \Jiwa\JiwaModel\ShipmentPurchaseOrderReceived landedCostShipmentPurchaseOrderPOSTRequestShipmentIDPurchaseOrdersPost($accept, $shipment_id, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $ordered_date, $item_no, $user_field1, $user_field2, $user_field3, $user_field4, $user_field5, $user_field6, $user_field7, $user_field8, $user_field9, $user_field10, $body)
+> \Jiwa\Model\ShipmentPurchaseOrderReceived landedCostShipmentPurchaseOrderPOSTRequestShipmentIDPurchaseOrdersPost($accept, $shipment_id, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $ordered_date, $item_no, $user_field1, $user_field2, $user_field3, $user_field4, $user_field5, $user_field6, $user_field7, $user_field8, $user_field9, $user_field10, $body)
 
 Appends a purchase order to a shipment.
 
@@ -979,7 +979,7 @@ $user_field7 = "user_field7_example"; // string |
 $user_field8 = "user_field8_example"; // string | 
 $user_field9 = "user_field9_example"; // string | 
 $user_field10 = "user_field10_example"; // string | 
-$body = new \Jiwa\JiwaModel\LandedCostShipmentPurchaseOrderPOSTRequest(); // \Jiwa\JiwaModel\LandedCostShipmentPurchaseOrderPOSTRequest | 
+$body = new \Jiwa\Model\LandedCostShipmentPurchaseOrderPOSTRequest(); // \Jiwa\Model\LandedCostShipmentPurchaseOrderPOSTRequest | 
 
 try {
     $result = $apiInstance->landedCostShipmentPurchaseOrderPOSTRequestShipmentIDPurchaseOrdersPost($accept, $shipment_id, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $ordered_date, $item_no, $user_field1, $user_field2, $user_field3, $user_field4, $user_field5, $user_field6, $user_field7, $user_field8, $user_field9, $user_field10, $body);
@@ -1012,11 +1012,11 @@ Name | Type | Description  | Notes
  **user_field8** | **string**|  | [optional]
  **user_field9** | **string**|  | [optional]
  **user_field10** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostShipmentPurchaseOrderPOSTRequest**](../Model/LandedCostShipmentPurchaseOrderPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostShipmentPurchaseOrderPOSTRequest**](../Model/LandedCostShipmentPurchaseOrderPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentPurchaseOrderReceived**](../Model/ShipmentPurchaseOrderReceived.md)
+[**\Jiwa\Model\ShipmentPurchaseOrderReceived**](../Model/ShipmentPurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -1030,7 +1030,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentPurchaseOrdersGETManyRequestShipmentIDPurchaseOrdersGet**
-> \Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[] landedCostShipmentPurchaseOrdersGETManyRequestShipmentIDPurchaseOrdersGet($accept, $shipment_id, $jiwa_stateful)
+> \Jiwa\Model\ShipmentPurchaseOrderReceived[] landedCostShipmentPurchaseOrdersGETManyRequestShipmentIDPurchaseOrdersGet($accept, $shipment_id, $jiwa_stateful)
 
 Retrieves a list of shipment purchase orders.
 
@@ -1076,7 +1076,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[]**](../Model/ShipmentPurchaseOrderReceived.md)
+[**\Jiwa\Model\ShipmentPurchaseOrderReceived[]**](../Model/ShipmentPurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -1090,7 +1090,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostShipmentSAVERequestSaveGet**
-> \Jiwa\JiwaModel\Shipment landedCostShipmentSAVERequestSaveGet($accept, $jiwa_stateful, $shipment_id)
+> \Jiwa\Model\Shipment landedCostShipmentSAVERequestSaveGet($accept, $jiwa_stateful, $shipment_id)
 
 Saves a stateful stateful shipment.
 
@@ -1136,7 +1136,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipment**](../Model/Shipment.md)
+[**\Jiwa\Model\Shipment**](../Model/Shipment.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -124,26 +124,26 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
         'fx_name' => 'string',
         'fx_short_name' => 'string',
         'b_pay_reference' => 'string',
-        'classification' => '\Jiwa\JiwaModel\DebtorClassification',
-        'category1' => '\Jiwa\JiwaModel\DebtorCategory',
-        'category2' => '\Jiwa\JiwaModel\DebtorCategory',
-        'category3' => '\Jiwa\JiwaModel\DebtorCategory',
-        'category4' => '\Jiwa\JiwaModel\DebtorCategory',
-        'category5' => '\Jiwa\JiwaModel\DebtorCategory',
-        'contact_names' => '\Jiwa\JiwaModel\DebtorContactName[]',
-        'group_memberships' => '\Jiwa\JiwaModel\DebtorGroupMembership[]',
-        'branch_debtors' => '\Jiwa\JiwaModel\DebtorBranchDebtor[]',
-        'delivery_addresses' => '\Jiwa\JiwaModel\DebtorDeliveryAddress[]',
-        'freight_forwarder_addresses' => '\Jiwa\JiwaModel\DebtorFreightForwarderAddress[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'credit_notes' => '\Jiwa\JiwaModel\Note[]',
-        'directors' => '\Jiwa\JiwaModel\DebtorDirector[]',
-        'budgets' => '\Jiwa\JiwaModel\DebtorBudget[]',
-        'debtor_part_numbers' => '\Jiwa\JiwaModel\DebtorPartNumber[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'debtor_systems' => '\Jiwa\JiwaModel\DebtorSystem[]',
-        'debtor_ledgers' => '\Jiwa\JiwaModel\DebtorLedger[]'
+        'classification' => '\Jiwa\Model\DebtorClassification',
+        'category1' => '\Jiwa\Model\DebtorCategory',
+        'category2' => '\Jiwa\Model\DebtorCategory',
+        'category3' => '\Jiwa\Model\DebtorCategory',
+        'category4' => '\Jiwa\Model\DebtorCategory',
+        'category5' => '\Jiwa\Model\DebtorCategory',
+        'contact_names' => '\Jiwa\Model\DebtorContactName[]',
+        'group_memberships' => '\Jiwa\Model\DebtorGroupMembership[]',
+        'branch_debtors' => '\Jiwa\Model\DebtorBranchDebtor[]',
+        'delivery_addresses' => '\Jiwa\Model\DebtorDeliveryAddress[]',
+        'freight_forwarder_addresses' => '\Jiwa\Model\DebtorFreightForwarderAddress[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'credit_notes' => '\Jiwa\Model\Note[]',
+        'directors' => '\Jiwa\Model\DebtorDirector[]',
+        'budgets' => '\Jiwa\Model\DebtorBudget[]',
+        'debtor_part_numbers' => '\Jiwa\Model\DebtorPartNumber[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'debtor_systems' => '\Jiwa\Model\DebtorSystem[]',
+        'debtor_ledgers' => '\Jiwa\Model\DebtorLedger[]'
     ];
 
     /**
@@ -2302,7 +2302,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets classification
      *
-     * @return \Jiwa\JiwaModel\DebtorClassification
+     * @return \Jiwa\Model\DebtorClassification
      */
     public function getClassification()
     {
@@ -2312,7 +2312,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets classification
      *
-     * @param \Jiwa\JiwaModel\DebtorClassification $classification classification
+     * @param \Jiwa\Model\DebtorClassification $classification classification
      *
      * @return $this
      */
@@ -2326,7 +2326,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category1
      *
-     * @return \Jiwa\JiwaModel\DebtorCategory
+     * @return \Jiwa\Model\DebtorCategory
      */
     public function getCategory1()
     {
@@ -2336,7 +2336,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category1
      *
-     * @param \Jiwa\JiwaModel\DebtorCategory $category1 category1
+     * @param \Jiwa\Model\DebtorCategory $category1 category1
      *
      * @return $this
      */
@@ -2350,7 +2350,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category2
      *
-     * @return \Jiwa\JiwaModel\DebtorCategory
+     * @return \Jiwa\Model\DebtorCategory
      */
     public function getCategory2()
     {
@@ -2360,7 +2360,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category2
      *
-     * @param \Jiwa\JiwaModel\DebtorCategory $category2 category2
+     * @param \Jiwa\Model\DebtorCategory $category2 category2
      *
      * @return $this
      */
@@ -2374,7 +2374,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category3
      *
-     * @return \Jiwa\JiwaModel\DebtorCategory
+     * @return \Jiwa\Model\DebtorCategory
      */
     public function getCategory3()
     {
@@ -2384,7 +2384,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category3
      *
-     * @param \Jiwa\JiwaModel\DebtorCategory $category3 category3
+     * @param \Jiwa\Model\DebtorCategory $category3 category3
      *
      * @return $this
      */
@@ -2398,7 +2398,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category4
      *
-     * @return \Jiwa\JiwaModel\DebtorCategory
+     * @return \Jiwa\Model\DebtorCategory
      */
     public function getCategory4()
     {
@@ -2408,7 +2408,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category4
      *
-     * @param \Jiwa\JiwaModel\DebtorCategory $category4 category4
+     * @param \Jiwa\Model\DebtorCategory $category4 category4
      *
      * @return $this
      */
@@ -2422,7 +2422,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category5
      *
-     * @return \Jiwa\JiwaModel\DebtorCategory
+     * @return \Jiwa\Model\DebtorCategory
      */
     public function getCategory5()
     {
@@ -2432,7 +2432,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category5
      *
-     * @param \Jiwa\JiwaModel\DebtorCategory $category5 category5
+     * @param \Jiwa\Model\DebtorCategory $category5 category5
      *
      * @return $this
      */
@@ -2446,7 +2446,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets contact_names
      *
-     * @return \Jiwa\JiwaModel\DebtorContactName[]
+     * @return \Jiwa\Model\DebtorContactName[]
      */
     public function getContactNames()
     {
@@ -2456,7 +2456,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets contact_names
      *
-     * @param \Jiwa\JiwaModel\DebtorContactName[] $contact_names contact_names
+     * @param \Jiwa\Model\DebtorContactName[] $contact_names contact_names
      *
      * @return $this
      */
@@ -2470,7 +2470,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets group_memberships
      *
-     * @return \Jiwa\JiwaModel\DebtorGroupMembership[]
+     * @return \Jiwa\Model\DebtorGroupMembership[]
      */
     public function getGroupMemberships()
     {
@@ -2480,7 +2480,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets group_memberships
      *
-     * @param \Jiwa\JiwaModel\DebtorGroupMembership[] $group_memberships group_memberships
+     * @param \Jiwa\Model\DebtorGroupMembership[] $group_memberships group_memberships
      *
      * @return $this
      */
@@ -2494,7 +2494,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets branch_debtors
      *
-     * @return \Jiwa\JiwaModel\DebtorBranchDebtor[]
+     * @return \Jiwa\Model\DebtorBranchDebtor[]
      */
     public function getBranchDebtors()
     {
@@ -2504,7 +2504,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets branch_debtors
      *
-     * @param \Jiwa\JiwaModel\DebtorBranchDebtor[] $branch_debtors branch_debtors
+     * @param \Jiwa\Model\DebtorBranchDebtor[] $branch_debtors branch_debtors
      *
      * @return $this
      */
@@ -2518,7 +2518,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_addresses
      *
-     * @return \Jiwa\JiwaModel\DebtorDeliveryAddress[]
+     * @return \Jiwa\Model\DebtorDeliveryAddress[]
      */
     public function getDeliveryAddresses()
     {
@@ -2528,7 +2528,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_addresses
      *
-     * @param \Jiwa\JiwaModel\DebtorDeliveryAddress[] $delivery_addresses delivery_addresses
+     * @param \Jiwa\Model\DebtorDeliveryAddress[] $delivery_addresses delivery_addresses
      *
      * @return $this
      */
@@ -2542,7 +2542,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets freight_forwarder_addresses
      *
-     * @return \Jiwa\JiwaModel\DebtorFreightForwarderAddress[]
+     * @return \Jiwa\Model\DebtorFreightForwarderAddress[]
      */
     public function getFreightForwarderAddresses()
     {
@@ -2552,7 +2552,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets freight_forwarder_addresses
      *
-     * @param \Jiwa\JiwaModel\DebtorFreightForwarderAddress[] $freight_forwarder_addresses freight_forwarder_addresses
+     * @param \Jiwa\Model\DebtorFreightForwarderAddress[] $freight_forwarder_addresses freight_forwarder_addresses
      *
      * @return $this
      */
@@ -2566,7 +2566,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -2576,7 +2576,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -2590,7 +2590,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets credit_notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getCreditNotes()
     {
@@ -2600,7 +2600,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets credit_notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $credit_notes credit_notes
+     * @param \Jiwa\Model\Note[] $credit_notes credit_notes
      *
      * @return $this
      */
@@ -2614,7 +2614,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets directors
      *
-     * @return \Jiwa\JiwaModel\DebtorDirector[]
+     * @return \Jiwa\Model\DebtorDirector[]
      */
     public function getDirectors()
     {
@@ -2624,7 +2624,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets directors
      *
-     * @param \Jiwa\JiwaModel\DebtorDirector[] $directors directors
+     * @param \Jiwa\Model\DebtorDirector[] $directors directors
      *
      * @return $this
      */
@@ -2638,7 +2638,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets budgets
      *
-     * @return \Jiwa\JiwaModel\DebtorBudget[]
+     * @return \Jiwa\Model\DebtorBudget[]
      */
     public function getBudgets()
     {
@@ -2648,7 +2648,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets budgets
      *
-     * @param \Jiwa\JiwaModel\DebtorBudget[] $budgets budgets
+     * @param \Jiwa\Model\DebtorBudget[] $budgets budgets
      *
      * @return $this
      */
@@ -2662,7 +2662,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_part_numbers
      *
-     * @return \Jiwa\JiwaModel\DebtorPartNumber[]
+     * @return \Jiwa\Model\DebtorPartNumber[]
      */
     public function getDebtorPartNumbers()
     {
@@ -2672,7 +2672,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_part_numbers
      *
-     * @param \Jiwa\JiwaModel\DebtorPartNumber[] $debtor_part_numbers debtor_part_numbers
+     * @param \Jiwa\Model\DebtorPartNumber[] $debtor_part_numbers debtor_part_numbers
      *
      * @return $this
      */
@@ -2686,7 +2686,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -2696,7 +2696,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -2710,7 +2710,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -2720,7 +2720,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -2734,7 +2734,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_systems
      *
-     * @return \Jiwa\JiwaModel\DebtorSystem[]
+     * @return \Jiwa\Model\DebtorSystem[]
      */
     public function getDebtorSystems()
     {
@@ -2744,7 +2744,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_systems
      *
-     * @param \Jiwa\JiwaModel\DebtorSystem[] $debtor_systems debtor_systems
+     * @param \Jiwa\Model\DebtorSystem[] $debtor_systems debtor_systems
      *
      * @return $this
      */
@@ -2758,7 +2758,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_ledgers
      *
-     * @return \Jiwa\JiwaModel\DebtorLedger[]
+     * @return \Jiwa\Model\DebtorLedger[]
      */
     public function getDebtorLedgers()
     {
@@ -2768,7 +2768,7 @@ class DebtorPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_ledgers
      *
-     * @param \Jiwa\JiwaModel\DebtorLedger[] $debtor_ledgers debtor_ledgers
+     * @param \Jiwa\Model\DebtorLedger[] $debtor_ledgers debtor_ledgers
      *
      * @return $this
      */

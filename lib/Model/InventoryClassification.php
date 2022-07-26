@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -75,10 +75,10 @@ class InventoryClassification implements ModelInterface, ArrayAccess
         'gst_adjustments_out_tax_rate_id' => 'string',
         'gst_adjustments_out_tax_rate_description' => 'string',
         'gst_adjustments_out_tax_rate' => 'double',
-        'inventory_ledgers' => '\Jiwa\JiwaModel\InventoryLedger[]',
+        'inventory_ledgers' => '\Jiwa\Model\InventoryLedger[]',
         'pricing_group_id' => 'string',
         'pricing_group_description' => 'string',
-        'custom_fields' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'custom_fields' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -736,7 +736,7 @@ class InventoryClassification implements ModelInterface, ArrayAccess
     /**
      * Gets inventory_ledgers
      *
-     * @return \Jiwa\JiwaModel\InventoryLedger[]
+     * @return \Jiwa\Model\InventoryLedger[]
      */
     public function getInventoryLedgers()
     {
@@ -746,7 +746,7 @@ class InventoryClassification implements ModelInterface, ArrayAccess
     /**
      * Sets inventory_ledgers
      *
-     * @param \Jiwa\JiwaModel\InventoryLedger[] $inventory_ledgers inventory_ledgers
+     * @param \Jiwa\Model\InventoryLedger[] $inventory_ledgers inventory_ledgers
      *
      * @return $this
      */
@@ -808,7 +808,7 @@ class InventoryClassification implements ModelInterface, ArrayAccess
     /**
      * Gets custom_fields
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -818,7 +818,7 @@ class InventoryClassification implements ModelInterface, ArrayAccess
     /**
      * Sets custom_fields
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_fields custom_fields
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_fields custom_fields
      *
      * @return $this
      */

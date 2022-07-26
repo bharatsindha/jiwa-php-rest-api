@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,20 +66,20 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
         'absolute_uri' => 'string',
         'path_info' => 'string',
         'request_body' => 'string',
-        'request_dto' => '\Jiwa\JiwaModel\Object',
+        'request_dto' => '\Jiwa\Model\Object',
         'user_auth_id' => 'string',
         'session_id' => 'string',
         'ip_address' => 'string',
         'forwarded_for' => 'string',
         'referer' => 'string',
-        'headers' => '\Jiwa\JiwaModel\DictionaryStringString_',
-        'form_data' => '\Jiwa\JiwaModel\DictionaryStringString_',
-        'items' => '\Jiwa\JiwaModel\DictionaryStringString_',
-        'session' => '\Jiwa\JiwaModel\Object',
-        'response_dto' => '\Jiwa\JiwaModel\Object',
-        'error_response' => '\Jiwa\JiwaModel\Object',
+        'headers' => '\Jiwa\Model\DictionaryStringString_',
+        'form_data' => '\Jiwa\Model\DictionaryStringString_',
+        'items' => '\Jiwa\Model\DictionaryStringString_',
+        'session' => '\Jiwa\Model\Object',
+        'response_dto' => '\Jiwa\Model\Object',
+        'error_response' => '\Jiwa\Model\Object',
         'exception_source' => 'string',
-        'exception_data' => '\Jiwa\JiwaModel\IDictionary',
+        'exception_data' => '\Jiwa\Model\IDictionary',
         'request_duration' => 'string'
     ];
 
@@ -532,7 +532,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets request_dto
      *
-     * @return \Jiwa\JiwaModel\Object
+     * @return \Jiwa\Model\Object
      */
     public function getRequestDto()
     {
@@ -542,7 +542,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets request_dto
      *
-     * @param \Jiwa\JiwaModel\Object $request_dto request_dto
+     * @param \Jiwa\Model\Object $request_dto request_dto
      *
      * @return $this
      */
@@ -676,7 +676,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets headers
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getHeaders()
     {
@@ -686,7 +686,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets headers
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $headers headers
+     * @param \Jiwa\Model\DictionaryStringString_ $headers headers
      *
      * @return $this
      */
@@ -700,7 +700,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets form_data
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getFormData()
     {
@@ -710,7 +710,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets form_data
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $form_data form_data
+     * @param \Jiwa\Model\DictionaryStringString_ $form_data form_data
      *
      * @return $this
      */
@@ -724,7 +724,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets items
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getItems()
     {
@@ -734,7 +734,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets items
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $items items
+     * @param \Jiwa\Model\DictionaryStringString_ $items items
      *
      * @return $this
      */
@@ -748,7 +748,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets session
      *
-     * @return \Jiwa\JiwaModel\Object
+     * @return \Jiwa\Model\Object
      */
     public function getSession()
     {
@@ -758,7 +758,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets session
      *
-     * @param \Jiwa\JiwaModel\Object $session session
+     * @param \Jiwa\Model\Object $session session
      *
      * @return $this
      */
@@ -772,7 +772,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets response_dto
      *
-     * @return \Jiwa\JiwaModel\Object
+     * @return \Jiwa\Model\Object
      */
     public function getResponseDto()
     {
@@ -782,7 +782,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets response_dto
      *
-     * @param \Jiwa\JiwaModel\Object $response_dto response_dto
+     * @param \Jiwa\Model\Object $response_dto response_dto
      *
      * @return $this
      */
@@ -796,7 +796,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets error_response
      *
-     * @return \Jiwa\JiwaModel\Object
+     * @return \Jiwa\Model\Object
      */
     public function getErrorResponse()
     {
@@ -806,7 +806,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets error_response
      *
-     * @param \Jiwa\JiwaModel\Object $error_response error_response
+     * @param \Jiwa\Model\Object $error_response error_response
      *
      * @return $this
      */
@@ -844,7 +844,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Gets exception_data
      *
-     * @return \Jiwa\JiwaModel\IDictionary
+     * @return \Jiwa\Model\IDictionary
      */
     public function getExceptionData()
     {
@@ -854,7 +854,7 @@ class RequestLogEntry implements ModelInterface, ArrayAccess
     /**
      * Sets exception_data
      *
-     * @param \Jiwa\JiwaModel\IDictionary $exception_data exception_data
+     * @param \Jiwa\Model\IDictionary $exception_data exception_data
      *
      * @return $this
      */

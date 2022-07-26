@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,8 +63,8 @@ class Shipping implements ModelInterface, ArrayAccess
         'ra_number' => 'string',
         'reference' => 'string',
         'status' => 'string',
-        'return_code' => '\Jiwa\JiwaModel\ReturnCode',
-        'created_by' => '\Jiwa\JiwaModel\StaffMember',
+        'return_code' => '\Jiwa\Model\ReturnCode',
+        'created_by' => '\Jiwa\Model\StaffMember',
         'creditor_id' => 'string',
         'creditor_account_no' => 'string',
         'creditor_name' => 'string',
@@ -73,13 +73,13 @@ class Shipping implements ModelInterface, ArrayAccess
         'last_saved_date_time' => '\DateTime',
         'courier_details' => 'string',
         'shipping_date' => '\DateTime',
-        'lines' => '\Jiwa\JiwaModel\Line[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'requests' => '\Jiwa\JiwaModel\RequestEntity[]',
-        'credits' => '\Jiwa\JiwaModel\CreditEntity[]',
-        'purchase_orders' => '\Jiwa\JiwaModel\PurchaseOrder[]'
+        'lines' => '\Jiwa\Model\Line[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'requests' => '\Jiwa\Model\RequestEntity[]',
+        'credits' => '\Jiwa\Model\CreditEntity[]',
+        'purchase_orders' => '\Jiwa\Model\PurchaseOrder[]'
     ];
 
     /**
@@ -454,7 +454,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets return_code
      *
-     * @return \Jiwa\JiwaModel\ReturnCode
+     * @return \Jiwa\Model\ReturnCode
      */
     public function getReturnCode()
     {
@@ -464,7 +464,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets return_code
      *
-     * @param \Jiwa\JiwaModel\ReturnCode $return_code return_code
+     * @param \Jiwa\Model\ReturnCode $return_code return_code
      *
      * @return $this
      */
@@ -478,7 +478,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets created_by
      *
-     * @return \Jiwa\JiwaModel\StaffMember
+     * @return \Jiwa\Model\StaffMember
      */
     public function getCreatedBy()
     {
@@ -488,7 +488,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets created_by
      *
-     * @param \Jiwa\JiwaModel\StaffMember $created_by created_by
+     * @param \Jiwa\Model\StaffMember $created_by created_by
      *
      * @return $this
      */
@@ -694,7 +694,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\Line[]
+     * @return \Jiwa\Model\Line[]
      */
     public function getLines()
     {
@@ -704,7 +704,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\Line[] $lines lines
+     * @param \Jiwa\Model\Line[] $lines lines
      *
      * @return $this
      */
@@ -718,7 +718,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -728,7 +728,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -742,7 +742,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -752,7 +752,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -766,7 +766,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -776,7 +776,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -790,7 +790,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets requests
      *
-     * @return \Jiwa\JiwaModel\RequestEntity[]
+     * @return \Jiwa\Model\RequestEntity[]
      */
     public function getRequests()
     {
@@ -800,7 +800,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets requests
      *
-     * @param \Jiwa\JiwaModel\RequestEntity[] $requests requests
+     * @param \Jiwa\Model\RequestEntity[] $requests requests
      *
      * @return $this
      */
@@ -814,7 +814,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets credits
      *
-     * @return \Jiwa\JiwaModel\CreditEntity[]
+     * @return \Jiwa\Model\CreditEntity[]
      */
     public function getCredits()
     {
@@ -824,7 +824,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets credits
      *
-     * @param \Jiwa\JiwaModel\CreditEntity[] $credits credits
+     * @param \Jiwa\Model\CreditEntity[] $credits credits
      *
      * @return $this
      */
@@ -838,7 +838,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Gets purchase_orders
      *
-     * @return \Jiwa\JiwaModel\PurchaseOrder[]
+     * @return \Jiwa\Model\PurchaseOrder[]
      */
     public function getPurchaseOrders()
     {
@@ -848,7 +848,7 @@ class Shipping implements ModelInterface, ArrayAccess
     /**
      * Sets purchase_orders
      *
-     * @param \Jiwa\JiwaModel\PurchaseOrder[] $purchase_orders purchase_orders
+     * @param \Jiwa\Model\PurchaseOrder[] $purchase_orders purchase_orders
      *
      * @return $this
      */

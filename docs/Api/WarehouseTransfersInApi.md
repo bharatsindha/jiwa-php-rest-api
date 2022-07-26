@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 
 # **warehouseTransferInABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object warehouseTransferInABANDONRequestAbandonDelete($accept, $jiwa_stateful, $warehouse_transfer_in_id)
+> \Jiwa\Model\Object warehouseTransferInABANDONRequestAbandonDelete($accept, $jiwa_stateful, $warehouse_transfer_in_id)
 
 Abandons a stateful warehouse transfer in.
 
@@ -63,7 +63,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -77,7 +77,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInACTIVATERequestActivateWarehouseTransferInIDPost**
-> \Jiwa\JiwaModel\WarehouseTransferIn warehouseTransferInACTIVATERequestActivateWarehouseTransferInIDPost($accept, $warehouse_transfer_in_id, $jiwa_stateful, $body)
+> \Jiwa\Model\WarehouseTransferIn warehouseTransferInACTIVATERequestActivateWarehouseTransferInIDPost($accept, $warehouse_transfer_in_id, $jiwa_stateful, $body)
 
 Activates a warehouse transfer in.
 
@@ -103,7 +103,7 @@ $apiInstance = new Jiwa\Api\WarehouseTransfersInApi(
 $accept = "accept_example"; // string | Accept Header
 $warehouse_transfer_in_id = "warehouse_transfer_in_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\WarehouseTransferInACTIVATERequest(); // \Jiwa\JiwaModel\WarehouseTransferInACTIVATERequest | 
+$body = new \Jiwa\Model\WarehouseTransferInACTIVATERequest(); // \Jiwa\Model\WarehouseTransferInACTIVATERequest | 
 
 try {
     $result = $apiInstance->warehouseTransferInACTIVATERequestActivateWarehouseTransferInIDPost($accept, $warehouse_transfer_in_id, $jiwa_stateful, $body);
@@ -121,11 +121,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **warehouse_transfer_in_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferInACTIVATERequest**](../Model/WarehouseTransferInACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferInACTIVATERequest**](../Model/WarehouseTransferInACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
+[**\Jiwa\Model\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
 
 ### Authorization
 
@@ -139,7 +139,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInGETRequestWarehouseTransferInIDGet**
-> \Jiwa\JiwaModel\WarehouseTransferIn warehouseTransferInGETRequestWarehouseTransferInIDGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferIn warehouseTransferInGETRequestWarehouseTransferInIDGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
 
 Retrieves a warehouse transfer in.
 
@@ -185,7 +185,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
+[**\Jiwa\Model\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
 
 ### Authorization
 
@@ -199,7 +199,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInLineGETRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDGet**
-> \Jiwa\JiwaModel\WarehouseTransferInLine warehouseTransferInLineGETRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDGet($accept, $warehouse_transfer_in_id, $warehouse_transfer_in_line_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferInLine warehouseTransferInLineGETRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDGet($accept, $warehouse_transfer_in_id, $warehouse_transfer_in_line_id, $jiwa_stateful)
 
 Retrieves a warehouse transfer in line.
 
@@ -247,7 +247,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferInLine**](../Model/WarehouseTransferInLine.md)
+[**\Jiwa\Model\WarehouseTransferInLine**](../Model/WarehouseTransferInLine.md)
 
 ### Authorization
 
@@ -261,7 +261,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInLinePATCHRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDUpdate**
-> \Jiwa\JiwaModel\WarehouseTransferInLine warehouseTransferInLinePATCHRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDUpdate($accept, $warehouse_transfer_in_id, $warehouse_transfer_in_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $quantity_received, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
+> \Jiwa\Model\WarehouseTransferInLine warehouseTransferInLinePATCHRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDUpdate($accept, $warehouse_transfer_in_id, $warehouse_transfer_in_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $quantity_received, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
 
 Updates a line for a warehouse transfer in.
 
@@ -314,7 +314,7 @@ $added_cost_ledger3_rec_id = "added_cost_ledger3_rec_id_example"; // string |
 $added_cost_ledger3_account_no = "added_cost_ledger3_account_no_example"; // string | 
 $added_cost_ledger3_description = "added_cost_ledger3_description_example"; // string | 
 $line_details = "line_details_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferInLinePATCHRequest(); // \Jiwa\JiwaModel\WarehouseTransferInLinePATCHRequest | 
+$body = new \Jiwa\Model\WarehouseTransferInLinePATCHRequest(); // \Jiwa\Model\WarehouseTransferInLinePATCHRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferInLinePATCHRequestWarehouseTransferInIDLinesWarehouseTransferInLineIDUpdate($accept, $warehouse_transfer_in_id, $warehouse_transfer_in_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $quantity_received, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body);
@@ -359,11 +359,11 @@ Name | Type | Description  | Notes
  **added_cost_ledger3_account_no** | **string**|  | [optional]
  **added_cost_ledger3_description** | **string**|  | [optional]
  **line_details** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferInLinePATCHRequest**](../Model/WarehouseTransferInLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferInLinePATCHRequest**](../Model/WarehouseTransferInLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferInLine**](../Model/WarehouseTransferInLine.md)
+[**\Jiwa\Model\WarehouseTransferInLine**](../Model/WarehouseTransferInLine.md)
 
 ### Authorization
 
@@ -377,7 +377,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInLinesGETManyRequestWarehouseTransferInIDLinesGet**
-> \Jiwa\JiwaModel\WarehouseTransferInLine[] warehouseTransferInLinesGETManyRequestWarehouseTransferInIDLinesGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferInLine[] warehouseTransferInLinesGETManyRequestWarehouseTransferInIDLinesGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
 
 Retrieves a list of warehouse transfer in lines.
 
@@ -423,7 +423,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferInLine[]**](../Model/WarehouseTransferInLine.md)
+[**\Jiwa\Model\WarehouseTransferInLine[]**](../Model/WarehouseTransferInLine.md)
 
 ### Authorization
 
@@ -437,7 +437,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInPATCHRequestWarehouseTransferInIDUpdate**
-> \Jiwa\JiwaModel\WarehouseTransferIn warehouseTransferInPATCHRequestWarehouseTransferInIDUpdate($accept, $warehouse_transfer_in_id, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
+> \Jiwa\Model\WarehouseTransferIn warehouseTransferInPATCHRequestWarehouseTransferInIDUpdate($accept, $warehouse_transfer_in_id, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
 
 Updates a warehouse transfer in.
 
@@ -506,7 +506,7 @@ $transferred_cost = 1.2; // double |
 $total_cost = 1.2; // double | 
 $receive_ins = "receive_ins_example"; // string | 
 $lines = "lines_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferInPATCHRequest(); // \Jiwa\JiwaModel\WarehouseTransferInPATCHRequest | 
+$body = new \Jiwa\Model\WarehouseTransferInPATCHRequest(); // \Jiwa\Model\WarehouseTransferInPATCHRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferInPATCHRequestWarehouseTransferInIDUpdate($accept, $warehouse_transfer_in_id, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body);
@@ -567,11 +567,11 @@ Name | Type | Description  | Notes
  **total_cost** | **double**|  | [optional]
  **receive_ins** | **string**|  | [optional]
  **lines** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferInPATCHRequest**](../Model/WarehouseTransferInPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferInPATCHRequest**](../Model/WarehouseTransferInPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
+[**\Jiwa\Model\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
 
 ### Authorization
 
@@ -585,7 +585,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInPOSTRequestPost**
-> \Jiwa\JiwaModel\WarehouseTransferIn warehouseTransferInPOSTRequestPost($accept, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
+> \Jiwa\Model\WarehouseTransferIn warehouseTransferInPOSTRequestPost($accept, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
 
 Creates a warehouse transfer in.
 
@@ -653,7 +653,7 @@ $transferred_cost = 1.2; // double |
 $total_cost = 1.2; // double | 
 $receive_ins = "receive_ins_example"; // string | 
 $lines = "lines_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferInPOSTRequest(); // \Jiwa\JiwaModel\WarehouseTransferInPOSTRequest | 
+$body = new \Jiwa\Model\WarehouseTransferInPOSTRequest(); // \Jiwa\Model\WarehouseTransferInPOSTRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferInPOSTRequestPost($accept, $jiwa_stateful, $warehouse_transfer_out_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body);
@@ -713,11 +713,11 @@ Name | Type | Description  | Notes
  **total_cost** | **double**|  | [optional]
  **receive_ins** | **string**|  | [optional]
  **lines** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferInPOSTRequest**](../Model/WarehouseTransferInPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferInPOSTRequest**](../Model/WarehouseTransferInPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
+[**\Jiwa\Model\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
 
 ### Authorization
 
@@ -731,7 +731,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInReceiveInsGETManyRequestWarehouseTransferInIDReceiveInsGet**
-> \Jiwa\JiwaModel\WarehouseTransferInReceiveIn[] warehouseTransferInReceiveInsGETManyRequestWarehouseTransferInIDReceiveInsGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferInReceiveIn[] warehouseTransferInReceiveInsGETManyRequestWarehouseTransferInIDReceiveInsGet($accept, $warehouse_transfer_in_id, $jiwa_stateful)
 
 Retrieves a list of warehouse transfer in receive ins.
 
@@ -777,7 +777,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferInReceiveIn[]**](../Model/WarehouseTransferInReceiveIn.md)
+[**\Jiwa\Model\WarehouseTransferInReceiveIn[]**](../Model/WarehouseTransferInReceiveIn.md)
 
 ### Authorization
 
@@ -791,7 +791,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferInSAVERequestSaveGet**
-> \Jiwa\JiwaModel\WarehouseTransferIn warehouseTransferInSAVERequestSaveGet($accept, $jiwa_stateful, $warehouse_transfer_in_id)
+> \Jiwa\Model\WarehouseTransferIn warehouseTransferInSAVERequestSaveGet($accept, $jiwa_stateful, $warehouse_transfer_in_id)
 
 Saves a stateful stateful warehouse transfer in.
 
@@ -837,7 +837,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
+[**\Jiwa\Model\WarehouseTransferIn**](../Model/WarehouseTransferIn.md)
 
 ### Authorization
 

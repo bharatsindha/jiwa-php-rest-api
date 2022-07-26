@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class ForwardCoverContract implements ModelInterface, ArrayAccess
         'contract_no' => 'string',
         'description' => 'string',
         'reference' => 'string',
-        'currency' => '\Jiwa\JiwaModel\Currency',
+        'currency' => '\Jiwa\Model\Currency',
         'fx_rate' => 'double',
         'fx_contract_amount' => 'double',
         'fx_used_amount' => 'double',
@@ -388,7 +388,7 @@ class ForwardCoverContract implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Jiwa\JiwaModel\Currency
+     * @return \Jiwa\Model\Currency
      */
     public function getCurrency()
     {
@@ -398,7 +398,7 @@ class ForwardCoverContract implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Jiwa\JiwaModel\Currency $currency currency
+     * @param \Jiwa\Model\Currency $currency currency
      *
      * @return $this
      */

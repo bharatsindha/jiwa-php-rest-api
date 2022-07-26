@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -106,11 +106,11 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
         'consignment_note' => 'string',
         'ediasn_number' => 'string',
         'drop_shipment' => 'bool',
-        'cartage_charge1' => '\Jiwa\JiwaModel\CartageCharge',
-        'cartage_charge2' => '\Jiwa\JiwaModel\CartageCharge',
-        'cartage_charge3' => '\Jiwa\JiwaModel\CartageCharge',
-        'carrier' => '\Jiwa\JiwaModel\SalesOrderCarrier',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'cartage_charge1' => '\Jiwa\Model\CartageCharge',
+        'cartage_charge2' => '\Jiwa\Model\CartageCharge',
+        'cartage_charge3' => '\Jiwa\Model\CartageCharge',
+        'carrier' => '\Jiwa\Model\SalesOrderCarrier',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -1672,7 +1672,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge1
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge1()
     {
@@ -1682,7 +1682,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge1
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge1 cartage_charge1
+     * @param \Jiwa\Model\CartageCharge $cartage_charge1 cartage_charge1
      *
      * @return $this
      */
@@ -1696,7 +1696,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge2
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge2()
     {
@@ -1706,7 +1706,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge2
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge2 cartage_charge2
+     * @param \Jiwa\Model\CartageCharge $cartage_charge2 cartage_charge2
      *
      * @return $this
      */
@@ -1720,7 +1720,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge3
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge3()
     {
@@ -1730,7 +1730,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge3
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge3 cartage_charge3
+     * @param \Jiwa\Model\CartageCharge $cartage_charge3 cartage_charge3
      *
      * @return $this
      */
@@ -1744,7 +1744,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets carrier
      *
-     * @return \Jiwa\JiwaModel\SalesOrderCarrier
+     * @return \Jiwa\Model\SalesOrderCarrier
      */
     public function getCarrier()
     {
@@ -1754,7 +1754,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets carrier
      *
-     * @param \Jiwa\JiwaModel\SalesOrderCarrier $carrier carrier
+     * @param \Jiwa\Model\SalesOrderCarrier $carrier carrier
      *
      * @return $this
      */
@@ -1768,7 +1768,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1778,7 +1778,7 @@ class SalesOrderHistory implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

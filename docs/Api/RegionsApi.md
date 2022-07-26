@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **regionABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object regionABANDONRequestAbandonDelete($accept, $jiwa_stateful, $region_id)
+> \Jiwa\Model\Object regionABANDONRequestAbandonDelete($accept, $jiwa_stateful, $region_id)
 
 Abandons a stateful region.
 
@@ -59,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **regionDELETERequestRegionIDDelete**
-> \Jiwa\JiwaModel\Object regionDELETERequestRegionIDDelete($accept, $region_id, $jiwa_stateful)
+> \Jiwa\Model\Object regionDELETERequestRegionIDDelete($accept, $region_id, $jiwa_stateful)
 
 Deletes a region.
 
@@ -119,7 +119,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **regionGETRequestRegionIDGet**
-> \Jiwa\JiwaModel\Region regionGETRequestRegionIDGet($accept, $region_id, $jiwa_stateful)
+> \Jiwa\Model\Region regionGETRequestRegionIDGet($accept, $region_id, $jiwa_stateful)
 
 Retrieves a region.
 
@@ -179,7 +179,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Region**](../Model/Region.md)
+[**\Jiwa\Model\Region**](../Model/Region.md)
 
 ### Authorization
 
@@ -193,7 +193,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **regionPATCHRequestRegionIDUpdate**
-> \Jiwa\JiwaModel\Region regionPATCHRequestRegionIDUpdate($accept, $region_id, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $last_saved_date_time, $created_by_staff, $last_saved_by_staff, $body)
+> \Jiwa\Model\Region regionPATCHRequestRegionIDUpdate($accept, $region_id, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $last_saved_date_time, $created_by_staff, $last_saved_by_staff, $body)
 
 Updates a region.
 
@@ -226,7 +226,7 @@ $created_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime |
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $created_by_staff = "created_by_staff_example"; // string | 
 $last_saved_by_staff = "last_saved_by_staff_example"; // string | 
-$body = new \Jiwa\JiwaModel\RegionPATCHRequest(); // \Jiwa\JiwaModel\RegionPATCHRequest | 
+$body = new \Jiwa\Model\RegionPATCHRequest(); // \Jiwa\Model\RegionPATCHRequest | 
 
 try {
     $result = $apiInstance->regionPATCHRequestRegionIDUpdate($accept, $region_id, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $last_saved_date_time, $created_by_staff, $last_saved_by_staff, $body);
@@ -251,11 +251,11 @@ Name | Type | Description  | Notes
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **created_by_staff** | **string**|  | [optional]
  **last_saved_by_staff** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\RegionPATCHRequest**](../Model/RegionPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\RegionPATCHRequest**](../Model/RegionPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Region**](../Model/Region.md)
+[**\Jiwa\Model\Region**](../Model/Region.md)
 
 ### Authorization
 
@@ -269,7 +269,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **regionPOSTRequestPost**
-> \Jiwa\JiwaModel\Region regionPOSTRequestPost($accept, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $created_by_staff, $last_saved_by_staff, $body)
+> \Jiwa\Model\Region regionPOSTRequestPost($accept, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $created_by_staff, $last_saved_by_staff, $body)
 
 Creates a region.
 
@@ -300,7 +300,7 @@ $description = "description_example"; // string |
 $created_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $created_by_staff = "created_by_staff_example"; // string | 
 $last_saved_by_staff = "last_saved_by_staff_example"; // string | 
-$body = new \Jiwa\JiwaModel\RegionPOSTRequest(); // \Jiwa\JiwaModel\RegionPOSTRequest | 
+$body = new \Jiwa\Model\RegionPOSTRequest(); // \Jiwa\Model\RegionPOSTRequest | 
 
 try {
     $result = $apiInstance->regionPOSTRequestPost($accept, $jiwa_stateful, $name, $is_default, $description, $created_date_time, $created_by_staff, $last_saved_by_staff, $body);
@@ -323,11 +323,11 @@ Name | Type | Description  | Notes
  **created_date_time** | **\DateTime**|  | [optional]
  **created_by_staff** | **string**|  | [optional]
  **last_saved_by_staff** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\RegionPOSTRequest**](../Model/RegionPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\RegionPOSTRequest**](../Model/RegionPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Region**](../Model/Region.md)
+[**\Jiwa\Model\Region**](../Model/Region.md)
 
 ### Authorization
 
@@ -341,7 +341,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **regionSAVERequestSaveGet**
-> \Jiwa\JiwaModel\Region regionSAVERequestSaveGet($accept, $jiwa_stateful, $region_id)
+> \Jiwa\Model\Region regionSAVERequestSaveGet($accept, $jiwa_stateful, $region_id)
 
 Saves a stateful region.
 
@@ -387,7 +387,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Region**](../Model/Region.md)
+[**\Jiwa\Model\Region**](../Model/Region.md)
 
 ### Authorization
 

@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **reportsPDFGETRequestReportIDPDFDownloadGet**
-> \Jiwa\JiwaModel\IHttpResult reportsPDFGETRequestReportIDPDFDownloadGet($accept, $report_id, $jiwa_stateful, $report_parameters, $as_attachment)
+> \Jiwa\Model\IHttpResult reportsPDFGETRequestReportIDPDFDownloadGet($accept, $report_id, $jiwa_stateful, $report_parameters, $as_attachment)
 
 Retrieves PDF of the selected report.
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\IHttpResult**](../Model/IHttpResult.md)
+[**\Jiwa\Model\IHttpResult**](../Model/IHttpResult.md)
 
 ### Authorization
 

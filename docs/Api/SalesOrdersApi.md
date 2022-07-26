@@ -78,7 +78,7 @@ Method | HTTP request | Description
 
 
 # **salesOrderABANDONRequestInvoiceIDAbandonDelete**
-> \Jiwa\JiwaModel\Object salesOrderABANDONRequestInvoiceIDAbandonDelete($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderABANDONRequestInvoiceIDAbandonDelete($accept, $invoice_id, $jiwa_stateful)
 
 Abandons a stateful sales order.
 
@@ -124,7 +124,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -138,7 +138,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderCustomFieldValueGETRequestInvoiceIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderCustomFieldValueGETRequestInvoiceIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue salesOrderCustomFieldValueGETRequestInvoiceIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $setting_id, $jiwa_stateful)
 
 Retrieves a sales order custom field value.
 
@@ -186,7 +186,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -200,7 +200,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderCustomFieldValuePATCHRequestInvoiceIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderCustomFieldValuePATCHRequestInvoiceIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue salesOrderCustomFieldValuePATCHRequestInvoiceIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a sales order custom field value.
 
@@ -228,7 +228,7 @@ $invoice_id = "invoice_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderCustomFieldValuePATCHRequest(); // \Jiwa\Model\SalesOrderCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderCustomFieldValuePATCHRequestInvoiceIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -248,11 +248,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderCustomFieldValuePATCHRequest**](../Model/SalesOrderCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderCustomFieldValuePATCHRequest**](../Model/SalesOrderCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderCustomFieldValuesGETManyRequestInvoiceIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] salesOrderCustomFieldValuesGETManyRequestInvoiceIDCustomFieldValuesGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] salesOrderCustomFieldValuesGETManyRequestInvoiceIDCustomFieldValuesGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a sales order.
 
@@ -312,7 +312,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderCustomFieldsGETManyRequestCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] salesOrderCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] salesOrderCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales order custom fields.
 
@@ -370,7 +370,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -384,7 +384,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentDELETERequestInvoiceIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderDocumentDELETERequestInvoiceIDDocumentsDocumentIDDelete($accept, $invoice_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderDocumentDELETERequestInvoiceIDDocumentsDocumentIDDelete($accept, $invoice_id, $document_id, $jiwa_stateful)
 
 Deletes a sales order document.
 
@@ -432,7 +432,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -446,7 +446,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentGETRequestInvoiceIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document salesOrderDocumentGETRequestInvoiceIDDocumentsDocumentIDGet($accept, $invoice_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document salesOrderDocumentGETRequestInvoiceIDDocumentsDocumentIDGet($accept, $invoice_id, $document_id, $jiwa_stateful)
 
 Retrieves a sales order document.
 
@@ -494,7 +494,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -508,7 +508,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentPATCHRequestInvoiceIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document salesOrderDocumentPATCHRequestInvoiceIDDocumentsDocumentIDUpdate($accept, $invoice_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document salesOrderDocumentPATCHRequestInvoiceIDDocumentsDocumentIDUpdate($accept, $invoice_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates a sales order document.
 
@@ -547,7 +547,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderDocumentPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderDocumentPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderDocumentPATCHRequest(); // \Jiwa\Model\SalesOrderDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderDocumentPATCHRequestInvoiceIDDocumentsDocumentIDUpdate($accept, $invoice_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -578,11 +578,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderDocumentPATCHRequest**](../Model/SalesOrderDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderDocumentPATCHRequest**](../Model/SalesOrderDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -596,7 +596,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentPOSTRequestInvoiceIDDocumentsPost**
-> \Jiwa\JiwaModel\Document salesOrderDocumentPOSTRequestInvoiceIDDocumentsPost($accept, $invoice_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document salesOrderDocumentPOSTRequestInvoiceIDDocumentsPost($accept, $invoice_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to a sales order.
 
@@ -633,7 +633,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderDocumentPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderDocumentPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderDocumentPOSTRequest(); // \Jiwa\Model\SalesOrderDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderDocumentPOSTRequestInvoiceIDDocumentsPost($accept, $invoice_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -662,11 +662,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderDocumentPOSTRequest**](../Model/SalesOrderDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderDocumentPOSTRequest**](../Model/SalesOrderDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -680,7 +680,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes a sales order document type.
 
@@ -726,7 +726,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -740,7 +740,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType salesOrderDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType salesOrderDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves a sales order document type.
 
@@ -786,7 +786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -800,7 +800,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType salesOrderDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType salesOrderDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a sales order document type.
 
@@ -829,7 +829,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesOrderDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderDocumentTypePATCHRequest(); // \Jiwa\Model\SalesOrderDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -850,11 +850,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderDocumentTypePATCHRequest**](../Model/SalesOrderDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderDocumentTypePATCHRequest**](../Model/SalesOrderDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -868,7 +868,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType salesOrderDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType salesOrderDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new sales order document type.
 
@@ -896,7 +896,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesOrderDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\SalesOrderDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderDocumentTypePOSTRequest(); // \Jiwa\Model\SalesOrderDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -916,11 +916,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderDocumentTypePOSTRequest**](../Model/SalesOrderDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderDocumentTypePOSTRequest**](../Model/SalesOrderDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -934,7 +934,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] salesOrderDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] salesOrderDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales order document types.
 
@@ -978,7 +978,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -992,7 +992,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderDocumentsGETManyRequestInvoiceIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] salesOrderDocumentsGETManyRequestInvoiceIDDocumentsGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] salesOrderDocumentsGETManyRequestInvoiceIDDocumentsGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a list of sales order documents.
 
@@ -1038,7 +1038,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -1052,7 +1052,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderGETRequestInvoiceIDGet**
-> \Jiwa\JiwaModel\SalesOrder salesOrderGETRequestInvoiceIDGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrder salesOrderGETRequestInvoiceIDGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a sales order.
 
@@ -1098,7 +1098,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrder**](../Model/SalesOrder.md)
+[**\Jiwa\Model\SalesOrder**](../Model/SalesOrder.md)
 
 ### Authorization
 
@@ -1112,7 +1112,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryConsignmentNotesDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderHistoryConsignmentNotesDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDDelete($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderHistoryConsignmentNotesDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDDelete($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful)
 
 Deletes a consignment note from a sales order history
 
@@ -1162,7 +1162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1176,7 +1176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryConsignmentNotesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesGet**
-> \Jiwa\JiwaModel\SalesOrderConsignmentNote[] salesOrderHistoryConsignmentNotesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderConsignmentNote[] salesOrderHistoryConsignmentNotesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
 
 Retrieves consignment notes for a sales order history.
 
@@ -1224,7 +1224,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderConsignmentNote[]**](../Model/SalesOrderConsignmentNote.md)
+[**\Jiwa\Model\SalesOrderConsignmentNote[]**](../Model/SalesOrderConsignmentNote.md)
 
 ### Authorization
 
@@ -1238,7 +1238,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryConsignmentNotesGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDGet**
-> \Jiwa\JiwaModel\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDGet($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDGet($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful)
 
 Retrieves a consignment note for a sales order history
 
@@ -1288,7 +1288,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
+[**\Jiwa\Model\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
 
 ### Authorization
 
@@ -1302,7 +1302,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryConsignmentNotesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDUpdate($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body)
+> \Jiwa\Model\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDUpdate($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body)
 
 Updates a consignment note for a sales order history
 
@@ -1334,7 +1334,7 @@ $consignment_note_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTim
 $ex_gst_amount = 1.2; // double | 
 $gst_amount = 1.2; // double | 
 $consignment_note_no = "consignment_note_no_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderHistoryConsignmentNotesPATCHRequest(); // \Jiwa\Model\SalesOrderHistoryConsignmentNotesPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistoryConsignmentNotesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesConsignmentNoteIDUpdate($accept, $invoice_id, $invoice_history_id, $consignment_note_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body);
@@ -1358,11 +1358,11 @@ Name | Type | Description  | Notes
  **ex_gst_amount** | **double**|  | [optional]
  **gst_amount** | **double**|  | [optional]
  **consignment_note_no** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPATCHRequest**](../Model/SalesOrderHistoryConsignmentNotesPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistoryConsignmentNotesPATCHRequest**](../Model/SalesOrderHistoryConsignmentNotesPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
+[**\Jiwa\Model\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
 
 ### Authorization
 
@@ -1376,7 +1376,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryConsignmentNotesPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesPost**
-> \Jiwa\JiwaModel\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body)
+> \Jiwa\Model\SalesOrderConsignmentNote salesOrderHistoryConsignmentNotesPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body)
 
 Adds a consignment note to a sales order history
 
@@ -1407,7 +1407,7 @@ $consignment_note_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTim
 $ex_gst_amount = 1.2; // double | 
 $gst_amount = 1.2; // double | 
 $consignment_note_no = "consignment_note_no_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderHistoryConsignmentNotesPOSTRequest(); // \Jiwa\Model\SalesOrderHistoryConsignmentNotesPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistoryConsignmentNotesPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierConsignmentNotesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $consignment_note_date, $ex_gst_amount, $gst_amount, $consignment_note_no, $body);
@@ -1430,11 +1430,11 @@ Name | Type | Description  | Notes
  **ex_gst_amount** | **double**|  | [optional]
  **gst_amount** | **double**|  | [optional]
  **consignment_note_no** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistoryConsignmentNotesPOSTRequest**](../Model/SalesOrderHistoryConsignmentNotesPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistoryConsignmentNotesPOSTRequest**](../Model/SalesOrderHistoryConsignmentNotesPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
+[**\Jiwa\Model\SalesOrderConsignmentNote**](../Model/SalesOrderConsignmentNote.md)
 
 ### Authorization
 
@@ -1448,7 +1448,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] salesOrderHistoryCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] salesOrderHistoryCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a sales order history.
 
@@ -1496,7 +1496,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1510,7 +1510,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryCustomFieldValuesGETRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderHistoryCustomFieldValuesGETRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $invoice_history_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue salesOrderHistoryCustomFieldValuesGETRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $invoice_history_id, $setting_id, $jiwa_stateful)
 
 Retrieves a sales order history custom field value.
 
@@ -1560,7 +1560,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1574,7 +1574,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryCustomFieldValuesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderHistoryCustomFieldValuesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue salesOrderHistoryCustomFieldValuesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a sales order history custom field value.
 
@@ -1603,7 +1603,7 @@ $invoice_history_id = "invoice_history_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistoryCustomFieldValuesPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderHistoryCustomFieldValuesPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderHistoryCustomFieldValuesPATCHRequest(); // \Jiwa\Model\SalesOrderHistoryCustomFieldValuesPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistoryCustomFieldValuesPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -1624,11 +1624,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistoryCustomFieldValuesPATCHRequest**](../Model/SalesOrderHistoryCustomFieldValuesPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistoryCustomFieldValuesPATCHRequest**](../Model/SalesOrderHistoryCustomFieldValuesPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1642,7 +1642,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryCustomFieldsGETManyRequestHistorysCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] salesOrderHistoryCustomFieldsGETManyRequestHistorysCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] salesOrderHistoryCustomFieldsGETManyRequestHistorysCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales order history custom fields.
 
@@ -1686,7 +1686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1700,7 +1700,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryFreightItemsDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderHistoryFreightItemsDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDDelete($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderHistoryFreightItemsDELETERequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDDelete($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful)
 
 Deletes a freight item from a sales order history
 
@@ -1750,7 +1750,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1764,7 +1764,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryFreightItemsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsGet**
-> \Jiwa\JiwaModel\SalesOrderFreightItem[] salesOrderHistoryFreightItemsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderFreightItem[] salesOrderHistoryFreightItemsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
 
 Retrieves freight items for a sales order history.
 
@@ -1812,7 +1812,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderFreightItem[]**](../Model/SalesOrderFreightItem.md)
+[**\Jiwa\Model\SalesOrderFreightItem[]**](../Model/SalesOrderFreightItem.md)
 
 ### Authorization
 
@@ -1826,7 +1826,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryFreightItemsGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDGet**
-> \Jiwa\JiwaModel\SalesOrderFreightItem salesOrderHistoryFreightItemsGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDGet($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderFreightItem salesOrderHistoryFreightItemsGETRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDGet($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful)
 
 Retrieves a freight item for a sales order history
 
@@ -1876,7 +1876,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
+[**\Jiwa\Model\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
 
 ### Authorization
 
@@ -1890,7 +1890,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryFreightItemsPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderFreightItem salesOrderHistoryFreightItemsPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDUpdate($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body)
+> \Jiwa\Model\SalesOrderFreightItem salesOrderHistoryFreightItemsPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDUpdate($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body)
 
 Updates a freight item for a sales order history
 
@@ -1927,7 +1927,7 @@ $item_height = 1.2; // double |
 $reference = "reference_example"; // string | 
 $freight_description = "freight_description_example"; // string | 
 $consignment_note = "consignment_note_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderHistoryFreightItemsPATCHRequest(); // \Jiwa\Model\SalesOrderHistoryFreightItemsPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistoryFreightItemsPATCHRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsFreightItemIDUpdate($accept, $invoice_id, $invoice_history_id, $freight_item_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body);
@@ -1956,11 +1956,11 @@ Name | Type | Description  | Notes
  **reference** | **string**|  | [optional]
  **freight_description** | **string**|  | [optional]
  **consignment_note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPATCHRequest**](../Model/SalesOrderHistoryFreightItemsPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistoryFreightItemsPATCHRequest**](../Model/SalesOrderHistoryFreightItemsPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
+[**\Jiwa\Model\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
 
 ### Authorization
 
@@ -1974,7 +1974,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistoryFreightItemsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsPost**
-> \Jiwa\JiwaModel\SalesOrderFreightItem salesOrderHistoryFreightItemsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body)
+> \Jiwa\Model\SalesOrderFreightItem salesOrderHistoryFreightItemsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body)
 
 Adds a freight item to a sales order history
 
@@ -2010,7 +2010,7 @@ $item_height = 1.2; // double |
 $reference = "reference_example"; // string | 
 $freight_description = "freight_description_example"; // string | 
 $consignment_note = "consignment_note_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderHistoryFreightItemsPOSTRequest(); // \Jiwa\Model\SalesOrderHistoryFreightItemsPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistoryFreightItemsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDCarrierFreightItemsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $number_items, $item_weight, $item_cubic, $item_length, $item_width, $item_height, $reference, $freight_description, $consignment_note, $body);
@@ -2038,11 +2038,11 @@ Name | Type | Description  | Notes
  **reference** | **string**|  | [optional]
  **freight_description** | **string**|  | [optional]
  **consignment_note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistoryFreightItemsPOSTRequest**](../Model/SalesOrderHistoryFreightItemsPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistoryFreightItemsPOSTRequest**](../Model/SalesOrderHistoryFreightItemsPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
+[**\Jiwa\Model\SalesOrderFreightItem**](../Model/SalesOrderFreightItem.md)
 
 ### Authorization
 
@@ -2056,7 +2056,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistorysGETManyRequestInvoiceIDHistorysGet**
-> \Jiwa\JiwaModel\SalesOrderHistory[] salesOrderHistorysGETManyRequestInvoiceIDHistorysGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderHistory[] salesOrderHistorysGETManyRequestInvoiceIDHistorysGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a list of sales order histories.
 
@@ -2102,7 +2102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderHistory[]**](../Model/SalesOrderHistory.md)
+[**\Jiwa\Model\SalesOrderHistory[]**](../Model/SalesOrderHistory.md)
 
 ### Authorization
 
@@ -2116,7 +2116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistorysGETRequestInvoiceIDHistorysInvoiceHistoryIDGet**
-> \Jiwa\JiwaModel\SalesOrderHistory salesOrderHistorysGETRequestInvoiceIDHistorysInvoiceHistoryIDGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderHistory salesOrderHistorysGETRequestInvoiceIDHistorysInvoiceHistoryIDGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
 
 Retrieves a sales order history.
 
@@ -2164,7 +2164,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderHistory**](../Model/SalesOrderHistory.md)
+[**\Jiwa\Model\SalesOrderHistory**](../Model/SalesOrderHistory.md)
 
 ### Authorization
 
@@ -2178,7 +2178,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderHistorysPATCHRequestInvoiceIDHistorysInvoiceHistoryIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderHistory salesOrderHistorysPATCHRequestInvoiceIDHistorysInvoiceHistoryIDUpdate($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $history_no, $status, $edi_pick_status, $db_trans_id, $ref, $last_modified_by, $history_total, $amount_paid, $total_quantity_delivered, $run_no, $delivered, $delivered_date, $record_date, $date_created, $date_last_saved, $date_posted, $date_processed, $invoice_printed, $docket_printed, $pack_slip_printed, $pick_sheet_printed, $other_printed, $invoice_emailed, $docket_emailed, $pack_slip_emailed, $pick_sheet_emailed, $other_emailed, $delivery_address_contact_name, $delivery_addressee, $delivery_address_email_address, $delivery_address1, $delivery_address2, $delivery_address3, $delivery_address4, $delivery_address_postcode, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_address_notes, $consignment_note, $ediasn_number, $drop_shipment, $cartage_charge1, $cartage_charge2, $cartage_charge3, $carrier, $custom_field_values, $body)
+> \Jiwa\Model\SalesOrderHistory salesOrderHistorysPATCHRequestInvoiceIDHistorysInvoiceHistoryIDUpdate($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $history_no, $status, $edi_pick_status, $db_trans_id, $ref, $last_modified_by, $history_total, $amount_paid, $total_quantity_delivered, $run_no, $delivered, $delivered_date, $record_date, $date_created, $date_last_saved, $date_posted, $date_processed, $invoice_printed, $docket_printed, $pack_slip_printed, $pick_sheet_printed, $other_printed, $invoice_emailed, $docket_emailed, $pack_slip_emailed, $pick_sheet_emailed, $other_emailed, $delivery_address_contact_name, $delivery_addressee, $delivery_address_email_address, $delivery_address1, $delivery_address2, $delivery_address3, $delivery_address4, $delivery_address_postcode, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_address_notes, $consignment_note, $ediasn_number, $drop_shipment, $cartage_charge1, $cartage_charge2, $cartage_charge3, $carrier, $custom_field_values, $body)
 
 Updates a sales order history.
 
@@ -2257,7 +2257,7 @@ $cartage_charge2 = "cartage_charge2_example"; // string |
 $cartage_charge3 = "cartage_charge3_example"; // string | 
 $carrier = "carrier_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderHistorysPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderHistorysPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderHistorysPATCHRequest(); // \Jiwa\Model\SalesOrderHistorysPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderHistorysPATCHRequestInvoiceIDHistorysInvoiceHistoryIDUpdate($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $history_no, $status, $edi_pick_status, $db_trans_id, $ref, $last_modified_by, $history_total, $amount_paid, $total_quantity_delivered, $run_no, $delivered, $delivered_date, $record_date, $date_created, $date_last_saved, $date_posted, $date_processed, $invoice_printed, $docket_printed, $pack_slip_printed, $pick_sheet_printed, $other_printed, $invoice_emailed, $docket_emailed, $pack_slip_emailed, $pick_sheet_emailed, $other_emailed, $delivery_address_contact_name, $delivery_addressee, $delivery_address_email_address, $delivery_address1, $delivery_address2, $delivery_address3, $delivery_address4, $delivery_address_postcode, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_address_notes, $consignment_note, $ediasn_number, $drop_shipment, $cartage_charge1, $cartage_charge2, $cartage_charge3, $carrier, $custom_field_values, $body);
@@ -2328,11 +2328,11 @@ Name | Type | Description  | Notes
  **cartage_charge3** | **string**|  | [optional]
  **carrier** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderHistorysPATCHRequest**](../Model/SalesOrderHistorysPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderHistorysPATCHRequest**](../Model/SalesOrderHistorysPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderHistory**](../Model/SalesOrderHistory.md)
+[**\Jiwa\Model\SalesOrderHistory**](../Model/SalesOrderHistory.md)
 
 ### Authorization
 
@@ -2346,7 +2346,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineCustomFieldValueGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderLineCustomFieldValueGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue salesOrderLineCustomFieldValueGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $setting_id, $jiwa_stateful)
 
 Retrieves a sales order line custom field value.
 
@@ -2398,7 +2398,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2412,7 +2412,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineCustomFieldValuePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue salesOrderLineCustomFieldValuePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue salesOrderLineCustomFieldValuePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a sales order line custom field value.
 
@@ -2442,7 +2442,7 @@ $invoice_line_id = "invoice_line_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderLineCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderLineCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderLineCustomFieldValuePATCHRequest(); // \Jiwa\Model\SalesOrderLineCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderLineCustomFieldValuePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesSettingIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -2464,11 +2464,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderLineCustomFieldValuePATCHRequest**](../Model/SalesOrderLineCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderLineCustomFieldValuePATCHRequest**](../Model/SalesOrderLineCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2482,7 +2482,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] salesOrderLineCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] salesOrderLineCustomFieldValuesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDCustomFieldValuesGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a sales order line.
 
@@ -2532,7 +2532,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2546,7 +2546,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineCustomFieldsGETManyRequestLinesCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] salesOrderLineCustomFieldsGETManyRequestLinesCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] salesOrderLineCustomFieldsGETManyRequestLinesCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales order line custom fields.
 
@@ -2590,7 +2590,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -2604,7 +2604,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderLineDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDDelete($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderLineDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDDelete($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
 
 Deletes a sales order line.
 
@@ -2654,7 +2654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2668,7 +2668,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDetailDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderLineDetailDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDDelete($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderLineDetailDELETERequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDDelete($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful)
 
 Deletes a sales order line detail.
 
@@ -2720,7 +2720,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2734,7 +2734,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDetailGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDGet**
-> \Jiwa\JiwaModel\SalesOrderLineDetail salesOrderLineDetailGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderLineDetail salesOrderLineDetailGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful)
 
 Retrieves a sales order line detail.
 
@@ -2786,7 +2786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
+[**\Jiwa\Model\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
 
 ### Authorization
 
@@ -2800,7 +2800,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDetailPATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderLineDetail salesOrderLineDetailPATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $line_detail_id, $bin_location, $serial_no, $sohid, $in_logical_id, $body)
+> \Jiwa\Model\SalesOrderLineDetail salesOrderLineDetailPATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $line_detail_id, $bin_location, $serial_no, $sohid, $in_logical_id, $body)
 
 Updates a sales order line detail.
 
@@ -2839,7 +2839,7 @@ $bin_location = "bin_location_example"; // string |
 $serial_no = "serial_no_example"; // string | 
 $sohid = "sohid_example"; // string | 
 $in_logical_id = "in_logical_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderLineDetailPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderLineDetailPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderLineDetailPATCHRequest(); // \Jiwa\Model\SalesOrderLineDetailPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderLineDetailPATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsDetailsLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $details_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $line_detail_id, $bin_location, $serial_no, $sohid, $in_logical_id, $body);
@@ -2870,11 +2870,11 @@ Name | Type | Description  | Notes
  **serial_no** | **string**|  | [optional]
  **sohid** | **string**|  | [optional]
  **in_logical_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderLineDetailPATCHRequest**](../Model/SalesOrderLineDetailPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderLineDetailPATCHRequest**](../Model/SalesOrderLineDetailPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
+[**\Jiwa\Model\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
 
 ### Authorization
 
@@ -2888,7 +2888,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDetailPOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsPost**
-> \Jiwa\JiwaModel\SalesOrderLineDetail salesOrderLineDetailPOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsPost($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $bin_location, $serial_no, $sohid, $in_logical_id, $body)
+> \Jiwa\Model\SalesOrderLineDetail salesOrderLineDetailPOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsPost($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $bin_location, $serial_no, $sohid, $in_logical_id, $body)
 
 Appends a line detail to a sales order.
 
@@ -2925,7 +2925,7 @@ $bin_location = "bin_location_example"; // string |
 $serial_no = "serial_no_example"; // string | 
 $sohid = "sohid_example"; // string | 
 $in_logical_id = "in_logical_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderLineDetailPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderLineDetailPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderLineDetailPOSTRequest(); // \Jiwa\Model\SalesOrderLineDetailPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderLineDetailPOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsPost($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $cost, $date_in, $expiry_date, $special_price, $quantity, $bin_location, $serial_no, $sohid, $in_logical_id, $body);
@@ -2954,11 +2954,11 @@ Name | Type | Description  | Notes
  **serial_no** | **string**|  | [optional]
  **sohid** | **string**|  | [optional]
  **in_logical_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderLineDetailPOSTRequest**](../Model/SalesOrderLineDetailPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderLineDetailPOSTRequest**](../Model/SalesOrderLineDetailPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
+[**\Jiwa\Model\SalesOrderLineDetail**](../Model/SalesOrderLineDetail.md)
 
 ### Authorization
 
@@ -2972,7 +2972,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineDetailsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsGet**
-> \Jiwa\JiwaModel\SalesOrderLineDetail[] salesOrderLineDetailsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderLineDetail[] salesOrderLineDetailsGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDLineDetailsGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
 
 Retrieves a list of line details for a sales order line.
 
@@ -3022,7 +3022,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLineDetail[]**](../Model/SalesOrderLineDetail.md)
+[**\Jiwa\Model\SalesOrderLineDetail[]**](../Model/SalesOrderLineDetail.md)
 
 ### Authorization
 
@@ -3036,7 +3036,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLineGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDGet**
-> \Jiwa\JiwaModel\SalesOrderLine salesOrderLineGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderLine salesOrderLineGETRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDGet($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful)
 
 Retrieves a sales order line.
 
@@ -3086,7 +3086,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLine**](../Model/SalesOrderLine.md)
+[**\Jiwa\Model\SalesOrderLine**](../Model/SalesOrderLine.md)
 
 ### Authorization
 
@@ -3100,7 +3100,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLinePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderLine salesOrderLinePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body)
+> \Jiwa\Model\SalesOrderLine salesOrderLinePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body)
 
 Updates a sales order line.
 
@@ -3176,7 +3176,7 @@ $unit_of_measure = "unit_of_measure_example"; // string |
 $kit_line_type = "kit_line_type_example"; // string | 
 $kit_units = 1.2; // double | 
 $kit_header_line_id = "kit_header_line_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderLinePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderLinePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderLinePATCHRequest(); // \Jiwa\Model\SalesOrderLinePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderLinePATCHRequestInvoiceIDHistorysInvoiceHistoryIDLinesInvoiceLineIDUpdate($accept, $invoice_id, $invoice_history_id, $invoice_line_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body);
@@ -3244,11 +3244,11 @@ Name | Type | Description  | Notes
  **kit_line_type** | **string**|  | [optional]
  **kit_units** | **double**|  | [optional]
  **kit_header_line_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderLinePATCHRequest**](../Model/SalesOrderLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderLinePATCHRequest**](../Model/SalesOrderLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLine**](../Model/SalesOrderLine.md)
+[**\Jiwa\Model\SalesOrderLine**](../Model/SalesOrderLine.md)
 
 ### Authorization
 
@@ -3262,7 +3262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLinePOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesPost**
-> \Jiwa\JiwaModel\SalesOrderLine salesOrderLinePOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body)
+> \Jiwa\Model\SalesOrderLine salesOrderLinePOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body)
 
 Appends a line to a sales order.
 
@@ -3337,7 +3337,7 @@ $unit_of_measure = "unit_of_measure_example"; // string |
 $kit_line_type = "kit_line_type_example"; // string | 
 $kit_units = 1.2; // double | 
 $kit_header_line_id = "kit_header_line_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderLinePOSTRequest(); // \Jiwa\JiwaModel\SalesOrderLinePOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderLinePOSTRequest(); // \Jiwa\Model\SalesOrderLinePOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderLinePOSTRequestInvoiceIDHistorysInvoiceHistoryIDLinesPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $item_no, $comment_line, $quantity_ordered, $quantity_demand, $quantity_this_del, $quantity_back_ord, $picked, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $fix_sell_price, $fix_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $forward_order_date, $scheduled_date, $line_total, $weight, $cubic, $quoted_discounted_price, $quoted_discount_percentage, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $sales_order_serial_stock_selection_types, $non_inventory, $inventory_id, $part_no, $description, $comment_text, $aux2, $line_link_id, $edi_store_location_code, $edidc_location_code, $cost_center, $stage, $custom_field_values, $line_details, $shipping_labels, $unit_of_measure, $kit_line_type, $kit_units, $kit_header_line_id, $body);
@@ -3404,11 +3404,11 @@ Name | Type | Description  | Notes
  **kit_line_type** | **string**|  | [optional]
  **kit_units** | **double**|  | [optional]
  **kit_header_line_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderLinePOSTRequest**](../Model/SalesOrderLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderLinePOSTRequest**](../Model/SalesOrderLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLine**](../Model/SalesOrderLine.md)
+[**\Jiwa\Model\SalesOrderLine**](../Model/SalesOrderLine.md)
 
 ### Authorization
 
@@ -3422,7 +3422,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderLinesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesGet**
-> \Jiwa\JiwaModel\SalesOrderLine[] salesOrderLinesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderLine[] salesOrderLinesGETManyRequestInvoiceIDHistorysInvoiceHistoryIDLinesGet($accept, $invoice_id, $invoice_history_id, $jiwa_stateful)
 
 Retrieves a list of sales order lines.
 
@@ -3470,7 +3470,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderLine[]**](../Model/SalesOrderLine.md)
+[**\Jiwa\Model\SalesOrderLine[]**](../Model/SalesOrderLine.md)
 
 ### Authorization
 
@@ -3484,7 +3484,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteDELETERequestInvoiceIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderNoteDELETERequestInvoiceIDNotesNoteIDDelete($accept, $invoice_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderNoteDELETERequestInvoiceIDNotesNoteIDDelete($accept, $invoice_id, $note_id, $jiwa_stateful)
 
 Deletes a sales order note.
 
@@ -3532,7 +3532,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3546,7 +3546,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteGETRequestInvoiceIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note salesOrderNoteGETRequestInvoiceIDNotesNoteIDGet($accept, $invoice_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note salesOrderNoteGETRequestInvoiceIDNotesNoteIDGet($accept, $invoice_id, $note_id, $jiwa_stateful)
 
 Retrieves a sales order note.
 
@@ -3594,7 +3594,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3608,7 +3608,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNotePATCHRequestInvoiceIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note salesOrderNotePATCHRequestInvoiceIDNotesNoteIDUpdate($accept, $invoice_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note salesOrderNotePATCHRequestInvoiceIDNotesNoteIDUpdate($accept, $invoice_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates a sales order note.
 
@@ -3644,7 +3644,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderNotePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderNotePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderNotePATCHRequest(); // \Jiwa\Model\SalesOrderNotePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderNotePATCHRequestInvoiceIDNotesNoteIDUpdate($accept, $invoice_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -3672,11 +3672,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderNotePATCHRequest**](../Model/SalesOrderNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderNotePATCHRequest**](../Model/SalesOrderNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3690,7 +3690,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNotePOSTRequestInvoiceIDNotesPost**
-> \Jiwa\JiwaModel\Note salesOrderNotePOSTRequestInvoiceIDNotesPost($accept, $invoice_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note salesOrderNotePOSTRequestInvoiceIDNotesPost($accept, $invoice_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to a sales order.
 
@@ -3725,7 +3725,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderNotePOSTRequest(); // \Jiwa\JiwaModel\SalesOrderNotePOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderNotePOSTRequest(); // \Jiwa\Model\SalesOrderNotePOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderNotePOSTRequestInvoiceIDNotesPost($accept, $invoice_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -3752,11 +3752,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderNotePOSTRequest**](../Model/SalesOrderNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderNotePOSTRequest**](../Model/SalesOrderNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3770,7 +3770,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes a sales order note type.
 
@@ -3816,7 +3816,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3830,7 +3830,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType salesOrderNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType salesOrderNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves a sales order note type.
 
@@ -3876,7 +3876,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -3890,7 +3890,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType salesOrderNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType salesOrderNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a sales order note type.
 
@@ -3919,7 +3919,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesOrderNoteTypePATCHRequest(); // \Jiwa\JiwaModel\SalesOrderNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderNoteTypePATCHRequest(); // \Jiwa\Model\SalesOrderNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -3940,11 +3940,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderNoteTypePATCHRequest**](../Model/SalesOrderNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderNoteTypePATCHRequest**](../Model/SalesOrderNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -3958,7 +3958,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType salesOrderNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType salesOrderNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new sales order note type.
 
@@ -3986,7 +3986,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesOrderNoteTypePOSTRequest(); // \Jiwa\JiwaModel\SalesOrderNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderNoteTypePOSTRequest(); // \Jiwa\Model\SalesOrderNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -4006,11 +4006,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderNoteTypePOSTRequest**](../Model/SalesOrderNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderNoteTypePOSTRequest**](../Model/SalesOrderNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4024,7 +4024,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] salesOrderNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] salesOrderNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales order note types.
 
@@ -4068,7 +4068,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4082,7 +4082,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderNotesGETManyRequestInvoiceIDNotesGet**
-> \Jiwa\JiwaModel\Note[] salesOrderNotesGETManyRequestInvoiceIDNotesGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] salesOrderNotesGETManyRequestInvoiceIDNotesGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a list of sales order notes.
 
@@ -4128,7 +4128,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -4142,7 +4142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPATCHRequestInvoiceIDUpdate**
-> \Jiwa\JiwaModel\SalesOrder salesOrderPATCHRequestInvoiceIDUpdate($accept, $invoice_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body)
+> \Jiwa\Model\SalesOrder salesOrderPATCHRequestInvoiceIDUpdate($accept, $invoice_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body)
 
 Updates a sales order.
 
@@ -4242,7 +4242,7 @@ $payments = "payments_example"; // string |
 $lines = "lines_example"; // string | 
 $histories = "histories_example"; // string | 
 $as_ns = "as_ns_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderPATCHRequest(); // \Jiwa\Model\SalesOrderPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderPATCHRequestInvoiceIDUpdate($accept, $invoice_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body);
@@ -4334,11 +4334,11 @@ Name | Type | Description  | Notes
  **lines** | **string**|  | [optional]
  **histories** | **string**|  | [optional]
  **as_ns** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPATCHRequest**](../Model/SalesOrderPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPATCHRequest**](../Model/SalesOrderPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrder**](../Model/SalesOrder.md)
+[**\Jiwa\Model\SalesOrder**](../Model/SalesOrder.md)
 
 ### Authorization
 
@@ -4352,7 +4352,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPOSTRequestPost**
-> \Jiwa\JiwaModel\SalesOrder salesOrderPOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body)
+> \Jiwa\Model\SalesOrder salesOrderPOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body)
 
 Creates a new sales order.
 
@@ -4450,7 +4450,7 @@ $payments = "payments_example"; // string |
 $lines = "lines_example"; // string | 
 $histories = "histories_example"; // string | 
 $as_ns = "as_ns_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderPOSTRequest(); // \Jiwa\Model\SalesOrderPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderPOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $initiated_date, $invoice_init_date, $sales_order_type, $order_type, $status, $edi_status, $bill_type, $expected_delivery_date, $delivered_date, $delivered, $edi_pick_status, $edi_order_type, $edi_deliver_not_before_date, $edi_deliver_not_after_date, $cash_sales, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $rcti_amount, $rcti_date, $job_costing, $invoice_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $credit_note, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_description, $branch_name, $order_no, $so_reference, $sender_edi_address, $receiver_edi_address, $edi_vendor_number, $edi_buyer_number, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $ediasn, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $rcti_no, $custom_field_values, $notes, $documents, $payments, $lines, $histories, $as_ns, $body);
@@ -4540,11 +4540,11 @@ Name | Type | Description  | Notes
  **lines** | **string**|  | [optional]
  **histories** | **string**|  | [optional]
  **as_ns** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPOSTRequest**](../Model/SalesOrderPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPOSTRequest**](../Model/SalesOrderPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrder**](../Model/SalesOrder.md)
+[**\Jiwa\Model\SalesOrder**](../Model/SalesOrder.md)
 
 ### Authorization
 
@@ -4558,7 +4558,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPROCESSRequestInvoiceIDProcessGet**
-> \Jiwa\JiwaModel\SalesOrder salesOrderPROCESSRequestInvoiceIDProcessGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrder salesOrderPROCESSRequestInvoiceIDProcessGet($accept, $invoice_id, $jiwa_stateful)
 
 Processes a sales order.
 
@@ -4604,7 +4604,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrder**](../Model/SalesOrder.md)
+[**\Jiwa\Model\SalesOrder**](../Model/SalesOrder.md)
 
 ### Authorization
 
@@ -4618,7 +4618,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentTypesDELETERequestPaymentTypesPaymentTypeIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderPaymentTypesDELETERequestPaymentTypesPaymentTypeIDDelete($accept, $payment_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderPaymentTypesDELETERequestPaymentTypesPaymentTypeIDDelete($accept, $payment_type_id, $jiwa_stateful)
 
 Deletes a payment type
 
@@ -4664,7 +4664,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -4678,7 +4678,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentTypesGETManyRequestPaymentTypesGet**
-> \Jiwa\JiwaModel\PaymentType[] salesOrderPaymentTypesGETManyRequestPaymentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\PaymentType[] salesOrderPaymentTypesGETManyRequestPaymentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of payment types
 
@@ -4722,7 +4722,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PaymentType[]**](../Model/PaymentType.md)
+[**\Jiwa\Model\PaymentType[]**](../Model/PaymentType.md)
 
 ### Authorization
 
@@ -4736,7 +4736,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentTypesGETRequestPaymentTypesPaymentTypeIDGet**
-> \Jiwa\JiwaModel\PaymentType salesOrderPaymentTypesGETRequestPaymentTypesPaymentTypeIDGet($accept, $payment_type_id, $jiwa_stateful)
+> \Jiwa\Model\PaymentType salesOrderPaymentTypesGETRequestPaymentTypesPaymentTypeIDGet($accept, $payment_type_id, $jiwa_stateful)
 
 Retrieves a payment type
 
@@ -4782,7 +4782,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PaymentType**](../Model/PaymentType.md)
+[**\Jiwa\Model\PaymentType**](../Model/PaymentType.md)
 
 ### Authorization
 
@@ -4796,7 +4796,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentTypesPATCHRequestPaymentTypesPaymentTypeIDUpdate**
-> \Jiwa\JiwaModel\PaymentType salesOrderPaymentTypesPATCHRequestPaymentTypesPaymentTypeIDUpdate($accept, $payment_type_id, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body)
+> \Jiwa\Model\PaymentType salesOrderPaymentTypesPATCHRequestPaymentTypesPaymentTypeIDUpdate($accept, $payment_type_id, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body)
 
 Updates a payment type
 
@@ -4830,7 +4830,7 @@ $is_default = true; // bool |
 $is_credit_card = true; // bool | 
 $is_pos = true; // bool | 
 $general_ledger_account = "general_ledger_account_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPaymentTypesPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderPaymentTypesPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderPaymentTypesPATCHRequest(); // \Jiwa\Model\SalesOrderPaymentTypesPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderPaymentTypesPATCHRequestPaymentTypesPaymentTypeIDUpdate($accept, $payment_type_id, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body);
@@ -4856,11 +4856,11 @@ Name | Type | Description  | Notes
  **is_credit_card** | **bool**|  | [optional]
  **is_pos** | **bool**|  | [optional]
  **general_ledger_account** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPaymentTypesPATCHRequest**](../Model/SalesOrderPaymentTypesPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPaymentTypesPATCHRequest**](../Model/SalesOrderPaymentTypesPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PaymentType**](../Model/PaymentType.md)
+[**\Jiwa\Model\PaymentType**](../Model/PaymentType.md)
 
 ### Authorization
 
@@ -4874,7 +4874,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentTypesPOSTRequestPaymentTypesPost**
-> \Jiwa\JiwaModel\PaymentType salesOrderPaymentTypesPOSTRequestPaymentTypesPost($accept, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body)
+> \Jiwa\Model\PaymentType salesOrderPaymentTypesPOSTRequestPaymentTypesPost($accept, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body)
 
 Adds a payment type
 
@@ -4907,7 +4907,7 @@ $is_default = true; // bool |
 $is_credit_card = true; // bool | 
 $is_pos = true; // bool | 
 $general_ledger_account = "general_ledger_account_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPaymentTypesPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderPaymentTypesPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderPaymentTypesPOSTRequest(); // \Jiwa\Model\SalesOrderPaymentTypesPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderPaymentTypesPOSTRequestPaymentTypesPost($accept, $jiwa_stateful, $name, $code, $item_no, $is_enabled, $is_default, $is_credit_card, $is_pos, $general_ledger_account, $body);
@@ -4932,11 +4932,11 @@ Name | Type | Description  | Notes
  **is_credit_card** | **bool**|  | [optional]
  **is_pos** | **bool**|  | [optional]
  **general_ledger_account** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPaymentTypesPOSTRequest**](../Model/SalesOrderPaymentTypesPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPaymentTypesPOSTRequest**](../Model/SalesOrderPaymentTypesPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PaymentType**](../Model/PaymentType.md)
+[**\Jiwa\Model\PaymentType**](../Model/PaymentType.md)
 
 ### Authorization
 
@@ -4950,7 +4950,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentsDELETERequestInvoiceIDPaymentsPaymentIDDelete**
-> \Jiwa\JiwaModel\Object salesOrderPaymentsDELETERequestInvoiceIDPaymentsPaymentIDDelete($accept, $invoice_id, $payment_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesOrderPaymentsDELETERequestInvoiceIDPaymentsPaymentIDDelete($accept, $invoice_id, $payment_id, $jiwa_stateful)
 
 Deletes a payment for a sales order
 
@@ -4998,7 +4998,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -5012,7 +5012,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentsGETManyRequestInvoiceIDPaymentsGet**
-> \Jiwa\JiwaModel\SalesOrderPayment[] salesOrderPaymentsGETManyRequestInvoiceIDPaymentsGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderPayment[] salesOrderPaymentsGETManyRequestInvoiceIDPaymentsGet($accept, $invoice_id, $jiwa_stateful)
 
 Retrieves a list of payments for a sales order
 
@@ -5058,7 +5058,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderPayment[]**](../Model/SalesOrderPayment.md)
+[**\Jiwa\Model\SalesOrderPayment[]**](../Model/SalesOrderPayment.md)
 
 ### Authorization
 
@@ -5072,7 +5072,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentsGETRequestInvoiceIDPaymentsPaymentIDGet**
-> \Jiwa\JiwaModel\SalesOrderPayment salesOrderPaymentsGETRequestInvoiceIDPaymentsPaymentIDGet($accept, $invoice_id, $payment_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrderPayment salesOrderPaymentsGETRequestInvoiceIDPaymentsPaymentIDGet($accept, $invoice_id, $payment_id, $jiwa_stateful)
 
 Retrieves a payment for a sales order
 
@@ -5120,7 +5120,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderPayment**](../Model/SalesOrderPayment.md)
+[**\Jiwa\Model\SalesOrderPayment**](../Model/SalesOrderPayment.md)
 
 ### Authorization
 
@@ -5134,7 +5134,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentsPATCHRequestInvoiceIDPaymentsPaymentIDUpdate**
-> \Jiwa\JiwaModel\SalesOrderPayment salesOrderPaymentsPATCHRequestInvoiceIDPaymentsPaymentIDUpdate($accept, $invoice_id, $payment_id, $jiwa_stateful, $history_no, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body)
+> \Jiwa\Model\SalesOrderPayment salesOrderPaymentsPATCHRequestInvoiceIDPaymentsPaymentIDUpdate($accept, $invoice_id, $payment_id, $jiwa_stateful, $history_no, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body)
 
 Updates a payment for a sales order
 
@@ -5179,7 +5179,7 @@ $bank_name = "bank_name_example"; // string |
 $bsbn = "bsbn_example"; // string | 
 $bank_acc = "bank_acc_example"; // string | 
 $account_name = "account_name_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPaymentsPATCHRequest(); // \Jiwa\JiwaModel\SalesOrderPaymentsPATCHRequest | 
+$body = new \Jiwa\Model\SalesOrderPaymentsPATCHRequest(); // \Jiwa\Model\SalesOrderPaymentsPATCHRequest | 
 
 try {
     $result = $apiInstance->salesOrderPaymentsPATCHRequestInvoiceIDPaymentsPaymentIDUpdate($accept, $invoice_id, $payment_id, $jiwa_stateful, $history_no, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body);
@@ -5216,11 +5216,11 @@ Name | Type | Description  | Notes
  **bsbn** | **string**|  | [optional]
  **bank_acc** | **string**|  | [optional]
  **account_name** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPaymentsPATCHRequest**](../Model/SalesOrderPaymentsPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPaymentsPATCHRequest**](../Model/SalesOrderPaymentsPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderPayment**](../Model/SalesOrderPayment.md)
+[**\Jiwa\Model\SalesOrderPayment**](../Model/SalesOrderPayment.md)
 
 ### Authorization
 
@@ -5234,7 +5234,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderPaymentsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDPaymentsPost**
-> \Jiwa\JiwaModel\SalesOrderPayment salesOrderPaymentsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDPaymentsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body)
+> \Jiwa\Model\SalesOrderPayment salesOrderPaymentsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDPaymentsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body)
 
 Adds a payment to a sales order
 
@@ -5278,7 +5278,7 @@ $bank_name = "bank_name_example"; // string |
 $bsbn = "bsbn_example"; // string | 
 $bank_acc = "bank_acc_example"; // string | 
 $account_name = "account_name_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesOrderPaymentsPOSTRequest(); // \Jiwa\JiwaModel\SalesOrderPaymentsPOSTRequest | 
+$body = new \Jiwa\Model\SalesOrderPaymentsPOSTRequest(); // \Jiwa\Model\SalesOrderPaymentsPOSTRequest | 
 
 try {
     $result = $apiInstance->salesOrderPaymentsPOSTRequestInvoiceIDHistorysInvoiceHistoryIDPaymentsPost($accept, $invoice_id, $invoice_history_id, $jiwa_stateful, $payment_type, $amount_paid, $payment_date, $process_payment, $authorisation_status, $payment_gateway_return_code, $processed, $card_expiry, $payment_ref, $authorisation_number, $payment_gateway_return_message, $card_number, $card_holder, $bank_name, $bsbn, $bank_acc, $account_name, $body);
@@ -5314,11 +5314,11 @@ Name | Type | Description  | Notes
  **bsbn** | **string**|  | [optional]
  **bank_acc** | **string**|  | [optional]
  **account_name** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesOrderPaymentsPOSTRequest**](../Model/SalesOrderPaymentsPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesOrderPaymentsPOSTRequest**](../Model/SalesOrderPaymentsPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrderPayment**](../Model/SalesOrderPayment.md)
+[**\Jiwa\Model\SalesOrderPayment**](../Model/SalesOrderPayment.md)
 
 ### Authorization
 
@@ -5332,7 +5332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrderSAVERequestInvoiceIDSaveGet**
-> \Jiwa\JiwaModel\SalesOrder salesOrderSAVERequestInvoiceIDSaveGet($accept, $invoice_id, $jiwa_stateful)
+> \Jiwa\Model\SalesOrder salesOrderSAVERequestInvoiceIDSaveGet($accept, $invoice_id, $jiwa_stateful)
 
 Saves a stateful sales order.
 
@@ -5378,7 +5378,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesOrder**](../Model/SalesOrder.md)
+[**\Jiwa\Model\SalesOrder**](../Model/SalesOrder.md)
 
 ### Authorization
 

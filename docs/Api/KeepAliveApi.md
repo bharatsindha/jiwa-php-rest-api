@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **keepAliveGETRequestGet**
-> \Jiwa\JiwaModel\Object keepAliveGETRequestGet($accept, $jiwa_stateful)
+> \Jiwa\Model\Object keepAliveGETRequestGet($accept, $jiwa_stateful)
 
 Extends an authenticated users session
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 

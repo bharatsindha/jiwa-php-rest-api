@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -58,7 +58,7 @@ class WebhookSubscriber implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'subscriptions' => '\Jiwa\JiwaModel\SYWebhookSubscription[]',
+        'subscriptions' => '\Jiwa\Model\SYWebhookSubscription[]',
         'rec_id' => 'string',
         'name' => 'string',
         'is_enabled' => 'bool',
@@ -244,7 +244,7 @@ class WebhookSubscriber implements ModelInterface, ArrayAccess
     /**
      * Gets subscriptions
      *
-     * @return \Jiwa\JiwaModel\SYWebhookSubscription[]
+     * @return \Jiwa\Model\SYWebhookSubscription[]
      */
     public function getSubscriptions()
     {
@@ -254,7 +254,7 @@ class WebhookSubscriber implements ModelInterface, ArrayAccess
     /**
      * Sets subscriptions
      *
-     * @param \Jiwa\JiwaModel\SYWebhookSubscription[] $subscriptions subscriptions
+     * @param \Jiwa\Model\SYWebhookSubscription[] $subscriptions subscriptions
      *
      * @return $this
      */

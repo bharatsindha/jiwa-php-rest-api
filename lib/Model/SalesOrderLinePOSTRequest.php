@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -71,7 +71,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
         'price_inc_gst' => 'double',
         'discounted_price' => 'double',
         'tax_to_charge' => 'double',
-        'tax_rate' => '\Jiwa\JiwaModel\TaxRate',
+        'tax_rate' => '\Jiwa\Model\TaxRate',
         'unit_cost' => 'double',
         'fix_sell_price' => 'bool',
         'fix_price' => 'bool',
@@ -101,10 +101,10 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
         'edidc_location_code' => 'string',
         'cost_center' => 'string',
         'stage' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'line_details' => '\Jiwa\JiwaModel\SalesOrderLineDetail[]',
-        'shipping_labels' => '\Jiwa\JiwaModel\SalesOrderShippingLabel[]',
-        'unit_of_measure' => '\Jiwa\JiwaModel\InventoryUnitOfMeasure',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'line_details' => '\Jiwa\Model\SalesOrderLineDetail[]',
+        'shipping_labels' => '\Jiwa\Model\SalesOrderShippingLabel[]',
+        'unit_of_measure' => '\Jiwa\Model\InventoryUnitOfMeasure',
         'kit_line_type' => 'string',
         'kit_units' => 'double',
         'kit_header_line_id' => 'string'
@@ -814,7 +814,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rate
      *
-     * @return \Jiwa\JiwaModel\TaxRate
+     * @return \Jiwa\Model\TaxRate
      */
     public function getTaxRate()
     {
@@ -824,7 +824,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rate
      *
-     * @param \Jiwa\JiwaModel\TaxRate $tax_rate tax_rate
+     * @param \Jiwa\Model\TaxRate $tax_rate tax_rate
      *
      * @return $this
      */
@@ -1534,7 +1534,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1544,7 +1544,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -1558,7 +1558,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\SalesOrderLineDetail[]
+     * @return \Jiwa\Model\SalesOrderLineDetail[]
      */
     public function getLineDetails()
     {
@@ -1568,7 +1568,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\SalesOrderLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\SalesOrderLineDetail[] $line_details line_details
      *
      * @return $this
      */
@@ -1582,7 +1582,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_labels
      *
-     * @return \Jiwa\JiwaModel\SalesOrderShippingLabel[]
+     * @return \Jiwa\Model\SalesOrderShippingLabel[]
      */
     public function getShippingLabels()
     {
@@ -1592,7 +1592,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_labels
      *
-     * @param \Jiwa\JiwaModel\SalesOrderShippingLabel[] $shipping_labels shipping_labels
+     * @param \Jiwa\Model\SalesOrderShippingLabel[] $shipping_labels shipping_labels
      *
      * @return $this
      */
@@ -1606,7 +1606,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets unit_of_measure
      *
-     * @return \Jiwa\JiwaModel\InventoryUnitOfMeasure
+     * @return \Jiwa\Model\InventoryUnitOfMeasure
      */
     public function getUnitOfMeasure()
     {
@@ -1616,7 +1616,7 @@ class SalesOrderLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets unit_of_measure
      *
-     * @param \Jiwa\JiwaModel\InventoryUnitOfMeasure $unit_of_measure unit_of_measure
+     * @param \Jiwa\Model\InventoryUnitOfMeasure $unit_of_measure unit_of_measure
      *
      * @return $this
      */

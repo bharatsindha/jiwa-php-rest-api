@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **userSettingPOSTRequestPost**
-> \Jiwa\JiwaModel\Object userSettingPOSTRequestPost($accept, $jiwa_stateful, $section, $id_key, $contents, $body)
+> \Jiwa\Model\Object userSettingPOSTRequestPost($accept, $jiwa_stateful, $section, $id_key, $contents, $body)
 
 Creates or updates a user setting for the currently logged in user.
 
@@ -37,7 +37,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $section = "section_example"; // string | 
 $id_key = "id_key_example"; // string | 
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\UserSettingPOSTRequest(); // \Jiwa\JiwaModel\UserSettingPOSTRequest | 
+$body = new \Jiwa\Model\UserSettingPOSTRequest(); // \Jiwa\Model\UserSettingPOSTRequest | 
 
 try {
     $result = $apiInstance->userSettingPOSTRequestPost($accept, $jiwa_stateful, $section, $id_key, $contents, $body);
@@ -57,11 +57,11 @@ Name | Type | Description  | Notes
  **section** | **string**|  | [optional]
  **id_key** | **string**|  | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\UserSettingPOSTRequest**](../Model/UserSettingPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\UserSettingPOSTRequest**](../Model/UserSettingPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -75,7 +75,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **userSettingsGETManyRequestGet**
-> \Jiwa\JiwaModel\QueryResponseSYUserProfile_ userSettingsGETManyRequestGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseSYUserProfile_ userSettingsGETManyRequestGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retreives a list of user settings for the currently logged in user.
 
@@ -133,7 +133,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseSYUserProfile_**](../Model/QueryResponseSYUserProfile_.md)
+[**\Jiwa\Model\QueryResponseSYUserProfile_**](../Model/QueryResponseSYUserProfile_.md)
 
 ### Authorization
 

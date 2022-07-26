@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -73,10 +73,10 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
         'repeating_will_end' => 'bool',
         'repeating_end_date' => '\DateTime',
         'last_saved_date_time' => '\DateTime',
-        'staff' => '\Jiwa\JiwaModel\StaffMember',
-        'lines' => '\Jiwa\JiwaModel\JournalSetLine[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
+        'staff' => '\Jiwa\Model\StaffMember',
+        'lines' => '\Jiwa\Model\JournalSetLine[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
         'posted_to_period_no' => 'int',
         'posted_to_period_name' => 'string',
         'posted_to_year_type' => 'string',
@@ -712,7 +712,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets staff
      *
-     * @return \Jiwa\JiwaModel\StaffMember
+     * @return \Jiwa\Model\StaffMember
      */
     public function getStaff()
     {
@@ -722,7 +722,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets staff
      *
-     * @param \Jiwa\JiwaModel\StaffMember $staff staff
+     * @param \Jiwa\Model\StaffMember $staff staff
      *
      * @return $this
      */
@@ -736,7 +736,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\JournalSetLine[]
+     * @return \Jiwa\Model\JournalSetLine[]
      */
     public function getLines()
     {
@@ -746,7 +746,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\JournalSetLine[] $lines lines
+     * @param \Jiwa\Model\JournalSetLine[] $lines lines
      *
      * @return $this
      */
@@ -760,7 +760,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -770,7 +770,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -784,7 +784,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -794,7 +794,7 @@ class JournalSetPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */

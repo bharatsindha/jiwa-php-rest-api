@@ -20,7 +20,7 @@ Method | HTTP request | Description
 
 
 # **warehouseTransferOutABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object warehouseTransferOutABANDONRequestAbandonDelete($accept, $jiwa_stateful, $warehouse_transfer_out_id)
+> \Jiwa\Model\Object warehouseTransferOutABANDONRequestAbandonDelete($accept, $jiwa_stateful, $warehouse_transfer_out_id)
 
 Abandons a stateful warehouse transfer out.
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -80,7 +80,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutACTIVATERequestActivateWarehouseTransferOutIDPost**
-> \Jiwa\JiwaModel\WarehouseTransferOut warehouseTransferOutACTIVATERequestActivateWarehouseTransferOutIDPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $body)
+> \Jiwa\Model\WarehouseTransferOut warehouseTransferOutACTIVATERequestActivateWarehouseTransferOutIDPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $body)
 
 Activates a warehouse transfer out.
 
@@ -106,7 +106,7 @@ $apiInstance = new Jiwa\Api\WarehouseTransfersOutApi(
 $accept = "accept_example"; // string | Accept Header
 $warehouse_transfer_out_id = "warehouse_transfer_out_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\WarehouseTransferOutACTIVATERequest(); // \Jiwa\JiwaModel\WarehouseTransferOutACTIVATERequest | 
+$body = new \Jiwa\Model\WarehouseTransferOutACTIVATERequest(); // \Jiwa\Model\WarehouseTransferOutACTIVATERequest | 
 
 try {
     $result = $apiInstance->warehouseTransferOutACTIVATERequestActivateWarehouseTransferOutIDPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $body);
@@ -124,11 +124,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **warehouse_transfer_out_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferOutACTIVATERequest**](../Model/WarehouseTransferOutACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferOutACTIVATERequest**](../Model/WarehouseTransferOutACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
+[**\Jiwa\Model\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
 
 ### Authorization
 
@@ -142,7 +142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutCANCELRequestWarehouseTransferOutIDDelete**
-> \Jiwa\JiwaModel\Object warehouseTransferOutCANCELRequestWarehouseTransferOutIDDelete($accept, $warehouse_transfer_out_id, $jiwa_stateful)
+> \Jiwa\Model\Object warehouseTransferOutCANCELRequestWarehouseTransferOutIDDelete($accept, $warehouse_transfer_out_id, $jiwa_stateful)
 
 Cancels a warehouse transfer out.
 
@@ -188,7 +188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -202,7 +202,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutGETRequestWarehouseTransferOutIDGet**
-> \Jiwa\JiwaModel\WarehouseTransferOut warehouseTransferOutGETRequestWarehouseTransferOutIDGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferOut warehouseTransferOutGETRequestWarehouseTransferOutIDGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
 
 Retrieves a warehouse transfer out.
 
@@ -248,7 +248,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
+[**\Jiwa\Model\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
 
 ### Authorization
 
@@ -262,7 +262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutLineDELETERequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDDelete**
-> \Jiwa\JiwaModel\Object warehouseTransferOutLineDELETERequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDDelete($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details)
+> \Jiwa\Model\Object warehouseTransferOutLineDELETERequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDDelete($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details)
 
 Deletes a line from a warehouse transfer out.
 
@@ -360,7 +360,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -374,7 +374,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutLineGETRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDGet**
-> \Jiwa\JiwaModel\WarehouseTransferOutLine warehouseTransferOutLineGETRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDGet($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferOutLine warehouseTransferOutLineGETRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDGet($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful)
 
 Retrieves a warehouse transfer out line.
 
@@ -422,7 +422,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
+[**\Jiwa\Model\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
 
 ### Authorization
 
@@ -436,7 +436,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutLinePATCHRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDUpdate**
-> \Jiwa\JiwaModel\WarehouseTransferOutLine warehouseTransferOutLinePATCHRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDUpdate($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
+> \Jiwa\Model\WarehouseTransferOutLine warehouseTransferOutLinePATCHRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDUpdate($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
 
 Updates a line for a warehouse transfer out.
 
@@ -488,7 +488,7 @@ $added_cost_ledger3_rec_id = "added_cost_ledger3_rec_id_example"; // string |
 $added_cost_ledger3_account_no = "added_cost_ledger3_account_no_example"; // string | 
 $added_cost_ledger3_description = "added_cost_ledger3_description_example"; // string | 
 $line_details = "line_details_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferOutLinePATCHRequest(); // \Jiwa\JiwaModel\WarehouseTransferOutLinePATCHRequest | 
+$body = new \Jiwa\Model\WarehouseTransferOutLinePATCHRequest(); // \Jiwa\Model\WarehouseTransferOutLinePATCHRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferOutLinePATCHRequestWarehouseTransferOutIDLinesWarehouseTransferOutLineIDUpdate($accept, $warehouse_transfer_out_id, $warehouse_transfer_out_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body);
@@ -532,11 +532,11 @@ Name | Type | Description  | Notes
  **added_cost_ledger3_account_no** | **string**|  | [optional]
  **added_cost_ledger3_description** | **string**|  | [optional]
  **line_details** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferOutLinePATCHRequest**](../Model/WarehouseTransferOutLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferOutLinePATCHRequest**](../Model/WarehouseTransferOutLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
+[**\Jiwa\Model\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
 
 ### Authorization
 
@@ -550,7 +550,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutLinePOSTRequestWarehouseTransferOutIDLinesPost**
-> \Jiwa\JiwaModel\WarehouseTransferOutLine warehouseTransferOutLinePOSTRequestWarehouseTransferOutIDLinesPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
+> \Jiwa\Model\WarehouseTransferOutLine warehouseTransferOutLinePOSTRequestWarehouseTransferOutIDLinesPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body)
 
 Appends a line to a warehouse transfer out.
 
@@ -601,7 +601,7 @@ $added_cost_ledger3_rec_id = "added_cost_ledger3_rec_id_example"; // string |
 $added_cost_ledger3_account_no = "added_cost_ledger3_account_no_example"; // string | 
 $added_cost_ledger3_description = "added_cost_ledger3_description_example"; // string | 
 $line_details = "line_details_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferOutLinePOSTRequest(); // \Jiwa\JiwaModel\WarehouseTransferOutLinePOSTRequest | 
+$body = new \Jiwa\Model\WarehouseTransferOutLinePOSTRequest(); // \Jiwa\Model\WarehouseTransferOutLinePOSTRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferOutLinePOSTRequestWarehouseTransferOutIDLinesPost($accept, $warehouse_transfer_out_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $decimal_places, $quantity_wanted, $quantity_transferred, $quantity_back_ordered, $cost, $ref, $back_order_id, $purchase_order_id, $purchase_order_line_id, $total_cost_transferred, $total_cost_received, $added_cost_ledger1_rec_id, $added_cost_ledger1_account_no, $added_cost_ledger1_description, $added_cost_ledger2_rec_id, $added_cost_ledger2_account_no, $added_cost_ledger2_description, $added_cost_ledger3_rec_id, $added_cost_ledger3_account_no, $added_cost_ledger3_description, $line_details, $body);
@@ -644,11 +644,11 @@ Name | Type | Description  | Notes
  **added_cost_ledger3_account_no** | **string**|  | [optional]
  **added_cost_ledger3_description** | **string**|  | [optional]
  **line_details** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferOutLinePOSTRequest**](../Model/WarehouseTransferOutLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferOutLinePOSTRequest**](../Model/WarehouseTransferOutLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
+[**\Jiwa\Model\WarehouseTransferOutLine**](../Model/WarehouseTransferOutLine.md)
 
 ### Authorization
 
@@ -662,7 +662,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutLinesGETManyRequestWarehouseTransferOutIDLinesGet**
-> \Jiwa\JiwaModel\WarehouseTransferOutLine[] warehouseTransferOutLinesGETManyRequestWarehouseTransferOutIDLinesGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferOutLine[] warehouseTransferOutLinesGETManyRequestWarehouseTransferOutIDLinesGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
 
 Retrieves a list of warehouse transfer out lines.
 
@@ -708,7 +708,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOutLine[]**](../Model/WarehouseTransferOutLine.md)
+[**\Jiwa\Model\WarehouseTransferOutLine[]**](../Model/WarehouseTransferOutLine.md)
 
 ### Authorization
 
@@ -722,7 +722,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutPATCHRequestWarehouseTransferOutIDUpdate**
-> \Jiwa\JiwaModel\WarehouseTransferOut warehouseTransferOutPATCHRequestWarehouseTransferOutIDUpdate($accept, $warehouse_transfer_out_id, $jiwa_stateful, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
+> \Jiwa\Model\WarehouseTransferOut warehouseTransferOutPATCHRequestWarehouseTransferOutIDUpdate($accept, $warehouse_transfer_out_id, $jiwa_stateful, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
 
 Updates a warehouse transfer out.
 
@@ -790,7 +790,7 @@ $transferred_cost = 1.2; // double |
 $total_cost = 1.2; // double | 
 $receive_ins = "receive_ins_example"; // string | 
 $lines = "lines_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferOutPATCHRequest(); // \Jiwa\JiwaModel\WarehouseTransferOutPATCHRequest | 
+$body = new \Jiwa\Model\WarehouseTransferOutPATCHRequest(); // \Jiwa\Model\WarehouseTransferOutPATCHRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferOutPATCHRequestWarehouseTransferOutIDUpdate($accept, $warehouse_transfer_out_id, $jiwa_stateful, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_id, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body);
@@ -850,11 +850,11 @@ Name | Type | Description  | Notes
  **total_cost** | **double**|  | [optional]
  **receive_ins** | **string**|  | [optional]
  **lines** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferOutPATCHRequest**](../Model/WarehouseTransferOutPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferOutPATCHRequest**](../Model/WarehouseTransferOutPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
+[**\Jiwa\Model\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
 
 ### Authorization
 
@@ -868,7 +868,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutPOSTRequestPost**
-> \Jiwa\JiwaModel\WarehouseTransferOut warehouseTransferOutPOSTRequestPost($accept, $jiwa_stateful, $destination_warehouse_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
+> \Jiwa\Model\WarehouseTransferOut warehouseTransferOutPOSTRequestPost($accept, $jiwa_stateful, $destination_warehouse_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body)
 
 Creates a warehouse transfer out.
 
@@ -935,7 +935,7 @@ $transferred_cost = 1.2; // double |
 $total_cost = 1.2; // double | 
 $receive_ins = "receive_ins_example"; // string | 
 $lines = "lines_example"; // string | 
-$body = new \Jiwa\JiwaModel\WarehouseTransferOutPOSTRequest(); // \Jiwa\JiwaModel\WarehouseTransferOutPOSTRequest | 
+$body = new \Jiwa\Model\WarehouseTransferOutPOSTRequest(); // \Jiwa\Model\WarehouseTransferOutPOSTRequest | 
 
 try {
     $result = $apiInstance->warehouseTransferOutPOSTRequestPost($accept, $jiwa_stateful, $destination_warehouse_id, $last_saved_date_time, $transfer_date, $activated_date, $status, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $source, $source_type, $source_id, $source_no, $notes, $source_warehouse_id, $source_warehouse_logical_description, $source_warehouse_physical_description, $source_warehouse_mask, $destination_warehouse_logical_description, $destination_warehouse_physical_description, $destination_warehouse_mask, $transfer_no, $use_in_transit, $transit_notes, $in_transit_warehouse_id, $in_transit_warehouse_logical_description, $in_transit_warehouse_physical_description, $in_transit_warehouse_mask, $added_cost1, $added_cost2, $added_cost3, $picked_by_staff_id, $picked_by_staff_user_name, $picked_by_staff_title, $picked_by_staff_first_name, $picked_by_staff_surname, $added_cost_method_name, $transferred_cost, $total_cost, $receive_ins, $lines, $body);
@@ -994,11 +994,11 @@ Name | Type | Description  | Notes
  **total_cost** | **double**|  | [optional]
  **receive_ins** | **string**|  | [optional]
  **lines** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WarehouseTransferOutPOSTRequest**](../Model/WarehouseTransferOutPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WarehouseTransferOutPOSTRequest**](../Model/WarehouseTransferOutPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
+[**\Jiwa\Model\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
 
 ### Authorization
 
@@ -1012,7 +1012,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutReceiveInsGETManyRequestWarehouseTransferOutIDReceiveInsGet**
-> \Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[] warehouseTransferOutReceiveInsGETManyRequestWarehouseTransferOutIDReceiveInsGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
+> \Jiwa\Model\WarehouseTransferOutReceiveIn[] warehouseTransferOutReceiveInsGETManyRequestWarehouseTransferOutIDReceiveInsGet($accept, $warehouse_transfer_out_id, $jiwa_stateful)
 
 Retrieves a list of warehouse transfer out receive ins.
 
@@ -1058,7 +1058,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[]**](../Model/WarehouseTransferOutReceiveIn.md)
+[**\Jiwa\Model\WarehouseTransferOutReceiveIn[]**](../Model/WarehouseTransferOutReceiveIn.md)
 
 ### Authorization
 
@@ -1072,7 +1072,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **warehouseTransferOutSAVERequestSaveGet**
-> \Jiwa\JiwaModel\WarehouseTransferOut warehouseTransferOutSAVERequestSaveGet($accept, $jiwa_stateful, $warehouse_transfer_out_id)
+> \Jiwa\Model\WarehouseTransferOut warehouseTransferOutSAVERequestSaveGet($accept, $jiwa_stateful, $warehouse_transfer_out_id)
 
 Saves a stateful stateful warehouse transfer out.
 
@@ -1118,7 +1118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
+[**\Jiwa\Model\WarehouseTransferOut**](../Model/WarehouseTransferOut.md)
 
 ### Authorization
 

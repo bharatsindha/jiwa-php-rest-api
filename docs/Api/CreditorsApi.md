@@ -24,7 +24,7 @@ Method | HTTP request | Description
 
 
 # **creditorABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object creditorABANDONRequestAbandonDelete($accept, $jiwa_stateful, $creditor_id)
+> \Jiwa\Model\Object creditorABANDONRequestAbandonDelete($accept, $jiwa_stateful, $creditor_id)
 
 Abandons a stateful creditor.
 
@@ -70,7 +70,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -84,7 +84,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationABANDONRequestClassificationsAbandonDelete**
-> \Jiwa\JiwaModel\Object creditorClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $classification_id)
+> \Jiwa\Model\Object creditorClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $classification_id)
 
 Abandons a stateful creditor classification.
 
@@ -130,7 +130,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationDELETERequestClassificationsClassificationIDDelete**
-> \Jiwa\JiwaModel\Object creditorClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\Object creditorClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
 
 Deletes a creditor classification.
 
@@ -190,7 +190,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -204,7 +204,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationGETRequestClassificationsClassificationIDGet**
-> \Jiwa\JiwaModel\CreditorClassification creditorClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\CreditorClassification creditorClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
 
 Retrieves a creditor classification.
 
@@ -250,7 +250,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorClassification**](../Model/CreditorClassification.md)
+[**\Jiwa\Model\CreditorClassification**](../Model/CreditorClassification.md)
 
 ### Authorization
 
@@ -264,7 +264,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationPATCHRequestClassificationsClassificationIDUpdate**
-> \Jiwa\JiwaModel\CreditorClassification creditorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body)
+> \Jiwa\Model\CreditorClassification creditorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body)
 
 Updates a creditor classification.
 
@@ -299,7 +299,7 @@ $po_workflows_rec_id = "po_workflows_rec_id_example"; // string |
 $po_workflows_name = "po_workflows_name_example"; // string | 
 $po_workflows_description = "po_workflows_description_example"; // string | 
 $creditor_ledgers = "creditor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\CreditorClassificationPATCHRequest(); // \Jiwa\JiwaModel\CreditorClassificationPATCHRequest | 
+$body = new \Jiwa\Model\CreditorClassificationPATCHRequest(); // \Jiwa\Model\CreditorClassificationPATCHRequest | 
 
 try {
     $result = $apiInstance->creditorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body);
@@ -326,11 +326,11 @@ Name | Type | Description  | Notes
  **po_workflows_name** | **string**|  | [optional]
  **po_workflows_description** | **string**|  | [optional]
  **creditor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorClassificationPATCHRequest**](../Model/CreditorClassificationPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorClassificationPATCHRequest**](../Model/CreditorClassificationPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorClassification**](../Model/CreditorClassification.md)
+[**\Jiwa\Model\CreditorClassification**](../Model/CreditorClassification.md)
 
 ### Authorization
 
@@ -344,7 +344,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationPOSTRequestClassificationsPost**
-> \Jiwa\JiwaModel\CreditorClassification creditorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body)
+> \Jiwa\Model\CreditorClassification creditorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body)
 
 Creates a creditor classification.
 
@@ -377,7 +377,7 @@ $po_workflows_rec_id = "po_workflows_rec_id_example"; // string |
 $po_workflows_name = "po_workflows_name_example"; // string | 
 $po_workflows_description = "po_workflows_description_example"; // string | 
 $creditor_ledgers = "creditor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\CreditorClassificationPOSTRequest(); // \Jiwa\JiwaModel\CreditorClassificationPOSTRequest | 
+$body = new \Jiwa\Model\CreditorClassificationPOSTRequest(); // \Jiwa\Model\CreditorClassificationPOSTRequest | 
 
 try {
     $result = $apiInstance->creditorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $po_workflows_rec_id, $po_workflows_name, $po_workflows_description, $creditor_ledgers, $body);
@@ -402,11 +402,11 @@ Name | Type | Description  | Notes
  **po_workflows_name** | **string**|  | [optional]
  **po_workflows_description** | **string**|  | [optional]
  **creditor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorClassificationPOSTRequest**](../Model/CreditorClassificationPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorClassificationPOSTRequest**](../Model/CreditorClassificationPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorClassification**](../Model/CreditorClassification.md)
+[**\Jiwa\Model\CreditorClassification**](../Model/CreditorClassification.md)
 
 ### Authorization
 
@@ -420,7 +420,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorClassificationSAVERequestClassificationsSaveGet**
-> \Jiwa\JiwaModel\CreditorClassification creditorClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $classification_id)
+> \Jiwa\Model\CreditorClassification creditorClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $classification_id)
 
 Saves a stateful creditor classification.
 
@@ -466,7 +466,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorClassification**](../Model/CreditorClassification.md)
+[**\Jiwa\Model\CreditorClassification**](../Model/CreditorClassification.md)
 
 ### Authorization
 
@@ -480,7 +480,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorDELETERequestCreditorIDDelete**
-> \Jiwa\JiwaModel\Object creditorDELETERequestCreditorIDDelete($accept, $creditor_id, $jiwa_stateful)
+> \Jiwa\Model\Object creditorDELETERequestCreditorIDDelete($accept, $creditor_id, $jiwa_stateful)
 
 Deletes a creditor.
 
@@ -526,7 +526,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -540,7 +540,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorGETRequestCreditorIDGet**
-> \Jiwa\JiwaModel\Creditor creditorGETRequestCreditorIDGet($accept, $creditor_id, $jiwa_stateful)
+> \Jiwa\Model\Creditor creditorGETRequestCreditorIDGet($accept, $creditor_id, $jiwa_stateful)
 
 Retrieves a creditor.
 
@@ -586,7 +586,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Creditor**](../Model/Creditor.md)
+[**\Jiwa\Model\Creditor**](../Model/Creditor.md)
 
 ### Authorization
 
@@ -600,7 +600,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorPATCHRequestCreditorIDUpdate**
-> \Jiwa\JiwaModel\Creditor creditorPATCHRequestCreditorIDUpdate($accept, $creditor_id, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $last_saved_date_time, $body)
+> \Jiwa\Model\Creditor creditorPATCHRequestCreditorIDUpdate($accept, $creditor_id, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $last_saved_date_time, $body)
 
 Updates a creditor.
 
@@ -631,7 +631,7 @@ $alt_account_no = "alt_account_no_example"; // string |
 $name = "name_example"; // string | 
 $warehouse_addresses = "warehouse_addresses_example"; // string | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\CreditorPATCHRequest(); // \Jiwa\JiwaModel\CreditorPATCHRequest | 
+$body = new \Jiwa\Model\CreditorPATCHRequest(); // \Jiwa\Model\CreditorPATCHRequest | 
 
 try {
     $result = $apiInstance->creditorPATCHRequestCreditorIDUpdate($accept, $creditor_id, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $last_saved_date_time, $body);
@@ -654,11 +654,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **warehouse_addresses** | **string**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorPATCHRequest**](../Model/CreditorPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorPATCHRequest**](../Model/CreditorPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Creditor**](../Model/Creditor.md)
+[**\Jiwa\Model\Creditor**](../Model/Creditor.md)
 
 ### Authorization
 
@@ -672,7 +672,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorPOSTRequestPost**
-> \Jiwa\JiwaModel\Creditor creditorPOSTRequestPost($accept, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $body)
+> \Jiwa\Model\Creditor creditorPOSTRequestPost($accept, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $body)
 
 Creates a creditor.
 
@@ -701,7 +701,7 @@ $account_no = "account_no_example"; // string |
 $alt_account_no = "alt_account_no_example"; // string | 
 $name = "name_example"; // string | 
 $warehouse_addresses = "warehouse_addresses_example"; // string | 
-$body = new \Jiwa\JiwaModel\CreditorPOSTRequest(); // \Jiwa\JiwaModel\CreditorPOSTRequest | 
+$body = new \Jiwa\Model\CreditorPOSTRequest(); // \Jiwa\Model\CreditorPOSTRequest | 
 
 try {
     $result = $apiInstance->creditorPOSTRequestPost($accept, $jiwa_stateful, $account_no, $alt_account_no, $name, $warehouse_addresses, $body);
@@ -722,11 +722,11 @@ Name | Type | Description  | Notes
  **alt_account_no** | **string**|  | [optional]
  **name** | **string**|  | [optional]
  **warehouse_addresses** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorPOSTRequest**](../Model/CreditorPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorPOSTRequest**](../Model/CreditorPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Creditor**](../Model/Creditor.md)
+[**\Jiwa\Model\Creditor**](../Model/Creditor.md)
 
 ### Authorization
 
@@ -740,7 +740,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorSAVERequestSaveGet**
-> \Jiwa\JiwaModel\Creditor creditorSAVERequestSaveGet($accept, $jiwa_stateful, $creditor_id)
+> \Jiwa\Model\Creditor creditorSAVERequestSaveGet($accept, $jiwa_stateful, $creditor_id)
 
 Saves a stateful creditor.
 
@@ -786,7 +786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Creditor**](../Model/Creditor.md)
+[**\Jiwa\Model\Creditor**](../Model/Creditor.md)
 
 ### Authorization
 
@@ -800,7 +800,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorWarehouseAddressDELETERequestCreditorIDWarehouseAddressWarehouseAddressIDDelete**
-> \Jiwa\JiwaModel\Object creditorWarehouseAddressDELETERequestCreditorIDWarehouseAddressWarehouseAddressIDDelete($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default)
+> \Jiwa\Model\Object creditorWarehouseAddressDELETERequestCreditorIDWarehouseAddressWarehouseAddressIDDelete($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default)
 
 Deletes a warehouse address from a creditor.
 
@@ -870,7 +870,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -884,7 +884,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorWarehouseAddressGETRequestCreditorIDWarehouseAddressWarehouseAddressIDGet**
-> \Jiwa\JiwaModel\CreditorWarehouseAddress creditorWarehouseAddressGETRequestCreditorIDWarehouseAddressWarehouseAddressIDGet($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful)
+> \Jiwa\Model\CreditorWarehouseAddress creditorWarehouseAddressGETRequestCreditorIDWarehouseAddressWarehouseAddressIDGet($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful)
 
 Retrieves a creditor warehouse address.
 
@@ -932,7 +932,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
+[**\Jiwa\Model\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
 
 ### Authorization
 
@@ -946,7 +946,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorWarehouseAddressPATCHRequestCreditorIDWarehouseAddressWarehouseAddressIDUpdate**
-> \Jiwa\JiwaModel\CreditorWarehouseAddress creditorWarehouseAddressPATCHRequestCreditorIDWarehouseAddressWarehouseAddressIDUpdate($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body)
+> \Jiwa\Model\CreditorWarehouseAddress creditorWarehouseAddressPATCHRequestCreditorIDWarehouseAddressWarehouseAddressIDUpdate($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body)
 
 Updates a warehouse address for a creditor.
 
@@ -984,7 +984,7 @@ $notes = "notes_example"; // string |
 $courier_details = "courier_details_example"; // string | 
 $default_delivery_days = 56; // int | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\CreditorWarehouseAddressPATCHRequest(); // \Jiwa\JiwaModel\CreditorWarehouseAddressPATCHRequest | 
+$body = new \Jiwa\Model\CreditorWarehouseAddressPATCHRequest(); // \Jiwa\Model\CreditorWarehouseAddressPATCHRequest | 
 
 try {
     $result = $apiInstance->creditorWarehouseAddressPATCHRequestCreditorIDWarehouseAddressWarehouseAddressIDUpdate($accept, $creditor_id, $warehouse_address_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body);
@@ -1014,11 +1014,11 @@ Name | Type | Description  | Notes
  **courier_details** | **string**|  | [optional]
  **default_delivery_days** | **int**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorWarehouseAddressPATCHRequest**](../Model/CreditorWarehouseAddressPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorWarehouseAddressPATCHRequest**](../Model/CreditorWarehouseAddressPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
+[**\Jiwa\Model\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
 
 ### Authorization
 
@@ -1032,7 +1032,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorWarehouseAddressPOSTRequestCreditorIDWarehouseAddressPost**
-> \Jiwa\JiwaModel\CreditorWarehouseAddress creditorWarehouseAddressPOSTRequestCreditorIDWarehouseAddressPost($accept, $creditor_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body)
+> \Jiwa\Model\CreditorWarehouseAddress creditorWarehouseAddressPOSTRequestCreditorIDWarehouseAddressPost($accept, $creditor_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body)
 
 Appends a warehouse to a creditor.
 
@@ -1069,7 +1069,7 @@ $notes = "notes_example"; // string |
 $courier_details = "courier_details_example"; // string | 
 $default_delivery_days = 56; // int | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\CreditorWarehouseAddressPOSTRequest(); // \Jiwa\JiwaModel\CreditorWarehouseAddressPOSTRequest | 
+$body = new \Jiwa\Model\CreditorWarehouseAddressPOSTRequest(); // \Jiwa\Model\CreditorWarehouseAddressPOSTRequest | 
 
 try {
     $result = $apiInstance->creditorWarehouseAddressPOSTRequestCreditorIDWarehouseAddressPost($accept, $creditor_id, $jiwa_stateful, $description, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $default_delivery_days, $is_default, $body);
@@ -1098,11 +1098,11 @@ Name | Type | Description  | Notes
  **courier_details** | **string**|  | [optional]
  **default_delivery_days** | **int**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CreditorWarehouseAddressPOSTRequest**](../Model/CreditorWarehouseAddressPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CreditorWarehouseAddressPOSTRequest**](../Model/CreditorWarehouseAddressPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
+[**\Jiwa\Model\CreditorWarehouseAddress**](../Model/CreditorWarehouseAddress.md)
 
 ### Authorization
 
@@ -1116,7 +1116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **creditorWarehouseAddressesGETManyRequestCreditorIDWarehouseAddressesGet**
-> \Jiwa\JiwaModel\CreditorWarehouseAddress[] creditorWarehouseAddressesGETManyRequestCreditorIDWarehouseAddressesGet($accept, $creditor_id, $jiwa_stateful)
+> \Jiwa\Model\CreditorWarehouseAddress[] creditorWarehouseAddressesGETManyRequestCreditorIDWarehouseAddressesGet($accept, $creditor_id, $jiwa_stateful)
 
 Retrieves a list of creditor warehouse addresses.
 
@@ -1162,7 +1162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CreditorWarehouseAddress[]**](../Model/CreditorWarehouseAddress.md)
+[**\Jiwa\Model\CreditorWarehouseAddress[]**](../Model/CreditorWarehouseAddress.md)
 
 ### Authorization
 

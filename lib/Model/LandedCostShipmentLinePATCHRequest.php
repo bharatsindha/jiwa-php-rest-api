@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -82,7 +82,7 @@ class LandedCostShipmentLinePATCHRequest implements ModelInterface, ArrayAccess
         'unit_cost_ex_tax' => 'double',
         'fx_rate' => 'double',
         'fx_unit_cost_ex_tax' => 'double',
-        'tax_rate' => '\Jiwa\JiwaModel\TaxRate',
+        'tax_rate' => '\Jiwa\Model\TaxRate',
         'tax_amount' => 'double',
         'unit_cost_inc_tax' => 'double',
         'line_total_ex_tax' => 'double',
@@ -970,7 +970,7 @@ class LandedCostShipmentLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rate
      *
-     * @return \Jiwa\JiwaModel\TaxRate
+     * @return \Jiwa\Model\TaxRate
      */
     public function getTaxRate()
     {
@@ -980,7 +980,7 @@ class LandedCostShipmentLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rate
      *
-     * @param \Jiwa\JiwaModel\TaxRate $tax_rate tax_rate
+     * @param \Jiwa\Model\TaxRate $tax_rate tax_rate
      *
      * @return $this
      */

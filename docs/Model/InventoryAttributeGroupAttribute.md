@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **attribute_id** | **string** |  | [optional] 
 **attribute_group_id** | **string** |  | [optional] 
-**template_attribute** | [**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute**](InventoryAttributeGroupTemplateAttribute.md) |  | [optional] 
+**template_attribute** | [**\Jiwa\Model\InventoryAttributeGroupTemplateAttribute**](InventoryAttributeGroupTemplateAttribute.md) |  | [optional] 
 **last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **contents** | **string** |  | [optional] 
 

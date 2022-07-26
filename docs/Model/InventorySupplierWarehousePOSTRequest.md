@@ -24,8 +24,8 @@ Name | Type | Description | Notes
 **spare_string1** | **string** |  | [optional] 
 **spare_string2** | **string** |  | [optional] 
 **spare_string3** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
-**unit_of_measure** | [**\Jiwa\JiwaModel\InventoryUnitOfMeasure**](InventoryUnitOfMeasure.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**unit_of_measure** | [**\Jiwa\Model\InventoryUnitOfMeasure**](InventoryUnitOfMeasure.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

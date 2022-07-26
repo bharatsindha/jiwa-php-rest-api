@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -71,7 +71,7 @@ class BillOutputPATCHRequest implements ModelInterface, ArrayAccess
         'cost_percentage' => 'double',
         'cost' => 'double',
         'last_cost' => 'double',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -598,7 +598,7 @@ class BillOutputPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -608,7 +608,7 @@ class BillOutputPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

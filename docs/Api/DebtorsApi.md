@@ -80,7 +80,7 @@ Method | HTTP request | Description
 
 
 # **debtorABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object debtorABANDONRequestAbandonDelete($accept, $jiwa_stateful, $debtor_id)
+> \Jiwa\Model\Object debtorABANDONRequestAbandonDelete($accept, $jiwa_stateful, $debtor_id)
 
 Abandons a stateful debtor.
 
@@ -126,7 +126,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -140,7 +140,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorAPIKeyDebtorGETRequestGet**
-> \Jiwa\JiwaModel\Debtor debtorAPIKeyDebtorGETRequestGet($accept, $jiwa_stateful)
+> \Jiwa\Model\Debtor debtorAPIKeyDebtorGETRequestGet($accept, $jiwa_stateful)
 
 Retrieves a debtor for a API Key authenticated customer.
 
@@ -184,7 +184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Debtor**](../Model/Debtor.md)
+[**\Jiwa\Model\Debtor**](../Model/Debtor.md)
 
 ### Authorization
 
@@ -198,7 +198,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorBackordersGETRequestDebtorIDBackordersGet**
-> \Jiwa\JiwaModel\DebtorBackOrder[] debtorBackordersGETRequestDebtorIDBackordersGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorBackOrder[] debtorBackordersGETRequestDebtorIDBackordersGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of backorders for a debtor.
 
@@ -244,7 +244,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorBackOrder[]**](../Model/DebtorBackOrder.md)
+[**\Jiwa\Model\DebtorBackOrder[]**](../Model/DebtorBackOrder.md)
 
 ### Authorization
 
@@ -258,7 +258,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoriesABANDONRequestCategoriesAbandonDelete**
-> \Jiwa\JiwaModel\Object debtorCategoriesABANDONRequestCategoriesAbandonDelete($accept, $jiwa_stateful)
+> \Jiwa\Model\Object debtorCategoriesABANDONRequestCategoriesAbandonDelete($accept, $jiwa_stateful)
 
 Abandons a stateful debtor categories collection.
 
@@ -302,7 +302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -316,7 +316,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoriesSAVERequestCategoriesSaveGet**
-> \Jiwa\JiwaModel\DebtorCategory[] debtorCategoriesSAVERequestCategoriesSaveGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DebtorCategory[] debtorCategoriesSAVERequestCategoriesSaveGet($accept, $jiwa_stateful)
 
 Saves a stateful debtor categories collection.
 
@@ -360,7 +360,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorCategory[]**](../Model/DebtorCategory.md)
+[**\Jiwa\Model\DebtorCategory[]**](../Model/DebtorCategory.md)
 
 ### Authorization
 
@@ -374,7 +374,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoryDELETERequestCategoriesCategoryIDDelete**
-> \Jiwa\JiwaModel\Object debtorCategoryDELETERequestCategoriesCategoryIDDelete($accept, $category_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorCategoryDELETERequestCategoriesCategoryIDDelete($accept, $category_id, $jiwa_stateful)
 
 Deletes a debtor category.
 
@@ -420,7 +420,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -434,7 +434,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoryGETRequestCategoriesCategoryIDGet**
-> \Jiwa\JiwaModel\DebtorCategory debtorCategoryGETRequestCategoriesCategoryIDGet($accept, $category_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorCategory debtorCategoryGETRequestCategoriesCategoryIDGet($accept, $category_id, $jiwa_stateful)
 
 Retrieves a debtor category.
 
@@ -480,7 +480,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorCategory**](../Model/DebtorCategory.md)
+[**\Jiwa\Model\DebtorCategory**](../Model/DebtorCategory.md)
 
 ### Authorization
 
@@ -494,7 +494,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoryPATCHRequestCategoriesCategoryIDUpdate**
-> \Jiwa\JiwaModel\DebtorCategory debtorCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $description, $category_no, $is_default, $last_saved_date_time, $body)
+> \Jiwa\Model\DebtorCategory debtorCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $description, $category_no, $is_default, $last_saved_date_time, $body)
 
 Updates a debtor category.
 
@@ -524,7 +524,7 @@ $description = "description_example"; // string |
 $category_no = 56; // int | 
 $is_default = true; // bool | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\DebtorCategoryPATCHRequest(); // \Jiwa\JiwaModel\DebtorCategoryPATCHRequest | 
+$body = new \Jiwa\Model\DebtorCategoryPATCHRequest(); // \Jiwa\Model\DebtorCategoryPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $description, $category_no, $is_default, $last_saved_date_time, $body);
@@ -546,11 +546,11 @@ Name | Type | Description  | Notes
  **category_no** | **int**|  | [optional]
  **is_default** | **bool**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorCategoryPATCHRequest**](../Model/DebtorCategoryPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorCategoryPATCHRequest**](../Model/DebtorCategoryPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorCategory**](../Model/DebtorCategory.md)
+[**\Jiwa\Model\DebtorCategory**](../Model/DebtorCategory.md)
 
 ### Authorization
 
@@ -564,7 +564,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCategoryPOSTRequestCategoriesPost**
-> \Jiwa\JiwaModel\DebtorCategory debtorCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $description, $category_no, $is_default, $body)
+> \Jiwa\Model\DebtorCategory debtorCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $description, $category_no, $is_default, $body)
 
 Creates a debtor category.
 
@@ -592,7 +592,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $category_no = 56; // int | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\DebtorCategoryPOSTRequest(); // \Jiwa\JiwaModel\DebtorCategoryPOSTRequest | 
+$body = new \Jiwa\Model\DebtorCategoryPOSTRequest(); // \Jiwa\Model\DebtorCategoryPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $description, $category_no, $is_default, $body);
@@ -612,11 +612,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **category_no** | **int**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorCategoryPOSTRequest**](../Model/DebtorCategoryPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorCategoryPOSTRequest**](../Model/DebtorCategoryPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorCategory**](../Model/DebtorCategory.md)
+[**\Jiwa\Model\DebtorCategory**](../Model/DebtorCategory.md)
 
 ### Authorization
 
@@ -630,7 +630,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationABANDONRequestClassificationsAbandonDelete**
-> \Jiwa\JiwaModel\Object debtorClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $classification_id)
+> \Jiwa\Model\Object debtorClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $classification_id)
 
 Abandons a stateful debtor classification.
 
@@ -676,7 +676,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -690,7 +690,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationDELETERequestClassificationsClassificationIDDelete**
-> \Jiwa\JiwaModel\Object debtorClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
 
 Deletes a debtor classification.
 
@@ -736,7 +736,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -750,7 +750,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationGETRequestClassificationsClassificationIDGet**
-> \Jiwa\JiwaModel\DebtorClassification debtorClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorClassification debtorClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
 
 Retrieves a debtor classification.
 
@@ -796,7 +796,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorClassification**](../Model/DebtorClassification.md)
+[**\Jiwa\Model\DebtorClassification**](../Model/DebtorClassification.md)
 
 ### Authorization
 
@@ -810,7 +810,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationPATCHRequestClassificationsClassificationIDUpdate**
-> \Jiwa\JiwaModel\DebtorClassification debtorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body)
+> \Jiwa\Model\DebtorClassification debtorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body)
 
 Updates a debtor classification.
 
@@ -846,7 +846,7 @@ $pricing_group_description = "pricing_group_description_example"; // string |
 $sell_pricing_scheme_id = "sell_pricing_scheme_id_example"; // string | 
 $sell_pricing_scheme_description = "sell_pricing_scheme_description_example"; // string | 
 $debtor_ledgers = "debtor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorClassificationPATCHRequest(); // \Jiwa\JiwaModel\DebtorClassificationPATCHRequest | 
+$body = new \Jiwa\Model\DebtorClassificationPATCHRequest(); // \Jiwa\Model\DebtorClassificationPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body);
@@ -874,11 +874,11 @@ Name | Type | Description  | Notes
  **sell_pricing_scheme_id** | **string**|  | [optional]
  **sell_pricing_scheme_description** | **string**|  | [optional]
  **debtor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorClassificationPATCHRequest**](../Model/DebtorClassificationPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorClassificationPATCHRequest**](../Model/DebtorClassificationPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorClassification**](../Model/DebtorClassification.md)
+[**\Jiwa\Model\DebtorClassification**](../Model/DebtorClassification.md)
 
 ### Authorization
 
@@ -892,7 +892,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationPOSTRequestClassificationsPost**
-> \Jiwa\JiwaModel\DebtorClassification debtorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body)
+> \Jiwa\Model\DebtorClassification debtorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body)
 
 Creates a debtor classification.
 
@@ -926,7 +926,7 @@ $pricing_group_description = "pricing_group_description_example"; // string |
 $sell_pricing_scheme_id = "sell_pricing_scheme_id_example"; // string | 
 $sell_pricing_scheme_description = "sell_pricing_scheme_description_example"; // string | 
 $debtor_ledgers = "debtor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorClassificationPOSTRequest(); // \Jiwa\JiwaModel\DebtorClassificationPOSTRequest | 
+$body = new \Jiwa\Model\DebtorClassificationPOSTRequest(); // \Jiwa\Model\DebtorClassificationPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $is_default, $terms_days, $terms_type, $pricing_group_id, $pricing_group_description, $sell_pricing_scheme_id, $sell_pricing_scheme_description, $debtor_ledgers, $body);
@@ -952,11 +952,11 @@ Name | Type | Description  | Notes
  **sell_pricing_scheme_id** | **string**|  | [optional]
  **sell_pricing_scheme_description** | **string**|  | [optional]
  **debtor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorClassificationPOSTRequest**](../Model/DebtorClassificationPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorClassificationPOSTRequest**](../Model/DebtorClassificationPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorClassification**](../Model/DebtorClassification.md)
+[**\Jiwa\Model\DebtorClassification**](../Model/DebtorClassification.md)
 
 ### Authorization
 
@@ -970,7 +970,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorClassificationSAVERequestClassificationsSaveGet**
-> \Jiwa\JiwaModel\DebtorClassification debtorClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $classification_id)
+> \Jiwa\Model\DebtorClassification debtorClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $classification_id)
 
 Saves a stateful debtor classification.
 
@@ -1016,7 +1016,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorClassification**](../Model/DebtorClassification.md)
+[**\Jiwa\Model\DebtorClassification**](../Model/DebtorClassification.md)
 
 ### Authorization
 
@@ -1030,7 +1030,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorContactNameDELETERequestDebtorIDContactNamesContactNameIDDelete**
-> \Jiwa\JiwaModel\Object debtorContactNameDELETERequestDebtorIDContactNamesContactNameIDDelete($accept, $debtor_id, $contact_name_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $last_saved_date_time, $logon_code_changed_by_user)
+> \Jiwa\Model\Object debtorContactNameDELETERequestDebtorIDContactNamesContactNameIDDelete($accept, $debtor_id, $contact_name_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $last_saved_date_time, $logon_code_changed_by_user)
 
 Deletes a debtor contact name.
 
@@ -1126,7 +1126,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1140,7 +1140,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorContactNameGETRequestDebtorIDContactNamesContactNameIDGet**
-> \Jiwa\JiwaModel\DebtorContactName debtorContactNameGETRequestDebtorIDContactNamesContactNameIDGet($accept, $debtor_id, $contact_name_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorContactName debtorContactNameGETRequestDebtorIDContactNamesContactNameIDGet($accept, $debtor_id, $contact_name_id, $jiwa_stateful)
 
 Retrieves a debtor contact name.
 
@@ -1188,7 +1188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorContactName**](../Model/DebtorContactName.md)
+[**\Jiwa\Model\DebtorContactName**](../Model/DebtorContactName.md)
 
 ### Authorization
 
@@ -1202,7 +1202,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorContactNamePATCHRequestDebtorIDContactNamesContactNameIDUpdate**
-> \Jiwa\JiwaModel\DebtorContactName debtorContactNamePATCHRequestDebtorIDContactNamesContactNameIDUpdate($accept, $debtor_id, $contact_name_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $last_saved_date_time, $logon_code_changed_by_user, $body)
+> \Jiwa\Model\DebtorContactName debtorContactNamePATCHRequestDebtorIDContactNamesContactNameIDUpdate($accept, $debtor_id, $contact_name_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $last_saved_date_time, $logon_code_changed_by_user, $body)
 
 Updates a debtor contact name.
 
@@ -1253,7 +1253,7 @@ $logon_password = "logon_password_example"; // string |
 $external_app_rec_id = "external_app_rec_id_example"; // string | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $logon_code_changed_by_user = true; // bool | 
-$body = new \Jiwa\JiwaModel\DebtorContactNamePATCHRequest(); // \Jiwa\JiwaModel\DebtorContactNamePATCHRequest | 
+$body = new \Jiwa\Model\DebtorContactNamePATCHRequest(); // \Jiwa\Model\DebtorContactNamePATCHRequest | 
 
 try {
     $result = $apiInstance->debtorContactNamePATCHRequestDebtorIDContactNamesContactNameIDUpdate($accept, $debtor_id, $contact_name_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $last_saved_date_time, $logon_code_changed_by_user, $body);
@@ -1296,11 +1296,11 @@ Name | Type | Description  | Notes
  **external_app_rec_id** | **string**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **logon_code_changed_by_user** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorContactNamePATCHRequest**](../Model/DebtorContactNamePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorContactNamePATCHRequest**](../Model/DebtorContactNamePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorContactName**](../Model/DebtorContactName.md)
+[**\Jiwa\Model\DebtorContactName**](../Model/DebtorContactName.md)
 
 ### Authorization
 
@@ -1314,7 +1314,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorContactNamePOSTRequestDebtorIDContactNamesPost**
-> \Jiwa\JiwaModel\DebtorContactName debtorContactNamePOSTRequestDebtorIDContactNamesPost($accept, $debtor_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $logon_code_changed_by_user, $body)
+> \Jiwa\Model\DebtorContactName debtorContactNamePOSTRequestDebtorIDContactNamesPost($accept, $debtor_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $logon_code_changed_by_user, $body)
 
 Appends a contact name to a debtor.
 
@@ -1363,7 +1363,7 @@ $logon_code = "logon_code_example"; // string |
 $logon_password = "logon_password_example"; // string | 
 $external_app_rec_id = "external_app_rec_id_example"; // string | 
 $logon_code_changed_by_user = true; // bool | 
-$body = new \Jiwa\JiwaModel\DebtorContactNamePOSTRequest(); // \Jiwa\JiwaModel\DebtorContactNamePOSTRequest | 
+$body = new \Jiwa\Model\DebtorContactNamePOSTRequest(); // \Jiwa\Model\DebtorContactNamePOSTRequest | 
 
 try {
     $result = $apiInstance->debtorContactNamePOSTRequestDebtorIDContactNamesPost($accept, $debtor_id, $jiwa_stateful, $default_contact, $debtor_contact, $creditor_contact, $contact_id, $account_no, $title, $first_name, $surname, $primary_position_id, $primary_position_name, $secondary_position_id, $secondary_position_name, $tertiary_position_id, $tertiary_position_name, $phone, $mobile, $fax, $email_address, $prospect_id, $logon_code, $logon_password, $external_app_rec_id, $logon_code_changed_by_user, $body);
@@ -1404,11 +1404,11 @@ Name | Type | Description  | Notes
  **logon_password** | **string**|  | [optional]
  **external_app_rec_id** | **string**|  | [optional]
  **logon_code_changed_by_user** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorContactNamePOSTRequest**](../Model/DebtorContactNamePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorContactNamePOSTRequest**](../Model/DebtorContactNamePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorContactName**](../Model/DebtorContactName.md)
+[**\Jiwa\Model\DebtorContactName**](../Model/DebtorContactName.md)
 
 ### Authorization
 
@@ -1422,7 +1422,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorContactNamesGETManyRequestDebtorIDContactNamesGet**
-> \Jiwa\JiwaModel\DebtorContactName[] debtorContactNamesGETManyRequestDebtorIDContactNamesGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorContactName[] debtorContactNamesGETManyRequestDebtorIDContactNamesGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor contact names.
 
@@ -1468,7 +1468,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorContactName[]**](../Model/DebtorContactName.md)
+[**\Jiwa\Model\DebtorContactName[]**](../Model/DebtorContactName.md)
 
 ### Authorization
 
@@ -1482,7 +1482,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCustomFieldValueGETRequestDebtorIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue debtorCustomFieldValueGETRequestDebtorIDCustomFieldValuesSettingIDGet($accept, $debtor_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue debtorCustomFieldValueGETRequestDebtorIDCustomFieldValuesSettingIDGet($accept, $debtor_id, $setting_id, $jiwa_stateful)
 
 Retrieves a debtor custom field value.
 
@@ -1530,7 +1530,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1544,7 +1544,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCustomFieldValuePATCHRequestDebtorIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue debtorCustomFieldValuePATCHRequestDebtorIDCustomFieldValuesSettingIDUpdate($accept, $debtor_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue debtorCustomFieldValuePATCHRequestDebtorIDCustomFieldValuesSettingIDUpdate($accept, $debtor_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a debtor custom field value.
 
@@ -1572,7 +1572,7 @@ $debtor_id = "debtor_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\DebtorCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\DebtorCustomFieldValuePATCHRequest(); // \Jiwa\Model\DebtorCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->debtorCustomFieldValuePATCHRequestDebtorIDCustomFieldValuesSettingIDUpdate($accept, $debtor_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -1592,11 +1592,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorCustomFieldValuePATCHRequest**](../Model/DebtorCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorCustomFieldValuePATCHRequest**](../Model/DebtorCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1610,7 +1610,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCustomFieldValuesGETManyRequestDebtorIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] debtorCustomFieldValuesGETManyRequestDebtorIDCustomFieldValuesGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] debtorCustomFieldValuesGETManyRequestDebtorIDCustomFieldValuesGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a debtor.
 
@@ -1656,7 +1656,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1670,7 +1670,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorCustomFieldsGETManyRequestCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] debtorCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] debtorCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of debtor custom fields.
 
@@ -1714,7 +1714,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1728,7 +1728,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDELETERequestDebtorIDDelete**
-> \Jiwa\JiwaModel\Object debtorDELETERequestDebtorIDDelete($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorDELETERequestDebtorIDDelete($accept, $debtor_id, $jiwa_stateful)
 
 Deletes a debtor.
 
@@ -1774,7 +1774,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1788,7 +1788,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDeliveryAddressDELETERequestDebtorIDDeliveryAddressesDeliveryAddressIDDelete**
-> \Jiwa\JiwaModel\Object debtorDeliveryAddressDELETERequestDebtorIDDeliveryAddressesDeliveryAddressIDDelete($accept, $debtor_id, $delivery_address_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code)
+> \Jiwa\Model\Object debtorDeliveryAddressDELETERequestDebtorIDDeliveryAddressesDeliveryAddressIDDelete($accept, $debtor_id, $delivery_address_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code)
 
 Deletes a debtor delivery address.
 
@@ -1860,7 +1860,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1874,7 +1874,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDeliveryAddressGETRequestDebtorIDDeliveryAddressesDeliveryAddressIDGet**
-> \Jiwa\JiwaModel\DebtorDeliveryAddress debtorDeliveryAddressGETRequestDebtorIDDeliveryAddressesDeliveryAddressIDGet($accept, $debtor_id, $delivery_address_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorDeliveryAddress debtorDeliveryAddressGETRequestDebtorIDDeliveryAddressesDeliveryAddressIDGet($accept, $debtor_id, $delivery_address_id, $jiwa_stateful)
 
 Retrieves a debtor delivery address.
 
@@ -1922,7 +1922,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
+[**\Jiwa\Model\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
 
 ### Authorization
 
@@ -1936,7 +1936,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDeliveryAddressPATCHRequestDebtorIDDeliveryAddressesDeliveryAddressIDUpdate**
-> \Jiwa\JiwaModel\DebtorDeliveryAddress debtorDeliveryAddressPATCHRequestDebtorIDDeliveryAddressesDeliveryAddressIDUpdate($accept, $debtor_id, $delivery_address_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body)
+> \Jiwa\Model\DebtorDeliveryAddress debtorDeliveryAddressPATCHRequestDebtorIDDeliveryAddressesDeliveryAddressIDUpdate($accept, $debtor_id, $delivery_address_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body)
 
 Updates a debtor delivery address.
 
@@ -1975,7 +1975,7 @@ $country = "country_example"; // string |
 $notes = "notes_example"; // string | 
 $courier_details = "courier_details_example"; // string | 
 $edi_store_location_code = "edi_store_location_code_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorDeliveryAddressPATCHRequest(); // \Jiwa\JiwaModel\DebtorDeliveryAddressPATCHRequest | 
+$body = new \Jiwa\Model\DebtorDeliveryAddressPATCHRequest(); // \Jiwa\Model\DebtorDeliveryAddressPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorDeliveryAddressPATCHRequestDebtorIDDeliveryAddressesDeliveryAddressIDUpdate($accept, $debtor_id, $delivery_address_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body);
@@ -2006,11 +2006,11 @@ Name | Type | Description  | Notes
  **notes** | **string**|  | [optional]
  **courier_details** | **string**|  | [optional]
  **edi_store_location_code** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDeliveryAddressPATCHRequest**](../Model/DebtorDeliveryAddressPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDeliveryAddressPATCHRequest**](../Model/DebtorDeliveryAddressPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
+[**\Jiwa\Model\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
 
 ### Authorization
 
@@ -2024,7 +2024,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDeliveryAddressPOSTRequestDebtorIDDeliveryAddressesPost**
-> \Jiwa\JiwaModel\DebtorDeliveryAddress debtorDeliveryAddressPOSTRequestDebtorIDDeliveryAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body)
+> \Jiwa\Model\DebtorDeliveryAddress debtorDeliveryAddressPOSTRequestDebtorIDDeliveryAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body)
 
 Appends a delivery address to a debtor.
 
@@ -2062,7 +2062,7 @@ $country = "country_example"; // string |
 $notes = "notes_example"; // string | 
 $courier_details = "courier_details_example"; // string | 
 $edi_store_location_code = "edi_store_location_code_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorDeliveryAddressPOSTRequest(); // \Jiwa\JiwaModel\DebtorDeliveryAddressPOSTRequest | 
+$body = new \Jiwa\Model\DebtorDeliveryAddressPOSTRequest(); // \Jiwa\Model\DebtorDeliveryAddressPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorDeliveryAddressPOSTRequestDebtorIDDeliveryAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $delivery_address_name, $delivery_address_code, $address1, $address2, $address3, $address4, $postcode, $country, $notes, $courier_details, $edi_store_location_code, $body);
@@ -2092,11 +2092,11 @@ Name | Type | Description  | Notes
  **notes** | **string**|  | [optional]
  **courier_details** | **string**|  | [optional]
  **edi_store_location_code** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDeliveryAddressPOSTRequest**](../Model/DebtorDeliveryAddressPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDeliveryAddressPOSTRequest**](../Model/DebtorDeliveryAddressPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
+[**\Jiwa\Model\DebtorDeliveryAddress**](../Model/DebtorDeliveryAddress.md)
 
 ### Authorization
 
@@ -2110,7 +2110,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDeliveryAddressesGETManyRequestDebtorIDDeliveryAddressesGet**
-> \Jiwa\JiwaModel\DebtorDeliveryAddress[] debtorDeliveryAddressesGETManyRequestDebtorIDDeliveryAddressesGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorDeliveryAddress[] debtorDeliveryAddressesGETManyRequestDebtorIDDeliveryAddressesGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor delivery addresses.
 
@@ -2156,7 +2156,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorDeliveryAddress[]**](../Model/DebtorDeliveryAddress.md)
+[**\Jiwa\Model\DebtorDeliveryAddress[]**](../Model/DebtorDeliveryAddress.md)
 
 ### Authorization
 
@@ -2170,7 +2170,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentDELETERequestDebtorIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object debtorDocumentDELETERequestDebtorIDDocumentsDocumentIDDelete($accept, $debtor_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorDocumentDELETERequestDebtorIDDocumentsDocumentIDDelete($accept, $debtor_id, $document_id, $jiwa_stateful)
 
 Deletes a debtor document.
 
@@ -2218,7 +2218,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2232,7 +2232,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentGETRequestDebtorIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document debtorDocumentGETRequestDebtorIDDocumentsDocumentIDGet($accept, $debtor_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document debtorDocumentGETRequestDebtorIDDocumentsDocumentIDGet($accept, $debtor_id, $document_id, $jiwa_stateful)
 
 Retrieves a debtor document.
 
@@ -2280,7 +2280,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -2294,7 +2294,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentPATCHRequestDebtorIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document debtorDocumentPATCHRequestDebtorIDDocumentsDocumentIDUpdate($accept, $debtor_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document debtorDocumentPATCHRequestDebtorIDDocumentsDocumentIDUpdate($accept, $debtor_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates a debtor document.
 
@@ -2333,7 +2333,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorDocumentPATCHRequest(); // \Jiwa\JiwaModel\DebtorDocumentPATCHRequest | 
+$body = new \Jiwa\Model\DebtorDocumentPATCHRequest(); // \Jiwa\Model\DebtorDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorDocumentPATCHRequestDebtorIDDocumentsDocumentIDUpdate($accept, $debtor_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -2364,11 +2364,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDocumentPATCHRequest**](../Model/DebtorDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDocumentPATCHRequest**](../Model/DebtorDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -2382,7 +2382,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentPOSTRequestDebtorIDDocumentsPost**
-> \Jiwa\JiwaModel\Document debtorDocumentPOSTRequestDebtorIDDocumentsPost($accept, $debtor_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document debtorDocumentPOSTRequestDebtorIDDocumentsPost($accept, $debtor_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to a debtor.
 
@@ -2420,7 +2420,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorDocumentPOSTRequest(); // \Jiwa\JiwaModel\DebtorDocumentPOSTRequest | 
+$body = new \Jiwa\Model\DebtorDocumentPOSTRequest(); // \Jiwa\Model\DebtorDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorDocumentPOSTRequestDebtorIDDocumentsPost($accept, $debtor_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -2450,11 +2450,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDocumentPOSTRequest**](../Model/DebtorDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDocumentPOSTRequest**](../Model/DebtorDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -2468,7 +2468,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object debtorDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes a debtor document type.
 
@@ -2514,7 +2514,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2528,7 +2528,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType debtorDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType debtorDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves a debtor document type.
 
@@ -2574,7 +2574,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -2588,7 +2588,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType debtorDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType debtorDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a debtor document type.
 
@@ -2617,7 +2617,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\DebtorDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\DebtorDocumentTypePATCHRequest(); // \Jiwa\Model\DebtorDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->debtorDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -2638,11 +2638,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDocumentTypePATCHRequest**](../Model/DebtorDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDocumentTypePATCHRequest**](../Model/DebtorDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -2656,7 +2656,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType debtorDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType debtorDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new debtor document type.
 
@@ -2684,7 +2684,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\DebtorDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\DebtorDocumentTypePOSTRequest(); // \Jiwa\Model\DebtorDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->debtorDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -2704,11 +2704,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorDocumentTypePOSTRequest**](../Model/DebtorDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorDocumentTypePOSTRequest**](../Model/DebtorDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -2722,7 +2722,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] debtorDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] debtorDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of debtor document types.
 
@@ -2766,7 +2766,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -2780,7 +2780,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorDocumentsGETManyRequestDebtorIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] debtorDocumentsGETManyRequestDebtorIDDocumentsGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] debtorDocumentsGETManyRequestDebtorIDDocumentsGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor documents.
 
@@ -2826,7 +2826,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -2840,7 +2840,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorFreightForwarderAddressDELETERequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDDelete**
-> \Jiwa\JiwaModel\Object debtorFreightForwarderAddressDELETERequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDDelete($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes)
+> \Jiwa\Model\Object debtorFreightForwarderAddressDELETERequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDDelete($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes)
 
 Deletes a debtor freight forwarder address.
 
@@ -2902,7 +2902,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2916,7 +2916,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorFreightForwarderAddressGETRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDGet**
-> \Jiwa\JiwaModel\DebtorFreightForwarderAddress debtorFreightForwarderAddressGETRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDGet($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorFreightForwarderAddress debtorFreightForwarderAddressGETRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDGet($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful)
 
 Retrieves a debtor freight forwarder address.
 
@@ -2964,7 +2964,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
+[**\Jiwa\Model\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
 
 ### Authorization
 
@@ -2978,7 +2978,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorFreightForwarderAddressPATCHRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDUpdate**
-> \Jiwa\JiwaModel\DebtorFreightForwarderAddress debtorFreightForwarderAddressPATCHRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDUpdate($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body)
+> \Jiwa\Model\DebtorFreightForwarderAddress debtorFreightForwarderAddressPATCHRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDUpdate($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body)
 
 Updates a debtor freight forwarder address.
 
@@ -3012,7 +3012,7 @@ $address3 = "address3_example"; // string |
 $address4 = "address4_example"; // string | 
 $country = "country_example"; // string | 
 $notes = "notes_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorFreightForwarderAddressPATCHRequest(); // \Jiwa\JiwaModel\DebtorFreightForwarderAddressPATCHRequest | 
+$body = new \Jiwa\Model\DebtorFreightForwarderAddressPATCHRequest(); // \Jiwa\Model\DebtorFreightForwarderAddressPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorFreightForwarderAddressPATCHRequestDebtorIDFreightForwarderAddressesFreightForwarderAddressIDUpdate($accept, $debtor_id, $freight_forwarder_address_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body);
@@ -3038,11 +3038,11 @@ Name | Type | Description  | Notes
  **address4** | **string**|  | [optional]
  **country** | **string**|  | [optional]
  **notes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorFreightForwarderAddressPATCHRequest**](../Model/DebtorFreightForwarderAddressPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorFreightForwarderAddressPATCHRequest**](../Model/DebtorFreightForwarderAddressPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
+[**\Jiwa\Model\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
 
 ### Authorization
 
@@ -3056,7 +3056,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorFreightForwarderAddressPOSTRequestDebtorIDFreightForwarderAddressesPost**
-> \Jiwa\JiwaModel\DebtorFreightForwarderAddress debtorFreightForwarderAddressPOSTRequestDebtorIDFreightForwarderAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body)
+> \Jiwa\Model\DebtorFreightForwarderAddress debtorFreightForwarderAddressPOSTRequestDebtorIDFreightForwarderAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body)
 
 Appends a freight forwarder address to a debtor.
 
@@ -3089,7 +3089,7 @@ $address3 = "address3_example"; // string |
 $address4 = "address4_example"; // string | 
 $country = "country_example"; // string | 
 $notes = "notes_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorFreightForwarderAddressPOSTRequest(); // \Jiwa\JiwaModel\DebtorFreightForwarderAddressPOSTRequest | 
+$body = new \Jiwa\Model\DebtorFreightForwarderAddressPOSTRequest(); // \Jiwa\Model\DebtorFreightForwarderAddressPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorFreightForwarderAddressPOSTRequestDebtorIDFreightForwarderAddressesPost($accept, $debtor_id, $jiwa_stateful, $is_default, $address1, $address2, $address3, $address4, $country, $notes, $body);
@@ -3114,11 +3114,11 @@ Name | Type | Description  | Notes
  **address4** | **string**|  | [optional]
  **country** | **string**|  | [optional]
  **notes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorFreightForwarderAddressPOSTRequest**](../Model/DebtorFreightForwarderAddressPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorFreightForwarderAddressPOSTRequest**](../Model/DebtorFreightForwarderAddressPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
+[**\Jiwa\Model\DebtorFreightForwarderAddress**](../Model/DebtorFreightForwarderAddress.md)
 
 ### Authorization
 
@@ -3132,7 +3132,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorFreightForwarderAddressesGETManyRequestDebtorIDFreightForwarderAddressesGet**
-> \Jiwa\JiwaModel\DebtorFreightForwarderAddress[] debtorFreightForwarderAddressesGETManyRequestDebtorIDFreightForwarderAddressesGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorFreightForwarderAddress[] debtorFreightForwarderAddressesGETManyRequestDebtorIDFreightForwarderAddressesGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor freight forwarder addresses.
 
@@ -3178,7 +3178,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorFreightForwarderAddress[]**](../Model/DebtorFreightForwarderAddress.md)
+[**\Jiwa\Model\DebtorFreightForwarderAddress[]**](../Model/DebtorFreightForwarderAddress.md)
 
 ### Authorization
 
@@ -3192,7 +3192,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGETRequestDebtorIDGet**
-> \Jiwa\JiwaModel\Debtor debtorGETRequestDebtorIDGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\Debtor debtorGETRequestDebtorIDGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a debtor.
 
@@ -3238,7 +3238,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Debtor**](../Model/Debtor.md)
+[**\Jiwa\Model\Debtor**](../Model/Debtor.md)
 
 ### Authorization
 
@@ -3252,7 +3252,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGroupMembershipDELETERequestDebtorIDGroupMembershipsGroupMembershipIDDelete**
-> \Jiwa\JiwaModel\Object debtorGroupMembershipDELETERequestDebtorIDGroupMembershipsGroupMembershipIDDelete($accept, $debtor_id, $group_membership_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $last_saved_date_time, $item_no)
+> \Jiwa\Model\Object debtorGroupMembershipDELETERequestDebtorIDGroupMembershipsGroupMembershipIDDelete($accept, $debtor_id, $group_membership_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $last_saved_date_time, $item_no)
 
 Deletes a debtor group membership.
 
@@ -3320,7 +3320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3334,7 +3334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGroupMembershipGETRequestDebtorIDGroupMembershipsGroupMembershipIDGet**
-> \Jiwa\JiwaModel\DebtorGroupMembership debtorGroupMembershipGETRequestDebtorIDGroupMembershipsGroupMembershipIDGet($accept, $debtor_id, $group_membership_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorGroupMembership debtorGroupMembershipGETRequestDebtorIDGroupMembershipsGroupMembershipIDGet($accept, $debtor_id, $group_membership_id, $jiwa_stateful)
 
 Retrieves a debtor group membership.
 
@@ -3382,7 +3382,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
+[**\Jiwa\Model\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
 
 ### Authorization
 
@@ -3396,7 +3396,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGroupMembershipPATCHRequestDebtorIDGroupMembershipsGroupMembershipIDUpdate**
-> \Jiwa\JiwaModel\DebtorGroupMembership debtorGroupMembershipPATCHRequestDebtorIDGroupMembershipsGroupMembershipIDUpdate($accept, $debtor_id, $group_membership_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $last_saved_date_time, $item_no, $body)
+> \Jiwa\Model\DebtorGroupMembership debtorGroupMembershipPATCHRequestDebtorIDGroupMembershipsGroupMembershipIDUpdate($accept, $debtor_id, $group_membership_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $last_saved_date_time, $item_no, $body)
 
 Updates a debtor group membership.
 
@@ -3433,7 +3433,7 @@ $staff_first_name = "staff_first_name_example"; // string |
 $staff_surname = "staff_surname_example"; // string | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorGroupMembershipPATCHRequest(); // \Jiwa\JiwaModel\DebtorGroupMembershipPATCHRequest | 
+$body = new \Jiwa\Model\DebtorGroupMembershipPATCHRequest(); // \Jiwa\Model\DebtorGroupMembershipPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorGroupMembershipPATCHRequestDebtorIDGroupMembershipsGroupMembershipIDUpdate($accept, $debtor_id, $group_membership_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $last_saved_date_time, $item_no, $body);
@@ -3462,11 +3462,11 @@ Name | Type | Description  | Notes
  **staff_surname** | **string**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorGroupMembershipPATCHRequest**](../Model/DebtorGroupMembershipPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorGroupMembershipPATCHRequest**](../Model/DebtorGroupMembershipPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
+[**\Jiwa\Model\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
 
 ### Authorization
 
@@ -3480,7 +3480,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGroupMembershipPOSTRequestDebtorIDGroupMembershipsPost**
-> \Jiwa\JiwaModel\DebtorGroupMembership debtorGroupMembershipPOSTRequestDebtorIDGroupMembershipsPost($accept, $debtor_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $item_no, $body)
+> \Jiwa\Model\DebtorGroupMembership debtorGroupMembershipPOSTRequestDebtorIDGroupMembershipsPost($accept, $debtor_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $item_no, $body)
 
 Appends a group membership to a debtor.
 
@@ -3515,7 +3515,7 @@ $staff_title = "staff_title_example"; // string |
 $staff_first_name = "staff_first_name_example"; // string | 
 $staff_surname = "staff_surname_example"; // string | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorGroupMembershipPOSTRequest(); // \Jiwa\JiwaModel\DebtorGroupMembershipPOSTRequest | 
+$body = new \Jiwa\Model\DebtorGroupMembershipPOSTRequest(); // \Jiwa\Model\DebtorGroupMembershipPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorGroupMembershipPOSTRequestDebtorIDGroupMembershipsPost($accept, $debtor_id, $jiwa_stateful, $is_default, $group_rec_id, $group_description, $staff_id, $staff_username, $staff_title, $staff_first_name, $staff_surname, $item_no, $body);
@@ -3542,11 +3542,11 @@ Name | Type | Description  | Notes
  **staff_first_name** | **string**|  | [optional]
  **staff_surname** | **string**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorGroupMembershipPOSTRequest**](../Model/DebtorGroupMembershipPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorGroupMembershipPOSTRequest**](../Model/DebtorGroupMembershipPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
+[**\Jiwa\Model\DebtorGroupMembership**](../Model/DebtorGroupMembership.md)
 
 ### Authorization
 
@@ -3560,7 +3560,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorGroupMembershipsGETManyRequestDebtorIDGroupMembershipsGet**
-> \Jiwa\JiwaModel\DebtorGroupMembership[] debtorGroupMembershipsGETManyRequestDebtorIDGroupMembershipsGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorGroupMembership[] debtorGroupMembershipsGETManyRequestDebtorIDGroupMembershipsGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor group memberships.
 
@@ -3606,7 +3606,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorGroupMembership[]**](../Model/DebtorGroupMembership.md)
+[**\Jiwa\Model\DebtorGroupMembership[]**](../Model/DebtorGroupMembership.md)
 
 ### Authorization
 
@@ -3620,7 +3620,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteDELETERequestDebtorIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object debtorNoteDELETERequestDebtorIDNotesNoteIDDelete($accept, $debtor_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorNoteDELETERequestDebtorIDNotesNoteIDDelete($accept, $debtor_id, $note_id, $jiwa_stateful)
 
 Deletes a debtor note.
 
@@ -3668,7 +3668,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3682,7 +3682,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteGETRequestDebtorIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note debtorNoteGETRequestDebtorIDNotesNoteIDGet($accept, $debtor_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note debtorNoteGETRequestDebtorIDNotesNoteIDGet($accept, $debtor_id, $note_id, $jiwa_stateful)
 
 Retrieves a debtor note.
 
@@ -3730,7 +3730,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3744,7 +3744,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNotePATCHRequestDebtorIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note debtorNotePATCHRequestDebtorIDNotesNoteIDUpdate($accept, $debtor_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note debtorNotePATCHRequestDebtorIDNotesNoteIDUpdate($accept, $debtor_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates a debtor note.
 
@@ -3780,7 +3780,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorNotePATCHRequest(); // \Jiwa\JiwaModel\DebtorNotePATCHRequest | 
+$body = new \Jiwa\Model\DebtorNotePATCHRequest(); // \Jiwa\Model\DebtorNotePATCHRequest | 
 
 try {
     $result = $apiInstance->debtorNotePATCHRequestDebtorIDNotesNoteIDUpdate($accept, $debtor_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -3808,11 +3808,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorNotePATCHRequest**](../Model/DebtorNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorNotePATCHRequest**](../Model/DebtorNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3826,7 +3826,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNotePOSTRequestDebtorIDNotesPost**
-> \Jiwa\JiwaModel\Note debtorNotePOSTRequestDebtorIDNotesPost($accept, $debtor_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note debtorNotePOSTRequestDebtorIDNotesPost($accept, $debtor_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to a debtor.
 
@@ -3861,7 +3861,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorNotePOSTRequest(); // \Jiwa\JiwaModel\DebtorNotePOSTRequest | 
+$body = new \Jiwa\Model\DebtorNotePOSTRequest(); // \Jiwa\Model\DebtorNotePOSTRequest | 
 
 try {
     $result = $apiInstance->debtorNotePOSTRequestDebtorIDNotesPost($accept, $debtor_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -3888,11 +3888,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorNotePOSTRequest**](../Model/DebtorNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorNotePOSTRequest**](../Model/DebtorNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -3906,7 +3906,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object debtorNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes a debtor note type.
 
@@ -3952,7 +3952,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3966,7 +3966,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType debtorNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType debtorNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves a debtor note type.
 
@@ -4012,7 +4012,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4026,7 +4026,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType debtorNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType debtorNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a debtor note type.
 
@@ -4055,7 +4055,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorNoteTypePATCHRequest(); // \Jiwa\JiwaModel\DebtorNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\DebtorNoteTypePATCHRequest(); // \Jiwa\Model\DebtorNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->debtorNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -4076,11 +4076,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorNoteTypePATCHRequest**](../Model/DebtorNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorNoteTypePATCHRequest**](../Model/DebtorNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4094,7 +4094,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType debtorNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType debtorNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new debtor note type.
 
@@ -4122,7 +4122,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\DebtorNoteTypePOSTRequest(); // \Jiwa\JiwaModel\DebtorNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\DebtorNoteTypePOSTRequest(); // \Jiwa\Model\DebtorNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->debtorNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -4142,11 +4142,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorNoteTypePOSTRequest**](../Model/DebtorNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorNoteTypePOSTRequest**](../Model/DebtorNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4160,7 +4160,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] debtorNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] debtorNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of debtor note types.
 
@@ -4204,7 +4204,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -4218,7 +4218,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorNotesGETManyRequestDebtorIDNotesGet**
-> \Jiwa\JiwaModel\Note[] debtorNotesGETManyRequestDebtorIDNotesGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] debtorNotesGETManyRequestDebtorIDNotesGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor notes.
 
@@ -4264,7 +4264,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -4278,7 +4278,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPATCHRequestDebtorIDUpdate**
-> \Jiwa\JiwaModel\Debtor debtorPATCHRequestDebtorIDUpdate($accept, $debtor_id, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $last_saved_date_time, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body)
+> \Jiwa\Model\Debtor debtorPATCHRequestDebtorIDUpdate($accept, $debtor_id, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $last_saved_date_time, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body)
 
 Updates a debtor.
 
@@ -4391,7 +4391,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $documents = "documents_example"; // string | 
 $debtor_systems = "debtor_systems_example"; // string | 
 $debtor_ledgers = "debtor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorPATCHRequest(); // \Jiwa\JiwaModel\DebtorPATCHRequest | 
+$body = new \Jiwa\Model\DebtorPATCHRequest(); // \Jiwa\Model\DebtorPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorPATCHRequestDebtorIDUpdate($accept, $debtor_id, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $last_saved_date_time, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body);
@@ -4496,11 +4496,11 @@ Name | Type | Description  | Notes
  **documents** | **string**|  | [optional]
  **debtor_systems** | **string**|  | [optional]
  **debtor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPATCHRequest**](../Model/DebtorPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPATCHRequest**](../Model/DebtorPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Debtor**](../Model/Debtor.md)
+[**\Jiwa\Model\Debtor**](../Model/Debtor.md)
 
 ### Authorization
 
@@ -4514,7 +4514,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPOSTRequestPost**
-> \Jiwa\JiwaModel\Debtor debtorPOSTRequestPost($accept, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body)
+> \Jiwa\Model\Debtor debtorPOSTRequestPost($accept, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body)
 
 Creates a debtor.
 
@@ -4625,7 +4625,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $documents = "documents_example"; // string | 
 $debtor_systems = "debtor_systems_example"; // string | 
 $debtor_ledgers = "debtor_ledgers_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorPOSTRequest(); // \Jiwa\JiwaModel\DebtorPOSTRequest | 
+$body = new \Jiwa\Model\DebtorPOSTRequest(); // \Jiwa\Model\DebtorPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorPOSTRequestPost($accept, $jiwa_stateful, $credit_limit, $early_payment_discount_days, $early_payment_discount_amount, $last_purchase_date, $last_payment_date, $standing_discount_on_invoices, $account_on_hold, $current_balance, $period1_balance, $period2_balance, $period3_balance, $period4_balance, $fx_current_balance, $fx_period1_balance, $fx_period2_balance, $fx_period3_balance, $fx_period4_balance, $notify_required, $web_access, $commence_date, $trading_status, $period_type, $uses_fx, $is_cash_only, $terms_days, $terms_type, $exclude_from_aging, $debtor_is_branch_account, $remaining_normal_prepaid_labour_pack_hours, $remaining_special_prepaid_labour_pack_hours, $fx_decimal_places, $prospect_id, $account_no, $alt_account_no, $name, $address1, $address2, $address3, $address4, $postcode, $phone, $fax, $email_address, $acn, $abn, $aust_post_dpid, $aust_post_bcsp, $bank_name, $bank_account_no, $bank_bsbn, $bank_account_name, $tax_exemption_no, $notify_address, $parent_debtor_id, $parent_debtor_account_no, $parent_debtor_name, $price_scheme_id, $price_scheme_description, $trading_name, $company_name, $proprietors_name, $fax_header, $fxid, $fx_name, $fx_short_name, $b_pay_reference, $classification, $category1, $category2, $category3, $category4, $category5, $contact_names, $group_memberships, $branch_debtors, $delivery_addresses, $freight_forwarder_addresses, $notes, $credit_notes, $directors, $budgets, $debtor_part_numbers, $custom_field_values, $documents, $debtor_systems, $debtor_ledgers, $body);
@@ -4728,11 +4728,11 @@ Name | Type | Description  | Notes
  **documents** | **string**|  | [optional]
  **debtor_systems** | **string**|  | [optional]
  **debtor_ledgers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPOSTRequest**](../Model/DebtorPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPOSTRequest**](../Model/DebtorPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Debtor**](../Model/Debtor.md)
+[**\Jiwa\Model\Debtor**](../Model/Debtor.md)
 
 ### Authorization
 
@@ -4746,7 +4746,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPartNumberDELETERequestDebtorIDDebtorPartNumbersPartNumberIDDelete**
-> \Jiwa\JiwaModel\Object debtorPartNumberDELETERequestDebtorIDDebtorPartNumbersPartNumberIDDelete($accept, $debtor_id, $part_number_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode)
+> \Jiwa\Model\Object debtorPartNumberDELETERequestDebtorIDDebtorPartNumbersPartNumberIDDelete($accept, $debtor_id, $part_number_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode)
 
 Deletes a debtor part number.
 
@@ -4802,7 +4802,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -4816,7 +4816,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPartNumberGETRequestDebtorIDDebtorPartNumbersPartNumberIDGet**
-> \Jiwa\JiwaModel\DebtorPartNumber debtorPartNumberGETRequestDebtorIDDebtorPartNumbersPartNumberIDGet($accept, $debtor_id, $part_number_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorPartNumber debtorPartNumberGETRequestDebtorIDDebtorPartNumbersPartNumberIDGet($accept, $debtor_id, $part_number_id, $jiwa_stateful)
 
 Retrieves a debtor part number.
 
@@ -4864,7 +4864,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPartNumber**](../Model/DebtorPartNumber.md)
+[**\Jiwa\Model\DebtorPartNumber**](../Model/DebtorPartNumber.md)
 
 ### Authorization
 
@@ -4878,7 +4878,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPartNumberPATCHRequestDebtorIDDebtorPartNumbersPartNumberIDUpdate**
-> \Jiwa\JiwaModel\DebtorPartNumber debtorPartNumberPATCHRequestDebtorIDDebtorPartNumbersPartNumberIDUpdate($accept, $debtor_id, $part_number_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body)
+> \Jiwa\Model\DebtorPartNumber debtorPartNumberPATCHRequestDebtorIDDebtorPartNumbersPartNumberIDUpdate($accept, $debtor_id, $part_number_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body)
 
 Updates a debtor part number.
 
@@ -4909,7 +4909,7 @@ $inventory_id = "inventory_id_example"; // string |
 $part_no = "part_no_example"; // string | 
 $debtor_part_no = "debtor_part_no_example"; // string | 
 $debtor_barcode = "debtor_barcode_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorPartNumberPATCHRequest(); // \Jiwa\JiwaModel\DebtorPartNumberPATCHRequest | 
+$body = new \Jiwa\Model\DebtorPartNumberPATCHRequest(); // \Jiwa\Model\DebtorPartNumberPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorPartNumberPATCHRequestDebtorIDDebtorPartNumbersPartNumberIDUpdate($accept, $debtor_id, $part_number_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body);
@@ -4932,11 +4932,11 @@ Name | Type | Description  | Notes
  **part_no** | **string**|  | [optional]
  **debtor_part_no** | **string**|  | [optional]
  **debtor_barcode** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPartNumberPATCHRequest**](../Model/DebtorPartNumberPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPartNumberPATCHRequest**](../Model/DebtorPartNumberPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPartNumber**](../Model/DebtorPartNumber.md)
+[**\Jiwa\Model\DebtorPartNumber**](../Model/DebtorPartNumber.md)
 
 ### Authorization
 
@@ -4950,7 +4950,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPartNumberPOSTRequestDebtorIDDebtorPartNumbersPost**
-> \Jiwa\JiwaModel\DebtorPartNumber debtorPartNumberPOSTRequestDebtorIDDebtorPartNumbersPost($accept, $debtor_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body)
+> \Jiwa\Model\DebtorPartNumber debtorPartNumberPOSTRequestDebtorIDDebtorPartNumbersPost($accept, $debtor_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body)
 
 Appends a debtor part number to a debtor.
 
@@ -4980,7 +4980,7 @@ $inventory_id = "inventory_id_example"; // string |
 $part_no = "part_no_example"; // string | 
 $debtor_part_no = "debtor_part_no_example"; // string | 
 $debtor_barcode = "debtor_barcode_example"; // string | 
-$body = new \Jiwa\JiwaModel\DebtorPartNumberPOSTRequest(); // \Jiwa\JiwaModel\DebtorPartNumberPOSTRequest | 
+$body = new \Jiwa\Model\DebtorPartNumberPOSTRequest(); // \Jiwa\Model\DebtorPartNumberPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorPartNumberPOSTRequestDebtorIDDebtorPartNumbersPost($accept, $debtor_id, $jiwa_stateful, $inventory_id, $part_no, $debtor_part_no, $debtor_barcode, $body);
@@ -5002,11 +5002,11 @@ Name | Type | Description  | Notes
  **part_no** | **string**|  | [optional]
  **debtor_part_no** | **string**|  | [optional]
  **debtor_barcode** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPartNumberPOSTRequest**](../Model/DebtorPartNumberPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPartNumberPOSTRequest**](../Model/DebtorPartNumberPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPartNumber**](../Model/DebtorPartNumber.md)
+[**\Jiwa\Model\DebtorPartNumber**](../Model/DebtorPartNumber.md)
 
 ### Authorization
 
@@ -5020,7 +5020,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPartNumbersGETManyRequestDebtorIDDebtorPartNumbersGet**
-> \Jiwa\JiwaModel\DebtorPartNumber[] debtorPartNumbersGETManyRequestDebtorIDDebtorPartNumbersGet($accept, $debtor_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorPartNumber[] debtorPartNumbersGETManyRequestDebtorIDDebtorPartNumbersGet($accept, $debtor_id, $jiwa_stateful)
 
 Retrieves a list of debtor part numbers.
 
@@ -5066,7 +5066,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPartNumber[]**](../Model/DebtorPartNumber.md)
+[**\Jiwa\Model\DebtorPartNumber[]**](../Model/DebtorPartNumber.md)
 
 ### Authorization
 
@@ -5080,7 +5080,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete**
-> \Jiwa\JiwaModel\Object debtorPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete($accept, $pricing_group_id, $jiwa_stateful)
+> \Jiwa\Model\Object debtorPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete($accept, $pricing_group_id, $jiwa_stateful)
 
 Deletes a debtor pricing group.
 
@@ -5126,7 +5126,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -5140,7 +5140,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPricingGroupGETRequestPricingGroupsPricingGroupIDGet**
-> \Jiwa\JiwaModel\DebtorPricingGroup debtorPricingGroupGETRequestPricingGroupsPricingGroupIDGet($accept, $pricing_group_id, $jiwa_stateful)
+> \Jiwa\Model\DebtorPricingGroup debtorPricingGroupGETRequestPricingGroupsPricingGroupIDGet($accept, $pricing_group_id, $jiwa_stateful)
 
 Retrieves a debtor pricing group.
 
@@ -5186,7 +5186,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
+[**\Jiwa\Model\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
 
 ### Authorization
 
@@ -5200,7 +5200,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate**
-> \Jiwa\JiwaModel\DebtorPricingGroup debtorPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body)
+> \Jiwa\Model\DebtorPricingGroup debtorPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body)
 
 Updates a debtor pricing group.
 
@@ -5229,7 +5229,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $is_default = true; // bool | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\DebtorPricingGroupPATCHRequest(); // \Jiwa\JiwaModel\DebtorPricingGroupPATCHRequest | 
+$body = new \Jiwa\Model\DebtorPricingGroupPATCHRequest(); // \Jiwa\Model\DebtorPricingGroupPATCHRequest | 
 
 try {
     $result = $apiInstance->debtorPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body);
@@ -5250,11 +5250,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPricingGroupPATCHRequest**](../Model/DebtorPricingGroupPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPricingGroupPATCHRequest**](../Model/DebtorPricingGroupPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
+[**\Jiwa\Model\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
 
 ### Authorization
 
@@ -5268,7 +5268,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorPricingGroupPOSTRequestPricingGroupsPost**
-> \Jiwa\JiwaModel\DebtorPricingGroup debtorPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body)
+> \Jiwa\Model\DebtorPricingGroup debtorPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body)
 
 Creates a new debtor pricing group.
 
@@ -5295,7 +5295,7 @@ $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\DebtorPricingGroupPOSTRequest(); // \Jiwa\JiwaModel\DebtorPricingGroupPOSTRequest | 
+$body = new \Jiwa\Model\DebtorPricingGroupPOSTRequest(); // \Jiwa\Model\DebtorPricingGroupPOSTRequest | 
 
 try {
     $result = $apiInstance->debtorPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body);
@@ -5314,11 +5314,11 @@ Name | Type | Description  | Notes
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **description** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\DebtorPricingGroupPOSTRequest**](../Model/DebtorPricingGroupPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\DebtorPricingGroupPOSTRequest**](../Model/DebtorPricingGroupPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
+[**\Jiwa\Model\DebtorPricingGroup**](../Model/DebtorPricingGroup.md)
 
 ### Authorization
 
@@ -5332,7 +5332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **debtorSAVERequestSaveGet**
-> \Jiwa\JiwaModel\Debtor debtorSAVERequestSaveGet($accept, $jiwa_stateful, $debtor_id)
+> \Jiwa\Model\Debtor debtorSAVERequestSaveGet($accept, $jiwa_stateful, $debtor_id)
 
 Saves a stateful debtor.
 
@@ -5378,7 +5378,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Debtor**](../Model/Debtor.md)
+[**\Jiwa\Model\Debtor**](../Model/Debtor.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -64,13 +64,13 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
         'maximum_production_capability' => 'double',
         'last_saved_date_time' => '\DateTime',
         'row_hash' => 'string',
-        'stages' => '\Jiwa\JiwaModel\Stage[]',
-        'outputs' => '\Jiwa\JiwaModel\Output[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'production_line' => '\Jiwa\JiwaModel\ProductionLine',
-        'bill_parents' => '\Jiwa\JiwaModel\BillParent[]'
+        'stages' => '\Jiwa\Model\Stage[]',
+        'outputs' => '\Jiwa\Model\Output[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'production_line' => '\Jiwa\Model\ProductionLine',
+        'bill_parents' => '\Jiwa\Model\BillParent[]'
     ];
 
     /**
@@ -433,7 +433,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets stages
      *
-     * @return \Jiwa\JiwaModel\Stage[]
+     * @return \Jiwa\Model\Stage[]
      */
     public function getStages()
     {
@@ -443,7 +443,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets stages
      *
-     * @param \Jiwa\JiwaModel\Stage[] $stages stages
+     * @param \Jiwa\Model\Stage[] $stages stages
      *
      * @return $this
      */
@@ -457,7 +457,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets outputs
      *
-     * @return \Jiwa\JiwaModel\Output[]
+     * @return \Jiwa\Model\Output[]
      */
     public function getOutputs()
     {
@@ -467,7 +467,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets outputs
      *
-     * @param \Jiwa\JiwaModel\Output[] $outputs outputs
+     * @param \Jiwa\Model\Output[] $outputs outputs
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -491,7 +491,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -505,7 +505,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -515,7 +515,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -529,7 +529,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -539,7 +539,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -553,7 +553,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets production_line
      *
-     * @return \Jiwa\JiwaModel\ProductionLine
+     * @return \Jiwa\Model\ProductionLine
      */
     public function getProductionLine()
     {
@@ -563,7 +563,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets production_line
      *
-     * @param \Jiwa\JiwaModel\ProductionLine $production_line production_line
+     * @param \Jiwa\Model\ProductionLine $production_line production_line
      *
      * @return $this
      */
@@ -577,7 +577,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets bill_parents
      *
-     * @return \Jiwa\JiwaModel\BillParent[]
+     * @return \Jiwa\Model\BillParent[]
      */
     public function getBillParents()
     {
@@ -587,7 +587,7 @@ class BillPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets bill_parents
      *
-     * @param \Jiwa\JiwaModel\BillParent[] $bill_parents bill_parents
+     * @param \Jiwa\Model\BillParent[] $bill_parents bill_parents
      *
      * @return $this
      */

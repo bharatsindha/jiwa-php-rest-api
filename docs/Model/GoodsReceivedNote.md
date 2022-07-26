@@ -39,9 +39,9 @@ Name | Type | Description | Notes
 **insurance_inc** | **double** |  | [optional] 
 **inventory_total_quantity** | **double** |  | [optional] 
 **inventory_total_quantity_decimal_places** | **double** |  | [optional] 
-**lines** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLine[]**](GoodsReceivedNoteLine.md) |  | [optional] 
-**purchase_orders** | [**\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[]**](GoodsReceivedNotePurchaseOrderReceived.md) |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**lines** | [**\Jiwa\Model\GoodsReceivedNoteLine[]**](GoodsReceivedNoteLine.md) |  | [optional] 
+**purchase_orders** | [**\Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[]**](GoodsReceivedNotePurchaseOrderReceived.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

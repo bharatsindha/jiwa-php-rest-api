@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,13 +60,13 @@ class BookIn implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'book_in_id' => 'string',
         'book_in_no' => 'string',
-        'shipment' => '\Jiwa\JiwaModel\BookInShipment',
+        'shipment' => '\Jiwa\Model\BookInShipment',
         'book_in_date' => '\DateTime',
         'activated' => 'bool',
         'gl_sets_rec_id' => 'string',
         'last_saved_date_time' => '\DateTime',
-        'lines' => '\Jiwa\JiwaModel\BookInLine[]',
-        'other_book_ins_for_this_shipment' => '\Jiwa\JiwaModel\BookInOtherBookIn[]'
+        'lines' => '\Jiwa\Model\BookInLine[]',
+        'other_book_ins_for_this_shipment' => '\Jiwa\Model\BookInOtherBookIn[]'
     ];
 
     /**
@@ -304,7 +304,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Gets shipment
      *
-     * @return \Jiwa\JiwaModel\BookInShipment
+     * @return \Jiwa\Model\BookInShipment
      */
     public function getShipment()
     {
@@ -314,7 +314,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Sets shipment
      *
-     * @param \Jiwa\JiwaModel\BookInShipment $shipment shipment
+     * @param \Jiwa\Model\BookInShipment $shipment shipment
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\BookInLine[]
+     * @return \Jiwa\Model\BookInLine[]
      */
     public function getLines()
     {
@@ -434,7 +434,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\BookInLine[] $lines lines
+     * @param \Jiwa\Model\BookInLine[] $lines lines
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Gets other_book_ins_for_this_shipment
      *
-     * @return \Jiwa\JiwaModel\BookInOtherBookIn[]
+     * @return \Jiwa\Model\BookInOtherBookIn[]
      */
     public function getOtherBookInsForThisShipment()
     {
@@ -458,7 +458,7 @@ class BookIn implements ModelInterface, ArrayAccess
     /**
      * Sets other_book_ins_for_this_shipment
      *
-     * @param \Jiwa\JiwaModel\BookInOtherBookIn[] $other_book_ins_for_this_shipment other_book_ins_for_this_shipment
+     * @param \Jiwa\Model\BookInOtherBookIn[] $other_book_ins_for_this_shipment other_book_ins_for_this_shipment
      *
      * @return $this
      */

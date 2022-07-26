@@ -38,7 +38,7 @@ Method | HTTP request | Description
 
 
 # **journalSetABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object journalSetABANDONRequestAbandonDelete($accept, $jiwa_stateful, $journal_set_id)
+> \Jiwa\Model\Object journalSetABANDONRequestAbandonDelete($accept, $jiwa_stateful, $journal_set_id)
 
 Abandons a stateful journal set.
 
@@ -84,7 +84,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDELETERequestJournalSetIDDelete**
-> \Jiwa\JiwaModel\Object journalSetDELETERequestJournalSetIDDelete($accept, $journal_set_id, $jiwa_stateful)
+> \Jiwa\Model\Object journalSetDELETERequestJournalSetIDDelete($accept, $journal_set_id, $jiwa_stateful)
 
 Deletes a journal set.
 
@@ -144,7 +144,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -158,7 +158,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentDELETERequestJournalSetIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object journalSetDocumentDELETERequestJournalSetIDDocumentsDocumentIDDelete($accept, $journal_set_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object journalSetDocumentDELETERequestJournalSetIDDocumentsDocumentIDDelete($accept, $journal_set_id, $document_id, $jiwa_stateful)
 
 Deletes a journal set document.
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentGETRequestJournalSetIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document journalSetDocumentGETRequestJournalSetIDDocumentsDocumentIDGet($accept, $journal_set_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document journalSetDocumentGETRequestJournalSetIDDocumentsDocumentIDGet($accept, $journal_set_id, $document_id, $jiwa_stateful)
 
 Retrieves a journal set document.
 
@@ -268,7 +268,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -282,7 +282,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentPATCHRequestJournalSetIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document journalSetDocumentPATCHRequestJournalSetIDDocumentsDocumentIDUpdate($accept, $journal_set_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document journalSetDocumentPATCHRequestJournalSetIDDocumentsDocumentIDUpdate($accept, $journal_set_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates a journal set document.
 
@@ -321,7 +321,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetDocumentPATCHRequest(); // \Jiwa\JiwaModel\JournalSetDocumentPATCHRequest | 
+$body = new \Jiwa\Model\JournalSetDocumentPATCHRequest(); // \Jiwa\Model\JournalSetDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetDocumentPATCHRequestJournalSetIDDocumentsDocumentIDUpdate($accept, $journal_set_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -352,11 +352,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetDocumentPATCHRequest**](../Model/JournalSetDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetDocumentPATCHRequest**](../Model/JournalSetDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -370,7 +370,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentPOSTRequestJournalSetIDDocumentsPost**
-> \Jiwa\JiwaModel\Document journalSetDocumentPOSTRequestJournalSetIDDocumentsPost($accept, $journal_set_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document journalSetDocumentPOSTRequestJournalSetIDDocumentsPost($accept, $journal_set_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to a journal set.
 
@@ -407,7 +407,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetDocumentPOSTRequest(); // \Jiwa\JiwaModel\JournalSetDocumentPOSTRequest | 
+$body = new \Jiwa\Model\JournalSetDocumentPOSTRequest(); // \Jiwa\Model\JournalSetDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetDocumentPOSTRequestJournalSetIDDocumentsPost($accept, $journal_set_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -436,11 +436,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetDocumentPOSTRequest**](../Model/JournalSetDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetDocumentPOSTRequest**](../Model/JournalSetDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -454,7 +454,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object journalSetDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object journalSetDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes a journal set document type.
 
@@ -500,7 +500,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -514,7 +514,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType journalSetDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType journalSetDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves a journal set document type.
 
@@ -560,7 +560,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -574,7 +574,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType journalSetDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType journalSetDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a journal set document type.
 
@@ -603,7 +603,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\JournalSetDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\JournalSetDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\JournalSetDocumentTypePATCHRequest(); // \Jiwa\Model\JournalSetDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -624,11 +624,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetDocumentTypePATCHRequest**](../Model/JournalSetDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetDocumentTypePATCHRequest**](../Model/JournalSetDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -642,7 +642,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType journalSetDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType journalSetDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new journal set document type.
 
@@ -670,7 +670,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\JournalSetDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\JournalSetDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\JournalSetDocumentTypePOSTRequest(); // \Jiwa\Model\JournalSetDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -690,11 +690,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetDocumentTypePOSTRequest**](../Model/JournalSetDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetDocumentTypePOSTRequest**](../Model/JournalSetDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -708,7 +708,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] journalSetDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] journalSetDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of journal set document types.
 
@@ -752,7 +752,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -766,7 +766,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetDocumentsGETManyRequestJournalSetIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] journalSetDocumentsGETManyRequestJournalSetIDDocumentsGet($accept, $journal_set_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] journalSetDocumentsGETManyRequestJournalSetIDDocumentsGet($accept, $journal_set_id, $jiwa_stateful)
 
 Retrieves a list of journal set documents.
 
@@ -812,7 +812,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -826,7 +826,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetGETRequestJournalSetIDGet**
-> \Jiwa\JiwaModel\JournalSet journalSetGETRequestJournalSetIDGet($accept, $journal_set_id, $jiwa_stateful)
+> \Jiwa\Model\JournalSet journalSetGETRequestJournalSetIDGet($accept, $journal_set_id, $jiwa_stateful)
 
 Retrieves a journal set.
 
@@ -872,7 +872,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSet**](../Model/JournalSet.md)
+[**\Jiwa\Model\JournalSet**](../Model/JournalSet.md)
 
 ### Authorization
 
@@ -886,7 +886,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetLineDELETERequestJournalSetIDLinesJournalSetLineIDDelete**
-> \Jiwa\JiwaModel\Object journalSetLineDELETERequestJournalSetIDLinesJournalSetLineIDDelete($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description)
+> \Jiwa\Model\Object journalSetLineDELETERequestJournalSetIDLinesJournalSetLineIDDelete($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description)
 
 Deletes a line from a journal set.
 
@@ -970,7 +970,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -984,7 +984,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetLineGETRequestJournalSetIDLinesJournalSetLineIDGet**
-> \Jiwa\JiwaModel\JournalSetLine journalSetLineGETRequestJournalSetIDLinesJournalSetLineIDGet($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful)
+> \Jiwa\Model\JournalSetLine journalSetLineGETRequestJournalSetIDLinesJournalSetLineIDGet($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful)
 
 Retrieves a journal set line.
 
@@ -1032,7 +1032,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSetLine**](../Model/JournalSetLine.md)
+[**\Jiwa\Model\JournalSetLine**](../Model/JournalSetLine.md)
 
 ### Authorization
 
@@ -1046,7 +1046,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetLinePATCHRequestJournalSetIDLinesJournalSetLineIDUpdate**
-> \Jiwa\JiwaModel\JournalSetLine journalSetLinePATCHRequestJournalSetIDLinesJournalSetLineIDUpdate($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body)
+> \Jiwa\Model\JournalSetLine journalSetLinePATCHRequestJournalSetIDLinesJournalSetLineIDUpdate($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body)
 
 Updates a line for a journal set.
 
@@ -1091,7 +1091,7 @@ $job_costing_full_job_no = "job_costing_full_job_no_example"; // string |
 $general_ledger_account_rec_id = "general_ledger_account_rec_id_example"; // string | 
 $general_ledger_account_account_no = "general_ledger_account_account_no_example"; // string | 
 $general_ledger_account_description = "general_ledger_account_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetLinePATCHRequest(); // \Jiwa\JiwaModel\JournalSetLinePATCHRequest | 
+$body = new \Jiwa\Model\JournalSetLinePATCHRequest(); // \Jiwa\Model\JournalSetLinePATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetLinePATCHRequestJournalSetIDLinesJournalSetLineIDUpdate($accept, $journal_set_id, $journal_set_line_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body);
@@ -1128,11 +1128,11 @@ Name | Type | Description  | Notes
  **general_ledger_account_rec_id** | **string**|  | [optional]
  **general_ledger_account_account_no** | **string**|  | [optional]
  **general_ledger_account_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetLinePATCHRequest**](../Model/JournalSetLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetLinePATCHRequest**](../Model/JournalSetLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSetLine**](../Model/JournalSetLine.md)
+[**\Jiwa\Model\JournalSetLine**](../Model/JournalSetLine.md)
 
 ### Authorization
 
@@ -1146,7 +1146,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetLinePOSTRequestJournalSetIDLinesPost**
-> \Jiwa\JiwaModel\JournalSetLine journalSetLinePOSTRequestJournalSetIDLinesPost($accept, $journal_set_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body)
+> \Jiwa\Model\JournalSetLine journalSetLinePOSTRequestJournalSetIDLinesPost($accept, $journal_set_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body)
 
 Appends a line to a journal set.
 
@@ -1190,7 +1190,7 @@ $job_costing_full_job_no = "job_costing_full_job_no_example"; // string |
 $general_ledger_account_rec_id = "general_ledger_account_rec_id_example"; // string | 
 $general_ledger_account_account_no = "general_ledger_account_account_no_example"; // string | 
 $general_ledger_account_description = "general_ledger_account_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetLinePOSTRequest(); // \Jiwa\JiwaModel\JournalSetLinePOSTRequest | 
+$body = new \Jiwa\Model\JournalSetLinePOSTRequest(); // \Jiwa\Model\JournalSetLinePOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetLinePOSTRequestJournalSetIDLinesPost($accept, $journal_set_id, $jiwa_stateful, $item_no, $reference, $remark, $trans_code1_id, $trans_code1_description, $trans_code2_id, $trans_code2_description, $bas_code, $trans_post_date_time, $debit_amount, $credit_amount, $allow_group, $staff, $job_costing_stage_id, $job_costing_full_job_no, $general_ledger_account_rec_id, $general_ledger_account_account_no, $general_ledger_account_description, $body);
@@ -1226,11 +1226,11 @@ Name | Type | Description  | Notes
  **general_ledger_account_rec_id** | **string**|  | [optional]
  **general_ledger_account_account_no** | **string**|  | [optional]
  **general_ledger_account_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetLinePOSTRequest**](../Model/JournalSetLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetLinePOSTRequest**](../Model/JournalSetLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSetLine**](../Model/JournalSetLine.md)
+[**\Jiwa\Model\JournalSetLine**](../Model/JournalSetLine.md)
 
 ### Authorization
 
@@ -1244,7 +1244,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetLinesGETManyRequestJournalSetIDLinesGet**
-> \Jiwa\JiwaModel\JournalSetLine[] journalSetLinesGETManyRequestJournalSetIDLinesGet($accept, $journal_set_id, $jiwa_stateful)
+> \Jiwa\Model\JournalSetLine[] journalSetLinesGETManyRequestJournalSetIDLinesGet($accept, $journal_set_id, $jiwa_stateful)
 
 Retrieves a list of journal set lines.
 
@@ -1290,7 +1290,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSetLine[]**](../Model/JournalSetLine.md)
+[**\Jiwa\Model\JournalSetLine[]**](../Model/JournalSetLine.md)
 
 ### Authorization
 
@@ -1304,7 +1304,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteDELETERequestJournalSetIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object journalSetNoteDELETERequestJournalSetIDNotesNoteIDDelete($accept, $journal_set_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object journalSetNoteDELETERequestJournalSetIDNotesNoteIDDelete($accept, $journal_set_id, $note_id, $jiwa_stateful)
 
 Deletes a journal set note.
 
@@ -1352,7 +1352,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1366,7 +1366,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteGETRequestJournalSetIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note journalSetNoteGETRequestJournalSetIDNotesNoteIDGet($accept, $journal_set_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note journalSetNoteGETRequestJournalSetIDNotesNoteIDGet($accept, $journal_set_id, $note_id, $jiwa_stateful)
 
 Retrieves a journal set note.
 
@@ -1414,7 +1414,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -1428,7 +1428,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNotePATCHRequestJournalSetIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note journalSetNotePATCHRequestJournalSetIDNotesNoteIDUpdate($accept, $journal_set_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note journalSetNotePATCHRequestJournalSetIDNotesNoteIDUpdate($accept, $journal_set_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates a journal set note.
 
@@ -1464,7 +1464,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetNotePATCHRequest(); // \Jiwa\JiwaModel\JournalSetNotePATCHRequest | 
+$body = new \Jiwa\Model\JournalSetNotePATCHRequest(); // \Jiwa\Model\JournalSetNotePATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetNotePATCHRequestJournalSetIDNotesNoteIDUpdate($accept, $journal_set_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -1492,11 +1492,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetNotePATCHRequest**](../Model/JournalSetNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetNotePATCHRequest**](../Model/JournalSetNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -1510,7 +1510,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNotePOSTRequestJournalSetIDNotesPost**
-> \Jiwa\JiwaModel\Note journalSetNotePOSTRequestJournalSetIDNotesPost($accept, $journal_set_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note journalSetNotePOSTRequestJournalSetIDNotesPost($accept, $journal_set_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to a journal set.
 
@@ -1545,7 +1545,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\JournalSetNotePOSTRequest(); // \Jiwa\JiwaModel\JournalSetNotePOSTRequest | 
+$body = new \Jiwa\Model\JournalSetNotePOSTRequest(); // \Jiwa\Model\JournalSetNotePOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetNotePOSTRequestJournalSetIDNotesPost($accept, $journal_set_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -1572,11 +1572,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetNotePOSTRequest**](../Model/JournalSetNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetNotePOSTRequest**](../Model/JournalSetNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -1590,7 +1590,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object journalSetNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object journalSetNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes a journal set note type.
 
@@ -1636,7 +1636,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1650,7 +1650,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType journalSetNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType journalSetNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves a journal set note type.
 
@@ -1696,7 +1696,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -1710,7 +1710,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType journalSetNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType journalSetNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a journal set note type.
 
@@ -1739,7 +1739,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\JournalSetNoteTypePATCHRequest(); // \Jiwa\JiwaModel\JournalSetNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\JournalSetNoteTypePATCHRequest(); // \Jiwa\Model\JournalSetNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -1760,11 +1760,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetNoteTypePATCHRequest**](../Model/JournalSetNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetNoteTypePATCHRequest**](../Model/JournalSetNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -1778,7 +1778,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType journalSetNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType journalSetNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new journal set note type.
 
@@ -1806,7 +1806,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\JournalSetNoteTypePOSTRequest(); // \Jiwa\JiwaModel\JournalSetNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\JournalSetNoteTypePOSTRequest(); // \Jiwa\Model\JournalSetNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -1826,11 +1826,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetNoteTypePOSTRequest**](../Model/JournalSetNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetNoteTypePOSTRequest**](../Model/JournalSetNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -1844,7 +1844,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] journalSetNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] journalSetNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of journal set note types.
 
@@ -1888,7 +1888,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -1902,7 +1902,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetNotesGETManyRequestJournalSetIDNotesGet**
-> \Jiwa\JiwaModel\Note[] journalSetNotesGETManyRequestJournalSetIDNotesGet($accept, $journal_set_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] journalSetNotesGETManyRequestJournalSetIDNotesGet($accept, $journal_set_id, $jiwa_stateful)
 
 Retrieves a list of journal set notes.
 
@@ -1948,7 +1948,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -1962,7 +1962,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetPATCHRequestJournalSetIDUpdate**
-> \Jiwa\JiwaModel\JournalSet journalSetPATCHRequestJournalSetIDUpdate($accept, $journal_set_id, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body)
+> \Jiwa\Model\JournalSet journalSetPATCHRequestJournalSetIDUpdate($accept, $journal_set_id, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body)
 
 Updates a journal set.
 
@@ -2013,7 +2013,7 @@ $posted_to_year_type = "posted_to_year_type_example"; // string |
 $posted_to_year_no = 56; // int | 
 $posted_to_period_no_is_globally_locked = true; // bool | 
 $posted_to_period_no_is_externally_locked = true; // bool | 
-$body = new \Jiwa\JiwaModel\JournalSetPATCHRequest(); // \Jiwa\JiwaModel\JournalSetPATCHRequest | 
+$body = new \Jiwa\Model\JournalSetPATCHRequest(); // \Jiwa\Model\JournalSetPATCHRequest | 
 
 try {
     $result = $apiInstance->journalSetPATCHRequestJournalSetIDUpdate($accept, $journal_set_id, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body);
@@ -2056,11 +2056,11 @@ Name | Type | Description  | Notes
  **posted_to_year_no** | **int**|  | [optional]
  **posted_to_period_no_is_globally_locked** | **bool**|  | [optional]
  **posted_to_period_no_is_externally_locked** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetPATCHRequest**](../Model/JournalSetPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetPATCHRequest**](../Model/JournalSetPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSet**](../Model/JournalSet.md)
+[**\Jiwa\Model\JournalSet**](../Model/JournalSet.md)
 
 ### Authorization
 
@@ -2074,7 +2074,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetPOSTRequestPost**
-> \Jiwa\JiwaModel\JournalSet journalSetPOSTRequestPost($accept, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body)
+> \Jiwa\Model\JournalSet journalSetPOSTRequestPost($accept, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body)
 
 Creates a journal set.
 
@@ -2124,7 +2124,7 @@ $posted_to_year_type = "posted_to_year_type_example"; // string |
 $posted_to_year_no = 56; // int | 
 $posted_to_period_no_is_globally_locked = true; // bool | 
 $posted_to_period_no_is_externally_locked = true; // bool | 
-$body = new \Jiwa\JiwaModel\JournalSetPOSTRequest(); // \Jiwa\JiwaModel\JournalSetPOSTRequest | 
+$body = new \Jiwa\Model\JournalSetPOSTRequest(); // \Jiwa\Model\JournalSetPOSTRequest | 
 
 try {
     $result = $apiInstance->journalSetPOSTRequestPost($accept, $jiwa_stateful, $set_no, $set_type, $description, $source, $source_id, $posted_date, $is_reversed, $reverse_type, $reverse_date, $repeating_units, $repeating_type, $next_repeating_date, $repeating_will_end, $repeating_end_date, $last_saved_date_time, $staff, $lines, $notes, $documents, $posted_to_period_no, $posted_to_period_name, $posted_to_year_type, $posted_to_year_no, $posted_to_period_no_is_globally_locked, $posted_to_period_no_is_externally_locked, $body);
@@ -2166,11 +2166,11 @@ Name | Type | Description  | Notes
  **posted_to_year_no** | **int**|  | [optional]
  **posted_to_period_no_is_globally_locked** | **bool**|  | [optional]
  **posted_to_period_no_is_externally_locked** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\JournalSetPOSTRequest**](../Model/JournalSetPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\JournalSetPOSTRequest**](../Model/JournalSetPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSet**](../Model/JournalSet.md)
+[**\Jiwa\Model\JournalSet**](../Model/JournalSet.md)
 
 ### Authorization
 
@@ -2184,7 +2184,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **journalSetSAVERequestSaveGet**
-> \Jiwa\JiwaModel\JournalSet journalSetSAVERequestSaveGet($accept, $jiwa_stateful, $journal_set_id)
+> \Jiwa\Model\JournalSet journalSetSAVERequestSaveGet($accept, $jiwa_stateful, $journal_set_id)
 
 Saves a stateful stateful journal set.
 
@@ -2230,7 +2230,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\JournalSet**](../Model/JournalSet.md)
+[**\Jiwa\Model\JournalSet**](../Model/JournalSet.md)
 
 ### Authorization
 

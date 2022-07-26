@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,7 +66,7 @@ class TaxRatePOSTRequest implements ModelInterface, ArrayAccess
         'bas_code' => 'double',
         'is_default_rate_in_group' => 'bool',
         'is_enabled' => 'bool',
-        'ledger_account' => '\Jiwa\JiwaModel\Account'
+        'ledger_account' => '\Jiwa\Model\Account'
     ];
 
     /**
@@ -448,7 +448,7 @@ class TaxRatePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ledger_account
      *
-     * @return \Jiwa\JiwaModel\Account
+     * @return \Jiwa\Model\Account
      */
     public function getLedgerAccount()
     {
@@ -458,7 +458,7 @@ class TaxRatePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ledger_account
      *
-     * @param \Jiwa\JiwaModel\Account $ledger_account ledger_account
+     * @param \Jiwa\Model\Account $ledger_account ledger_account
      *
      * @return $this
      */

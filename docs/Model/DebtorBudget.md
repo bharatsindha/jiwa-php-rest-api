@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **budget_id** | **string** |  | [optional] 
-**month** | [**\Jiwa\JiwaModel\DebtorMonth**](DebtorMonth.md) |  | [optional] 
+**month** | [**\Jiwa\Model\DebtorMonth**](DebtorMonth.md) |  | [optional] 
 **last_budget** | **double** |  | [optional] 
 **current_budget** | **double** |  | [optional] 
 **next_budget** | **double** |  | [optional] 

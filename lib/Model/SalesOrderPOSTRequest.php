@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'type' => 'string',
-        'system_settings' => '\Jiwa\JiwaModel\SalesOrderSystemSettings',
+        'system_settings' => '\Jiwa\Model\SalesOrderSystemSettings',
         'initiated_date' => '\DateTime',
         'invoice_init_date' => '\DateTime',
         'sales_order_type' => 'string',
@@ -74,7 +74,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
         'edi_order_type' => 'string',
         'edi_deliver_not_before_date' => '\DateTime',
         'edi_deliver_not_after_date' => '\DateTime',
-        'cash_sales' => '\Jiwa\JiwaModel\SalesOrderCashSales',
+        'cash_sales' => '\Jiwa\Model\SalesOrderCashSales',
         'drop_shipment' => 'bool',
         'cartage1_ex_gst' => 'double',
         'cartage1_gst_rate' => 'double',
@@ -87,7 +87,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
         'cartage3_gst' => 'double',
         'rcti_amount' => 'double',
         'rcti_date' => '\DateTime',
-        'job_costing' => '\Jiwa\JiwaModel\SalesOrderJobCosting',
+        'job_costing' => '\Jiwa\Model\SalesOrderJobCosting',
         'invoice_no' => 'string',
         'logical_id' => 'string',
         'logical_warehouse_description' => 'string',
@@ -124,13 +124,13 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
         'delivery_address_notes' => 'string',
         'delivery_address_courier_details' => 'string',
         'rcti_no' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'payments' => '\Jiwa\JiwaModel\SalesOrderPayment[]',
-        'lines' => '\Jiwa\JiwaModel\SalesOrderLine[]',
-        'histories' => '\Jiwa\JiwaModel\SalesOrderHistory[]',
-        'as_ns' => '\Jiwa\JiwaModel\SalesOrderASN[]'
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'payments' => '\Jiwa\Model\SalesOrderPayment[]',
+        'lines' => '\Jiwa\Model\SalesOrderLine[]',
+        'histories' => '\Jiwa\Model\SalesOrderHistory[]',
+        'as_ns' => '\Jiwa\Model\SalesOrderASN[]'
     ];
 
     /**
@@ -664,7 +664,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets system_settings
      *
-     * @return \Jiwa\JiwaModel\SalesOrderSystemSettings
+     * @return \Jiwa\Model\SalesOrderSystemSettings
      */
     public function getSystemSettings()
     {
@@ -674,7 +674,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets system_settings
      *
-     * @param \Jiwa\JiwaModel\SalesOrderSystemSettings $system_settings system_settings
+     * @param \Jiwa\Model\SalesOrderSystemSettings $system_settings system_settings
      *
      * @return $this
      */
@@ -1024,7 +1024,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets cash_sales
      *
-     * @return \Jiwa\JiwaModel\SalesOrderCashSales
+     * @return \Jiwa\Model\SalesOrderCashSales
      */
     public function getCashSales()
     {
@@ -1034,7 +1034,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets cash_sales
      *
-     * @param \Jiwa\JiwaModel\SalesOrderCashSales $cash_sales cash_sales
+     * @param \Jiwa\Model\SalesOrderCashSales $cash_sales cash_sales
      *
      * @return $this
      */
@@ -1336,7 +1336,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets job_costing
      *
-     * @return \Jiwa\JiwaModel\SalesOrderJobCosting
+     * @return \Jiwa\Model\SalesOrderJobCosting
      */
     public function getJobCosting()
     {
@@ -1346,7 +1346,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets job_costing
      *
-     * @param \Jiwa\JiwaModel\SalesOrderJobCosting $job_costing job_costing
+     * @param \Jiwa\Model\SalesOrderJobCosting $job_costing job_costing
      *
      * @return $this
      */
@@ -2224,7 +2224,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -2234,7 +2234,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -2248,7 +2248,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -2258,7 +2258,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -2272,7 +2272,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -2282,7 +2282,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -2296,7 +2296,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets payments
      *
-     * @return \Jiwa\JiwaModel\SalesOrderPayment[]
+     * @return \Jiwa\Model\SalesOrderPayment[]
      */
     public function getPayments()
     {
@@ -2306,7 +2306,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets payments
      *
-     * @param \Jiwa\JiwaModel\SalesOrderPayment[] $payments payments
+     * @param \Jiwa\Model\SalesOrderPayment[] $payments payments
      *
      * @return $this
      */
@@ -2320,7 +2320,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\SalesOrderLine[]
+     * @return \Jiwa\Model\SalesOrderLine[]
      */
     public function getLines()
     {
@@ -2330,7 +2330,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\SalesOrderLine[] $lines lines
+     * @param \Jiwa\Model\SalesOrderLine[] $lines lines
      *
      * @return $this
      */
@@ -2344,7 +2344,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets histories
      *
-     * @return \Jiwa\JiwaModel\SalesOrderHistory[]
+     * @return \Jiwa\Model\SalesOrderHistory[]
      */
     public function getHistories()
     {
@@ -2354,7 +2354,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets histories
      *
-     * @param \Jiwa\JiwaModel\SalesOrderHistory[] $histories histories
+     * @param \Jiwa\Model\SalesOrderHistory[] $histories histories
      *
      * @return $this
      */
@@ -2368,7 +2368,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets as_ns
      *
-     * @return \Jiwa\JiwaModel\SalesOrderASN[]
+     * @return \Jiwa\Model\SalesOrderASN[]
      */
     public function getAsNs()
     {
@@ -2378,7 +2378,7 @@ class SalesOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets as_ns
      *
-     * @param \Jiwa\JiwaModel\SalesOrderASN[] $as_ns as_ns
+     * @param \Jiwa\Model\SalesOrderASN[] $as_ns as_ns
      *
      * @return $this
      */

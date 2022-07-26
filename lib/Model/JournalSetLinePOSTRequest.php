@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -71,7 +71,7 @@ class JournalSetLinePOSTRequest implements ModelInterface, ArrayAccess
         'debit_amount' => 'double',
         'credit_amount' => 'double',
         'allow_group' => 'bool',
-        'staff' => '\Jiwa\JiwaModel\StaffMember',
+        'staff' => '\Jiwa\Model\StaffMember',
         'job_costing_stage_id' => 'string',
         'job_costing_full_job_no' => 'string',
         'general_ledger_account_rec_id' => 'string',
@@ -628,7 +628,7 @@ class JournalSetLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets staff
      *
-     * @return \Jiwa\JiwaModel\StaffMember
+     * @return \Jiwa\Model\StaffMember
      */
     public function getStaff()
     {
@@ -638,7 +638,7 @@ class JournalSetLinePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets staff
      *
-     * @param \Jiwa\JiwaModel\StaffMember $staff staff
+     * @param \Jiwa\Model\StaffMember $staff staff
      *
      * @return $this
      */

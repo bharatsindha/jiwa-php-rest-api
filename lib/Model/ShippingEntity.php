@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,7 +63,7 @@ class ShippingEntity implements ModelInterface, ArrayAccess
         'ra_number' => 'string',
         'reference' => 'string',
         'status' => 'string',
-        'return_code' => '\Jiwa\JiwaModel\ReturnCode',
+        'return_code' => '\Jiwa\Model\ReturnCode',
         'creditor_id' => 'string',
         'creditor_account_no' => 'string',
         'creditor_name' => 'string',
@@ -382,7 +382,7 @@ class ShippingEntity implements ModelInterface, ArrayAccess
     /**
      * Gets return_code
      *
-     * @return \Jiwa\JiwaModel\ReturnCode
+     * @return \Jiwa\Model\ReturnCode
      */
     public function getReturnCode()
     {
@@ -392,7 +392,7 @@ class ShippingEntity implements ModelInterface, ArrayAccess
     /**
      * Sets return_code
      *
-     * @param \Jiwa\JiwaModel\ReturnCode $return_code return_code
+     * @param \Jiwa\Model\ReturnCode $return_code return_code
      *
      * @return $this
      */

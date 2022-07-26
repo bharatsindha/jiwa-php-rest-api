@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **currency_rate_used** | **double** |  | [optional] 
 **purchasing_classification_id** | **string** |  | [optional] 
 **purchasing_classification_description** | **string** |  | [optional] 
-**line_details** | [**\Jiwa\JiwaModel\PurchaseInvoiceLineDetail[]**](PurchaseInvoiceLineDetail.md) |  | [optional] 
+**line_details** | [**\Jiwa\Model\PurchaseInvoiceLineDetail[]**](PurchaseInvoiceLineDetail.md) |  | [optional] 
 **use_serial_no** | **bool** |  | [optional] 
 **fx_cost** | **double** |  | [optional] 
 **physical_item** | **bool** |  | [optional] 
@@ -71,7 +71,7 @@ Name | Type | Description | Notes
 **order_id** | **string** |  | [optional] 
 **purchase_order_line_no** | **int** |  | [optional] 
 **purchase_order_type** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 **line_total_ex_tax** | **int** |  | [optional] 
 **re_lines_source_id** | **string** |  | [optional] 
 

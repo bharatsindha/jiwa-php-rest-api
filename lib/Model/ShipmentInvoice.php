@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -69,7 +69,7 @@ class ShipmentInvoice implements ModelInterface, ArrayAccess
         'creditor_account_no' => 'string',
         'creditor_name' => 'string',
         'use_forward_cover_contract' => 'bool',
-        'forward_cover_contracts' => '\Jiwa\JiwaModel\ShipmentForwardCoverContract[]',
+        'forward_cover_contracts' => '\Jiwa\Model\ShipmentForwardCoverContract[]',
         'cr_trans_id' => 'string',
         'user_field1' => 'string',
         'user_field2' => 'string',
@@ -652,7 +652,7 @@ class ShipmentInvoice implements ModelInterface, ArrayAccess
     /**
      * Gets forward_cover_contracts
      *
-     * @return \Jiwa\JiwaModel\ShipmentForwardCoverContract[]
+     * @return \Jiwa\Model\ShipmentForwardCoverContract[]
      */
     public function getForwardCoverContracts()
     {
@@ -662,7 +662,7 @@ class ShipmentInvoice implements ModelInterface, ArrayAccess
     /**
      * Sets forward_cover_contracts
      *
-     * @param \Jiwa\JiwaModel\ShipmentForwardCoverContract[] $forward_cover_contracts forward_cover_contracts
+     * @param \Jiwa\Model\ShipmentForwardCoverContract[] $forward_cover_contracts forward_cover_contracts
      *
      * @return $this
      */

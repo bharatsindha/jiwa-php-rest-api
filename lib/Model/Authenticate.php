@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -75,7 +75,7 @@ class Authenticate implements ModelInterface, ArrayAccess
         'use_token_cookie' => 'bool',
         'access_token' => 'string',
         'access_token_secret' => 'string',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_'
+        'meta' => '\Jiwa\Model\DictionaryStringString_'
     ];
 
     /**
@@ -718,7 +718,7 @@ class Authenticate implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -728,7 +728,7 @@ class Authenticate implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */

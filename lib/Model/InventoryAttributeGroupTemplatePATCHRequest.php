@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -61,7 +61,7 @@ class InventoryAttributeGroupTemplatePATCHRequest implements ModelInterface, Arr
         'attribute_group_template_id' => 'string',
         'name' => 'string',
         'is_enabled' => 'bool',
-        'template_attributes' => '\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[]'
+        'template_attributes' => '\Jiwa\Model\InventoryAttributeGroupTemplateAttribute[]'
     ];
 
     /**
@@ -298,7 +298,7 @@ class InventoryAttributeGroupTemplatePATCHRequest implements ModelInterface, Arr
     /**
      * Gets template_attributes
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[]
+     * @return \Jiwa\Model\InventoryAttributeGroupTemplateAttribute[]
      */
     public function getTemplateAttributes()
     {
@@ -308,7 +308,7 @@ class InventoryAttributeGroupTemplatePATCHRequest implements ModelInterface, Arr
     /**
      * Sets template_attributes
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[] $template_attributes template_attributes
+     * @param \Jiwa\Model\InventoryAttributeGroupTemplateAttribute[] $template_attributes template_attributes
      *
      * @return $this
      */

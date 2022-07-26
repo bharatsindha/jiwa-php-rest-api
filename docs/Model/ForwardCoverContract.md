@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **contract_no** | **string** |  | [optional] 
 **description** | **string** |  | [optional] 
 **reference** | **string** |  | [optional] 
-**currency** | [**\Jiwa\JiwaModel\Currency**](Currency.md) |  | [optional] 
+**currency** | [**\Jiwa\Model\Currency**](Currency.md) |  | [optional] 
 **fx_rate** | **double** |  | [optional] 
 **fx_contract_amount** | **double** |  | [optional] 
 **fx_used_amount** | **double** |  | [optional] 

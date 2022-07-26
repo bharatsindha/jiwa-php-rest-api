@@ -13,8 +13,8 @@ Name | Type | Description | Notes
 **item_width** | **double** |  | [optional] 
 **item_height** | **double** |  | [optional] 
 **reference** | **string** |  | [optional] 
-**freight_description** | [**\Jiwa\JiwaModel\SalesOrderCarrierFreightDescription**](SalesOrderCarrierFreightDescription.md) |  | [optional] 
-**consignment_note** | [**\Jiwa\JiwaModel\SalesOrderConsignmentNote**](SalesOrderConsignmentNote.md) |  | [optional] 
+**freight_description** | [**\Jiwa\Model\SalesOrderCarrierFreightDescription**](SalesOrderCarrierFreightDescription.md) |  | [optional] 
+**consignment_note** | [**\Jiwa\Model\SalesOrderConsignmentNote**](SalesOrderConsignmentNote.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

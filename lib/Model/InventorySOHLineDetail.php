@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -73,7 +73,7 @@ class InventorySOHLineDetail implements ModelInterface, ArrayAccess
         'ref' => 'string',
         'history_text' => 'string',
         'source_id' => 'string',
-        'bin_location' => '\Jiwa\JiwaModel\InventoryBinLocation'
+        'bin_location' => '\Jiwa\Model\InventoryBinLocation'
     ];
 
     /**
@@ -658,7 +658,7 @@ class InventorySOHLineDetail implements ModelInterface, ArrayAccess
     /**
      * Gets bin_location
      *
-     * @return \Jiwa\JiwaModel\InventoryBinLocation
+     * @return \Jiwa\Model\InventoryBinLocation
      */
     public function getBinLocation()
     {
@@ -668,7 +668,7 @@ class InventorySOHLineDetail implements ModelInterface, ArrayAccess
     /**
      * Sets bin_location
      *
-     * @param \Jiwa\JiwaModel\InventoryBinLocation $bin_location bin_location
+     * @param \Jiwa\Model\InventoryBinLocation $bin_location bin_location
      *
      * @return $this
      */

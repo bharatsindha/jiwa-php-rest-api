@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **stockTransferDELETERequestTransferIDDelete**
-> \Jiwa\JiwaModel\Object stockTransferDELETERequestTransferIDDelete($accept, $transfer_id, $jiwa_stateful)
+> \Jiwa\Model\Object stockTransferDELETERequestTransferIDDelete($accept, $transfer_id, $jiwa_stateful)
 
 Deletes a stock transfer.
 
@@ -56,7 +56,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -70,7 +70,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **stockTransferGETRequestTransferIDGet**
-> \Jiwa\JiwaModel\StockTransfer stockTransferGETRequestTransferIDGet($accept, $transfer_id, $jiwa_stateful)
+> \Jiwa\Model\StockTransfer stockTransferGETRequestTransferIDGet($accept, $transfer_id, $jiwa_stateful)
 
 Retrieves a stock transfer.
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\StockTransfer**](../Model/StockTransfer.md)
+[**\Jiwa\Model\StockTransfer**](../Model/StockTransfer.md)
 
 ### Authorization
 
@@ -130,7 +130,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **stockTransferPOSTRequestPost**
-> \Jiwa\JiwaModel\StockTransfer stockTransferPOSTRequestPost($accept, $jiwa_stateful, $transfer_no, $status, $transfer_date, $reference, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $last_saved_by_staff_id, $last_saved_by_staff_user_name, $last_saved_by_staff_title, $last_saved_by_staff_first_name, $last_saved_by_staff_surname, $last_saved_date_time, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $created_date_time, $lines, $notes, $documents, $custom_field_values, $stock_transfer_reason_rec_id, $stock_transfer_reason_name, $stock_transfer_reason_is_default, $stock_transfer_reason_write_off_ledger_account_override, $stock_transfer_reason_write_off_ledger_account_rec_id, $stock_transfer_reason_write_off_ledger_account_no, $stock_transfer_reason_write_off_ledger_account_description, $stock_transfer_reason_write_on_ledger_account_override, $stock_transfer_reason_write_on_ledger_account_rec_id, $stock_transfer_reason_write_on_ledger_account_no, $stock_transfer_reason_write_on_ledger_account_description, $body)
+> \Jiwa\Model\StockTransfer stockTransferPOSTRequestPost($accept, $jiwa_stateful, $transfer_no, $status, $transfer_date, $reference, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $last_saved_by_staff_id, $last_saved_by_staff_user_name, $last_saved_by_staff_title, $last_saved_by_staff_first_name, $last_saved_by_staff_surname, $last_saved_date_time, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $created_date_time, $lines, $notes, $documents, $custom_field_values, $stock_transfer_reason_rec_id, $stock_transfer_reason_name, $stock_transfer_reason_is_default, $stock_transfer_reason_write_off_ledger_account_override, $stock_transfer_reason_write_off_ledger_account_rec_id, $stock_transfer_reason_write_off_ledger_account_no, $stock_transfer_reason_write_off_ledger_account_description, $stock_transfer_reason_write_on_ledger_account_override, $stock_transfer_reason_write_on_ledger_account_rec_id, $stock_transfer_reason_write_on_ledger_account_no, $stock_transfer_reason_write_on_ledger_account_description, $body)
 
 Creates a stock transfer.
 
@@ -190,7 +190,7 @@ $stock_transfer_reason_write_on_ledger_account_override = true; // bool |
 $stock_transfer_reason_write_on_ledger_account_rec_id = "stock_transfer_reason_write_on_ledger_account_rec_id_example"; // string | 
 $stock_transfer_reason_write_on_ledger_account_no = "stock_transfer_reason_write_on_ledger_account_no_example"; // string | 
 $stock_transfer_reason_write_on_ledger_account_description = "stock_transfer_reason_write_on_ledger_account_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\StockTransferPOSTRequest(); // \Jiwa\JiwaModel\StockTransferPOSTRequest | 
+$body = new \Jiwa\Model\StockTransferPOSTRequest(); // \Jiwa\Model\StockTransferPOSTRequest | 
 
 try {
     $result = $apiInstance->stockTransferPOSTRequestPost($accept, $jiwa_stateful, $transfer_no, $status, $transfer_date, $reference, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $last_saved_by_staff_id, $last_saved_by_staff_user_name, $last_saved_by_staff_title, $last_saved_by_staff_first_name, $last_saved_by_staff_surname, $last_saved_date_time, $created_by_staff_id, $created_by_staff_user_name, $created_by_staff_title, $created_by_staff_first_name, $created_by_staff_surname, $created_date_time, $lines, $notes, $documents, $custom_field_values, $stock_transfer_reason_rec_id, $stock_transfer_reason_name, $stock_transfer_reason_is_default, $stock_transfer_reason_write_off_ledger_account_override, $stock_transfer_reason_write_off_ledger_account_rec_id, $stock_transfer_reason_write_off_ledger_account_no, $stock_transfer_reason_write_off_ledger_account_description, $stock_transfer_reason_write_on_ledger_account_override, $stock_transfer_reason_write_on_ledger_account_rec_id, $stock_transfer_reason_write_on_ledger_account_no, $stock_transfer_reason_write_on_ledger_account_description, $body);
@@ -242,11 +242,11 @@ Name | Type | Description  | Notes
  **stock_transfer_reason_write_on_ledger_account_rec_id** | **string**|  | [optional]
  **stock_transfer_reason_write_on_ledger_account_no** | **string**|  | [optional]
  **stock_transfer_reason_write_on_ledger_account_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\StockTransferPOSTRequest**](../Model/StockTransferPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\StockTransferPOSTRequest**](../Model/StockTransferPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\StockTransfer**](../Model/StockTransfer.md)
+[**\Jiwa\Model\StockTransfer**](../Model/StockTransfer.md)
 
 ### Authorization
 

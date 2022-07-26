@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **short_name** | **string** |  | [optional] 
 **item_no** | **int** |  | [optional] 
 **is_default** | **bool** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

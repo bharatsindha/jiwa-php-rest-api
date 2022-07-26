@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,10 +63,10 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
         'item_no' => 'int',
         'name' => 'string',
         'required_capacity' => 'double',
-        'production_line_work_centre' => '\Jiwa\JiwaModel\ProductionLineWorkCentre',
-        'inputs' => '\Jiwa\JiwaModel\Input[]',
-        'instructions' => '\Jiwa\JiwaModel\Instruction[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'production_line_work_centre' => '\Jiwa\Model\ProductionLineWorkCentre',
+        'inputs' => '\Jiwa\Model\Input[]',
+        'instructions' => '\Jiwa\Model\Instruction[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -376,7 +376,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets production_line_work_centre
      *
-     * @return \Jiwa\JiwaModel\ProductionLineWorkCentre
+     * @return \Jiwa\Model\ProductionLineWorkCentre
      */
     public function getProductionLineWorkCentre()
     {
@@ -386,7 +386,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets production_line_work_centre
      *
-     * @param \Jiwa\JiwaModel\ProductionLineWorkCentre $production_line_work_centre production_line_work_centre
+     * @param \Jiwa\Model\ProductionLineWorkCentre $production_line_work_centre production_line_work_centre
      *
      * @return $this
      */
@@ -400,7 +400,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inputs
      *
-     * @return \Jiwa\JiwaModel\Input[]
+     * @return \Jiwa\Model\Input[]
      */
     public function getInputs()
     {
@@ -410,7 +410,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inputs
      *
-     * @param \Jiwa\JiwaModel\Input[] $inputs inputs
+     * @param \Jiwa\Model\Input[] $inputs inputs
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets instructions
      *
-     * @return \Jiwa\JiwaModel\Instruction[]
+     * @return \Jiwa\Model\Instruction[]
      */
     public function getInstructions()
     {
@@ -434,7 +434,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets instructions
      *
-     * @param \Jiwa\JiwaModel\Instruction[] $instructions instructions
+     * @param \Jiwa\Model\Instruction[] $instructions instructions
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -458,7 +458,7 @@ class BillStagePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

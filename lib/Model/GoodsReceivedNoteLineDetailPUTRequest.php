@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class GoodsReceivedNoteLineDetailPUTRequest implements ModelInterface, ArrayAcce
         'line_id' => 'string',
         'capacity' => 'int',
         'count' => 'int',
-        'item' => '\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail'
+        'item' => '\Jiwa\Model\GoodsReceivedNoteLineDetail'
     ];
 
     /**
@@ -328,7 +328,7 @@ class GoodsReceivedNoteLineDetailPUTRequest implements ModelInterface, ArrayAcce
     /**
      * Gets item
      *
-     * @return \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail
+     * @return \Jiwa\Model\GoodsReceivedNoteLineDetail
      */
     public function getItem()
     {
@@ -338,7 +338,7 @@ class GoodsReceivedNoteLineDetailPUTRequest implements ModelInterface, ArrayAcce
     /**
      * Sets item
      *
-     * @param \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail $item item
+     * @param \Jiwa\Model\GoodsReceivedNoteLineDetail $item item
      *
      * @return $this
      */

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,9 +60,9 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     protected static $swaggerTypes = [
         'offset' => 'int',
         'total' => 'int',
-        'results' => '\Jiwa\JiwaModel\INAttributeGroupTemplate[]',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_',
-        'response_status' => '\Jiwa\JiwaModel\ResponseStatus'
+        'results' => '\Jiwa\Model\INAttributeGroupTemplate[]',
+        'meta' => '\Jiwa\Model\DictionaryStringString_',
+        'response_status' => '\Jiwa\Model\ResponseStatus'
     ];
 
     /**
@@ -280,7 +280,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Gets results
      *
-     * @return \Jiwa\JiwaModel\INAttributeGroupTemplate[]
+     * @return \Jiwa\Model\INAttributeGroupTemplate[]
      */
     public function getResults()
     {
@@ -290,7 +290,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Sets results
      *
-     * @param \Jiwa\JiwaModel\INAttributeGroupTemplate[] $results results
+     * @param \Jiwa\Model\INAttributeGroupTemplate[] $results results
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -314,7 +314,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Gets response_status
      *
-     * @return \Jiwa\JiwaModel\ResponseStatus
+     * @return \Jiwa\Model\ResponseStatus
      */
     public function getResponseStatus()
     {
@@ -338,7 +338,7 @@ class QueryResponseINAttributeGroupTemplate_ implements ModelInterface, ArrayAcc
     /**
      * Sets response_status
      *
-     * @param \Jiwa\JiwaModel\ResponseStatus $response_status response_status
+     * @param \Jiwa\Model\ResponseStatus $response_status response_status
      *
      * @return $this
      */

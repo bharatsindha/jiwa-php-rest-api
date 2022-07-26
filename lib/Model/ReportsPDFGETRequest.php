@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class ReportsPDFGETRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'report_id' => 'string',
-        'report_parameters' => '\Jiwa\JiwaModel\ReportParameter[]',
+        'report_parameters' => '\Jiwa\Model\ReportParameter[]',
         'as_attachment' => 'bool'
     ];
 
@@ -244,7 +244,7 @@ class ReportsPDFGETRequest implements ModelInterface, ArrayAccess
     /**
      * Gets report_parameters
      *
-     * @return \Jiwa\JiwaModel\ReportParameter[]
+     * @return \Jiwa\Model\ReportParameter[]
      */
     public function getReportParameters()
     {
@@ -254,7 +254,7 @@ class ReportsPDFGETRequest implements ModelInterface, ArrayAccess
     /**
      * Sets report_parameters
      *
-     * @param \Jiwa\JiwaModel\ReportParameter[] $report_parameters report_parameters
+     * @param \Jiwa\Model\ReportParameter[] $report_parameters report_parameters
      *
      * @return $this
      */

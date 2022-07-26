@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **loginGetRequestCreate**
-> \Jiwa\JiwaModel\Object loginGetRequestCreate($accept, $jiwa_stateful, $redirect, $body)
+> \Jiwa\Model\Object loginGetRequestCreate($accept, $jiwa_stateful, $redirect, $body)
 
 
 
@@ -28,7 +28,7 @@ $apiInstance = new Jiwa\Api\LoginApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $redirect = "redirect_example"; // string | 
-$body = new \Jiwa\JiwaModel\LoginGetRequest(); // \Jiwa\JiwaModel\LoginGetRequest | 
+$body = new \Jiwa\Model\LoginGetRequest(); // \Jiwa\Model\LoginGetRequest | 
 
 try {
     $result = $apiInstance->loginGetRequestCreate($accept, $jiwa_stateful, $redirect, $body);
@@ -46,11 +46,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **redirect** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LoginGetRequest**](../Model/LoginGetRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LoginGetRequest**](../Model/LoginGetRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **loginGetRequestDelete**
-> \Jiwa\JiwaModel\Object loginGetRequestDelete($accept, $jiwa_stateful, $redirect)
+> \Jiwa\Model\Object loginGetRequestDelete($accept, $jiwa_stateful, $redirect)
 
 
 
@@ -101,7 +101,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -115,7 +115,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **loginGetRequestGet**
-> \Jiwa\JiwaModel\Object loginGetRequestGet($accept, $jiwa_stateful, $redirect)
+> \Jiwa\Model\Object loginGetRequestGet($accept, $jiwa_stateful, $redirect)
 
 
 
@@ -152,7 +152,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -166,7 +166,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **loginGetRequestPost**
-> \Jiwa\JiwaModel\Object loginGetRequestPost($accept, $jiwa_stateful, $redirect, $body)
+> \Jiwa\Model\Object loginGetRequestPost($accept, $jiwa_stateful, $redirect, $body)
 
 
 
@@ -183,7 +183,7 @@ $apiInstance = new Jiwa\Api\LoginApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $redirect = "redirect_example"; // string | 
-$body = new \Jiwa\JiwaModel\LoginGetRequest(); // \Jiwa\JiwaModel\LoginGetRequest | 
+$body = new \Jiwa\Model\LoginGetRequest(); // \Jiwa\Model\LoginGetRequest | 
 
 try {
     $result = $apiInstance->loginGetRequestPost($accept, $jiwa_stateful, $redirect, $body);
@@ -201,11 +201,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **redirect** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LoginGetRequest**](../Model/LoginGetRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LoginGetRequest**](../Model/LoginGetRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 

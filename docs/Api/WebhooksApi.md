@@ -22,7 +22,7 @@ Method | HTTP request | Description
 
 
 # **webhooksEventsGETRequestEventsGet**
-> \Jiwa\JiwaModel\WebHookEvent[] webhooksEventsGETRequestEventsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\WebHookEvent[] webhooksEventsGETRequestEventsGet($accept, $jiwa_stateful)
 
 Lists available events
 
@@ -59,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WebHookEvent[]**](../Model/WebHookEvent.md)
+[**\Jiwa\Model\WebHookEvent[]**](../Model/WebHookEvent.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksEventsPOSTRequestEvents2Post**
-> \Jiwa\JiwaModel\Object webhooksEventsPOSTRequestEvents2Post($accept, $jiwa_stateful, $event_name, $body, $body2)
+> \Jiwa\Model\Object webhooksEventsPOSTRequestEvents2Post($accept, $jiwa_stateful, $event_name, $body, $body2)
 
 Adds an event occurance.  Used by Jiwa clients to cause webhooks to be sent to subscribers. Not intended to be invoked externally
 
@@ -93,7 +93,7 @@ $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $event_name = "event_name_example"; // string | 
 $body = "body_example"; // string | 
-$body2 = new \Jiwa\JiwaModel\WebhooksEventsPOSTRequest(); // \Jiwa\JiwaModel\WebhooksEventsPOSTRequest | 
+$body2 = new \Jiwa\Model\WebhooksEventsPOSTRequest(); // \Jiwa\Model\WebhooksEventsPOSTRequest | 
 
 try {
     $result = $apiInstance->webhooksEventsPOSTRequestEvents2Post($accept, $jiwa_stateful, $event_name, $body, $body2);
@@ -112,11 +112,11 @@ Name | Type | Description  | Notes
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **event_name** | **string**|  | [optional]
  **body** | **string**|  | [optional]
- **body2** | [**\Jiwa\JiwaModel\WebhooksEventsPOSTRequest**](../Model/WebhooksEventsPOSTRequest.md)|  | [optional]
+ **body2** | [**\Jiwa\Model\WebhooksEventsPOSTRequest**](../Model/WebhooksEventsPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -130,7 +130,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksMessageResponsesGETRequestSubscribersSubscriberIDMessagesResponsesGet**
-> \Jiwa\JiwaModel\QueryResponseVSYWebhookSubscriberMessageResponses_ webhooksMessageResponsesGETRequestSubscribersSubscriberIDMessagesResponsesGet($accept, $subscriber_id, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseVSYWebhookSubscriberMessageResponses_ webhooksMessageResponsesGETRequestSubscribersSubscriberIDMessagesResponsesGet($accept, $subscriber_id, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of all Webhook messages responses for a subscriber.
 
@@ -183,7 +183,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseVSYWebhookSubscriberMessageResponses_**](../Model/QueryResponseVSYWebhookSubscriberMessageResponses_.md)
+[**\Jiwa\Model\QueryResponseVSYWebhookSubscriberMessageResponses_**](../Model/QueryResponseVSYWebhookSubscriberMessageResponses_.md)
 
 ### Authorization
 
@@ -197,7 +197,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksMessagesDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDMessagesMessageIDDelete**
-> \Jiwa\JiwaModel\Object webhooksMessagesDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDMessagesMessageIDDelete($accept, $subscriber_id, $subscription_id, $message_id, $jiwa_stateful)
+> \Jiwa\Model\Object webhooksMessagesDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDMessagesMessageIDDelete($accept, $subscriber_id, $subscription_id, $message_id, $jiwa_stateful)
 
 Removes a Webhook message for a subscription.
 
@@ -240,7 +240,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -254,7 +254,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksMessagesGETRequestSubscribersSubscriberIDMessagesGet**
-> \Jiwa\JiwaModel\QueryResponseVSYWebhookSubscriberMessages_ webhooksMessagesGETRequestSubscribersSubscriberIDMessagesGet($accept, $subscriber_id, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseVSYWebhookSubscriberMessages_ webhooksMessagesGETRequestSubscribersSubscriberIDMessagesGet($accept, $subscriber_id, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of all Webhook messages for a subscriber.
 
@@ -307,7 +307,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseVSYWebhookSubscriberMessages_**](../Model/QueryResponseVSYWebhookSubscriberMessages_.md)
+[**\Jiwa\Model\QueryResponseVSYWebhookSubscriberMessages_**](../Model/QueryResponseVSYWebhookSubscriberMessages_.md)
 
 ### Authorization
 
@@ -321,7 +321,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscribersDELETERequestSubscribersSubscriberIDDelete**
-> \Jiwa\JiwaModel\Object webhooksSubscribersDELETERequestSubscribersSubscriberIDDelete($accept, $subscriber_id, $jiwa_stateful)
+> \Jiwa\Model\Object webhooksSubscribersDELETERequestSubscribersSubscriberIDDelete($accept, $subscriber_id, $jiwa_stateful)
 
 Removes a Webhook subscriber.
 
@@ -367,7 +367,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -381,7 +381,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscribersGETManyRequestSubscribersGet**
-> \Jiwa\JiwaModel\QueryResponseSYWebhookSubscriber_ webhooksSubscribersGETManyRequestSubscribersGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseSYWebhookSubscriber_ webhooksSubscribersGETManyRequestSubscribersGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of Webhook subscribers.
 
@@ -439,7 +439,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseSYWebhookSubscriber_**](../Model/QueryResponseSYWebhookSubscriber_.md)
+[**\Jiwa\Model\QueryResponseSYWebhookSubscriber_**](../Model/QueryResponseSYWebhookSubscriber_.md)
 
 ### Authorization
 
@@ -453,7 +453,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscribersGETRequestSubscribersSubscriberIDGet**
-> \Jiwa\JiwaModel\WebhookSubscriber webhooksSubscribersGETRequestSubscribersSubscriberIDGet($accept, $subscriber_id, $jiwa_stateful)
+> \Jiwa\Model\WebhookSubscriber webhooksSubscribersGETRequestSubscribersSubscriberIDGet($accept, $subscriber_id, $jiwa_stateful)
 
 Retrieves a Webhook subscriber.
 
@@ -499,7 +499,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\WebhookSubscriber**](../Model/WebhookSubscriber.md)
+[**\Jiwa\Model\WebhookSubscriber**](../Model/WebhookSubscriber.md)
 
 ### Authorization
 
@@ -513,7 +513,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscribersPATCHRequestSubscribersSubscriberIDUpdate**
-> \Jiwa\JiwaModel\SYWebhookSubscriber webhooksSubscribersPATCHRequestSubscribersSubscriberIDUpdate($accept, $subscriber_id, $jiwa_stateful, $name, $is_enabled, $item_no, $body)
+> \Jiwa\Model\SYWebhookSubscriber webhooksSubscribersPATCHRequestSubscribersSubscriberIDUpdate($accept, $subscriber_id, $jiwa_stateful, $name, $is_enabled, $item_no, $body)
 
 Updates a Webhook subscriber.
 
@@ -542,7 +542,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $name = "name_example"; // string | 
 $is_enabled = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\WebhooksSubscribersPATCHRequest(); // \Jiwa\JiwaModel\WebhooksSubscribersPATCHRequest | 
+$body = new \Jiwa\Model\WebhooksSubscribersPATCHRequest(); // \Jiwa\Model\WebhooksSubscribersPATCHRequest | 
 
 try {
     $result = $apiInstance->webhooksSubscribersPATCHRequestSubscribersSubscriberIDUpdate($accept, $subscriber_id, $jiwa_stateful, $name, $is_enabled, $item_no, $body);
@@ -563,11 +563,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WebhooksSubscribersPATCHRequest**](../Model/WebhooksSubscribersPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WebhooksSubscribersPATCHRequest**](../Model/WebhooksSubscribersPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SYWebhookSubscriber**](../Model/SYWebhookSubscriber.md)
+[**\Jiwa\Model\SYWebhookSubscriber**](../Model/SYWebhookSubscriber.md)
 
 ### Authorization
 
@@ -581,7 +581,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscribersPOSTRequestSubscribersPost**
-> \Jiwa\JiwaModel\SYWebhookSubscriber webhooksSubscribersPOSTRequestSubscribersPost($accept, $jiwa_stateful, $name, $is_enabled, $body)
+> \Jiwa\Model\SYWebhookSubscriber webhooksSubscribersPOSTRequestSubscribersPost($accept, $jiwa_stateful, $name, $is_enabled, $body)
 
 Adds a Webhook subscriber.
 
@@ -608,7 +608,7 @@ $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $name = "name_example"; // string | 
 $is_enabled = true; // bool | 
-$body = new \Jiwa\JiwaModel\WebhooksSubscribersPOSTRequest(); // \Jiwa\JiwaModel\WebhooksSubscribersPOSTRequest | 
+$body = new \Jiwa\Model\WebhooksSubscribersPOSTRequest(); // \Jiwa\Model\WebhooksSubscribersPOSTRequest | 
 
 try {
     $result = $apiInstance->webhooksSubscribersPOSTRequestSubscribersPost($accept, $jiwa_stateful, $name, $is_enabled, $body);
@@ -627,11 +627,11 @@ Name | Type | Description  | Notes
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **name** | **string**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WebhooksSubscribersPOSTRequest**](../Model/WebhooksSubscribersPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WebhooksSubscribersPOSTRequest**](../Model/WebhooksSubscribersPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SYWebhookSubscriber**](../Model/SYWebhookSubscriber.md)
+[**\Jiwa\Model\SYWebhookSubscriber**](../Model/SYWebhookSubscriber.md)
 
 ### Authorization
 
@@ -645,7 +645,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscriptionsDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDDelete**
-> \Jiwa\JiwaModel\Object webhooksSubscriptionsDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDDelete($accept, $subscriber_id, $subscription_id, $jiwa_stateful)
+> \Jiwa\Model\Object webhooksSubscriptionsDELETERequestSubscribersSubscriberIDSubscriptionsSubscriptionIDDelete($accept, $subscriber_id, $subscription_id, $jiwa_stateful)
 
 Removes a Webhook subscription for a subscriber.
 
@@ -686,7 +686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -700,7 +700,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscriptionsGETRequestSubscribersSubscriberIDSubscriptionsGet**
-> \Jiwa\JiwaModel\SYWebhookSubscription[] webhooksSubscriptionsGETRequestSubscribersSubscriberIDSubscriptionsGet($accept, $subscriber_id, $jiwa_stateful)
+> \Jiwa\Model\SYWebhookSubscription[] webhooksSubscriptionsGETRequestSubscribersSubscriberIDSubscriptionsGet($accept, $subscriber_id, $jiwa_stateful)
 
 Retrieves a list of all Webhook subscriptions for a subscriber.
 
@@ -739,7 +739,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SYWebhookSubscription[]**](../Model/SYWebhookSubscription.md)
+[**\Jiwa\Model\SYWebhookSubscription[]**](../Model/SYWebhookSubscription.md)
 
 ### Authorization
 
@@ -753,7 +753,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscriptionsPATCHRequestSubscribersSubscriberIDSubscriptionsUpdate**
-> \Jiwa\JiwaModel\SYWebhookSubscription webhooksSubscriptionsPATCHRequestSubscribersSubscriberIDSubscriptionsUpdate($accept, $subscriber_id, $jiwa_stateful, $subscription_id, $url, $event_name, $headers, $body)
+> \Jiwa\Model\SYWebhookSubscription webhooksSubscriptionsPATCHRequestSubscribersSubscriberIDSubscriptionsUpdate($accept, $subscriber_id, $jiwa_stateful, $subscription_id, $url, $event_name, $headers, $body)
 
 Updates a Webhook subscription for a subscriber.
 
@@ -776,7 +776,7 @@ $subscription_id = "subscription_id_example"; // string |
 $url = "url_example"; // string | 
 $event_name = "event_name_example"; // string | 
 $headers = "headers_example"; // string | 
-$body = new \Jiwa\JiwaModel\WebhooksSubscriptionsPATCHRequest(); // \Jiwa\JiwaModel\WebhooksSubscriptionsPATCHRequest | 
+$body = new \Jiwa\Model\WebhooksSubscriptionsPATCHRequest(); // \Jiwa\Model\WebhooksSubscriptionsPATCHRequest | 
 
 try {
     $result = $apiInstance->webhooksSubscriptionsPATCHRequestSubscribersSubscriberIDSubscriptionsUpdate($accept, $subscriber_id, $jiwa_stateful, $subscription_id, $url, $event_name, $headers, $body);
@@ -798,11 +798,11 @@ Name | Type | Description  | Notes
  **url** | **string**|  | [optional]
  **event_name** | **string**|  | [optional]
  **headers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WebhooksSubscriptionsPATCHRequest**](../Model/WebhooksSubscriptionsPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WebhooksSubscriptionsPATCHRequest**](../Model/WebhooksSubscriptionsPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SYWebhookSubscription**](../Model/SYWebhookSubscription.md)
+[**\Jiwa\Model\SYWebhookSubscription**](../Model/SYWebhookSubscription.md)
 
 ### Authorization
 
@@ -816,7 +816,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksSubscriptionsPOSTRequestSubscribersSubscriberIDSubscriptionsPost**
-> \Jiwa\JiwaModel\SYWebhookSubscription webhooksSubscriptionsPOSTRequestSubscribersSubscriberIDSubscriptionsPost($accept, $subscriber_id, $jiwa_stateful, $url, $event_name, $headers, $body)
+> \Jiwa\Model\SYWebhookSubscription webhooksSubscriptionsPOSTRequestSubscribersSubscriberIDSubscriptionsPost($accept, $subscriber_id, $jiwa_stateful, $url, $event_name, $headers, $body)
 
 Adds a Webhook subscription for a subscriber.
 
@@ -838,7 +838,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $url = "url_example"; // string | 
 $event_name = "event_name_example"; // string | 
 $headers = "headers_example"; // string | 
-$body = new \Jiwa\JiwaModel\WebhooksSubscriptionsPOSTRequest(); // \Jiwa\JiwaModel\WebhooksSubscriptionsPOSTRequest | 
+$body = new \Jiwa\Model\WebhooksSubscriptionsPOSTRequest(); // \Jiwa\Model\WebhooksSubscriptionsPOSTRequest | 
 
 try {
     $result = $apiInstance->webhooksSubscriptionsPOSTRequestSubscribersSubscriberIDSubscriptionsPost($accept, $subscriber_id, $jiwa_stateful, $url, $event_name, $headers, $body);
@@ -859,11 +859,11 @@ Name | Type | Description  | Notes
  **url** | **string**|  | [optional]
  **event_name** | **string**|  | [optional]
  **headers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\WebhooksSubscriptionsPOSTRequest**](../Model/WebhooksSubscriptionsPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\WebhooksSubscriptionsPOSTRequest**](../Model/WebhooksSubscriptionsPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SYWebhookSubscription**](../Model/SYWebhookSubscription.md)
+[**\Jiwa\Model\SYWebhookSubscription**](../Model/SYWebhookSubscription.md)
 
 ### Authorization
 
@@ -877,7 +877,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **webhooksTestPOSTRequestTest2Post**
-> \Jiwa\JiwaModel\Object webhooksTestPOSTRequestTest2Post($accept, $jiwa_stateful, $body, $body2)
+> \Jiwa\Model\Object webhooksTestPOSTRequestTest2Post($accept, $jiwa_stateful, $body, $body2)
 
 Test route for sending webhooks to. Use this as the URL to direct a webhook subscription to.
 
@@ -896,7 +896,7 @@ $apiInstance = new Jiwa\Api\WebhooksApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $body = "body_example"; // string | 
-$body2 = new \Jiwa\JiwaModel\WebhooksTestPOSTRequest(); // \Jiwa\JiwaModel\WebhooksTestPOSTRequest | 
+$body2 = new \Jiwa\Model\WebhooksTestPOSTRequest(); // \Jiwa\Model\WebhooksTestPOSTRequest | 
 
 try {
     $result = $apiInstance->webhooksTestPOSTRequestTest2Post($accept, $jiwa_stateful, $body, $body2);
@@ -914,11 +914,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **body** | **string**|  | [optional]
- **body2** | [**\Jiwa\JiwaModel\WebhooksTestPOSTRequest**](../Model/WebhooksTestPOSTRequest.md)|  | [optional]
+ **body2** | [**\Jiwa\Model\WebhooksTestPOSTRequest**](../Model/WebhooksTestPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 

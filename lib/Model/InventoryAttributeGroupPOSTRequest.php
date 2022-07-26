@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,10 +59,10 @@ class InventoryAttributeGroupPOSTRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'inventory_id' => 'string',
-        'template' => '\Jiwa\JiwaModel\InventoryAttributeGroupTemplate',
+        'template' => '\Jiwa\Model\InventoryAttributeGroupTemplate',
         'last_saved_date_time' => '\DateTime',
         'description' => 'string',
-        'attributes' => '\Jiwa\JiwaModel\InventoryAttributeGroupAttribute[]'
+        'attributes' => '\Jiwa\Model\InventoryAttributeGroupAttribute[]'
     ];
 
     /**
@@ -256,7 +256,7 @@ class InventoryAttributeGroupPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets template
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupTemplate
+     * @return \Jiwa\Model\InventoryAttributeGroupTemplate
      */
     public function getTemplate()
     {
@@ -266,7 +266,7 @@ class InventoryAttributeGroupPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets template
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupTemplate $template template
+     * @param \Jiwa\Model\InventoryAttributeGroupTemplate $template template
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class InventoryAttributeGroupPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets attributes
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupAttribute[]
+     * @return \Jiwa\Model\InventoryAttributeGroupAttribute[]
      */
     public function getAttributes()
     {
@@ -338,7 +338,7 @@ class InventoryAttributeGroupPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets attributes
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupAttribute[] $attributes attributes
+     * @param \Jiwa\Model\InventoryAttributeGroupAttribute[] $attributes attributes
      *
      * @return $this
      */

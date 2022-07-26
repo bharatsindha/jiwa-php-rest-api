@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,8 +66,8 @@ class SalesOrderFreightItem implements ModelInterface, ArrayAccess
         'item_width' => 'double',
         'item_height' => 'double',
         'reference' => 'string',
-        'freight_description' => '\Jiwa\JiwaModel\SalesOrderCarrierFreightDescription',
-        'consignment_note' => '\Jiwa\JiwaModel\SalesOrderConsignmentNote'
+        'freight_description' => '\Jiwa\Model\SalesOrderCarrierFreightDescription',
+        'consignment_note' => '\Jiwa\Model\SalesOrderConsignmentNote'
     ];
 
     /**
@@ -454,7 +454,7 @@ class SalesOrderFreightItem implements ModelInterface, ArrayAccess
     /**
      * Gets freight_description
      *
-     * @return \Jiwa\JiwaModel\SalesOrderCarrierFreightDescription
+     * @return \Jiwa\Model\SalesOrderCarrierFreightDescription
      */
     public function getFreightDescription()
     {
@@ -464,7 +464,7 @@ class SalesOrderFreightItem implements ModelInterface, ArrayAccess
     /**
      * Sets freight_description
      *
-     * @param \Jiwa\JiwaModel\SalesOrderCarrierFreightDescription $freight_description freight_description
+     * @param \Jiwa\Model\SalesOrderCarrierFreightDescription $freight_description freight_description
      *
      * @return $this
      */
@@ -478,7 +478,7 @@ class SalesOrderFreightItem implements ModelInterface, ArrayAccess
     /**
      * Gets consignment_note
      *
-     * @return \Jiwa\JiwaModel\SalesOrderConsignmentNote
+     * @return \Jiwa\Model\SalesOrderConsignmentNote
      */
     public function getConsignmentNote()
     {
@@ -488,7 +488,7 @@ class SalesOrderFreightItem implements ModelInterface, ArrayAccess
     /**
      * Sets consignment_note
      *
-     * @param \Jiwa\JiwaModel\SalesOrderConsignmentNote $consignment_note consignment_note
+     * @param \Jiwa\Model\SalesOrderConsignmentNote $consignment_note consignment_note
      *
      * @return $this
      */

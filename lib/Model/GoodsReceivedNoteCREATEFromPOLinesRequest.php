@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -58,7 +58,7 @@ class GoodsReceivedNoteCREATEFromPOLinesRequest implements ModelInterface, Array
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'received_po_line_quantities' => '\Jiwa\JiwaModel\ReceivedPOLineQuantity[]'
+        'received_po_line_quantities' => '\Jiwa\Model\ReceivedPOLineQuantity[]'
     ];
 
     /**
@@ -208,7 +208,7 @@ class GoodsReceivedNoteCREATEFromPOLinesRequest implements ModelInterface, Array
     /**
      * Gets received_po_line_quantities
      *
-     * @return \Jiwa\JiwaModel\ReceivedPOLineQuantity[]
+     * @return \Jiwa\Model\ReceivedPOLineQuantity[]
      */
     public function getReceivedPoLineQuantities()
     {
@@ -218,7 +218,7 @@ class GoodsReceivedNoteCREATEFromPOLinesRequest implements ModelInterface, Array
     /**
      * Sets received_po_line_quantities
      *
-     * @param \Jiwa\JiwaModel\ReceivedPOLineQuantity[] $received_po_line_quantities received_po_line_quantities
+     * @param \Jiwa\Model\ReceivedPOLineQuantity[] $received_po_line_quantities received_po_line_quantities
      *
      * @return $this
      */

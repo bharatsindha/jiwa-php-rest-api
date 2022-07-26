@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class DebtorBudget implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'budget_id' => 'string',
-        'month' => '\Jiwa\JiwaModel\DebtorMonth',
+        'month' => '\Jiwa\Model\DebtorMonth',
         'last_budget' => 'double',
         'current_budget' => 'double',
         'next_budget' => 'double'
@@ -256,7 +256,7 @@ class DebtorBudget implements ModelInterface, ArrayAccess
     /**
      * Gets month
      *
-     * @return \Jiwa\JiwaModel\DebtorMonth
+     * @return \Jiwa\Model\DebtorMonth
      */
     public function getMonth()
     {
@@ -266,7 +266,7 @@ class DebtorBudget implements ModelInterface, ArrayAccess
     /**
      * Sets month
      *
-     * @param \Jiwa\JiwaModel\DebtorMonth $month month
+     * @param \Jiwa\Model\DebtorMonth $month month
      *
      * @return $this
      */

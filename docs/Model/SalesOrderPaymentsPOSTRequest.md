@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **invoice_id** | **string** |  | [optional] 
 **invoice_history_id** | **string** |  | [optional] 
-**payment_type** | [**\Jiwa\JiwaModel\PaymentType**](PaymentType.md) |  | [optional] 
+**payment_type** | [**\Jiwa\Model\PaymentType**](PaymentType.md) |  | [optional] 
 **amount_paid** | **double** |  | [optional] 
 **payment_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **process_payment** | **bool** |  | [optional] 

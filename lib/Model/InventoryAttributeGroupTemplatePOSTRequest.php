@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class InventoryAttributeGroupTemplatePOSTRequest implements ModelInterface, Arra
     protected static $swaggerTypes = [
         'name' => 'string',
         'is_enabled' => 'bool',
-        'template_attributes' => '\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[]'
+        'template_attributes' => '\Jiwa\Model\InventoryAttributeGroupTemplateAttribute[]'
     ];
 
     /**
@@ -268,7 +268,7 @@ class InventoryAttributeGroupTemplatePOSTRequest implements ModelInterface, Arra
     /**
      * Gets template_attributes
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[]
+     * @return \Jiwa\Model\InventoryAttributeGroupTemplateAttribute[]
      */
     public function getTemplateAttributes()
     {
@@ -278,7 +278,7 @@ class InventoryAttributeGroupTemplatePOSTRequest implements ModelInterface, Arra
     /**
      * Sets template_attributes
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[] $template_attributes template_attributes
+     * @param \Jiwa\Model\InventoryAttributeGroupTemplateAttribute[] $template_attributes template_attributes
      *
      * @return $this
      */

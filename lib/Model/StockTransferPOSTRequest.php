@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -78,10 +78,10 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
         'created_by_staff_first_name' => 'string',
         'created_by_staff_surname' => 'string',
         'created_date_time' => '\DateTime',
-        'lines' => '\Jiwa\JiwaModel\StockTransferLine[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
+        'lines' => '\Jiwa\Model\StockTransferLine[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
         'stock_transfer_reason_rec_id' => 'string',
         'stock_transfer_reason_name' => 'string',
         'stock_transfer_reason_is_default' => 'bool',
@@ -892,7 +892,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\StockTransferLine[]
+     * @return \Jiwa\Model\StockTransferLine[]
      */
     public function getLines()
     {
@@ -902,7 +902,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\StockTransferLine[] $lines lines
+     * @param \Jiwa\Model\StockTransferLine[] $lines lines
      *
      * @return $this
      */
@@ -916,7 +916,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -926,7 +926,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -940,7 +940,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -950,7 +950,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -964,7 +964,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -974,7 +974,7 @@ class StockTransferPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

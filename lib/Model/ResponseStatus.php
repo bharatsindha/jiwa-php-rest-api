@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -61,8 +61,8 @@ class ResponseStatus implements ModelInterface, ArrayAccess
         'error_code' => 'string',
         'message' => 'string',
         'stack_trace' => 'string',
-        'errors' => '\Jiwa\JiwaModel\ResponseError[]',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_'
+        'errors' => '\Jiwa\Model\ResponseError[]',
+        'meta' => '\Jiwa\Model\DictionaryStringString_'
     ];
 
     /**
@@ -304,7 +304,7 @@ class ResponseStatus implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \Jiwa\JiwaModel\ResponseError[]
+     * @return \Jiwa\Model\ResponseError[]
      */
     public function getErrors()
     {
@@ -314,7 +314,7 @@ class ResponseStatus implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \Jiwa\JiwaModel\ResponseError[] $errors errors
+     * @param \Jiwa\Model\ResponseError[] $errors errors
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class ResponseStatus implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -338,7 +338,7 @@ class ResponseStatus implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */

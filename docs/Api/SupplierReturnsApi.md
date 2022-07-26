@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **supplierReturnCreditACTIVATERequestCreditActivateCreditIDPost**
-> \Jiwa\JiwaModel\Credit supplierReturnCreditACTIVATERequestCreditActivateCreditIDPost($accept, $credit_id, $jiwa_stateful, $body)
+> \Jiwa\Model\Credit supplierReturnCreditACTIVATERequestCreditActivateCreditIDPost($accept, $credit_id, $jiwa_stateful, $body)
 
 Activates a supplier return credit.
 
@@ -37,7 +37,7 @@ $apiInstance = new Jiwa\Api\SupplierReturnsApi(
 $accept = "accept_example"; // string | Accept Header
 $credit_id = "credit_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\SupplierReturnCreditACTIVATERequest(); // \Jiwa\JiwaModel\SupplierReturnCreditACTIVATERequest | 
+$body = new \Jiwa\Model\SupplierReturnCreditACTIVATERequest(); // \Jiwa\Model\SupplierReturnCreditACTIVATERequest | 
 
 try {
     $result = $apiInstance->supplierReturnCreditACTIVATERequestCreditActivateCreditIDPost($accept, $credit_id, $jiwa_stateful, $body);
@@ -55,11 +55,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **credit_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\SupplierReturnCreditACTIVATERequest**](../Model/SupplierReturnCreditACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SupplierReturnCreditACTIVATERequest**](../Model/SupplierReturnCreditACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Credit**](../Model/Credit.md)
+[**\Jiwa\Model\Credit**](../Model/Credit.md)
 
 ### Authorization
 
@@ -73,7 +73,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **supplierReturnCreditCreateFromShipmentsRequestCreditFromShipmentsPost**
-> \Jiwa\JiwaModel\Credit supplierReturnCreditCreateFromShipmentsRequestCreditFromShipmentsPost($accept, $jiwa_stateful, $shipment_i_ds, $shipment_nos, $body)
+> \Jiwa\Model\Credit supplierReturnCreditCreateFromShipmentsRequestCreditFromShipmentsPost($accept, $jiwa_stateful, $shipment_i_ds, $shipment_nos, $body)
 
 Creates a supplier return credit from one or more shipments.
 
@@ -100,7 +100,7 @@ $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $shipment_i_ds = "shipment_i_ds_example"; // string | 
 $shipment_nos = "shipment_nos_example"; // string | 
-$body = new \Jiwa\JiwaModel\SupplierReturnCreditCreateFromShipmentsRequest(); // \Jiwa\JiwaModel\SupplierReturnCreditCreateFromShipmentsRequest | 
+$body = new \Jiwa\Model\SupplierReturnCreditCreateFromShipmentsRequest(); // \Jiwa\Model\SupplierReturnCreditCreateFromShipmentsRequest | 
 
 try {
     $result = $apiInstance->supplierReturnCreditCreateFromShipmentsRequestCreditFromShipmentsPost($accept, $jiwa_stateful, $shipment_i_ds, $shipment_nos, $body);
@@ -119,11 +119,11 @@ Name | Type | Description  | Notes
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **shipment_i_ds** | **string**|  | [optional]
  **shipment_nos** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SupplierReturnCreditCreateFromShipmentsRequest**](../Model/SupplierReturnCreditCreateFromShipmentsRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SupplierReturnCreditCreateFromShipmentsRequest**](../Model/SupplierReturnCreditCreateFromShipmentsRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Credit**](../Model/Credit.md)
+[**\Jiwa\Model\Credit**](../Model/Credit.md)
 
 ### Authorization
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **supplierReturnCreditGETRequestCreditCreditIDGet**
-> \Jiwa\JiwaModel\Credit supplierReturnCreditGETRequestCreditCreditIDGet($accept, $credit_id, $jiwa_stateful)
+> \Jiwa\Model\Credit supplierReturnCreditGETRequestCreditCreditIDGet($accept, $credit_id, $jiwa_stateful)
 
 Retrieves a supplier return credit.
 
@@ -183,7 +183,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Credit**](../Model/Credit.md)
+[**\Jiwa\Model\Credit**](../Model/Credit.md)
 
 ### Authorization
 
@@ -197,7 +197,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **supplierReturnShippingGETRequestShippingShippingIDGet**
-> \Jiwa\JiwaModel\Shipping supplierReturnShippingGETRequestShippingShippingIDGet($accept, $shipping_id, $jiwa_stateful)
+> \Jiwa\Model\Shipping supplierReturnShippingGETRequestShippingShippingIDGet($accept, $shipping_id, $jiwa_stateful)
 
 Retrieves a supplier return shipping.
 
@@ -243,7 +243,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Shipping**](../Model/Shipping.md)
+[**\Jiwa\Model\Shipping**](../Model/Shipping.md)
 
 ### Authorization
 

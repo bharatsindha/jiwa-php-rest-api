@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **quote_id** | **string** |  | [optional] 
 **type** | **string** |  | [optional] 
-**system_settings** | [**\Jiwa\JiwaModel\SalesQuoteSettings**](SalesQuoteSettings.md) |  | [optional] 
+**system_settings** | [**\Jiwa\Model\SalesQuoteSettings**](SalesQuoteSettings.md) |  | [optional] 
 **last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **quote_no** | **string** |  | [optional] 
 **logical_id** | **string** |  | [optional] 
@@ -54,13 +54,13 @@ Name | Type | Description | Notes
 **cartage3_ex_gst** | **double** |  | [optional] 
 **cartage3_gst_rate** | **double** |  | [optional] 
 **cartage3_gst** | **double** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
-**notes** | [**\Jiwa\JiwaModel\Note[]**](Note.md) |  | [optional] 
-**documents** | [**\Jiwa\JiwaModel\Document[]**](Document.md) |  | [optional] 
-**lines** | [**\Jiwa\JiwaModel\SalesQuoteLine[]**](SalesQuoteLine.md) |  | [optional] 
-**histories** | [**\Jiwa\JiwaModel\SalesQuoteHistory[]**](SalesQuoteHistory.md) |  | [optional] 
-**cash_sales** | [**\Jiwa\JiwaModel\SalesQuoteCashSales**](SalesQuoteCashSales.md) |  | [optional] 
-**job_costing** | [**\Jiwa\JiwaModel\SalesQuoteJobCosting**](SalesQuoteJobCosting.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**notes** | [**\Jiwa\Model\Note[]**](Note.md) |  | [optional] 
+**documents** | [**\Jiwa\Model\Document[]**](Document.md) |  | [optional] 
+**lines** | [**\Jiwa\Model\SalesQuoteLine[]**](SalesQuoteLine.md) |  | [optional] 
+**histories** | [**\Jiwa\Model\SalesQuoteHistory[]**](SalesQuoteHistory.md) |  | [optional] 
+**cash_sales** | [**\Jiwa\Model\SalesQuoteCashSales**](SalesQuoteCashSales.md) |  | [optional] 
+**job_costing** | [**\Jiwa\Model\SalesQuoteJobCosting**](SalesQuoteJobCosting.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

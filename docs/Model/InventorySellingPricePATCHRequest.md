@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **inventory_id** | **string** |  | [optional] 
-**sell_prices** | [**\Jiwa\JiwaModel\InventorySellingPrice[]**](InventorySellingPrice.md) |  | [optional] 
+**sell_prices** | [**\Jiwa\Model\InventorySellingPrice[]**](InventorySellingPrice.md) |  | [optional] 
 **current_price_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **forward_price_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 

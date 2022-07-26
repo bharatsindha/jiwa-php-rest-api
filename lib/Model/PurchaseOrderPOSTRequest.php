@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -93,10 +93,10 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
         'total_gross' => 'double',
         'total_net' => 'double',
         'total_fx' => 'double',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'lines' => '\Jiwa\JiwaModel\PurchaseOrderLine[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'lines' => '\Jiwa\Model\PurchaseOrderLine[]',
         'shipping_address_address_line1' => 'string',
         'shipping_address_address_line2' => 'string',
         'shipping_address_address_line3' => 'string',
@@ -1456,7 +1456,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -1466,7 +1466,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -1480,7 +1480,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -1490,7 +1490,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -1504,7 +1504,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1514,7 +1514,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -1528,7 +1528,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\PurchaseOrderLine[]
+     * @return \Jiwa\Model\PurchaseOrderLine[]
      */
     public function getLines()
     {
@@ -1538,7 +1538,7 @@ class PurchaseOrderPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\PurchaseOrderLine[] $lines lines
+     * @param \Jiwa\Model\PurchaseOrderLine[] $lines lines
      *
      * @return $this
      */

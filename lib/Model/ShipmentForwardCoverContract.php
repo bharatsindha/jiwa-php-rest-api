@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class ShipmentForwardCoverContract implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'line_key' => 'string',
         'forward_cover_contract_transaction_id' => 'string',
-        'forward_cover_contract' => '\Jiwa\JiwaModel\ForwardCoverContract',
+        'forward_cover_contract' => '\Jiwa\Model\ForwardCoverContract',
         'fx_amount' => 'double',
         'home_amount' => 'double'
     ];
@@ -280,7 +280,7 @@ class ShipmentForwardCoverContract implements ModelInterface, ArrayAccess
     /**
      * Gets forward_cover_contract
      *
-     * @return \Jiwa\JiwaModel\ForwardCoverContract
+     * @return \Jiwa\Model\ForwardCoverContract
      */
     public function getForwardCoverContract()
     {
@@ -290,7 +290,7 @@ class ShipmentForwardCoverContract implements ModelInterface, ArrayAccess
     /**
      * Sets forward_cover_contract
      *
-     * @param \Jiwa\JiwaModel\ForwardCoverContract $forward_cover_contract forward_cover_contract
+     * @param \Jiwa\Model\ForwardCoverContract $forward_cover_contract forward_cover_contract
      *
      * @return $this
      */

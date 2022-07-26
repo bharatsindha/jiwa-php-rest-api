@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,7 +63,7 @@ class InventoryRegionPATCHRequest implements ModelInterface, ArrayAccess
         'region_supplier_ordering_id' => 'string',
         'order_enabled' => 'bool',
         'region_id' => 'string',
-        'suppliers' => '\Jiwa\JiwaModel\InventorySupplier[]'
+        'suppliers' => '\Jiwa\Model\InventorySupplier[]'
     ];
 
     /**
@@ -358,7 +358,7 @@ class InventoryRegionPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets suppliers
      *
-     * @return \Jiwa\JiwaModel\InventorySupplier[]
+     * @return \Jiwa\Model\InventorySupplier[]
      */
     public function getSuppliers()
     {
@@ -368,7 +368,7 @@ class InventoryRegionPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets suppliers
      *
-     * @param \Jiwa\JiwaModel\InventorySupplier[] $suppliers suppliers
+     * @param \Jiwa\Model\InventorySupplier[] $suppliers suppliers
      *
      * @return $this
      */

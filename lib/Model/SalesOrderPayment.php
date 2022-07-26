@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class SalesOrderPayment implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'history_no' => 'int',
-        'payment_type' => '\Jiwa\JiwaModel\PaymentType',
+        'payment_type' => '\Jiwa\Model\PaymentType',
         'amount_paid' => 'double',
         'payment_date' => '\DateTime',
         'process_payment' => 'bool',
@@ -340,7 +340,7 @@ class SalesOrderPayment implements ModelInterface, ArrayAccess
     /**
      * Gets payment_type
      *
-     * @return \Jiwa\JiwaModel\PaymentType
+     * @return \Jiwa\Model\PaymentType
      */
     public function getPaymentType()
     {
@@ -350,7 +350,7 @@ class SalesOrderPayment implements ModelInterface, ArrayAccess
     /**
      * Sets payment_type
      *
-     * @param \Jiwa\JiwaModel\PaymentType $payment_type payment_type
+     * @param \Jiwa\Model\PaymentType $payment_type payment_type
      *
      * @return $this
      */

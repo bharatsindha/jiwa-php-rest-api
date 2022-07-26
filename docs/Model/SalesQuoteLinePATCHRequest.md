@@ -32,7 +32,7 @@ Name | Type | Description | Notes
 **quantity_decimal_places** | **double** |  | [optional] 
 **quantity_original_ordered** | **double** |  | [optional] 
 **non_inventory** | **bool** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 **kit_line_type** | **string** |  | [optional] 
 **kit_units** | **double** |  | [optional] 
 **kit_header_line_id** | **string** |  | [optional] 

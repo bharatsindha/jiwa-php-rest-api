@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -84,7 +84,7 @@ class WarehouseTransferOutLineDELETERequest implements ModelInterface, ArrayAcce
         'added_cost_ledger3_rec_id' => 'string',
         'added_cost_ledger3_account_no' => 'string',
         'added_cost_ledger3_description' => 'string',
-        'line_details' => '\Jiwa\JiwaModel\WarehouseTransferOutLineDetail[]'
+        'line_details' => '\Jiwa\Model\WarehouseTransferOutLineDetail[]'
     ];
 
     /**
@@ -988,7 +988,7 @@ class WarehouseTransferOutLineDELETERequest implements ModelInterface, ArrayAcce
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\WarehouseTransferOutLineDetail[]
+     * @return \Jiwa\Model\WarehouseTransferOutLineDetail[]
      */
     public function getLineDetails()
     {
@@ -998,7 +998,7 @@ class WarehouseTransferOutLineDELETERequest implements ModelInterface, ArrayAcce
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\WarehouseTransferOutLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\WarehouseTransferOutLineDetail[] $line_details line_details
      *
      * @return $this
      */

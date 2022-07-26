@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class WebhooksSubscriptionsPATCHRequest implements ModelInterface, ArrayAccess
         'subscription_id' => 'string',
         'url' => 'string',
         'event_name' => 'string',
-        'headers' => '\Jiwa\JiwaModel\WebhooksSubscriptionHeader[]'
+        'headers' => '\Jiwa\Model\WebhooksSubscriptionHeader[]'
     ];
 
     /**
@@ -328,7 +328,7 @@ class WebhooksSubscriptionsPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets headers
      *
-     * @return \Jiwa\JiwaModel\WebhooksSubscriptionHeader[]
+     * @return \Jiwa\Model\WebhooksSubscriptionHeader[]
      */
     public function getHeaders()
     {
@@ -338,7 +338,7 @@ class WebhooksSubscriptionsPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets headers
      *
-     * @param \Jiwa\JiwaModel\WebhooksSubscriptionHeader[] $headers headers
+     * @param \Jiwa\Model\WebhooksSubscriptionHeader[] $headers headers
      *
      * @return $this
      */

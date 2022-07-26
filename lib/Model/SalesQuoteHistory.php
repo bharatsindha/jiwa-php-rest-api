@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,11 +60,11 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'quote_history_id' => 'string',
         'history_no' => 'int',
-        'sales_stage' => '\Jiwa\JiwaModel\SalesStage',
-        'cartage_charge1' => '\Jiwa\JiwaModel\CartageCharge',
-        'cartage_charge2' => '\Jiwa\JiwaModel\CartageCharge',
-        'cartage_charge3' => '\Jiwa\JiwaModel\CartageCharge',
-        'opportunity_status_reason' => '\Jiwa\JiwaModel\OpportunityStatusReason',
+        'sales_stage' => '\Jiwa\Model\SalesStage',
+        'cartage_charge1' => '\Jiwa\Model\CartageCharge',
+        'cartage_charge2' => '\Jiwa\Model\CartageCharge',
+        'cartage_charge3' => '\Jiwa\Model\CartageCharge',
+        'opportunity_status_reason' => '\Jiwa\Model\OpportunityStatusReason',
         'ref' => 'string',
         'last_modified_by' => 'string',
         'history_total' => 'double',
@@ -466,7 +466,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Gets sales_stage
      *
-     * @return \Jiwa\JiwaModel\SalesStage
+     * @return \Jiwa\Model\SalesStage
      */
     public function getSalesStage()
     {
@@ -476,7 +476,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Sets sales_stage
      *
-     * @param \Jiwa\JiwaModel\SalesStage $sales_stage sales_stage
+     * @param \Jiwa\Model\SalesStage $sales_stage sales_stage
      *
      * @return $this
      */
@@ -490,7 +490,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge1
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge1()
     {
@@ -500,7 +500,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge1
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge1 cartage_charge1
+     * @param \Jiwa\Model\CartageCharge $cartage_charge1 cartage_charge1
      *
      * @return $this
      */
@@ -514,7 +514,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge2
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge2()
     {
@@ -524,7 +524,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge2
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge2 cartage_charge2
+     * @param \Jiwa\Model\CartageCharge $cartage_charge2 cartage_charge2
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Gets cartage_charge3
      *
-     * @return \Jiwa\JiwaModel\CartageCharge
+     * @return \Jiwa\Model\CartageCharge
      */
     public function getCartageCharge3()
     {
@@ -548,7 +548,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Sets cartage_charge3
      *
-     * @param \Jiwa\JiwaModel\CartageCharge $cartage_charge3 cartage_charge3
+     * @param \Jiwa\Model\CartageCharge $cartage_charge3 cartage_charge3
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Gets opportunity_status_reason
      *
-     * @return \Jiwa\JiwaModel\OpportunityStatusReason
+     * @return \Jiwa\Model\OpportunityStatusReason
      */
     public function getOpportunityStatusReason()
     {
@@ -572,7 +572,7 @@ class SalesQuoteHistory implements ModelInterface, ArrayAccess
     /**
      * Sets opportunity_status_reason
      *
-     * @param \Jiwa\JiwaModel\OpportunityStatusReason $opportunity_status_reason opportunity_status_reason
+     * @param \Jiwa\Model\OpportunityStatusReason $opportunity_status_reason opportunity_status_reason
      *
      * @return $this
      */

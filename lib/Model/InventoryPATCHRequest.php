@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -83,20 +83,20 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
         'standard_cost' => 'double',
         'web_enabled' => 'bool',
         'sell_price_inc_tax' => 'bool',
-        'style' => '\Jiwa\JiwaModel\InventoryStyle',
-        'colour' => '\Jiwa\JiwaModel\InventoryColour',
-        'size' => '\Jiwa\JiwaModel\InventorySize',
+        'style' => '\Jiwa\Model\InventoryStyle',
+        'colour' => '\Jiwa\Model\InventoryColour',
+        'size' => '\Jiwa\Model\InventorySize',
         'part_encode_order' => 'int',
         'part_no' => 'string',
         'picture' => 'string',
         'description' => 'string',
         'unit_measure' => 'string',
-        'classification' => '\Jiwa\JiwaModel\InventoryClassification',
-        'category1' => '\Jiwa\JiwaModel\InventoryCategory',
-        'category2' => '\Jiwa\JiwaModel\InventoryCategory',
-        'category3' => '\Jiwa\JiwaModel\InventoryCategory',
-        'category4' => '\Jiwa\JiwaModel\InventoryCategory',
-        'category5' => '\Jiwa\JiwaModel\InventoryCategory',
+        'classification' => '\Jiwa\Model\InventoryClassification',
+        'category1' => '\Jiwa\Model\InventoryCategory',
+        'category2' => '\Jiwa\Model\InventoryCategory',
+        'category3' => '\Jiwa\Model\InventoryCategory',
+        'category4' => '\Jiwa\Model\InventoryCategory',
+        'category5' => '\Jiwa\Model\InventoryCategory',
         'aux1' => 'string',
         'aux2' => 'string',
         'aux3' => 'string',
@@ -117,30 +117,30 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
         'matrix_description' => 'string',
         'pricing_group_id' => 'string',
         'pricing_group_description' => 'string',
-        'inventory_ledgers' => '\Jiwa\JiwaModel\InventoryLedger[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'regions' => '\Jiwa\JiwaModel\InventoryRegion[]',
-        'debtor_prices' => '\Jiwa\JiwaModel\InventoryDebtorPrice[]',
-        'debtor_class_prices' => '\Jiwa\JiwaModel\InventoryDebtorClassificationPrice[]',
-        'debtor_price_group_inventory_specific_prices' => '\Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific[]',
-        'alternate_children' => '\Jiwa\JiwaModel\InventoryAlternateChild[]',
-        'alternate_parents' => '\Jiwa\JiwaModel\InventoryAlternateParent[]',
-        'components' => '\Jiwa\JiwaModel\InventoryComponent[]',
-        'warehouse_so_hs' => '\Jiwa\JiwaModel\InventoryWarehouseSOH[]',
-        'debtor_part_numbers' => '\Jiwa\JiwaModel\InventoryDebtorPartNumber[]',
-        'group_memberships' => '\Jiwa\JiwaModel\InventoryGroupMembership[]',
-        'other_descriptions' => '\Jiwa\JiwaModel\InventoryOtherDescription[]',
-        'order_levels' => '\Jiwa\JiwaModel\InventoryOrderLevel[]',
-        'budgets' => '\Jiwa\JiwaModel\InventoryBudget[]',
-        'logical_orders' => '\Jiwa\JiwaModel\InventoryLogicalOrder[]',
-        'default_bin_locations' => '\Jiwa\JiwaModel\InventoryDefaultBinLocation[]',
-        'product_availabilities' => '\Jiwa\JiwaModel\InventoryProductAvailability[]',
-        'selling_prices' => '\Jiwa\JiwaModel\InventorySellingPrices',
-        'up_sells' => '\Jiwa\JiwaModel\InventoryUpSell[]',
-        'attribute_groups' => '\Jiwa\JiwaModel\InventoryAttributeGroup[]',
-        'unit_of_measures' => '\Jiwa\JiwaModel\InventoryUnitOfMeasure[]'
+        'inventory_ledgers' => '\Jiwa\Model\InventoryLedger[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'regions' => '\Jiwa\Model\InventoryRegion[]',
+        'debtor_prices' => '\Jiwa\Model\InventoryDebtorPrice[]',
+        'debtor_class_prices' => '\Jiwa\Model\InventoryDebtorClassificationPrice[]',
+        'debtor_price_group_inventory_specific_prices' => '\Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific[]',
+        'alternate_children' => '\Jiwa\Model\InventoryAlternateChild[]',
+        'alternate_parents' => '\Jiwa\Model\InventoryAlternateParent[]',
+        'components' => '\Jiwa\Model\InventoryComponent[]',
+        'warehouse_so_hs' => '\Jiwa\Model\InventoryWarehouseSOH[]',
+        'debtor_part_numbers' => '\Jiwa\Model\InventoryDebtorPartNumber[]',
+        'group_memberships' => '\Jiwa\Model\InventoryGroupMembership[]',
+        'other_descriptions' => '\Jiwa\Model\InventoryOtherDescription[]',
+        'order_levels' => '\Jiwa\Model\InventoryOrderLevel[]',
+        'budgets' => '\Jiwa\Model\InventoryBudget[]',
+        'logical_orders' => '\Jiwa\Model\InventoryLogicalOrder[]',
+        'default_bin_locations' => '\Jiwa\Model\InventoryDefaultBinLocation[]',
+        'product_availabilities' => '\Jiwa\Model\InventoryProductAvailability[]',
+        'selling_prices' => '\Jiwa\Model\InventorySellingPrices',
+        'up_sells' => '\Jiwa\Model\InventoryUpSell[]',
+        'attribute_groups' => '\Jiwa\Model\InventoryAttributeGroup[]',
+        'unit_of_measures' => '\Jiwa\Model\InventoryUnitOfMeasure[]'
     ];
 
     /**
@@ -1304,7 +1304,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets style
      *
-     * @return \Jiwa\JiwaModel\InventoryStyle
+     * @return \Jiwa\Model\InventoryStyle
      */
     public function getStyle()
     {
@@ -1314,7 +1314,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets style
      *
-     * @param \Jiwa\JiwaModel\InventoryStyle $style style
+     * @param \Jiwa\Model\InventoryStyle $style style
      *
      * @return $this
      */
@@ -1328,7 +1328,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets colour
      *
-     * @return \Jiwa\JiwaModel\InventoryColour
+     * @return \Jiwa\Model\InventoryColour
      */
     public function getColour()
     {
@@ -1338,7 +1338,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets colour
      *
-     * @param \Jiwa\JiwaModel\InventoryColour $colour colour
+     * @param \Jiwa\Model\InventoryColour $colour colour
      *
      * @return $this
      */
@@ -1352,7 +1352,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets size
      *
-     * @return \Jiwa\JiwaModel\InventorySize
+     * @return \Jiwa\Model\InventorySize
      */
     public function getSize()
     {
@@ -1362,7 +1362,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets size
      *
-     * @param \Jiwa\JiwaModel\InventorySize $size size
+     * @param \Jiwa\Model\InventorySize $size size
      *
      * @return $this
      */
@@ -1501,7 +1501,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets classification
      *
-     * @return \Jiwa\JiwaModel\InventoryClassification
+     * @return \Jiwa\Model\InventoryClassification
      */
     public function getClassification()
     {
@@ -1511,7 +1511,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets classification
      *
-     * @param \Jiwa\JiwaModel\InventoryClassification $classification classification
+     * @param \Jiwa\Model\InventoryClassification $classification classification
      *
      * @return $this
      */
@@ -1525,7 +1525,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category1
      *
-     * @return \Jiwa\JiwaModel\InventoryCategory
+     * @return \Jiwa\Model\InventoryCategory
      */
     public function getCategory1()
     {
@@ -1535,7 +1535,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category1
      *
-     * @param \Jiwa\JiwaModel\InventoryCategory $category1 category1
+     * @param \Jiwa\Model\InventoryCategory $category1 category1
      *
      * @return $this
      */
@@ -1549,7 +1549,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category2
      *
-     * @return \Jiwa\JiwaModel\InventoryCategory
+     * @return \Jiwa\Model\InventoryCategory
      */
     public function getCategory2()
     {
@@ -1559,7 +1559,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category2
      *
-     * @param \Jiwa\JiwaModel\InventoryCategory $category2 category2
+     * @param \Jiwa\Model\InventoryCategory $category2 category2
      *
      * @return $this
      */
@@ -1573,7 +1573,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category3
      *
-     * @return \Jiwa\JiwaModel\InventoryCategory
+     * @return \Jiwa\Model\InventoryCategory
      */
     public function getCategory3()
     {
@@ -1583,7 +1583,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category3
      *
-     * @param \Jiwa\JiwaModel\InventoryCategory $category3 category3
+     * @param \Jiwa\Model\InventoryCategory $category3 category3
      *
      * @return $this
      */
@@ -1597,7 +1597,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category4
      *
-     * @return \Jiwa\JiwaModel\InventoryCategory
+     * @return \Jiwa\Model\InventoryCategory
      */
     public function getCategory4()
     {
@@ -1607,7 +1607,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category4
      *
-     * @param \Jiwa\JiwaModel\InventoryCategory $category4 category4
+     * @param \Jiwa\Model\InventoryCategory $category4 category4
      *
      * @return $this
      */
@@ -1621,7 +1621,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets category5
      *
-     * @return \Jiwa\JiwaModel\InventoryCategory
+     * @return \Jiwa\Model\InventoryCategory
      */
     public function getCategory5()
     {
@@ -1631,7 +1631,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets category5
      *
-     * @param \Jiwa\JiwaModel\InventoryCategory $category5 category5
+     * @param \Jiwa\Model\InventoryCategory $category5 category5
      *
      * @return $this
      */
@@ -2125,7 +2125,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inventory_ledgers
      *
-     * @return \Jiwa\JiwaModel\InventoryLedger[]
+     * @return \Jiwa\Model\InventoryLedger[]
      */
     public function getInventoryLedgers()
     {
@@ -2135,7 +2135,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inventory_ledgers
      *
-     * @param \Jiwa\JiwaModel\InventoryLedger[] $inventory_ledgers inventory_ledgers
+     * @param \Jiwa\Model\InventoryLedger[] $inventory_ledgers inventory_ledgers
      *
      * @return $this
      */
@@ -2149,7 +2149,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -2159,7 +2159,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -2173,7 +2173,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -2183,7 +2183,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -2197,7 +2197,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -2207,7 +2207,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -2221,7 +2221,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets regions
      *
-     * @return \Jiwa\JiwaModel\InventoryRegion[]
+     * @return \Jiwa\Model\InventoryRegion[]
      */
     public function getRegions()
     {
@@ -2231,7 +2231,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets regions
      *
-     * @param \Jiwa\JiwaModel\InventoryRegion[] $regions regions
+     * @param \Jiwa\Model\InventoryRegion[] $regions regions
      *
      * @return $this
      */
@@ -2245,7 +2245,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_prices
      *
-     * @return \Jiwa\JiwaModel\InventoryDebtorPrice[]
+     * @return \Jiwa\Model\InventoryDebtorPrice[]
      */
     public function getDebtorPrices()
     {
@@ -2255,7 +2255,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_prices
      *
-     * @param \Jiwa\JiwaModel\InventoryDebtorPrice[] $debtor_prices debtor_prices
+     * @param \Jiwa\Model\InventoryDebtorPrice[] $debtor_prices debtor_prices
      *
      * @return $this
      */
@@ -2269,7 +2269,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_class_prices
      *
-     * @return \Jiwa\JiwaModel\InventoryDebtorClassificationPrice[]
+     * @return \Jiwa\Model\InventoryDebtorClassificationPrice[]
      */
     public function getDebtorClassPrices()
     {
@@ -2279,7 +2279,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_class_prices
      *
-     * @param \Jiwa\JiwaModel\InventoryDebtorClassificationPrice[] $debtor_class_prices debtor_class_prices
+     * @param \Jiwa\Model\InventoryDebtorClassificationPrice[] $debtor_class_prices debtor_class_prices
      *
      * @return $this
      */
@@ -2293,7 +2293,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_price_group_inventory_specific_prices
      *
-     * @return \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific[]
+     * @return \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific[]
      */
     public function getDebtorPriceGroupInventorySpecificPrices()
     {
@@ -2303,7 +2303,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_price_group_inventory_specific_prices
      *
-     * @param \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific[] $debtor_price_group_inventory_specific_prices debtor_price_group_inventory_specific_prices
+     * @param \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific[] $debtor_price_group_inventory_specific_prices debtor_price_group_inventory_specific_prices
      *
      * @return $this
      */
@@ -2317,7 +2317,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets alternate_children
      *
-     * @return \Jiwa\JiwaModel\InventoryAlternateChild[]
+     * @return \Jiwa\Model\InventoryAlternateChild[]
      */
     public function getAlternateChildren()
     {
@@ -2327,7 +2327,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets alternate_children
      *
-     * @param \Jiwa\JiwaModel\InventoryAlternateChild[] $alternate_children alternate_children
+     * @param \Jiwa\Model\InventoryAlternateChild[] $alternate_children alternate_children
      *
      * @return $this
      */
@@ -2341,7 +2341,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets alternate_parents
      *
-     * @return \Jiwa\JiwaModel\InventoryAlternateParent[]
+     * @return \Jiwa\Model\InventoryAlternateParent[]
      */
     public function getAlternateParents()
     {
@@ -2351,7 +2351,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets alternate_parents
      *
-     * @param \Jiwa\JiwaModel\InventoryAlternateParent[] $alternate_parents alternate_parents
+     * @param \Jiwa\Model\InventoryAlternateParent[] $alternate_parents alternate_parents
      *
      * @return $this
      */
@@ -2365,7 +2365,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets components
      *
-     * @return \Jiwa\JiwaModel\InventoryComponent[]
+     * @return \Jiwa\Model\InventoryComponent[]
      */
     public function getComponents()
     {
@@ -2375,7 +2375,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets components
      *
-     * @param \Jiwa\JiwaModel\InventoryComponent[] $components components
+     * @param \Jiwa\Model\InventoryComponent[] $components components
      *
      * @return $this
      */
@@ -2389,7 +2389,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets warehouse_so_hs
      *
-     * @return \Jiwa\JiwaModel\InventoryWarehouseSOH[]
+     * @return \Jiwa\Model\InventoryWarehouseSOH[]
      */
     public function getWarehouseSoHs()
     {
@@ -2399,7 +2399,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets warehouse_so_hs
      *
-     * @param \Jiwa\JiwaModel\InventoryWarehouseSOH[] $warehouse_so_hs warehouse_so_hs
+     * @param \Jiwa\Model\InventoryWarehouseSOH[] $warehouse_so_hs warehouse_so_hs
      *
      * @return $this
      */
@@ -2413,7 +2413,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_part_numbers
      *
-     * @return \Jiwa\JiwaModel\InventoryDebtorPartNumber[]
+     * @return \Jiwa\Model\InventoryDebtorPartNumber[]
      */
     public function getDebtorPartNumbers()
     {
@@ -2423,7 +2423,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_part_numbers
      *
-     * @param \Jiwa\JiwaModel\InventoryDebtorPartNumber[] $debtor_part_numbers debtor_part_numbers
+     * @param \Jiwa\Model\InventoryDebtorPartNumber[] $debtor_part_numbers debtor_part_numbers
      *
      * @return $this
      */
@@ -2437,7 +2437,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets group_memberships
      *
-     * @return \Jiwa\JiwaModel\InventoryGroupMembership[]
+     * @return \Jiwa\Model\InventoryGroupMembership[]
      */
     public function getGroupMemberships()
     {
@@ -2447,7 +2447,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets group_memberships
      *
-     * @param \Jiwa\JiwaModel\InventoryGroupMembership[] $group_memberships group_memberships
+     * @param \Jiwa\Model\InventoryGroupMembership[] $group_memberships group_memberships
      *
      * @return $this
      */
@@ -2461,7 +2461,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets other_descriptions
      *
-     * @return \Jiwa\JiwaModel\InventoryOtherDescription[]
+     * @return \Jiwa\Model\InventoryOtherDescription[]
      */
     public function getOtherDescriptions()
     {
@@ -2471,7 +2471,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets other_descriptions
      *
-     * @param \Jiwa\JiwaModel\InventoryOtherDescription[] $other_descriptions other_descriptions
+     * @param \Jiwa\Model\InventoryOtherDescription[] $other_descriptions other_descriptions
      *
      * @return $this
      */
@@ -2485,7 +2485,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_levels
      *
-     * @return \Jiwa\JiwaModel\InventoryOrderLevel[]
+     * @return \Jiwa\Model\InventoryOrderLevel[]
      */
     public function getOrderLevels()
     {
@@ -2495,7 +2495,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_levels
      *
-     * @param \Jiwa\JiwaModel\InventoryOrderLevel[] $order_levels order_levels
+     * @param \Jiwa\Model\InventoryOrderLevel[] $order_levels order_levels
      *
      * @return $this
      */
@@ -2509,7 +2509,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets budgets
      *
-     * @return \Jiwa\JiwaModel\InventoryBudget[]
+     * @return \Jiwa\Model\InventoryBudget[]
      */
     public function getBudgets()
     {
@@ -2519,7 +2519,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets budgets
      *
-     * @param \Jiwa\JiwaModel\InventoryBudget[] $budgets budgets
+     * @param \Jiwa\Model\InventoryBudget[] $budgets budgets
      *
      * @return $this
      */
@@ -2533,7 +2533,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets logical_orders
      *
-     * @return \Jiwa\JiwaModel\InventoryLogicalOrder[]
+     * @return \Jiwa\Model\InventoryLogicalOrder[]
      */
     public function getLogicalOrders()
     {
@@ -2543,7 +2543,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets logical_orders
      *
-     * @param \Jiwa\JiwaModel\InventoryLogicalOrder[] $logical_orders logical_orders
+     * @param \Jiwa\Model\InventoryLogicalOrder[] $logical_orders logical_orders
      *
      * @return $this
      */
@@ -2557,7 +2557,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets default_bin_locations
      *
-     * @return \Jiwa\JiwaModel\InventoryDefaultBinLocation[]
+     * @return \Jiwa\Model\InventoryDefaultBinLocation[]
      */
     public function getDefaultBinLocations()
     {
@@ -2567,7 +2567,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets default_bin_locations
      *
-     * @param \Jiwa\JiwaModel\InventoryDefaultBinLocation[] $default_bin_locations default_bin_locations
+     * @param \Jiwa\Model\InventoryDefaultBinLocation[] $default_bin_locations default_bin_locations
      *
      * @return $this
      */
@@ -2581,7 +2581,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets product_availabilities
      *
-     * @return \Jiwa\JiwaModel\InventoryProductAvailability[]
+     * @return \Jiwa\Model\InventoryProductAvailability[]
      */
     public function getProductAvailabilities()
     {
@@ -2591,7 +2591,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets product_availabilities
      *
-     * @param \Jiwa\JiwaModel\InventoryProductAvailability[] $product_availabilities product_availabilities
+     * @param \Jiwa\Model\InventoryProductAvailability[] $product_availabilities product_availabilities
      *
      * @return $this
      */
@@ -2605,7 +2605,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets selling_prices
      *
-     * @return \Jiwa\JiwaModel\InventorySellingPrices
+     * @return \Jiwa\Model\InventorySellingPrices
      */
     public function getSellingPrices()
     {
@@ -2615,7 +2615,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets selling_prices
      *
-     * @param \Jiwa\JiwaModel\InventorySellingPrices $selling_prices selling_prices
+     * @param \Jiwa\Model\InventorySellingPrices $selling_prices selling_prices
      *
      * @return $this
      */
@@ -2629,7 +2629,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets up_sells
      *
-     * @return \Jiwa\JiwaModel\InventoryUpSell[]
+     * @return \Jiwa\Model\InventoryUpSell[]
      */
     public function getUpSells()
     {
@@ -2639,7 +2639,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets up_sells
      *
-     * @param \Jiwa\JiwaModel\InventoryUpSell[] $up_sells up_sells
+     * @param \Jiwa\Model\InventoryUpSell[] $up_sells up_sells
      *
      * @return $this
      */
@@ -2653,7 +2653,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets attribute_groups
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroup[]
+     * @return \Jiwa\Model\InventoryAttributeGroup[]
      */
     public function getAttributeGroups()
     {
@@ -2663,7 +2663,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets attribute_groups
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroup[] $attribute_groups attribute_groups
+     * @param \Jiwa\Model\InventoryAttributeGroup[] $attribute_groups attribute_groups
      *
      * @return $this
      */
@@ -2677,7 +2677,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets unit_of_measures
      *
-     * @return \Jiwa\JiwaModel\InventoryUnitOfMeasure[]
+     * @return \Jiwa\Model\InventoryUnitOfMeasure[]
      */
     public function getUnitOfMeasures()
     {
@@ -2687,7 +2687,7 @@ class InventoryPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets unit_of_measures
      *
-     * @param \Jiwa\JiwaModel\InventoryUnitOfMeasure[] $unit_of_measures unit_of_measures
+     * @param \Jiwa\Model\InventoryUnitOfMeasure[] $unit_of_measures unit_of_measures
      *
      * @return $this
      */

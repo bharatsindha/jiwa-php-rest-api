@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **ref** | **string** |  | [optional] 
 **history_text** | **string** |  | [optional] 
 **source_id** | **string** |  | [optional] 
-**bin_location** | [**\Jiwa\JiwaModel\InventoryBinLocation**](InventoryBinLocation.md) |  | [optional] 
+**bin_location** | [**\Jiwa\Model\InventoryBinLocation**](InventoryBinLocation.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

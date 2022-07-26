@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -271,7 +271,7 @@ class HRStaffQuery implements ModelInterface, ArrayAccess
         'order_by_desc' => 'string',
         'include' => 'string',
         'fields' => 'string',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_'
+        'meta' => '\Jiwa\Model\DictionaryStringString_'
     ];
 
     /**
@@ -6625,7 +6625,7 @@ class HRStaffQuery implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -6635,7 +6635,7 @@ class HRStaffQuery implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */

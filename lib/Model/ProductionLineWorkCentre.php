@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class ProductionLineWorkCentre implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'production_line_work_centre_id' => 'string',
-        'work_centre' => '\Jiwa\JiwaModel\WorkCentre'
+        'work_centre' => '\Jiwa\Model\WorkCentre'
     ];
 
     /**
@@ -238,7 +238,7 @@ class ProductionLineWorkCentre implements ModelInterface, ArrayAccess
     /**
      * Gets work_centre
      *
-     * @return \Jiwa\JiwaModel\WorkCentre
+     * @return \Jiwa\Model\WorkCentre
      */
     public function getWorkCentre()
     {
@@ -248,7 +248,7 @@ class ProductionLineWorkCentre implements ModelInterface, ArrayAccess
     /**
      * Sets work_centre
      *
-     * @param \Jiwa\JiwaModel\WorkCentre $work_centre work_centre
+     * @param \Jiwa\Model\WorkCentre $work_centre work_centre
      *
      * @return $this
      */

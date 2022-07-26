@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**template_field** | [**\Jiwa\JiwaModel\DebtorSystemTemplateField**](DebtorSystemTemplateField.md) |  | [optional] 
+**template_field** | [**\Jiwa\Model\DebtorSystemTemplateField**](DebtorSystemTemplateField.md) |  | [optional] 
 **system_field_id** | **string** |  | [optional] 
 **last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **contents** | **string** |  | [optional] 

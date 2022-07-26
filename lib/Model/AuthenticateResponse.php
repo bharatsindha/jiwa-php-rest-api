@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -65,8 +65,8 @@ class AuthenticateResponse implements ModelInterface, ArrayAccess
         'referrer_url' => 'string',
         'bearer_token' => 'string',
         'refresh_token' => 'string',
-        'response_status' => '\Jiwa\JiwaModel\ResponseStatus',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_'
+        'response_status' => '\Jiwa\Model\ResponseStatus',
+        'meta' => '\Jiwa\Model\DictionaryStringString_'
     ];
 
     /**
@@ -424,7 +424,7 @@ class AuthenticateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets response_status
      *
-     * @return \Jiwa\JiwaModel\ResponseStatus
+     * @return \Jiwa\Model\ResponseStatus
      */
     public function getResponseStatus()
     {
@@ -434,7 +434,7 @@ class AuthenticateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets response_status
      *
-     * @param \Jiwa\JiwaModel\ResponseStatus $response_status response_status
+     * @param \Jiwa\Model\ResponseStatus $response_status response_status
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class AuthenticateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -458,7 +458,7 @@ class AuthenticateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */

@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **queryRequestLogsGETManyRequestDateGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ queryRequestLogsGETManyRequestDateGet($accept, $date, $jiwa_stateful, $view_errors, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ queryRequestLogsGETManyRequestDateGet($accept, $date, $jiwa_stateful, $view_errors, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of log entries for a given date.
 
@@ -68,7 +68,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 
@@ -82,7 +82,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **queryRequestLogsGETManyRequestGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ queryRequestLogsGETManyRequestGet($accept, $jiwa_stateful, $date, $view_errors, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ queryRequestLogsGETManyRequestGet($accept, $jiwa_stateful, $date, $view_errors, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of log entries.
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **todayErrorLogsGETManyRequestTodayErrorsGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ todayErrorLogsGETManyRequestTodayErrorsGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ todayErrorLogsGETManyRequestTodayErrorsGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of error log entries for today.
 
@@ -202,7 +202,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 
@@ -216,7 +216,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **todayLogsGETManyRequestTodayGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ todayLogsGETManyRequestTodayGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ todayLogsGETManyRequestTodayGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of log entries for today.
 
@@ -267,7 +267,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **yesterdayErrorLogsGETManyRequestYesterdayErrorsGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ yesterdayErrorLogsGETManyRequestYesterdayErrorsGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ yesterdayErrorLogsGETManyRequestYesterdayErrorsGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of error log entries for yesterday.
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 
@@ -346,7 +346,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **yesterdayLogsGETManyRequestYesterdayGet**
-> \Jiwa\JiwaModel\QueryResponseRequestLogEntry_ yesterdayLogsGETManyRequestYesterdayGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
+> \Jiwa\Model\QueryResponseRequestLogEntry_ yesterdayLogsGETManyRequestYesterdayGet($accept, $jiwa_stateful, $skip, $take, $order_by, $order_by_desc, $include, $fields, $meta)
 
 Retrieves a list of log entries for yesterday.
 
@@ -397,7 +397,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
+[**\Jiwa\Model\QueryResponseRequestLogEntry_**](../Model/QueryResponseRequestLogEntry_.md)
 
 ### Authorization
 

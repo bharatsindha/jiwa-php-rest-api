@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -125,8 +125,8 @@ class GoodsReceivedNoteLineDELETERequest implements ModelInterface, ArrayAccess
         'fx_decimal_places' => 'int',
         'home_decimal_places' => 'int',
         'use_expiry_date' => 'bool',
-        'line_details' => '\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'line_details' => '\Jiwa\Model\GoodsReceivedNoteLineDetail[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -2224,7 +2224,7 @@ class GoodsReceivedNoteLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[]
+     * @return \Jiwa\Model\GoodsReceivedNoteLineDetail[]
      */
     public function getLineDetails()
     {
@@ -2234,7 +2234,7 @@ class GoodsReceivedNoteLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\GoodsReceivedNoteLineDetail[] $line_details line_details
      *
      * @return $this
      */
@@ -2248,7 +2248,7 @@ class GoodsReceivedNoteLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -2258,7 +2258,7 @@ class GoodsReceivedNoteLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

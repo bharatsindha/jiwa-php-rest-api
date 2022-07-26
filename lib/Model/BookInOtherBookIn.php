@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class BookInOtherBookIn implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'book_in_id' => 'string',
-        'lines' => '\Jiwa\JiwaModel\BookInOtherBookInLine[]'
+        'lines' => '\Jiwa\Model\BookInOtherBookInLine[]'
     ];
 
     /**
@@ -238,7 +238,7 @@ class BookInOtherBookIn implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\BookInOtherBookInLine[]
+     * @return \Jiwa\Model\BookInOtherBookInLine[]
      */
     public function getLines()
     {
@@ -248,7 +248,7 @@ class BookInOtherBookIn implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\BookInOtherBookInLine[] $lines lines
+     * @param \Jiwa\Model\BookInOtherBookInLine[] $lines lines
      *
      * @return $this
      */

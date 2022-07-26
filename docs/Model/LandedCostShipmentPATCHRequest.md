@@ -20,13 +20,13 @@ Name | Type | Description | Notes
 **shipping_agent_creditor_id** | **string** |  | [optional] 
 **shipping_agent_creditor_account_no** | **string** |  | [optional] 
 **shipping_agent_creditor_name** | **string** |  | [optional] 
-**import_cost_clearing_account** | [**\Jiwa\JiwaModel\Account**](Account.md) |  | [optional] 
-**lines** | [**\Jiwa\JiwaModel\ShipmentLine[]**](ShipmentLine.md) |  | [optional] 
-**purchase_orders** | [**\Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[]**](ShipmentPurchaseOrderReceived.md) |  | [optional] 
-**import_costs** | [**\Jiwa\JiwaModel\ShipmentImportCost[]**](ShipmentImportCost.md) |  | [optional] 
-**vot_is** | [**\Jiwa\JiwaModel\ShipmentVOTI[]**](ShipmentVOTI.md) |  | [optional] 
-**invoices** | [**\Jiwa\JiwaModel\ShipmentInvoice[]**](ShipmentInvoice.md) |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**import_cost_clearing_account** | [**\Jiwa\Model\Account**](Account.md) |  | [optional] 
+**lines** | [**\Jiwa\Model\ShipmentLine[]**](ShipmentLine.md) |  | [optional] 
+**purchase_orders** | [**\Jiwa\Model\ShipmentPurchaseOrderReceived[]**](ShipmentPurchaseOrderReceived.md) |  | [optional] 
+**import_costs** | [**\Jiwa\Model\ShipmentImportCost[]**](ShipmentImportCost.md) |  | [optional] 
+**vot_is** | [**\Jiwa\Model\ShipmentVOTI[]**](ShipmentVOTI.md) |  | [optional] 
+**invoices** | [**\Jiwa\Model\ShipmentInvoice[]**](ShipmentInvoice.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

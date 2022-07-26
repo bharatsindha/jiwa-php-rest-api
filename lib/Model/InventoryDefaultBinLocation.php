@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,8 +63,8 @@ class InventoryDefaultBinLocation implements ModelInterface, ArrayAccess
         'logical_warehouse_description' => 'string',
         'physical_warehouse_id' => 'string',
         'physical_warehouse_description' => 'string',
-        'bin_location' => '\Jiwa\JiwaModel\InventoryBinLocation',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'bin_location' => '\Jiwa\Model\InventoryBinLocation',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -364,7 +364,7 @@ class InventoryDefaultBinLocation implements ModelInterface, ArrayAccess
     /**
      * Gets bin_location
      *
-     * @return \Jiwa\JiwaModel\InventoryBinLocation
+     * @return \Jiwa\Model\InventoryBinLocation
      */
     public function getBinLocation()
     {
@@ -374,7 +374,7 @@ class InventoryDefaultBinLocation implements ModelInterface, ArrayAccess
     /**
      * Sets bin_location
      *
-     * @param \Jiwa\JiwaModel\InventoryBinLocation $bin_location bin_location
+     * @param \Jiwa\Model\InventoryBinLocation $bin_location bin_location
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class InventoryDefaultBinLocation implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -398,7 +398,7 @@ class InventoryDefaultBinLocation implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

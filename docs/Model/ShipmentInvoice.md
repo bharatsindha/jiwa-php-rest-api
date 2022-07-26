@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **creditor_account_no** | **string** |  | [optional] 
 **creditor_name** | **string** |  | [optional] 
 **use_forward_cover_contract** | **bool** |  | [optional] 
-**forward_cover_contracts** | [**\Jiwa\JiwaModel\ShipmentForwardCoverContract[]**](ShipmentForwardCoverContract.md) |  | [optional] 
+**forward_cover_contracts** | [**\Jiwa\Model\ShipmentForwardCoverContract[]**](ShipmentForwardCoverContract.md) |  | [optional] 
 **cr_trans_id** | **string** |  | [optional] 
 **user_field1** | **string** |  | [optional] 
 **user_field2** | **string** |  | [optional] 

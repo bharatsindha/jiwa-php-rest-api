@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **quote_id** | **string** |  | [optional] 
 **note_id** | **string** |  | [optional] 
-**note_type** | [**\Jiwa\JiwaModel\NoteType**](NoteType.md) |  | [optional] 
+**note_type** | [**\Jiwa\Model\NoteType**](NoteType.md) |  | [optional] 
 **line_no** | **int** |  | [optional] 
 **last_saved_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **last_modified_by_staff_id** | **string** |  | [optional] 

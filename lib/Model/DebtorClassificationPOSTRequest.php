@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,7 +66,7 @@ class DebtorClassificationPOSTRequest implements ModelInterface, ArrayAccess
         'pricing_group_description' => 'string',
         'sell_pricing_scheme_id' => 'string',
         'sell_pricing_scheme_description' => 'string',
-        'debtor_ledgers' => '\Jiwa\JiwaModel\DebtorLedger[]'
+        'debtor_ledgers' => '\Jiwa\Model\DebtorLedger[]'
     ];
 
     /**
@@ -448,7 +448,7 @@ class DebtorClassificationPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets debtor_ledgers
      *
-     * @return \Jiwa\JiwaModel\DebtorLedger[]
+     * @return \Jiwa\Model\DebtorLedger[]
      */
     public function getDebtorLedgers()
     {
@@ -458,7 +458,7 @@ class DebtorClassificationPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets debtor_ledgers
      *
-     * @param \Jiwa\JiwaModel\DebtorLedger[] $debtor_ledgers debtor_ledgers
+     * @param \Jiwa\Model\DebtorLedger[] $debtor_ledgers debtor_ledgers
      *
      * @return $this
      */

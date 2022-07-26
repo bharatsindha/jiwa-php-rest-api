@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -58,11 +58,11 @@ class DebtorSystem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'template' => '\Jiwa\JiwaModel\DebtorSystemTemplate',
+        'template' => '\Jiwa\Model\DebtorSystemTemplate',
         'system_id' => 'string',
         'last_saved_date_time' => '\DateTime',
         'description' => 'string',
-        'fields' => '\Jiwa\JiwaModel\DebtorSystemField[]'
+        'fields' => '\Jiwa\Model\DebtorSystemField[]'
     ];
 
     /**
@@ -232,7 +232,7 @@ class DebtorSystem implements ModelInterface, ArrayAccess
     /**
      * Gets template
      *
-     * @return \Jiwa\JiwaModel\DebtorSystemTemplate
+     * @return \Jiwa\Model\DebtorSystemTemplate
      */
     public function getTemplate()
     {
@@ -242,7 +242,7 @@ class DebtorSystem implements ModelInterface, ArrayAccess
     /**
      * Sets template
      *
-     * @param \Jiwa\JiwaModel\DebtorSystemTemplate $template template
+     * @param \Jiwa\Model\DebtorSystemTemplate $template template
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class DebtorSystem implements ModelInterface, ArrayAccess
     /**
      * Gets fields
      *
-     * @return \Jiwa\JiwaModel\DebtorSystemField[]
+     * @return \Jiwa\Model\DebtorSystemField[]
      */
     public function getFields()
     {
@@ -338,7 +338,7 @@ class DebtorSystem implements ModelInterface, ArrayAccess
     /**
      * Sets fields
      *
-     * @param \Jiwa\JiwaModel\DebtorSystemField[] $fields fields
+     * @param \Jiwa\Model\DebtorSystemField[] $fields fields
      *
      * @return $this
      */

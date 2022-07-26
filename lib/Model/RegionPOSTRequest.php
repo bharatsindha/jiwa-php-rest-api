@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,8 +62,8 @@ class RegionPOSTRequest implements ModelInterface, ArrayAccess
         'is_default' => 'bool',
         'description' => 'string',
         'created_date_time' => '\DateTime',
-        'created_by_staff' => '\Jiwa\JiwaModel\StaffMember',
-        'last_saved_by_staff' => '\Jiwa\JiwaModel\StaffMember'
+        'created_by_staff' => '\Jiwa\Model\StaffMember',
+        'last_saved_by_staff' => '\Jiwa\Model\StaffMember'
     ];
 
     /**
@@ -334,7 +334,7 @@ class RegionPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets created_by_staff
      *
-     * @return \Jiwa\JiwaModel\StaffMember
+     * @return \Jiwa\Model\StaffMember
      */
     public function getCreatedByStaff()
     {
@@ -344,7 +344,7 @@ class RegionPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets created_by_staff
      *
-     * @param \Jiwa\JiwaModel\StaffMember $created_by_staff created_by_staff
+     * @param \Jiwa\Model\StaffMember $created_by_staff created_by_staff
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class RegionPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets last_saved_by_staff
      *
-     * @return \Jiwa\JiwaModel\StaffMember
+     * @return \Jiwa\Model\StaffMember
      */
     public function getLastSavedByStaff()
     {
@@ -368,7 +368,7 @@ class RegionPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets last_saved_by_staff
      *
-     * @param \Jiwa\JiwaModel\StaffMember $last_saved_by_staff last_saved_by_staff
+     * @param \Jiwa\Model\StaffMember $last_saved_by_staff last_saved_by_staff
      *
      * @return $this
      */

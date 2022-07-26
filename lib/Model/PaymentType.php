@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,7 +66,7 @@ class PaymentType implements ModelInterface, ArrayAccess
         'is_default' => 'bool',
         'is_credit_card' => 'bool',
         'is_pos' => 'bool',
-        'general_ledger_account' => '\Jiwa\JiwaModel\Account'
+        'general_ledger_account' => '\Jiwa\Model\Account'
     ];
 
     /**
@@ -448,7 +448,7 @@ class PaymentType implements ModelInterface, ArrayAccess
     /**
      * Gets general_ledger_account
      *
-     * @return \Jiwa\JiwaModel\Account
+     * @return \Jiwa\Model\Account
      */
     public function getGeneralLedgerAccount()
     {
@@ -458,7 +458,7 @@ class PaymentType implements ModelInterface, ArrayAccess
     /**
      * Sets general_ledger_account
      *
-     * @param \Jiwa\JiwaModel\Account $general_ledger_account general_ledger_account
+     * @param \Jiwa\Model\Account $general_ledger_account general_ledger_account
      *
      * @return $this
      */

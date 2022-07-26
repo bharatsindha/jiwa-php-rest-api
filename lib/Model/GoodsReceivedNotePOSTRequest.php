@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -92,9 +92,9 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
         'insurance_inc' => 'double',
         'inventory_total_quantity' => 'double',
         'inventory_total_quantity_decimal_places' => 'double',
-        'lines' => '\Jiwa\JiwaModel\GoodsReceivedNoteLine[]',
-        'purchase_orders' => '\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'lines' => '\Jiwa\Model\GoodsReceivedNoteLine[]',
+        'purchase_orders' => '\Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -1240,7 +1240,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\GoodsReceivedNoteLine[]
+     * @return \Jiwa\Model\GoodsReceivedNoteLine[]
      */
     public function getLines()
     {
@@ -1250,7 +1250,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\GoodsReceivedNoteLine[] $lines lines
+     * @param \Jiwa\Model\GoodsReceivedNoteLine[] $lines lines
      *
      * @return $this
      */
@@ -1264,7 +1264,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets purchase_orders
      *
-     * @return \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[]
+     * @return \Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[]
      */
     public function getPurchaseOrders()
     {
@@ -1274,7 +1274,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets purchase_orders
      *
-     * @param \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[] $purchase_orders purchase_orders
+     * @param \Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[] $purchase_orders purchase_orders
      *
      * @return $this
      */
@@ -1288,7 +1288,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1298,7 +1298,7 @@ class GoodsReceivedNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

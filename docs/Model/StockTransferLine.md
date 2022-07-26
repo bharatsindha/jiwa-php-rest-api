@@ -80,7 +80,7 @@ Name | Type | Description | Notes
 **created_by_staff_first_name** | **string** |  | [optional] 
 **created_by_staff_surname** | **string** |  | [optional] 
 **created_date_time** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

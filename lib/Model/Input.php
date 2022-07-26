@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -69,7 +69,7 @@ class Input implements ModelInterface, ArrayAccess
         'is_bo_m_item' => 'bool',
         'sub_assembly_bill_id' => 'string',
         'sub_assembly_explode_policy' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
         'total_line_cost' => 'double',
         'last_cost' => 'double',
         'unit_measure' => 'string'
@@ -556,7 +556,7 @@ class Input implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -566,7 +566,7 @@ class Input implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

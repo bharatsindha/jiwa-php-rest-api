@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -76,7 +76,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
         'currency_rate_used' => 'double',
         'purchasing_classification_id' => 'string',
         'purchasing_classification_description' => 'string',
-        'line_details' => '\Jiwa\JiwaModel\PurchaseInvoiceLineDetail[]',
+        'line_details' => '\Jiwa\Model\PurchaseInvoiceLineDetail[]',
         'use_serial_no' => 'bool',
         'fx_cost' => 'double',
         'physical_item' => 'bool',
@@ -127,7 +127,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
         'order_id' => 'string',
         'purchase_order_line_no' => 'int',
         'purchase_order_type' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
         'line_total_ex_tax' => 'int',
         're_lines_source_id' => 'string'
     ];
@@ -1066,7 +1066,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\PurchaseInvoiceLineDetail[]
+     * @return \Jiwa\Model\PurchaseInvoiceLineDetail[]
      */
     public function getLineDetails()
     {
@@ -1076,7 +1076,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\PurchaseInvoiceLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\PurchaseInvoiceLineDetail[] $line_details line_details
      *
      * @return $this
      */
@@ -2290,7 +2290,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -2300,7 +2300,7 @@ class PurchaseInvoiceLinePATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

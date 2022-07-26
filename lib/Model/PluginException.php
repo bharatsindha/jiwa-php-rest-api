@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class PluginException implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'rec_id' => 'string',
         'name' => 'string',
-        'exception' => '\Jiwa\JiwaModel\Exception',
+        'exception' => '\Jiwa\Model\Exception',
         'exception_policy' => 'string'
     ];
 
@@ -274,7 +274,7 @@ class PluginException implements ModelInterface, ArrayAccess
     /**
      * Gets exception
      *
-     * @return \Jiwa\JiwaModel\Exception
+     * @return \Jiwa\Model\Exception
      */
     public function getException()
     {
@@ -284,7 +284,7 @@ class PluginException implements ModelInterface, ArrayAccess
     /**
      * Sets exception
      *
-     * @param \Jiwa\JiwaModel\Exception $exception exception
+     * @param \Jiwa\Model\Exception $exception exception
      *
      * @return $this
      */

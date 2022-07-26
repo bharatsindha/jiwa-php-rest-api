@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -74,13 +74,13 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
         'shipping_agent_creditor_id' => 'string',
         'shipping_agent_creditor_account_no' => 'string',
         'shipping_agent_creditor_name' => 'string',
-        'import_cost_clearing_account' => '\Jiwa\JiwaModel\Account',
-        'lines' => '\Jiwa\JiwaModel\ShipmentLine[]',
-        'purchase_orders' => '\Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[]',
-        'import_costs' => '\Jiwa\JiwaModel\ShipmentImportCost[]',
-        'vot_is' => '\Jiwa\JiwaModel\ShipmentVOTI[]',
-        'invoices' => '\Jiwa\JiwaModel\ShipmentInvoice[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'import_cost_clearing_account' => '\Jiwa\Model\Account',
+        'lines' => '\Jiwa\Model\ShipmentLine[]',
+        'purchase_orders' => '\Jiwa\Model\ShipmentPurchaseOrderReceived[]',
+        'import_costs' => '\Jiwa\Model\ShipmentImportCost[]',
+        'vot_is' => '\Jiwa\Model\ShipmentVOTI[]',
+        'invoices' => '\Jiwa\Model\ShipmentInvoice[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -724,7 +724,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets import_cost_clearing_account
      *
-     * @return \Jiwa\JiwaModel\Account
+     * @return \Jiwa\Model\Account
      */
     public function getImportCostClearingAccount()
     {
@@ -734,7 +734,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets import_cost_clearing_account
      *
-     * @param \Jiwa\JiwaModel\Account $import_cost_clearing_account import_cost_clearing_account
+     * @param \Jiwa\Model\Account $import_cost_clearing_account import_cost_clearing_account
      *
      * @return $this
      */
@@ -748,7 +748,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\ShipmentLine[]
+     * @return \Jiwa\Model\ShipmentLine[]
      */
     public function getLines()
     {
@@ -758,7 +758,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\ShipmentLine[] $lines lines
+     * @param \Jiwa\Model\ShipmentLine[] $lines lines
      *
      * @return $this
      */
@@ -772,7 +772,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets purchase_orders
      *
-     * @return \Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[]
+     * @return \Jiwa\Model\ShipmentPurchaseOrderReceived[]
      */
     public function getPurchaseOrders()
     {
@@ -782,7 +782,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets purchase_orders
      *
-     * @param \Jiwa\JiwaModel\ShipmentPurchaseOrderReceived[] $purchase_orders purchase_orders
+     * @param \Jiwa\Model\ShipmentPurchaseOrderReceived[] $purchase_orders purchase_orders
      *
      * @return $this
      */
@@ -796,7 +796,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets import_costs
      *
-     * @return \Jiwa\JiwaModel\ShipmentImportCost[]
+     * @return \Jiwa\Model\ShipmentImportCost[]
      */
     public function getImportCosts()
     {
@@ -806,7 +806,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets import_costs
      *
-     * @param \Jiwa\JiwaModel\ShipmentImportCost[] $import_costs import_costs
+     * @param \Jiwa\Model\ShipmentImportCost[] $import_costs import_costs
      *
      * @return $this
      */
@@ -820,7 +820,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets vot_is
      *
-     * @return \Jiwa\JiwaModel\ShipmentVOTI[]
+     * @return \Jiwa\Model\ShipmentVOTI[]
      */
     public function getVotIs()
     {
@@ -830,7 +830,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets vot_is
      *
-     * @param \Jiwa\JiwaModel\ShipmentVOTI[] $vot_is vot_is
+     * @param \Jiwa\Model\ShipmentVOTI[] $vot_is vot_is
      *
      * @return $this
      */
@@ -844,7 +844,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets invoices
      *
-     * @return \Jiwa\JiwaModel\ShipmentInvoice[]
+     * @return \Jiwa\Model\ShipmentInvoice[]
      */
     public function getInvoices()
     {
@@ -854,7 +854,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets invoices
      *
-     * @param \Jiwa\JiwaModel\ShipmentInvoice[] $invoices invoices
+     * @param \Jiwa\Model\ShipmentInvoice[] $invoices invoices
      *
      * @return $this
      */
@@ -868,7 +868,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -878,7 +878,7 @@ class LandedCostShipmentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

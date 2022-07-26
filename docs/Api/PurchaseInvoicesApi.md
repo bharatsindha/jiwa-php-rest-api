@@ -22,7 +22,7 @@ Method | HTTP request | Description
 
 
 # **purchaseInvoiceABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object purchaseInvoiceABANDONRequestAbandonDelete($accept, $jiwa_stateful, $purchase_invoice_id)
+> \Jiwa\Model\Object purchaseInvoiceABANDONRequestAbandonDelete($accept, $jiwa_stateful, $purchase_invoice_id)
 
 Abandons a stateful purchase invoice.
 
@@ -68,7 +68,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -82,7 +82,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceACTIVATERequestActivatePurchaseInvoiceIDPost**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoiceACTIVATERequestActivatePurchaseInvoiceIDPost($accept, $purchase_invoice_id, $jiwa_stateful, $body)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoiceACTIVATERequestActivatePurchaseInvoiceIDPost($accept, $purchase_invoice_id, $jiwa_stateful, $body)
 
 Activates a purchase invoice.
 
@@ -108,7 +108,7 @@ $apiInstance = new Jiwa\Api\PurchaseInvoicesApi(
 $accept = "accept_example"; // string | Accept Header
 $purchase_invoice_id = "purchase_invoice_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\PurchaseInvoiceACTIVATERequest(); // \Jiwa\JiwaModel\PurchaseInvoiceACTIVATERequest | 
+$body = new \Jiwa\Model\PurchaseInvoiceACTIVATERequest(); // \Jiwa\Model\PurchaseInvoiceACTIVATERequest | 
 
 try {
     $result = $apiInstance->purchaseInvoiceACTIVATERequestActivatePurchaseInvoiceIDPost($accept, $purchase_invoice_id, $jiwa_stateful, $body);
@@ -126,11 +126,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **purchase_invoice_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoiceACTIVATERequest**](../Model/PurchaseInvoiceACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoiceACTIVATERequest**](../Model/PurchaseInvoiceACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceCREATEFromGRNRequestFromGoodsReceivedNotesGRNNosPost**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoiceCREATEFromGRNRequestFromGoodsReceivedNotesGRNNosPost($accept, $grn_nos, $jiwa_stateful, $body)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoiceCREATEFromGRNRequestFromGoodsReceivedNotesGRNNosPost($accept, $grn_nos, $jiwa_stateful, $body)
 
 Creates a purchase invoice from the supplied goods received notes.
 
@@ -170,7 +170,7 @@ $apiInstance = new Jiwa\Api\PurchaseInvoicesApi(
 $accept = "accept_example"; // string | Accept Header
 $grn_nos = "grn_nos_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\PurchaseInvoiceCREATEFromGRNRequest(); // \Jiwa\JiwaModel\PurchaseInvoiceCREATEFromGRNRequest | 
+$body = new \Jiwa\Model\PurchaseInvoiceCREATEFromGRNRequest(); // \Jiwa\Model\PurchaseInvoiceCREATEFromGRNRequest | 
 
 try {
     $result = $apiInstance->purchaseInvoiceCREATEFromGRNRequestFromGoodsReceivedNotesGRNNosPost($accept, $grn_nos, $jiwa_stateful, $body);
@@ -188,11 +188,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **grn_nos** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoiceCREATEFromGRNRequest**](../Model/PurchaseInvoiceCREATEFromGRNRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoiceCREATEFromGRNRequest**](../Model/PurchaseInvoiceCREATEFromGRNRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceDELETERequestPurchaseInvoiceIDDelete**
-> \Jiwa\JiwaModel\Object purchaseInvoiceDELETERequestPurchaseInvoiceIDDelete($accept, $purchase_invoice_id, $jiwa_stateful)
+> \Jiwa\Model\Object purchaseInvoiceDELETERequestPurchaseInvoiceIDDelete($accept, $purchase_invoice_id, $jiwa_stateful)
 
 Deletes a purchase invoice.
 
@@ -252,7 +252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceGETRequestPurchaseInvoiceIDGet**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoiceGETRequestPurchaseInvoiceIDGet($accept, $purchase_invoice_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoiceGETRequestPurchaseInvoiceIDGet($accept, $purchase_invoice_id, $jiwa_stateful)
 
 Retrieves a purchase invoice.
 
@@ -312,7 +312,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceGoodsReceivedNoteDELETERequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDDelete**
-> \Jiwa\JiwaModel\Object purchaseInvoiceGoodsReceivedNoteDELETERequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDDelete($accept, $purchase_invoice_id, $grnid, $jiwa_stateful, $goods_received_note_invoiced_id, $slip_no, $received_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $re_main_last_saved_date_time)
+> \Jiwa\Model\Object purchaseInvoiceGoodsReceivedNoteDELETERequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDDelete($accept, $purchase_invoice_id, $grnid, $jiwa_stateful, $goods_received_note_invoiced_id, $slip_no, $received_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $re_main_last_saved_date_time)
 
 Deletes a goods received note from a purchase invoice.
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -414,7 +414,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceGoodsReceivedNoteGETRequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDGet**
-> \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced purchaseInvoiceGoodsReceivedNoteGETRequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDGet($accept, $purchase_invoice_id, $grnid, $jiwa_stateful)
+> \Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced purchaseInvoiceGoodsReceivedNoteGETRequestPurchaseInvoiceIDGoodsReceivedNotesGRNIDGet($accept, $purchase_invoice_id, $grnid, $jiwa_stateful)
 
 Retrieves a purchase invoice goods received note.
 
@@ -462,7 +462,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
+[**\Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
 
 ### Authorization
 
@@ -476,7 +476,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceGoodsReceivedNotePOSTRequestPurchaseInvoiceIDGoodsReceivedNotesPost**
-> \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced purchaseInvoiceGoodsReceivedNotePOSTRequestPurchaseInvoiceIDGoodsReceivedNotesPost($accept, $purchase_invoice_id, $jiwa_stateful, $grnid, $goods_received_note_invoiced_id, $slip_no, $received_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $re_main_last_saved_date_time, $body)
+> \Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced purchaseInvoiceGoodsReceivedNotePOSTRequestPurchaseInvoiceIDGoodsReceivedNotesPost($accept, $purchase_invoice_id, $jiwa_stateful, $grnid, $goods_received_note_invoiced_id, $slip_no, $received_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $re_main_last_saved_date_time, $body)
 
 Appends a goods received note to a purchase invoice.
 
@@ -516,7 +516,7 @@ $insurance_tax_id = "insurance_tax_id_example"; // string |
 $insurance = 1.2; // double | 
 $insurance_tax_amount = 1.2; // double | 
 $re_main_last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNotePOSTRequest(); // \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNotePOSTRequest | 
+$body = new \Jiwa\Model\PurchaseInvoiceGoodsReceivedNotePOSTRequest(); // \Jiwa\Model\PurchaseInvoiceGoodsReceivedNotePOSTRequest | 
 
 try {
     $result = $apiInstance->purchaseInvoiceGoodsReceivedNotePOSTRequestPurchaseInvoiceIDGoodsReceivedNotesPost($accept, $purchase_invoice_id, $jiwa_stateful, $grnid, $goods_received_note_invoiced_id, $slip_no, $received_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $re_main_last_saved_date_time, $body);
@@ -548,11 +548,11 @@ Name | Type | Description  | Notes
  **insurance** | **double**|  | [optional]
  **insurance_tax_amount** | **double**|  | [optional]
  **re_main_last_saved_date_time** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNotePOSTRequest**](../Model/PurchaseInvoiceGoodsReceivedNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoiceGoodsReceivedNotePOSTRequest**](../Model/PurchaseInvoiceGoodsReceivedNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
+[**\Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
 
 ### Authorization
 
@@ -566,7 +566,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceGoodsReceivedNotesGETManyRequestPurchaseInvoiceIDGoodsReceivedNotesGet**
-> \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced[] purchaseInvoiceGoodsReceivedNotesGETManyRequestPurchaseInvoiceIDGoodsReceivedNotesGet($accept, $purchase_invoice_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced[] purchaseInvoiceGoodsReceivedNotesGETManyRequestPurchaseInvoiceIDGoodsReceivedNotesGet($accept, $purchase_invoice_id, $jiwa_stateful)
 
 Retrieves a list of purchase invoice goods received notes.
 
@@ -612,7 +612,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced[]**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
+[**\Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced[]**](../Model/PurchaseInvoiceGoodsReceivedNoteInvoiced.md)
 
 ### Authorization
 
@@ -626,7 +626,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceLineGETRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDGet**
-> \Jiwa\JiwaModel\PurchaseInvoiceLine purchaseInvoiceLineGETRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDGet($accept, $purchase_invoice_id, $purchase_invoice_line_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseInvoiceLine purchaseInvoiceLineGETRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDGet($accept, $purchase_invoice_id, $purchase_invoice_line_id, $jiwa_stateful)
 
 Retrieves a purchase invoice line.
 
@@ -674,7 +674,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceLine**](../Model/PurchaseInvoiceLine.md)
+[**\Jiwa\Model\PurchaseInvoiceLine**](../Model/PurchaseInvoiceLine.md)
 
 ### Authorization
 
@@ -688,7 +688,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceLinePATCHRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDUpdate**
-> \Jiwa\JiwaModel\PurchaseInvoiceLine purchaseInvoiceLinePATCHRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDUpdate($accept, $purchase_invoice_id, $purchase_invoice_line_id, $jiwa_stateful, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $purchase_invoice_line_type, $quantity_decimal_places, $last_saved_date_time, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $line_details, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_creditor_purchases_ledger_account_id, $inventory_creditor_purchases_ledger_account_no, $inventory_creditor_purchases_ledger_account_description, $inventory_cost_of_goods_variance_ledger_account_id, $inventory_cost_of_goods_variance_ledger_account_no, $inventory_cost_of_goods_variance_ledger_account_description, $inventory_stock_movement_ledger_account_id, $inventory_stock_movement_ledger_account_no, $inventory_stock_movement_ledger_account_description, $inventory_last_saved_date_time, $order_units, $item_no, $in_supplier_warehouse_rec_id, $inc_price, $line_total, $fx_total, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $posted_to_wip, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $order_no, $order_id, $purchase_order_line_no, $purchase_order_type, $custom_field_values, $line_total_ex_tax, $re_lines_source_id, $body)
+> \Jiwa\Model\PurchaseInvoiceLine purchaseInvoiceLinePATCHRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDUpdate($accept, $purchase_invoice_id, $purchase_invoice_line_id, $jiwa_stateful, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $purchase_invoice_line_type, $quantity_decimal_places, $last_saved_date_time, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $line_details, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_creditor_purchases_ledger_account_id, $inventory_creditor_purchases_ledger_account_no, $inventory_creditor_purchases_ledger_account_description, $inventory_cost_of_goods_variance_ledger_account_id, $inventory_cost_of_goods_variance_ledger_account_no, $inventory_cost_of_goods_variance_ledger_account_description, $inventory_stock_movement_ledger_account_id, $inventory_stock_movement_ledger_account_no, $inventory_stock_movement_ledger_account_description, $inventory_last_saved_date_time, $order_units, $item_no, $in_supplier_warehouse_rec_id, $inc_price, $line_total, $fx_total, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $posted_to_wip, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $order_no, $order_id, $purchase_order_line_no, $purchase_order_type, $custom_field_values, $line_total_ex_tax, $re_lines_source_id, $body)
 
 Updates a line for a purchase invoice.
 
@@ -785,7 +785,7 @@ $purchase_order_type = "purchase_order_type_example"; // string |
 $custom_field_values = "custom_field_values_example"; // string | 
 $line_total_ex_tax = 56; // int | 
 $re_lines_source_id = "re_lines_source_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseInvoiceLinePATCHRequest(); // \Jiwa\JiwaModel\PurchaseInvoiceLinePATCHRequest | 
+$body = new \Jiwa\Model\PurchaseInvoiceLinePATCHRequest(); // \Jiwa\Model\PurchaseInvoiceLinePATCHRequest | 
 
 try {
     $result = $apiInstance->purchaseInvoiceLinePATCHRequestPurchaseInvoiceIDLinesPurchaseInvoiceLineIDUpdate($accept, $purchase_invoice_id, $purchase_invoice_line_id, $jiwa_stateful, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $purchase_invoice_line_type, $quantity_decimal_places, $last_saved_date_time, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $line_details, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_creditor_purchases_ledger_account_id, $inventory_creditor_purchases_ledger_account_no, $inventory_creditor_purchases_ledger_account_description, $inventory_cost_of_goods_variance_ledger_account_id, $inventory_cost_of_goods_variance_ledger_account_no, $inventory_cost_of_goods_variance_ledger_account_description, $inventory_stock_movement_ledger_account_id, $inventory_stock_movement_ledger_account_no, $inventory_stock_movement_ledger_account_description, $inventory_last_saved_date_time, $order_units, $item_no, $in_supplier_warehouse_rec_id, $inc_price, $line_total, $fx_total, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $posted_to_wip, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $order_no, $order_id, $purchase_order_line_no, $purchase_order_type, $custom_field_values, $line_total_ex_tax, $re_lines_source_id, $body);
@@ -874,11 +874,11 @@ Name | Type | Description  | Notes
  **custom_field_values** | **string**|  | [optional]
  **line_total_ex_tax** | **int**|  | [optional]
  **re_lines_source_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoiceLinePATCHRequest**](../Model/PurchaseInvoiceLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoiceLinePATCHRequest**](../Model/PurchaseInvoiceLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceLine**](../Model/PurchaseInvoiceLine.md)
+[**\Jiwa\Model\PurchaseInvoiceLine**](../Model/PurchaseInvoiceLine.md)
 
 ### Authorization
 
@@ -892,7 +892,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceLinesGETManyRequestPurchaseInvoiceIDPurchaseInvoiceLineIDGet**
-> \Jiwa\JiwaModel\PurchaseInvoiceLine[] purchaseInvoiceLinesGETManyRequestPurchaseInvoiceIDPurchaseInvoiceLineIDGet($accept, $purchase_invoice_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseInvoiceLine[] purchaseInvoiceLinesGETManyRequestPurchaseInvoiceIDPurchaseInvoiceLineIDGet($accept, $purchase_invoice_id, $jiwa_stateful)
 
 Retrieves a list of purchase invoice lines.
 
@@ -938,7 +938,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoiceLine[]**](../Model/PurchaseInvoiceLine.md)
+[**\Jiwa\Model\PurchaseInvoiceLine[]**](../Model/PurchaseInvoiceLine.md)
 
 ### Authorization
 
@@ -952,7 +952,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoicePATCHRequestPurchaseInvoiceIDUpdate**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoicePATCHRequestPurchaseInvoiceIDUpdate($accept, $purchase_invoice_id, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoicePATCHRequestPurchaseInvoiceIDUpdate($accept, $purchase_invoice_id, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
 
 Updates a purchase invoice.
 
@@ -1019,7 +1019,7 @@ $logical_warehouse_id = "logical_warehouse_id_example"; // string |
 $logical_warehouse_description = "logical_warehouse_description_example"; // string | 
 $physical_warehouse_id = "physical_warehouse_id_example"; // string | 
 $physical_warehouse_description = "physical_warehouse_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseInvoicePATCHRequest(); // \Jiwa\JiwaModel\PurchaseInvoicePATCHRequest | 
+$body = new \Jiwa\Model\PurchaseInvoicePATCHRequest(); // \Jiwa\Model\PurchaseInvoicePATCHRequest | 
 
 try {
     $result = $apiInstance->purchaseInvoicePATCHRequestPurchaseInvoiceIDUpdate($accept, $purchase_invoice_id, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body);
@@ -1078,11 +1078,11 @@ Name | Type | Description  | Notes
  **logical_warehouse_description** | **string**|  | [optional]
  **physical_warehouse_id** | **string**|  | [optional]
  **physical_warehouse_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoicePATCHRequest**](../Model/PurchaseInvoicePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoicePATCHRequest**](../Model/PurchaseInvoicePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 
@@ -1096,7 +1096,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoicePOSTRequestPost**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoicePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoicePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
 
 Creates a purchase invoice.
 
@@ -1161,7 +1161,7 @@ $logical_warehouse_id = "logical_warehouse_id_example"; // string |
 $logical_warehouse_description = "logical_warehouse_description_example"; // string | 
 $physical_warehouse_id = "physical_warehouse_id_example"; // string | 
 $physical_warehouse_description = "physical_warehouse_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseInvoicePOSTRequest(); // \Jiwa\JiwaModel\PurchaseInvoicePOSTRequest | 
+$body = new \Jiwa\Model\PurchaseInvoicePOSTRequest(); // \Jiwa\Model\PurchaseInvoicePOSTRequest | 
 
 try {
     $result = $apiInstance->purchaseInvoicePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $invoice_no, $invoice_date, $status, $freight, $duty, $insurance, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $lines, $goods_received_notes, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $home_decimal_places, $fx_decimal_places, $tax_adjustment, $due_date, $currency_id, $total_net_on_inventory_receivals, $custom_field_values, $notes, $documents, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body);
@@ -1218,11 +1218,11 @@ Name | Type | Description  | Notes
  **logical_warehouse_description** | **string**|  | [optional]
  **physical_warehouse_id** | **string**|  | [optional]
  **physical_warehouse_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseInvoicePOSTRequest**](../Model/PurchaseInvoicePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseInvoicePOSTRequest**](../Model/PurchaseInvoicePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 
@@ -1236,7 +1236,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseInvoiceSAVERequestSaveGet**
-> \Jiwa\JiwaModel\PurchaseInvoice purchaseInvoiceSAVERequestSaveGet($accept, $jiwa_stateful, $purchase_invoice_id)
+> \Jiwa\Model\PurchaseInvoice purchaseInvoiceSAVERequestSaveGet($accept, $jiwa_stateful, $purchase_invoice_id)
 
 Saves a stateful stateful purchase invoice.
 
@@ -1282,7 +1282,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseInvoice**](../Model/PurchaseInvoice.md)
+[**\Jiwa\Model\PurchaseInvoice**](../Model/PurchaseInvoice.md)
 
 ### Authorization
 

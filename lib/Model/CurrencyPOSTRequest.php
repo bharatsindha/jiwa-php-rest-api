@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,7 +63,7 @@ class CurrencyPOSTRequest implements ModelInterface, ArrayAccess
         'decimal_places' => 'int',
         'is_enabled' => 'bool',
         'is_local' => 'bool',
-        'rates' => '\Jiwa\JiwaModel\CurrencyRate[]'
+        'rates' => '\Jiwa\Model\CurrencyRate[]'
     ];
 
     /**
@@ -358,7 +358,7 @@ class CurrencyPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets rates
      *
-     * @return \Jiwa\JiwaModel\CurrencyRate[]
+     * @return \Jiwa\Model\CurrencyRate[]
      */
     public function getRates()
     {
@@ -368,7 +368,7 @@ class CurrencyPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets rates
      *
-     * @param \Jiwa\JiwaModel\CurrencyRate[] $rates rates
+     * @param \Jiwa\Model\CurrencyRate[] $rates rates
      *
      * @return $this
      */

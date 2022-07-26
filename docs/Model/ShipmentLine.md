@@ -26,7 +26,7 @@ Name | Type | Description | Notes
 **unit_cost_ex_tax** | **double** |  | [optional] 
 **fx_rate** | **double** |  | [optional] 
 **fx_unit_cost_ex_tax** | **double** |  | [optional] 
-**tax_rate** | [**\Jiwa\JiwaModel\TaxRate**](TaxRate.md) |  | [optional] 
+**tax_rate** | [**\Jiwa\Model\TaxRate**](TaxRate.md) |  | [optional] 
 **tax_amount** | **double** |  | [optional] 
 **unit_cost_inc_tax** | **double** |  | [optional] 
 **line_total_ex_tax** | **double** |  | [optional] 

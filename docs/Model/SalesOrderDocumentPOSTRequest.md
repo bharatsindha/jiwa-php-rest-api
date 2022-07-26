@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **invoice_id** | **string** |  | [optional] 
-**document_type** | [**\Jiwa\JiwaModel\DocumentType**](DocumentType.md) |  | [optional] 
+**document_type** | [**\Jiwa\Model\DocumentType**](DocumentType.md) |  | [optional] 
 **file_id** | **string** |  | [optional] 
 **physical_file_name** | **string** |  | [optional] 
 **full_physical_file_name** | **string** |  | [optional] 

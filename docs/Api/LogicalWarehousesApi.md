@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **logicalWarehousesCurrentGETRequestCurrentGet**
-> \Jiwa\JiwaModel\INLogical logicalWarehousesCurrentGETRequestCurrentGet($accept, $jiwa_stateful)
+> \Jiwa\Model\INLogical logicalWarehousesCurrentGETRequestCurrentGet($accept, $jiwa_stateful)
 
 Retrieves the current logical warehouse.
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\INLogical**](../Model/INLogical.md)
+[**\Jiwa\Model\INLogical**](../Model/INLogical.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **logicalWarehousesCurrentPATCHRequestCurrentUpdate**
-> \Jiwa\JiwaModel\INLogical logicalWarehousesCurrentPATCHRequestCurrentUpdate($accept, $jiwa_stateful, $in_logical_id, $body)
+> \Jiwa\Model\INLogical logicalWarehousesCurrentPATCHRequestCurrentUpdate($accept, $jiwa_stateful, $in_logical_id, $body)
 
 Sets the current logical warehouse.
 
@@ -93,7 +93,7 @@ $apiInstance = new Jiwa\Api\LogicalWarehousesApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $in_logical_id = "in_logical_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\LogicalWarehousesCurrentPATCHRequest(); // \Jiwa\JiwaModel\LogicalWarehousesCurrentPATCHRequest | 
+$body = new \Jiwa\Model\LogicalWarehousesCurrentPATCHRequest(); // \Jiwa\Model\LogicalWarehousesCurrentPATCHRequest | 
 
 try {
     $result = $apiInstance->logicalWarehousesCurrentPATCHRequestCurrentUpdate($accept, $jiwa_stateful, $in_logical_id, $body);
@@ -111,11 +111,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **in_logical_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LogicalWarehousesCurrentPATCHRequest**](../Model/LogicalWarehousesCurrentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LogicalWarehousesCurrentPATCHRequest**](../Model/LogicalWarehousesCurrentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\INLogical**](../Model/INLogical.md)
+[**\Jiwa\Model\INLogical**](../Model/INLogical.md)
 
 ### Authorization
 

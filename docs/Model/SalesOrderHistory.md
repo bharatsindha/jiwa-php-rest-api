@@ -51,11 +51,11 @@ Name | Type | Description | Notes
 **consignment_note** | **string** |  | [optional] 
 **ediasn_number** | **string** |  | [optional] 
 **drop_shipment** | **bool** |  | [optional] 
-**cartage_charge1** | [**\Jiwa\JiwaModel\CartageCharge**](CartageCharge.md) |  | [optional] 
-**cartage_charge2** | [**\Jiwa\JiwaModel\CartageCharge**](CartageCharge.md) |  | [optional] 
-**cartage_charge3** | [**\Jiwa\JiwaModel\CartageCharge**](CartageCharge.md) |  | [optional] 
-**carrier** | [**\Jiwa\JiwaModel\SalesOrderCarrier**](SalesOrderCarrier.md) |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**cartage_charge1** | [**\Jiwa\Model\CartageCharge**](CartageCharge.md) |  | [optional] 
+**cartage_charge2** | [**\Jiwa\Model\CartageCharge**](CartageCharge.md) |  | [optional] 
+**cartage_charge3** | [**\Jiwa\Model\CartageCharge**](CartageCharge.md) |  | [optional] 
+**carrier** | [**\Jiwa\Model\SalesOrderCarrier**](SalesOrderCarrier.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

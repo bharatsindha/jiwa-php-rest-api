@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class BillDocumentPOSTRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'bill_id' => 'string',
-        'document_type' => '\Jiwa\JiwaModel\DocumentType',
+        'document_type' => '\Jiwa\Model\DocumentType',
         'file_id' => 'string',
         'physical_file_name' => 'string',
         'full_physical_file_name' => 'string',
@@ -302,7 +302,7 @@ class BillDocumentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets document_type
      *
-     * @return \Jiwa\JiwaModel\DocumentType
+     * @return \Jiwa\Model\DocumentType
      */
     public function getDocumentType()
     {
@@ -312,7 +312,7 @@ class BillDocumentPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets document_type
      *
-     * @param \Jiwa\JiwaModel\DocumentType $document_type document_type
+     * @param \Jiwa\Model\DocumentType $document_type document_type
      *
      * @return $this
      */

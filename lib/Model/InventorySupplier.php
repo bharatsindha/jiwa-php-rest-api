@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -75,9 +75,9 @@ class InventorySupplier implements ModelInterface, ArrayAccess
         'spare_string1' => 'string',
         'spare_string2' => 'string',
         'spare_string3' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'supplier_warehouses' => '\Jiwa\JiwaModel\InventorySupplierWarehouse[]',
-        'supplier_quantity_price_breaks' => '\Jiwa\JiwaModel\InventorySupplierQuantityPriceBreak[]'
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'supplier_warehouses' => '\Jiwa\Model\InventorySupplierWarehouse[]',
+        'supplier_quantity_price_breaks' => '\Jiwa\Model\InventorySupplierQuantityPriceBreak[]'
     ];
 
     /**
@@ -730,7 +730,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -740,7 +740,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -754,7 +754,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Gets supplier_warehouses
      *
-     * @return \Jiwa\JiwaModel\InventorySupplierWarehouse[]
+     * @return \Jiwa\Model\InventorySupplierWarehouse[]
      */
     public function getSupplierWarehouses()
     {
@@ -764,7 +764,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Sets supplier_warehouses
      *
-     * @param \Jiwa\JiwaModel\InventorySupplierWarehouse[] $supplier_warehouses supplier_warehouses
+     * @param \Jiwa\Model\InventorySupplierWarehouse[] $supplier_warehouses supplier_warehouses
      *
      * @return $this
      */
@@ -778,7 +778,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Gets supplier_quantity_price_breaks
      *
-     * @return \Jiwa\JiwaModel\InventorySupplierQuantityPriceBreak[]
+     * @return \Jiwa\Model\InventorySupplierQuantityPriceBreak[]
      */
     public function getSupplierQuantityPriceBreaks()
     {
@@ -788,7 +788,7 @@ class InventorySupplier implements ModelInterface, ArrayAccess
     /**
      * Sets supplier_quantity_price_breaks
      *
-     * @param \Jiwa\JiwaModel\InventorySupplierQuantityPriceBreak[] $supplier_quantity_price_breaks supplier_quantity_price_breaks
+     * @param \Jiwa\Model\InventorySupplierQuantityPriceBreak[] $supplier_quantity_price_breaks supplier_quantity_price_breaks
      *
      * @return $this
      */

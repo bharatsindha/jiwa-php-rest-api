@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -99,8 +99,8 @@ class WarehouseTransferOut implements ModelInterface, ArrayAccess
         'added_cost_method_name' => 'string',
         'transferred_cost' => 'double',
         'total_cost' => 'double',
-        'receive_ins' => '\Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[]',
-        'lines' => '\Jiwa\JiwaModel\WarehouseTransferOutLine[]'
+        'receive_ins' => '\Jiwa\Model\WarehouseTransferOutReceiveIn[]',
+        'lines' => '\Jiwa\Model\WarehouseTransferOutLine[]'
     ];
 
     /**
@@ -1444,7 +1444,7 @@ class WarehouseTransferOut implements ModelInterface, ArrayAccess
     /**
      * Gets receive_ins
      *
-     * @return \Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[]
+     * @return \Jiwa\Model\WarehouseTransferOutReceiveIn[]
      */
     public function getReceiveIns()
     {
@@ -1454,7 +1454,7 @@ class WarehouseTransferOut implements ModelInterface, ArrayAccess
     /**
      * Sets receive_ins
      *
-     * @param \Jiwa\JiwaModel\WarehouseTransferOutReceiveIn[] $receive_ins receive_ins
+     * @param \Jiwa\Model\WarehouseTransferOutReceiveIn[] $receive_ins receive_ins
      *
      * @return $this
      */
@@ -1468,7 +1468,7 @@ class WarehouseTransferOut implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\WarehouseTransferOutLine[]
+     * @return \Jiwa\Model\WarehouseTransferOutLine[]
      */
     public function getLines()
     {
@@ -1478,7 +1478,7 @@ class WarehouseTransferOut implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\WarehouseTransferOutLine[] $lines lines
+     * @param \Jiwa\Model\WarehouseTransferOutLine[] $lines lines
      *
      * @return $this
      */

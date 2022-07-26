@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'type' => 'string',
-        'system_settings' => '\Jiwa\JiwaModel\SalesQuoteSettings',
+        'system_settings' => '\Jiwa\Model\SalesQuoteSettings',
         'last_saved_date_time' => '\DateTime',
         'quote_id' => 'string',
         'quote_no' => 'string',
@@ -109,13 +109,13 @@ class SalesQuote implements ModelInterface, ArrayAccess
         'cartage3_ex_gst' => 'double',
         'cartage3_gst_rate' => 'double',
         'cartage3_gst' => 'double',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
-        'lines' => '\Jiwa\JiwaModel\SalesQuoteLine[]',
-        'histories' => '\Jiwa\JiwaModel\SalesQuoteHistory[]',
-        'cash_sales' => '\Jiwa\JiwaModel\SalesQuoteCashSales',
-        'job_costing' => '\Jiwa\JiwaModel\SalesQuoteJobCosting'
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
+        'lines' => '\Jiwa\Model\SalesQuoteLine[]',
+        'histories' => '\Jiwa\Model\SalesQuoteHistory[]',
+        'cash_sales' => '\Jiwa\Model\SalesQuoteCashSales',
+        'job_costing' => '\Jiwa\Model\SalesQuoteJobCosting'
     ];
 
     /**
@@ -574,7 +574,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets system_settings
      *
-     * @return \Jiwa\JiwaModel\SalesQuoteSettings
+     * @return \Jiwa\Model\SalesQuoteSettings
      */
     public function getSystemSettings()
     {
@@ -584,7 +584,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets system_settings
      *
-     * @param \Jiwa\JiwaModel\SalesQuoteSettings $system_settings system_settings
+     * @param \Jiwa\Model\SalesQuoteSettings $system_settings system_settings
      *
      * @return $this
      */
@@ -1774,7 +1774,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1784,7 +1784,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -1798,7 +1798,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -1808,7 +1808,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -1822,7 +1822,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -1832,7 +1832,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */
@@ -1846,7 +1846,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\SalesQuoteLine[]
+     * @return \Jiwa\Model\SalesQuoteLine[]
      */
     public function getLines()
     {
@@ -1856,7 +1856,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\SalesQuoteLine[] $lines lines
+     * @param \Jiwa\Model\SalesQuoteLine[] $lines lines
      *
      * @return $this
      */
@@ -1870,7 +1870,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets histories
      *
-     * @return \Jiwa\JiwaModel\SalesQuoteHistory[]
+     * @return \Jiwa\Model\SalesQuoteHistory[]
      */
     public function getHistories()
     {
@@ -1880,7 +1880,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets histories
      *
-     * @param \Jiwa\JiwaModel\SalesQuoteHistory[] $histories histories
+     * @param \Jiwa\Model\SalesQuoteHistory[] $histories histories
      *
      * @return $this
      */
@@ -1894,7 +1894,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets cash_sales
      *
-     * @return \Jiwa\JiwaModel\SalesQuoteCashSales
+     * @return \Jiwa\Model\SalesQuoteCashSales
      */
     public function getCashSales()
     {
@@ -1904,7 +1904,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets cash_sales
      *
-     * @param \Jiwa\JiwaModel\SalesQuoteCashSales $cash_sales cash_sales
+     * @param \Jiwa\Model\SalesQuoteCashSales $cash_sales cash_sales
      *
      * @return $this
      */
@@ -1918,7 +1918,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Gets job_costing
      *
-     * @return \Jiwa\JiwaModel\SalesQuoteJobCosting
+     * @return \Jiwa\Model\SalesQuoteJobCosting
      */
     public function getJobCosting()
     {
@@ -1928,7 +1928,7 @@ class SalesQuote implements ModelInterface, ArrayAccess
     /**
      * Sets job_costing
      *
-     * @param \Jiwa\JiwaModel\SalesQuoteJobCosting $job_costing job_costing
+     * @param \Jiwa\Model\SalesQuoteJobCosting $job_costing job_costing
      *
      * @return $this
      */

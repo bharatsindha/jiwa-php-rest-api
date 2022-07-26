@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | **string** |  | [optional] 
-**system_settings** | [**\Jiwa\JiwaModel\SalesOrderSystemSettings**](SalesOrderSystemSettings.md) |  | [optional] 
+**system_settings** | [**\Jiwa\Model\SalesOrderSystemSettings**](SalesOrderSystemSettings.md) |  | [optional] 
 **initiated_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **invoice_init_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **sales_order_type** | **string** |  | [optional] 
@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **edi_order_type** | **string** |  | [optional] 
 **edi_deliver_not_before_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **edi_deliver_not_after_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**cash_sales** | [**\Jiwa\JiwaModel\SalesOrderCashSales**](SalesOrderCashSales.md) |  | [optional] 
+**cash_sales** | [**\Jiwa\Model\SalesOrderCashSales**](SalesOrderCashSales.md) |  | [optional] 
 **drop_shipment** | **bool** |  | [optional] 
 **cartage1_ex_gst** | **double** |  | [optional] 
 **cartage1_gst_rate** | **double** |  | [optional] 
@@ -32,7 +32,7 @@ Name | Type | Description | Notes
 **cartage3_gst** | **double** |  | [optional] 
 **rcti_amount** | **double** |  | [optional] 
 **rcti_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**job_costing** | [**\Jiwa\JiwaModel\SalesOrderJobCosting**](SalesOrderJobCosting.md) |  | [optional] 
+**job_costing** | [**\Jiwa\Model\SalesOrderJobCosting**](SalesOrderJobCosting.md) |  | [optional] 
 **invoice_no** | **string** |  | [optional] 
 **logical_id** | **string** |  | [optional] 
 **logical_warehouse_description** | **string** |  | [optional] 
@@ -69,13 +69,13 @@ Name | Type | Description | Notes
 **delivery_address_notes** | **string** |  | [optional] 
 **delivery_address_courier_details** | **string** |  | [optional] 
 **rcti_no** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
-**notes** | [**\Jiwa\JiwaModel\Note[]**](Note.md) |  | [optional] 
-**documents** | [**\Jiwa\JiwaModel\Document[]**](Document.md) |  | [optional] 
-**payments** | [**\Jiwa\JiwaModel\SalesOrderPayment[]**](SalesOrderPayment.md) |  | [optional] 
-**lines** | [**\Jiwa\JiwaModel\SalesOrderLine[]**](SalesOrderLine.md) |  | [optional] 
-**histories** | [**\Jiwa\JiwaModel\SalesOrderHistory[]**](SalesOrderHistory.md) |  | [optional] 
-**as_ns** | [**\Jiwa\JiwaModel\SalesOrderASN[]**](SalesOrderASN.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**notes** | [**\Jiwa\Model\Note[]**](Note.md) |  | [optional] 
+**documents** | [**\Jiwa\Model\Document[]**](Document.md) |  | [optional] 
+**payments** | [**\Jiwa\Model\SalesOrderPayment[]**](SalesOrderPayment.md) |  | [optional] 
+**lines** | [**\Jiwa\Model\SalesOrderLine[]**](SalesOrderLine.md) |  | [optional] 
+**histories** | [**\Jiwa\Model\SalesOrderHistory[]**](SalesOrderHistory.md) |  | [optional] 
+**as_ns** | [**\Jiwa\Model\SalesOrderASN[]**](SalesOrderASN.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

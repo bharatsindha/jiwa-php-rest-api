@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -77,9 +77,9 @@ class Line implements ModelInterface, ArrayAccess
         'tax_rate_id' => 'string',
         'tax_rate_description' => 'string',
         'tax_rate' => 'double',
-        'return_code' => '\Jiwa\JiwaModel\ReturnCode',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'line_details' => '\Jiwa\JiwaModel\InventorySOHLineDetail[]',
+        'return_code' => '\Jiwa\Model\ReturnCode',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'line_details' => '\Jiwa\Model\InventorySOHLineDetail[]',
         'purchase_order_line_id' => 'string',
         'shipping_line_id' => 'string',
         'is_completed' => 'bool'
@@ -808,7 +808,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Gets return_code
      *
-     * @return \Jiwa\JiwaModel\ReturnCode
+     * @return \Jiwa\Model\ReturnCode
      */
     public function getReturnCode()
     {
@@ -818,7 +818,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Sets return_code
      *
-     * @param \Jiwa\JiwaModel\ReturnCode $return_code return_code
+     * @param \Jiwa\Model\ReturnCode $return_code return_code
      *
      * @return $this
      */
@@ -832,7 +832,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -842,7 +842,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -856,7 +856,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\InventorySOHLineDetail[]
+     * @return \Jiwa\Model\InventorySOHLineDetail[]
      */
     public function getLineDetails()
     {
@@ -866,7 +866,7 @@ class Line implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\InventorySOHLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\InventorySOHLineDetail[] $line_details line_details
      *
      * @return $this
      */

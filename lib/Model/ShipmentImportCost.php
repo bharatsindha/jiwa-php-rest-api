@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -63,15 +63,15 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
         'creditor_id' => 'string',
         'creditor_account_no' => 'string',
         'creditor_name' => 'string',
-        'cost_type' => '\Jiwa\JiwaModel\ShipmentCostType',
+        'cost_type' => '\Jiwa\Model\ShipmentCostType',
         'use_forward_cover_contract' => 'bool',
         'fx_rate' => 'double',
         'fx_amount' => 'double',
         'home_amount' => 'double',
-        'tax_rate' => '\Jiwa\JiwaModel\TaxRate',
+        'tax_rate' => '\Jiwa\Model\TaxRate',
         'tax_amount' => 'double',
         'total_amount' => 'double',
-        'apportioned_on_purchase_orders' => '\Jiwa\JiwaModel\ShipmentApportionedCost[]',
+        'apportioned_on_purchase_orders' => '\Jiwa\Model\ShipmentApportionedCost[]',
         'apportion_method' => 'string',
         'apportioned' => 'bool',
         'invoiced' => 'bool',
@@ -520,7 +520,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Gets cost_type
      *
-     * @return \Jiwa\JiwaModel\ShipmentCostType
+     * @return \Jiwa\Model\ShipmentCostType
      */
     public function getCostType()
     {
@@ -530,7 +530,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Sets cost_type
      *
-     * @param \Jiwa\JiwaModel\ShipmentCostType $cost_type cost_type
+     * @param \Jiwa\Model\ShipmentCostType $cost_type cost_type
      *
      * @return $this
      */
@@ -640,7 +640,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rate
      *
-     * @return \Jiwa\JiwaModel\TaxRate
+     * @return \Jiwa\Model\TaxRate
      */
     public function getTaxRate()
     {
@@ -650,7 +650,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rate
      *
-     * @param \Jiwa\JiwaModel\TaxRate $tax_rate tax_rate
+     * @param \Jiwa\Model\TaxRate $tax_rate tax_rate
      *
      * @return $this
      */
@@ -712,7 +712,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Gets apportioned_on_purchase_orders
      *
-     * @return \Jiwa\JiwaModel\ShipmentApportionedCost[]
+     * @return \Jiwa\Model\ShipmentApportionedCost[]
      */
     public function getApportionedOnPurchaseOrders()
     {
@@ -722,7 +722,7 @@ class ShipmentImportCost implements ModelInterface, ArrayAccess
     /**
      * Sets apportioned_on_purchase_orders
      *
-     * @param \Jiwa\JiwaModel\ShipmentApportionedCost[] $apportioned_on_purchase_orders apportioned_on_purchase_orders
+     * @param \Jiwa\Model\ShipmentApportionedCost[] $apportioned_on_purchase_orders apportioned_on_purchase_orders
      *
      * @return $this
      */

@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **inventory_id** | **string** |  | [optional] 
 **unit_of_measure_id** | **string** |  | [optional] 
 **rec_id** | **string** |  | [optional] 
-**inner_unit_of_measure** | [**\Jiwa\JiwaModel\InventoryUnitOfMeasure**](InventoryUnitOfMeasure.md) |  | [optional] 
+**inner_unit_of_measure** | [**\Jiwa\Model\InventoryUnitOfMeasure**](InventoryUnitOfMeasure.md) |  | [optional] 
 **quantity_inners_per_unit_of_measure** | **double** |  | [optional] 
 **is_sell** | **bool** |  | [optional] 
 **is_purchase** | **bool** |  | [optional] 

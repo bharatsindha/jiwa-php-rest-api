@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -68,8 +68,8 @@ class SalesOrderHistoryFreightItemsPATCHRequest implements ModelInterface, Array
         'item_width' => 'double',
         'item_height' => 'double',
         'reference' => 'string',
-        'freight_description' => '\Jiwa\JiwaModel\SalesOrderCarrierFreightDescription',
-        'consignment_note' => '\Jiwa\JiwaModel\SalesOrderConsignmentNote'
+        'freight_description' => '\Jiwa\Model\SalesOrderCarrierFreightDescription',
+        'consignment_note' => '\Jiwa\Model\SalesOrderConsignmentNote'
     ];
 
     /**
@@ -514,7 +514,7 @@ class SalesOrderHistoryFreightItemsPATCHRequest implements ModelInterface, Array
     /**
      * Gets freight_description
      *
-     * @return \Jiwa\JiwaModel\SalesOrderCarrierFreightDescription
+     * @return \Jiwa\Model\SalesOrderCarrierFreightDescription
      */
     public function getFreightDescription()
     {
@@ -524,7 +524,7 @@ class SalesOrderHistoryFreightItemsPATCHRequest implements ModelInterface, Array
     /**
      * Sets freight_description
      *
-     * @param \Jiwa\JiwaModel\SalesOrderCarrierFreightDescription $freight_description freight_description
+     * @param \Jiwa\Model\SalesOrderCarrierFreightDescription $freight_description freight_description
      *
      * @return $this
      */
@@ -538,7 +538,7 @@ class SalesOrderHistoryFreightItemsPATCHRequest implements ModelInterface, Array
     /**
      * Gets consignment_note
      *
-     * @return \Jiwa\JiwaModel\SalesOrderConsignmentNote
+     * @return \Jiwa\Model\SalesOrderConsignmentNote
      */
     public function getConsignmentNote()
     {
@@ -548,7 +548,7 @@ class SalesOrderHistoryFreightItemsPATCHRequest implements ModelInterface, Array
     /**
      * Sets consignment_note
      *
-     * @param \Jiwa\JiwaModel\SalesOrderConsignmentNote $consignment_note consignment_note
+     * @param \Jiwa\Model\SalesOrderConsignmentNote $consignment_note consignment_note
      *
      * @return $this
      */

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **bas_code** | **double** |  | [optional] 
 **is_default_rate_in_group** | **bool** |  | [optional] 
 **is_enabled** | **bool** |  | [optional] 
-**ledger_account** | [**\Jiwa\JiwaModel\Account**](Account.md) |  | [optional] 
+**ledger_account** | [**\Jiwa\Model\Account**](Account.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

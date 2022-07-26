@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -65,7 +65,7 @@ class CreditorClassificationPOSTRequest implements ModelInterface, ArrayAccess
         'po_workflows_rec_id' => 'string',
         'po_workflows_name' => 'string',
         'po_workflows_description' => 'string',
-        'creditor_ledgers' => '\Jiwa\JiwaModel\CreditorLedger[]'
+        'creditor_ledgers' => '\Jiwa\Model\CreditorLedger[]'
     ];
 
     /**
@@ -418,7 +418,7 @@ class CreditorClassificationPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets creditor_ledgers
      *
-     * @return \Jiwa\JiwaModel\CreditorLedger[]
+     * @return \Jiwa\Model\CreditorLedger[]
      */
     public function getCreditorLedgers()
     {
@@ -428,7 +428,7 @@ class CreditorClassificationPOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets creditor_ledgers
      *
-     * @param \Jiwa\JiwaModel\CreditorLedger[] $creditor_ledgers creditor_ledgers
+     * @param \Jiwa\Model\CreditorLedger[] $creditor_ledgers creditor_ledgers
      *
      * @return $this
      */

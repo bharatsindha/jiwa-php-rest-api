@@ -78,7 +78,7 @@ Method | HTTP request | Description
 
 
 # **billABANDONRequestBillIDAbandonDelete**
-> \Jiwa\JiwaModel\Object billABANDONRequestBillIDAbandonDelete($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Object billABANDONRequestBillIDAbandonDelete($accept, $bill_id, $jiwa_stateful)
 
 Abandons a stateful bill record.
 
@@ -124,7 +124,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -138,7 +138,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billCustomFieldGETRequestCustomFieldsSettingIDGet**
-> \Jiwa\JiwaModel\CustomField billCustomFieldGETRequestCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomField billCustomFieldGETRequestCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
 
 Retrieves a bill custom field.
 
@@ -184,7 +184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -198,7 +198,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billCustomFieldValueGETRequestBillIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue billCustomFieldValueGETRequestBillIDCustomFieldValuesSettingIDGet($accept, $bill_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue billCustomFieldValueGETRequestBillIDCustomFieldValuesSettingIDGet($accept, $bill_id, $setting_id, $jiwa_stateful)
 
 Retrieves a bill record custom field value.
 
@@ -246,7 +246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -260,7 +260,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billCustomFieldValuePATCHRequestBillIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue billCustomFieldValuePATCHRequestBillIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue billCustomFieldValuePATCHRequestBillIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a bill record custom field value.
 
@@ -288,7 +288,7 @@ $bill_id = "bill_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\BillCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\BillCustomFieldValuePATCHRequest(); // \Jiwa\Model\BillCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->billCustomFieldValuePATCHRequestBillIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -308,11 +308,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillCustomFieldValuePATCHRequest**](../Model/BillCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillCustomFieldValuePATCHRequest**](../Model/BillCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billCustomFieldValuesGETManyRequestBillIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] billCustomFieldValuesGETManyRequestBillIDCustomFieldValuesGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] billCustomFieldValuesGETManyRequestBillIDCustomFieldValuesGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a bill record.
 
@@ -372,7 +372,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -386,7 +386,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billCustomFieldsGETManyRequestCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] billCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] billCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill custom fields.
 
@@ -430,7 +430,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -444,7 +444,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDELETERequestBillIDDelete**
-> \Jiwa\JiwaModel\Object billDELETERequestBillIDDelete($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Object billDELETERequestBillIDDelete($accept, $bill_id, $jiwa_stateful)
 
 Deletes a bill record.
 
@@ -490,7 +490,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -504,7 +504,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentDELETERequestBillIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object billDocumentDELETERequestBillIDDocumentsDocumentIDDelete($accept, $bill_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object billDocumentDELETERequestBillIDDocumentsDocumentIDDelete($accept, $bill_id, $document_id, $jiwa_stateful)
 
 Deletes a bill record document.
 
@@ -552,7 +552,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -566,7 +566,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentGETRequestBillIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document billDocumentGETRequestBillIDDocumentsDocumentIDGet($accept, $bill_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document billDocumentGETRequestBillIDDocumentsDocumentIDGet($accept, $bill_id, $document_id, $jiwa_stateful)
 
 Retrieves a bill record document.
 
@@ -614,7 +614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -628,7 +628,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentPATCHRequestBillIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document billDocumentPATCHRequestBillIDDocumentsDocumentIDUpdate($accept, $bill_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document billDocumentPATCHRequestBillIDDocumentsDocumentIDUpdate($accept, $bill_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates a bill record document.
 
@@ -667,7 +667,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\BillDocumentPATCHRequest(); // \Jiwa\JiwaModel\BillDocumentPATCHRequest | 
+$body = new \Jiwa\Model\BillDocumentPATCHRequest(); // \Jiwa\Model\BillDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->billDocumentPATCHRequestBillIDDocumentsDocumentIDUpdate($accept, $bill_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -698,11 +698,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillDocumentPATCHRequest**](../Model/BillDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillDocumentPATCHRequest**](../Model/BillDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -716,7 +716,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentPOSTRequestBillIDDocumentsPost**
-> \Jiwa\JiwaModel\Document billDocumentPOSTRequestBillIDDocumentsPost($accept, $bill_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document billDocumentPOSTRequestBillIDDocumentsPost($accept, $bill_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to a bill record.
 
@@ -753,7 +753,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\BillDocumentPOSTRequest(); // \Jiwa\JiwaModel\BillDocumentPOSTRequest | 
+$body = new \Jiwa\Model\BillDocumentPOSTRequest(); // \Jiwa\Model\BillDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->billDocumentPOSTRequestBillIDDocumentsPost($accept, $bill_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -782,11 +782,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillDocumentPOSTRequest**](../Model/BillDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillDocumentPOSTRequest**](../Model/BillDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -800,7 +800,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object billDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object billDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes a bill document type.
 
@@ -846,7 +846,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -860,7 +860,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType billDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType billDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves a bill document type.
 
@@ -906,7 +906,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -920,7 +920,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType billDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType billDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a bill document type.
 
@@ -949,7 +949,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\BillDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\BillDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\BillDocumentTypePATCHRequest(); // \Jiwa\Model\BillDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->billDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -970,11 +970,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillDocumentTypePATCHRequest**](../Model/BillDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillDocumentTypePATCHRequest**](../Model/BillDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -988,7 +988,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType billDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType billDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new bill document type.
 
@@ -1016,7 +1016,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\BillDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\BillDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\BillDocumentTypePOSTRequest(); // \Jiwa\Model\BillDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->billDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -1036,11 +1036,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillDocumentTypePOSTRequest**](../Model/BillDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillDocumentTypePOSTRequest**](../Model/BillDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -1054,7 +1054,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] billDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] billDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill document types.
 
@@ -1098,7 +1098,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -1112,7 +1112,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billDocumentsGETManyRequestBillIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] billDocumentsGETManyRequestBillIDDocumentsGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] billDocumentsGETManyRequestBillIDDocumentsGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a list of bill record documents.
 
@@ -1158,7 +1158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -1172,7 +1172,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billGETRequestBillIDGet**
-> \Jiwa\JiwaModel\Bill billGETRequestBillIDGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Bill billGETRequestBillIDGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a bill record.
 
@@ -1218,7 +1218,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Bill**](../Model/Bill.md)
+[**\Jiwa\Model\Bill**](../Model/Bill.md)
 
 ### Authorization
 
@@ -1232,7 +1232,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputCustomFieldGETRequestInputsCustomFieldsSettingIDGet**
-> \Jiwa\JiwaModel\CustomField billInputCustomFieldGETRequestInputsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomField billInputCustomFieldGETRequestInputsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
 
 Retrieves a bill input custom field.
 
@@ -1278,7 +1278,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1292,7 +1292,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputCustomFieldValueGETRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue billInputCustomFieldValueGETRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $input_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue billInputCustomFieldValueGETRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $input_id, $setting_id, $jiwa_stateful)
 
 Retrieves a bill input custom field value.
 
@@ -1344,7 +1344,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1358,7 +1358,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputCustomFieldValuePATCHRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue billInputCustomFieldValuePATCHRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $input_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue billInputCustomFieldValuePATCHRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $input_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a bill input custom field value.
 
@@ -1388,7 +1388,7 @@ $input_id = "input_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInputCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\BillInputCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\BillInputCustomFieldValuePATCHRequest(); // \Jiwa\Model\BillInputCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->billInputCustomFieldValuePATCHRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $input_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -1410,11 +1410,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInputCustomFieldValuePATCHRequest**](../Model/BillInputCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInputCustomFieldValuePATCHRequest**](../Model/BillInputCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1428,7 +1428,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputCustomFieldValuesGETManyRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] billInputCustomFieldValuesGETManyRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] billInputCustomFieldValuesGETManyRequestBillIDStagesStageIDInputsInputIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a bill input.
 
@@ -1478,7 +1478,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1492,7 +1492,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputCustomFieldsGETManyRequestInputsCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] billInputCustomFieldsGETManyRequestInputsCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] billInputCustomFieldsGETManyRequestInputsCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill input custom fields.
 
@@ -1536,7 +1536,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1550,7 +1550,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputDELETERequestBillIDStagesStageIDInputsInputIDDelete**
-> \Jiwa\JiwaModel\Object billInputDELETERequestBillIDStagesStageIDInputsInputIDDelete($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
+> \Jiwa\Model\Object billInputDELETERequestBillIDStagesStageIDInputsInputIDDelete($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
 
 Deletes an input from a bill stage
 
@@ -1600,7 +1600,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1614,7 +1614,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputGETRequestBillIDStagesStageIDInputsInputIDGet**
-> \Jiwa\JiwaModel\Input billInputGETRequestBillIDStagesStageIDInputsInputIDGet($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
+> \Jiwa\Model\Input billInputGETRequestBillIDStagesStageIDInputsInputIDGet($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful)
 
 Retrieves an input for a bill stage
 
@@ -1664,7 +1664,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Input**](../Model/Input.md)
+[**\Jiwa\Model\Input**](../Model/Input.md)
 
 ### Authorization
 
@@ -1678,7 +1678,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputPATCHRequestBillIDStagesStageIDInputsInputIDUpdate**
-> \Jiwa\JiwaModel\Input billInputPATCHRequestBillIDStagesStageIDInputsInputIDUpdate($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body)
+> \Jiwa\Model\Input billInputPATCHRequestBillIDStagesStageIDInputsInputIDUpdate($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body)
 
 Updates an input for a bill stage
 
@@ -1720,7 +1720,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $total_line_cost = 1.2; // double | 
 $last_cost = 1.2; // double | 
 $unit_measure = "unit_measure_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInputPATCHRequest(); // \Jiwa\JiwaModel\BillInputPATCHRequest | 
+$body = new \Jiwa\Model\BillInputPATCHRequest(); // \Jiwa\Model\BillInputPATCHRequest | 
 
 try {
     $result = $apiInstance->billInputPATCHRequestBillIDStagesStageIDInputsInputIDUpdate($accept, $bill_id, $stage_id, $input_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body);
@@ -1754,11 +1754,11 @@ Name | Type | Description  | Notes
  **total_line_cost** | **double**|  | [optional]
  **last_cost** | **double**|  | [optional]
  **unit_measure** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInputPATCHRequest**](../Model/BillInputPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInputPATCHRequest**](../Model/BillInputPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Input**](../Model/Input.md)
+[**\Jiwa\Model\Input**](../Model/Input.md)
 
 ### Authorization
 
@@ -1772,7 +1772,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputPOSTRequestBillIDStagesStageIDInputsPost**
-> \Jiwa\JiwaModel\Input billInputPOSTRequestBillIDStagesStageIDInputsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body)
+> \Jiwa\Model\Input billInputPOSTRequestBillIDStagesStageIDInputsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body)
 
 Adds an input to a bill stage
 
@@ -1813,7 +1813,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $total_line_cost = 1.2; // double | 
 $last_cost = 1.2; // double | 
 $unit_measure = "unit_measure_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInputPOSTRequest(); // \Jiwa\JiwaModel\BillInputPOSTRequest | 
+$body = new \Jiwa\Model\BillInputPOSTRequest(); // \Jiwa\Model\BillInputPOSTRequest | 
 
 try {
     $result = $apiInstance->billInputPOSTRequestBillIDStagesStageIDInputsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_bo_m_item, $sub_assembly_bill_id, $sub_assembly_explode_policy, $custom_field_values, $total_line_cost, $last_cost, $unit_measure, $body);
@@ -1846,11 +1846,11 @@ Name | Type | Description  | Notes
  **total_line_cost** | **double**|  | [optional]
  **last_cost** | **double**|  | [optional]
  **unit_measure** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInputPOSTRequest**](../Model/BillInputPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInputPOSTRequest**](../Model/BillInputPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Input**](../Model/Input.md)
+[**\Jiwa\Model\Input**](../Model/Input.md)
 
 ### Authorization
 
@@ -1864,7 +1864,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInputsGETManyRequestBillIDStagesStageIDInputsGet**
-> \Jiwa\JiwaModel\Input[] billInputsGETManyRequestBillIDStagesStageIDInputsGet($accept, $bill_id, $stage_id, $jiwa_stateful)
+> \Jiwa\Model\Input[] billInputsGETManyRequestBillIDStagesStageIDInputsGet($accept, $bill_id, $stage_id, $jiwa_stateful)
 
 Retrieves inputs for a bill stage.
 
@@ -1912,7 +1912,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Input[]**](../Model/Input.md)
+[**\Jiwa\Model\Input[]**](../Model/Input.md)
 
 ### Authorization
 
@@ -1926,7 +1926,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionCustomFieldGETRequestInstructionsCustomFieldsSettingIDGet**
-> \Jiwa\JiwaModel\CustomField billInstructionCustomFieldGETRequestInstructionsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomField billInstructionCustomFieldGETRequestInstructionsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
 
 Retrieves a bill instruction custom field.
 
@@ -1972,7 +1972,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1986,7 +1986,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionCustomFieldValueGETRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue billInstructionCustomFieldValueGETRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $instruction_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue billInstructionCustomFieldValueGETRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $instruction_id, $setting_id, $jiwa_stateful)
 
 Retrieves a bill instruction custom field value.
 
@@ -2038,7 +2038,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2052,7 +2052,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionCustomFieldValuePATCHRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue billInstructionCustomFieldValuePATCHRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue billInstructionCustomFieldValuePATCHRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a bill instruction custom field value.
 
@@ -2082,7 +2082,7 @@ $instruction_id = "instruction_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInstructionCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\BillInstructionCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\BillInstructionCustomFieldValuePATCHRequest(); // \Jiwa\Model\BillInstructionCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->billInstructionCustomFieldValuePATCHRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -2104,11 +2104,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInstructionCustomFieldValuePATCHRequest**](../Model/BillInstructionCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInstructionCustomFieldValuePATCHRequest**](../Model/BillInstructionCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2122,7 +2122,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionCustomFieldValuesGETManyRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] billInstructionCustomFieldValuesGETManyRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] billInstructionCustomFieldValuesGETManyRequestBillIDStagesStageIDInstructionsInstructionIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a bill instruction.
 
@@ -2172,7 +2172,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -2186,7 +2186,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionCustomFieldsGETManyRequestInstructionsCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] billInstructionCustomFieldsGETManyRequestInstructionsCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] billInstructionCustomFieldsGETManyRequestInstructionsCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill instruction custom fields.
 
@@ -2230,7 +2230,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -2244,7 +2244,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionDELETERequestBillIDStagesStageIDInstructionsInstructionIDDelete**
-> \Jiwa\JiwaModel\Object billInstructionDELETERequestBillIDStagesStageIDInstructionsInstructionIDDelete($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
+> \Jiwa\Model\Object billInstructionDELETERequestBillIDStagesStageIDInstructionsInstructionIDDelete($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
 
 Deletes an instruction from a bill stage.
 
@@ -2294,7 +2294,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2308,7 +2308,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionGETRequestBillIDStagesStageIDInstructionsInstructionIDGet**
-> \Jiwa\JiwaModel\Instruction billInstructionGETRequestBillIDStagesStageIDInstructionsInstructionIDGet($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
+> \Jiwa\Model\Instruction billInstructionGETRequestBillIDStagesStageIDInstructionsInstructionIDGet($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful)
 
 Retrieves an instruction for a bill stage.
 
@@ -2358,7 +2358,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Instruction**](../Model/Instruction.md)
+[**\Jiwa\Model\Instruction**](../Model/Instruction.md)
 
 ### Authorization
 
@@ -2372,7 +2372,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionPATCHRequestBillIDStagesStageIDInstructionsInstructionIDUpdate**
-> \Jiwa\JiwaModel\Instruction billInstructionPATCHRequestBillIDStagesStageIDInstructionsInstructionIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body)
+> \Jiwa\Model\Instruction billInstructionPATCHRequestBillIDStagesStageIDInstructionsInstructionIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body)
 
 Updates an instruction for a bill stage.
 
@@ -2403,7 +2403,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $item_no = 56; // int | 
 $instruction_text = "instruction_text_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInstructionPATCHRequest(); // \Jiwa\JiwaModel\BillInstructionPATCHRequest | 
+$body = new \Jiwa\Model\BillInstructionPATCHRequest(); // \Jiwa\Model\BillInstructionPATCHRequest | 
 
 try {
     $result = $apiInstance->billInstructionPATCHRequestBillIDStagesStageIDInstructionsInstructionIDUpdate($accept, $bill_id, $stage_id, $instruction_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body);
@@ -2426,11 +2426,11 @@ Name | Type | Description  | Notes
  **item_no** | **int**|  | [optional]
  **instruction_text** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInstructionPATCHRequest**](../Model/BillInstructionPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInstructionPATCHRequest**](../Model/BillInstructionPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Instruction**](../Model/Instruction.md)
+[**\Jiwa\Model\Instruction**](../Model/Instruction.md)
 
 ### Authorization
 
@@ -2444,7 +2444,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionPOSTRequestBillIDStagesStageIDInstructionsPost**
-> \Jiwa\JiwaModel\Instruction billInstructionPOSTRequestBillIDStagesStageIDInstructionsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body)
+> \Jiwa\Model\Instruction billInstructionPOSTRequestBillIDStagesStageIDInstructionsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body)
 
 Adds an instruction to a bill stage.
 
@@ -2474,7 +2474,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $item_no = 56; // int | 
 $instruction_text = "instruction_text_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillInstructionPOSTRequest(); // \Jiwa\JiwaModel\BillInstructionPOSTRequest | 
+$body = new \Jiwa\Model\BillInstructionPOSTRequest(); // \Jiwa\Model\BillInstructionPOSTRequest | 
 
 try {
     $result = $apiInstance->billInstructionPOSTRequestBillIDStagesStageIDInstructionsPost($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $instruction_text, $custom_field_values, $body);
@@ -2496,11 +2496,11 @@ Name | Type | Description  | Notes
  **item_no** | **int**|  | [optional]
  **instruction_text** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillInstructionPOSTRequest**](../Model/BillInstructionPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillInstructionPOSTRequest**](../Model/BillInstructionPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Instruction**](../Model/Instruction.md)
+[**\Jiwa\Model\Instruction**](../Model/Instruction.md)
 
 ### Authorization
 
@@ -2514,7 +2514,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billInstructionsGETManyRequestBillIDStagesStageIDInstructionsGet**
-> \Jiwa\JiwaModel\Instruction[] billInstructionsGETManyRequestBillIDStagesStageIDInstructionsGet($accept, $bill_id, $stage_id, $jiwa_stateful)
+> \Jiwa\Model\Instruction[] billInstructionsGETManyRequestBillIDStagesStageIDInstructionsGet($accept, $bill_id, $stage_id, $jiwa_stateful)
 
 Retrieves a list of instructions for a bill stage.
 
@@ -2562,7 +2562,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Instruction[]**](../Model/Instruction.md)
+[**\Jiwa\Model\Instruction[]**](../Model/Instruction.md)
 
 ### Authorization
 
@@ -2576,7 +2576,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteDELETERequestBillIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object billNoteDELETERequestBillIDNotesNoteIDDelete($accept, $bill_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object billNoteDELETERequestBillIDNotesNoteIDDelete($accept, $bill_id, $note_id, $jiwa_stateful)
 
 Deletes a bill record note.
 
@@ -2624,7 +2624,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2638,7 +2638,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteGETRequestBillIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note billNoteGETRequestBillIDNotesNoteIDGet($accept, $bill_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note billNoteGETRequestBillIDNotesNoteIDGet($accept, $bill_id, $note_id, $jiwa_stateful)
 
 Retrieves a bill record note.
 
@@ -2686,7 +2686,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2700,7 +2700,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNotePATCHRequestBillIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note billNotePATCHRequestBillIDNotesNoteIDUpdate($accept, $bill_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note billNotePATCHRequestBillIDNotesNoteIDUpdate($accept, $bill_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates a bill record note.
 
@@ -2736,7 +2736,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillNotePATCHRequest(); // \Jiwa\JiwaModel\BillNotePATCHRequest | 
+$body = new \Jiwa\Model\BillNotePATCHRequest(); // \Jiwa\Model\BillNotePATCHRequest | 
 
 try {
     $result = $apiInstance->billNotePATCHRequestBillIDNotesNoteIDUpdate($accept, $bill_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -2764,11 +2764,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillNotePATCHRequest**](../Model/BillNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillNotePATCHRequest**](../Model/BillNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2782,7 +2782,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNotePOSTRequestBillIDNotesPost**
-> \Jiwa\JiwaModel\Note billNotePOSTRequestBillIDNotesPost($accept, $bill_id, $jiwa_stateful, $note_type, $line_no, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note billNotePOSTRequestBillIDNotesPost($accept, $bill_id, $jiwa_stateful, $note_type, $line_no, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to a bill record.
 
@@ -2816,7 +2816,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillNotePOSTRequest(); // \Jiwa\JiwaModel\BillNotePOSTRequest | 
+$body = new \Jiwa\Model\BillNotePOSTRequest(); // \Jiwa\Model\BillNotePOSTRequest | 
 
 try {
     $result = $apiInstance->billNotePOSTRequestBillIDNotesPost($accept, $bill_id, $jiwa_stateful, $note_type, $line_no, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -2842,11 +2842,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillNotePOSTRequest**](../Model/BillNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillNotePOSTRequest**](../Model/BillNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2860,7 +2860,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object billNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object billNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes a bill note type.
 
@@ -2906,7 +2906,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2920,7 +2920,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType billNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType billNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves a bill note type.
 
@@ -2966,7 +2966,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -2980,7 +2980,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType billNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType billNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a bill note type.
 
@@ -3009,7 +3009,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\BillNoteTypePATCHRequest(); // \Jiwa\JiwaModel\BillNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\BillNoteTypePATCHRequest(); // \Jiwa\Model\BillNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->billNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -3030,11 +3030,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillNoteTypePATCHRequest**](../Model/BillNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillNoteTypePATCHRequest**](../Model/BillNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -3048,7 +3048,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType billNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType billNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new bill note type.
 
@@ -3076,7 +3076,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\BillNoteTypePOSTRequest(); // \Jiwa\JiwaModel\BillNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\BillNoteTypePOSTRequest(); // \Jiwa\Model\BillNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->billNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -3096,11 +3096,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillNoteTypePOSTRequest**](../Model/BillNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillNoteTypePOSTRequest**](../Model/BillNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -3114,7 +3114,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] billNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] billNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill note types.
 
@@ -3158,7 +3158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -3172,7 +3172,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billNotesGETManyRequestBillIDNotesGet**
-> \Jiwa\JiwaModel\Note[] billNotesGETManyRequestBillIDNotesGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] billNotesGETManyRequestBillIDNotesGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a list of bill record notes.
 
@@ -3218,7 +3218,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -3232,7 +3232,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputCustomFieldGETRequestOutputsCustomFieldsSettingIDGet**
-> \Jiwa\JiwaModel\CustomField billOutputCustomFieldGETRequestOutputsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomField billOutputCustomFieldGETRequestOutputsCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
 
 Retrieves a bill output custom field.
 
@@ -3278,7 +3278,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -3292,7 +3292,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputCustomFieldValueGETRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue billOutputCustomFieldValueGETRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDGet($accept, $bill_id, $output_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue billOutputCustomFieldValueGETRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDGet($accept, $bill_id, $output_id, $setting_id, $jiwa_stateful)
 
 Retrieves a bill output custom field value.
 
@@ -3342,7 +3342,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3356,7 +3356,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputCustomFieldValuePATCHRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue billOutputCustomFieldValuePATCHRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $output_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue billOutputCustomFieldValuePATCHRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $output_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a bill output custom field value.
 
@@ -3385,7 +3385,7 @@ $output_id = "output_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillOutputCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\BillOutputCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\BillOutputCustomFieldValuePATCHRequest(); // \Jiwa\Model\BillOutputCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->billOutputCustomFieldValuePATCHRequestBillIDOutputsOutputIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $output_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -3406,11 +3406,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillOutputCustomFieldValuePATCHRequest**](../Model/BillOutputCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillOutputCustomFieldValuePATCHRequest**](../Model/BillOutputCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3424,7 +3424,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputCustomFieldValuesGETManyRequestBillIDOutputsOutputIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] billOutputCustomFieldValuesGETManyRequestBillIDOutputsOutputIDCustomFieldValuesGet($accept, $bill_id, $output_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] billOutputCustomFieldValuesGETManyRequestBillIDOutputsOutputIDCustomFieldValuesGet($accept, $bill_id, $output_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a bill output.
 
@@ -3472,7 +3472,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3486,7 +3486,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputCustomFieldsGETManyRequestOutputsCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] billOutputCustomFieldsGETManyRequestOutputsCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] billOutputCustomFieldsGETManyRequestOutputsCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill output custom fields.
 
@@ -3530,7 +3530,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -3544,7 +3544,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputDELETERequestBillIDOutputsOutputIDDelete**
-> \Jiwa\JiwaModel\Object billOutputDELETERequestBillIDOutputsOutputIDDelete($accept, $bill_id, $output_id, $jiwa_stateful)
+> \Jiwa\Model\Object billOutputDELETERequestBillIDOutputsOutputIDDelete($accept, $bill_id, $output_id, $jiwa_stateful)
 
 Deletes a bill output.
 
@@ -3592,7 +3592,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3606,7 +3606,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputGETRequestBillIDOutputsOutputIDGet**
-> \Jiwa\JiwaModel\Output billOutputGETRequestBillIDOutputsOutputIDGet($accept, $bill_id, $output_id, $jiwa_stateful)
+> \Jiwa\Model\Output billOutputGETRequestBillIDOutputsOutputIDGet($accept, $bill_id, $output_id, $jiwa_stateful)
 
 Retrieves a bill output.
 
@@ -3654,7 +3654,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Output**](../Model/Output.md)
+[**\Jiwa\Model\Output**](../Model/Output.md)
 
 ### Authorization
 
@@ -3668,7 +3668,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputPATCHRequestBillIDOutputsOutputIDUpdate**
-> \Jiwa\JiwaModel\Output billOutputPATCHRequestBillIDOutputsOutputIDUpdate($accept, $bill_id, $output_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body)
+> \Jiwa\Model\Output billOutputPATCHRequestBillIDOutputsOutputIDUpdate($accept, $bill_id, $output_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body)
 
 Updates a bill output.
 
@@ -3707,7 +3707,7 @@ $cost_percentage = 1.2; // double |
 $cost = 1.2; // double | 
 $last_cost = 1.2; // double | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillOutputPATCHRequest(); // \Jiwa\JiwaModel\BillOutputPATCHRequest | 
+$body = new \Jiwa\Model\BillOutputPATCHRequest(); // \Jiwa\Model\BillOutputPATCHRequest | 
 
 try {
     $result = $apiInstance->billOutputPATCHRequestBillIDOutputsOutputIDUpdate($accept, $bill_id, $output_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body);
@@ -3738,11 +3738,11 @@ Name | Type | Description  | Notes
  **cost** | **double**|  | [optional]
  **last_cost** | **double**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillOutputPATCHRequest**](../Model/BillOutputPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillOutputPATCHRequest**](../Model/BillOutputPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Output**](../Model/Output.md)
+[**\Jiwa\Model\Output**](../Model/Output.md)
 
 ### Authorization
 
@@ -3756,7 +3756,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputPOSTRequestBillIDOutputsPost**
-> \Jiwa\JiwaModel\Output billOutputPOSTRequestBillIDOutputsPost($accept, $bill_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body)
+> \Jiwa\Model\Output billOutputPOSTRequestBillIDOutputsPost($accept, $bill_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body)
 
 Appends a output to a bill record.
 
@@ -3794,7 +3794,7 @@ $cost_percentage = 1.2; // double |
 $cost = 1.2; // double | 
 $last_cost = 1.2; // double | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillOutputPOSTRequest(); // \Jiwa\JiwaModel\BillOutputPOSTRequest | 
+$body = new \Jiwa\Model\BillOutputPOSTRequest(); // \Jiwa\Model\BillOutputPOSTRequest | 
 
 try {
     $result = $apiInstance->billOutputPOSTRequestBillIDOutputsPost($accept, $bill_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $is_ratio, $quantity, $note, $is_primary, $cost_percentage, $cost, $last_cost, $custom_field_values, $body);
@@ -3824,11 +3824,11 @@ Name | Type | Description  | Notes
  **cost** | **double**|  | [optional]
  **last_cost** | **double**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillOutputPOSTRequest**](../Model/BillOutputPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillOutputPOSTRequest**](../Model/BillOutputPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Output**](../Model/Output.md)
+[**\Jiwa\Model\Output**](../Model/Output.md)
 
 ### Authorization
 
@@ -3842,7 +3842,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billOutputsGETManyRequestBillIDOutputsGet**
-> \Jiwa\JiwaModel\Output[] billOutputsGETManyRequestBillIDOutputsGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Output[] billOutputsGETManyRequestBillIDOutputsGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a list of bill outputs.
 
@@ -3888,7 +3888,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Output[]**](../Model/Output.md)
+[**\Jiwa\Model\Output[]**](../Model/Output.md)
 
 ### Authorization
 
@@ -3902,7 +3902,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billPATCHRequestBillIDUpdate**
-> \Jiwa\JiwaModel\Bill billPATCHRequestBillIDUpdate($accept, $bill_id, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body)
+> \Jiwa\Model\Bill billPATCHRequestBillIDUpdate($accept, $bill_id, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body)
 
 Updates a bill record.
 
@@ -3941,7 +3941,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $notes = "notes_example"; // string | 
 $production_line = "production_line_example"; // string | 
 $bill_parents = "bill_parents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillPATCHRequest(); // \Jiwa\JiwaModel\BillPATCHRequest | 
+$body = new \Jiwa\Model\BillPATCHRequest(); // \Jiwa\Model\BillPATCHRequest | 
 
 try {
     $result = $apiInstance->billPATCHRequestBillIDUpdate($accept, $bill_id, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body);
@@ -3972,11 +3972,11 @@ Name | Type | Description  | Notes
  **notes** | **string**|  | [optional]
  **production_line** | **string**|  | [optional]
  **bill_parents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillPATCHRequest**](../Model/BillPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillPATCHRequest**](../Model/BillPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Bill**](../Model/Bill.md)
+[**\Jiwa\Model\Bill**](../Model/Bill.md)
 
 ### Authorization
 
@@ -3990,7 +3990,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billPOSTRequestPost**
-> \Jiwa\JiwaModel\Bill billPOSTRequestPost($accept, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body)
+> \Jiwa\Model\Bill billPOSTRequestPost($accept, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body)
 
 Creates a new bill record.
 
@@ -4028,7 +4028,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $notes = "notes_example"; // string | 
 $production_line = "production_line_example"; // string | 
 $bill_parents = "bill_parents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillPOSTRequest(); // \Jiwa\JiwaModel\BillPOSTRequest | 
+$body = new \Jiwa\Model\BillPOSTRequest(); // \Jiwa\Model\BillPOSTRequest | 
 
 try {
     $result = $apiInstance->billPOSTRequestPost($accept, $jiwa_stateful, $bill_no, $description, $is_enabled, $maximum_production_capability, $last_saved_date_time, $row_hash, $stages, $outputs, $documents, $custom_field_values, $notes, $production_line, $bill_parents, $body);
@@ -4058,11 +4058,11 @@ Name | Type | Description  | Notes
  **notes** | **string**|  | [optional]
  **production_line** | **string**|  | [optional]
  **bill_parents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillPOSTRequest**](../Model/BillPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillPOSTRequest**](../Model/BillPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Bill**](../Model/Bill.md)
+[**\Jiwa\Model\Bill**](../Model/Bill.md)
 
 ### Authorization
 
@@ -4076,7 +4076,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billSAVERequestBillIDSaveGet**
-> \Jiwa\JiwaModel\Bill billSAVERequestBillIDSaveGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Bill billSAVERequestBillIDSaveGet($accept, $bill_id, $jiwa_stateful)
 
 Saves a stateful bill record.
 
@@ -4122,7 +4122,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Bill**](../Model/Bill.md)
+[**\Jiwa\Model\Bill**](../Model/Bill.md)
 
 ### Authorization
 
@@ -4136,7 +4136,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageCustomFieldGETRequestStagesCustomFieldsSettingIDGet**
-> \Jiwa\JiwaModel\CustomField billStageCustomFieldGETRequestStagesCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomField billStageCustomFieldGETRequestStagesCustomFieldsSettingIDGet($accept, $setting_id, $jiwa_stateful)
 
 Retrieves a bill stage custom field.
 
@@ -4182,7 +4182,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -4196,7 +4196,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageCustomFieldValueGETRequestBillIDStagesStageIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue billStageCustomFieldValueGETRequestBillIDStagesStageIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue billStageCustomFieldValueGETRequestBillIDStagesStageIDCustomFieldValuesSettingIDGet($accept, $bill_id, $stage_id, $setting_id, $jiwa_stateful)
 
 Retrieves a bill stage custom field value.
 
@@ -4246,7 +4246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -4260,7 +4260,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageCustomFieldValuePATCHRequestBillIDStagesStageIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue billStageCustomFieldValuePATCHRequestBillIDStagesStageIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue billStageCustomFieldValuePATCHRequestBillIDStagesStageIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a bill stage custom field value.
 
@@ -4289,7 +4289,7 @@ $stage_id = "stage_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillStageCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\BillStageCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\BillStageCustomFieldValuePATCHRequest(); // \Jiwa\Model\BillStageCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->billStageCustomFieldValuePATCHRequestBillIDStagesStageIDCustomFieldValuesSettingIDUpdate($accept, $bill_id, $stage_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -4310,11 +4310,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillStageCustomFieldValuePATCHRequest**](../Model/BillStageCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillStageCustomFieldValuePATCHRequest**](../Model/BillStageCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -4328,7 +4328,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageCustomFieldValuesGETManyRequestBillIDStagesStageIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] billStageCustomFieldValuesGETManyRequestBillIDStagesStageIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] billStageCustomFieldValuesGETManyRequestBillIDStagesStageIDCustomFieldValuesGet($accept, $bill_id, $stage_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a bill stage.
 
@@ -4376,7 +4376,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -4390,7 +4390,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageCustomFieldsGETManyRequestStagesCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] billStageCustomFieldsGETManyRequestStagesCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] billStageCustomFieldsGETManyRequestStagesCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of bill stage custom fields.
 
@@ -4434,7 +4434,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -4448,7 +4448,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageDELETERequestBillIDStagesStageIDDelete**
-> \Jiwa\JiwaModel\Object billStageDELETERequestBillIDStagesStageIDDelete($accept, $bill_id, $stage_id, $jiwa_stateful)
+> \Jiwa\Model\Object billStageDELETERequestBillIDStagesStageIDDelete($accept, $bill_id, $stage_id, $jiwa_stateful)
 
 Deletes a bill record stage.
 
@@ -4496,7 +4496,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -4510,7 +4510,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStageGETRequestBillIDStagesStageIDGet**
-> \Jiwa\JiwaModel\Stage billStageGETRequestBillIDStagesStageIDGet($accept, $bill_id, $stage_id, $jiwa_stateful)
+> \Jiwa\Model\Stage billStageGETRequestBillIDStagesStageIDGet($accept, $bill_id, $stage_id, $jiwa_stateful)
 
 Retrieves a bill stage.
 
@@ -4558,7 +4558,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Stage**](../Model/Stage.md)
+[**\Jiwa\Model\Stage**](../Model/Stage.md)
 
 ### Authorization
 
@@ -4572,7 +4572,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStagePATCHRequestBillIDStagesStageIDUpdate**
-> \Jiwa\JiwaModel\Stage billStagePATCHRequestBillIDStagesStageIDUpdate($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body)
+> \Jiwa\Model\Stage billStagePATCHRequestBillIDStagesStageIDUpdate($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body)
 
 Updates a bill stage.
 
@@ -4606,7 +4606,7 @@ $production_line_work_centre = "production_line_work_centre_example"; // string 
 $inputs = "inputs_example"; // string | 
 $instructions = "instructions_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillStagePATCHRequest(); // \Jiwa\JiwaModel\BillStagePATCHRequest | 
+$body = new \Jiwa\Model\BillStagePATCHRequest(); // \Jiwa\Model\BillStagePATCHRequest | 
 
 try {
     $result = $apiInstance->billStagePATCHRequestBillIDStagesStageIDUpdate($accept, $bill_id, $stage_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body);
@@ -4632,11 +4632,11 @@ Name | Type | Description  | Notes
  **inputs** | **string**|  | [optional]
  **instructions** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillStagePATCHRequest**](../Model/BillStagePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillStagePATCHRequest**](../Model/BillStagePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Stage**](../Model/Stage.md)
+[**\Jiwa\Model\Stage**](../Model/Stage.md)
 
 ### Authorization
 
@@ -4650,7 +4650,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStagePOSTRequestBillIDStagesPost**
-> \Jiwa\JiwaModel\Stage billStagePOSTRequestBillIDStagesPost($accept, $bill_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body)
+> \Jiwa\Model\Stage billStagePOSTRequestBillIDStagesPost($accept, $bill_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body)
 
 Appends a stage to a bill record.
 
@@ -4683,7 +4683,7 @@ $production_line_work_centre = "production_line_work_centre_example"; // string 
 $inputs = "inputs_example"; // string | 
 $instructions = "instructions_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\BillStagePOSTRequest(); // \Jiwa\JiwaModel\BillStagePOSTRequest | 
+$body = new \Jiwa\Model\BillStagePOSTRequest(); // \Jiwa\Model\BillStagePOSTRequest | 
 
 try {
     $result = $apiInstance->billStagePOSTRequestBillIDStagesPost($accept, $bill_id, $jiwa_stateful, $item_no, $name, $required_capacity, $production_line_work_centre, $inputs, $instructions, $custom_field_values, $body);
@@ -4708,11 +4708,11 @@ Name | Type | Description  | Notes
  **inputs** | **string**|  | [optional]
  **instructions** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\BillStagePOSTRequest**](../Model/BillStagePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\BillStagePOSTRequest**](../Model/BillStagePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Stage**](../Model/Stage.md)
+[**\Jiwa\Model\Stage**](../Model/Stage.md)
 
 ### Authorization
 
@@ -4726,7 +4726,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **billStagesGETManyRequestBillIDStagesGet**
-> \Jiwa\JiwaModel\Stage[] billStagesGETManyRequestBillIDStagesGet($accept, $bill_id, $jiwa_stateful)
+> \Jiwa\Model\Stage[] billStagesGETManyRequestBillIDStagesGet($accept, $bill_id, $jiwa_stateful)
 
 Retrieves a list of bill stages.
 
@@ -4772,7 +4772,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Stage[]**](../Model/Stage.md)
+[**\Jiwa\Model\Stage[]**](../Model/Stage.md)
 
 ### Authorization
 

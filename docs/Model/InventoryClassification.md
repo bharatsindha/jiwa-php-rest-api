@@ -20,10 +20,10 @@ Name | Type | Description | Notes
 **gst_adjustments_out_tax_rate_id** | **string** |  | [optional] 
 **gst_adjustments_out_tax_rate_description** | **string** |  | [optional] 
 **gst_adjustments_out_tax_rate** | **double** |  | [optional] 
-**inventory_ledgers** | [**\Jiwa\JiwaModel\InventoryLedger[]**](InventoryLedger.md) |  | [optional] 
+**inventory_ledgers** | [**\Jiwa\Model\InventoryLedger[]**](InventoryLedger.md) |  | [optional] 
 **pricing_group_id** | **string** |  | [optional] 
 **pricing_group_description** | **string** |  | [optional] 
-**custom_fields** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_fields** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

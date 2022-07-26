@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class RequestEntity implements ModelInterface, ArrayAccess
         'request_no' => 'string',
         'reference' => 'string',
         'status' => 'string',
-        'return_code' => '\Jiwa\JiwaModel\ReturnCode',
+        'return_code' => '\Jiwa\Model\ReturnCode',
         'creditor_id' => 'string',
         'creditor_account_no' => 'string',
         'creditor_name' => 'string',
@@ -370,7 +370,7 @@ class RequestEntity implements ModelInterface, ArrayAccess
     /**
      * Gets return_code
      *
-     * @return \Jiwa\JiwaModel\ReturnCode
+     * @return \Jiwa\Model\ReturnCode
      */
     public function getReturnCode()
     {
@@ -380,7 +380,7 @@ class RequestEntity implements ModelInterface, ArrayAccess
     /**
      * Sets return_code
      *
-     * @param \Jiwa\JiwaModel\ReturnCode $return_code return_code
+     * @param \Jiwa\Model\ReturnCode $return_code return_code
      *
      * @return $this
      */

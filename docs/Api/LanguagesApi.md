@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 
 # **languageDELETERequestLanguageIDDelete**
-> \Jiwa\JiwaModel\Object languageDELETERequestLanguageIDDelete($accept, $language_id, $jiwa_stateful)
+> \Jiwa\Model\Object languageDELETERequestLanguageIDDelete($accept, $language_id, $jiwa_stateful)
 
 Deletes a language.
 
@@ -58,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -72,7 +72,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **languageGETRequestLanguageIDGet**
-> \Jiwa\JiwaModel\Language languageGETRequestLanguageIDGet($accept, $language_id, $jiwa_stateful)
+> \Jiwa\Model\Language languageGETRequestLanguageIDGet($accept, $language_id, $jiwa_stateful)
 
 Retrieves a language.
 
@@ -118,7 +118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Language**](../Model/Language.md)
+[**\Jiwa\Model\Language**](../Model/Language.md)
 
 ### Authorization
 
@@ -132,7 +132,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **languagePATCHRequestLanguageIDUpdate**
-> \Jiwa\JiwaModel\Language languagePATCHRequestLanguageIDUpdate($accept, $language_id, $jiwa_stateful, $description, $language_code, $is_default, $body)
+> \Jiwa\Model\Language languagePATCHRequestLanguageIDUpdate($accept, $language_id, $jiwa_stateful, $description, $language_code, $is_default, $body)
 
 Updates a language.
 
@@ -161,7 +161,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $language_code = "language_code_example"; // string | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\LanguagePATCHRequest(); // \Jiwa\JiwaModel\LanguagePATCHRequest | 
+$body = new \Jiwa\Model\LanguagePATCHRequest(); // \Jiwa\Model\LanguagePATCHRequest | 
 
 try {
     $result = $apiInstance->languagePATCHRequestLanguageIDUpdate($accept, $language_id, $jiwa_stateful, $description, $language_code, $is_default, $body);
@@ -182,11 +182,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **language_code** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LanguagePATCHRequest**](../Model/LanguagePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LanguagePATCHRequest**](../Model/LanguagePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Language**](../Model/Language.md)
+[**\Jiwa\Model\Language**](../Model/Language.md)
 
 ### Authorization
 
@@ -200,7 +200,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **languagePOSTRequestPost**
-> \Jiwa\JiwaModel\Language languagePOSTRequestPost($accept, $jiwa_stateful, $description, $language_code, $is_default, $body)
+> \Jiwa\Model\Language languagePOSTRequestPost($accept, $jiwa_stateful, $description, $language_code, $is_default, $body)
 
 Creates a new language.
 
@@ -228,7 +228,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $language_code = "language_code_example"; // string | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\LanguagePOSTRequest(); // \Jiwa\JiwaModel\LanguagePOSTRequest | 
+$body = new \Jiwa\Model\LanguagePOSTRequest(); // \Jiwa\Model\LanguagePOSTRequest | 
 
 try {
     $result = $apiInstance->languagePOSTRequestPost($accept, $jiwa_stateful, $description, $language_code, $is_default, $body);
@@ -248,11 +248,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **language_code** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LanguagePOSTRequest**](../Model/LanguagePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LanguagePOSTRequest**](../Model/LanguagePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Language**](../Model/Language.md)
+[**\Jiwa\Model\Language**](../Model/Language.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **languagesGETManyRequestGet**
-> \Jiwa\JiwaModel\Language[] languagesGETManyRequestGet($accept, $jiwa_stateful)
+> \Jiwa\Model\Language[] languagesGETManyRequestGet($accept, $jiwa_stateful)
 
 Retrieves a list of languages.
 
@@ -310,7 +310,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Language[]**](../Model/Language.md)
+[**\Jiwa\Model\Language[]**](../Model/Language.md)
 
 ### Authorization
 

@@ -142,7 +142,7 @@ Method | HTTP request | Description
 
 
 # **inventoryABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object inventoryABANDONRequestAbandonDelete($accept, $jiwa_stateful, $inventory_id)
+> \Jiwa\Model\Object inventoryABANDONRequestAbandonDelete($accept, $jiwa_stateful, $inventory_id)
 
 Abandons a stateful inventory item.
 
@@ -188,7 +188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -202,7 +202,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateChildDELETERequestInventoryIDAlternateChildrenAlternateChildIDDelete**
-> \Jiwa\JiwaModel\Object inventoryAlternateChildDELETERequestInventoryIDAlternateChildrenAlternateChildIDDelete($accept, $inventory_id, $alternate_child_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes)
+> \Jiwa\Model\Object inventoryAlternateChildDELETERequestInventoryIDAlternateChildrenAlternateChildIDDelete($accept, $inventory_id, $alternate_child_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes)
 
 Deletes a inventory alternate child.
 
@@ -258,7 +258,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -272,7 +272,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateChildGETRequestInventoryIDAlternateChildrenAlternateChildIDGet**
-> \Jiwa\JiwaModel\InventoryAlternateChild inventoryAlternateChildGETRequestInventoryIDAlternateChildrenAlternateChildIDGet($accept, $inventory_id, $alternate_child_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAlternateChild inventoryAlternateChildGETRequestInventoryIDAlternateChildrenAlternateChildIDGet($accept, $inventory_id, $alternate_child_id, $jiwa_stateful)
 
 Retrieves an inventory alternate child.
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
+[**\Jiwa\Model\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateChildPATCHRequestInventoryIDAlternateChildrenAlternateChildIDUpdate**
-> \Jiwa\JiwaModel\InventoryAlternateChild inventoryAlternateChildPATCHRequestInventoryIDAlternateChildrenAlternateChildIDUpdate($accept, $inventory_id, $alternate_child_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body)
+> \Jiwa\Model\InventoryAlternateChild inventoryAlternateChildPATCHRequestInventoryIDAlternateChildrenAlternateChildIDUpdate($accept, $inventory_id, $alternate_child_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body)
 
 Updates a inventory alternate child.
 
@@ -365,7 +365,7 @@ $linked_inventory_id = "linked_inventory_id_example"; // string |
 $linked_inventory_part_no = "linked_inventory_part_no_example"; // string | 
 $linked_inventory_description = "linked_inventory_description_example"; // string | 
 $notes = "notes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAlternateChildPATCHRequest(); // \Jiwa\JiwaModel\InventoryAlternateChildPATCHRequest | 
+$body = new \Jiwa\Model\InventoryAlternateChildPATCHRequest(); // \Jiwa\Model\InventoryAlternateChildPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryAlternateChildPATCHRequestInventoryIDAlternateChildrenAlternateChildIDUpdate($accept, $inventory_id, $alternate_child_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body);
@@ -388,11 +388,11 @@ Name | Type | Description  | Notes
  **linked_inventory_part_no** | **string**|  | [optional]
  **linked_inventory_description** | **string**|  | [optional]
  **notes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAlternateChildPATCHRequest**](../Model/InventoryAlternateChildPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAlternateChildPATCHRequest**](../Model/InventoryAlternateChildPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
+[**\Jiwa\Model\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
 
 ### Authorization
 
@@ -406,7 +406,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateChildPOSTRequestInventoryIDAlternateChildrenPost**
-> \Jiwa\JiwaModel\InventoryAlternateChild inventoryAlternateChildPOSTRequestInventoryIDAlternateChildrenPost($accept, $inventory_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body)
+> \Jiwa\Model\InventoryAlternateChild inventoryAlternateChildPOSTRequestInventoryIDAlternateChildrenPost($accept, $inventory_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body)
 
 Appends an alternate child to an inventory item.
 
@@ -436,7 +436,7 @@ $linked_inventory_id = "linked_inventory_id_example"; // string |
 $linked_inventory_part_no = "linked_inventory_part_no_example"; // string | 
 $linked_inventory_description = "linked_inventory_description_example"; // string | 
 $notes = "notes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAlternateChildPOSTRequest(); // \Jiwa\JiwaModel\InventoryAlternateChildPOSTRequest | 
+$body = new \Jiwa\Model\InventoryAlternateChildPOSTRequest(); // \Jiwa\Model\InventoryAlternateChildPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryAlternateChildPOSTRequestInventoryIDAlternateChildrenPost($accept, $inventory_id, $jiwa_stateful, $linked_inventory_id, $linked_inventory_part_no, $linked_inventory_description, $notes, $body);
@@ -458,11 +458,11 @@ Name | Type | Description  | Notes
  **linked_inventory_part_no** | **string**|  | [optional]
  **linked_inventory_description** | **string**|  | [optional]
  **notes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAlternateChildPOSTRequest**](../Model/InventoryAlternateChildPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAlternateChildPOSTRequest**](../Model/InventoryAlternateChildPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
+[**\Jiwa\Model\InventoryAlternateChild**](../Model/InventoryAlternateChild.md)
 
 ### Authorization
 
@@ -476,7 +476,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateChildrenGETManyRequestInventoryIDAlternateChildrenGet**
-> \Jiwa\JiwaModel\InventoryAlternateChild[] inventoryAlternateChildrenGETManyRequestInventoryIDAlternateChildrenGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAlternateChild[] inventoryAlternateChildrenGETManyRequestInventoryIDAlternateChildrenGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory alternate children.
 
@@ -522,7 +522,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateChild[]**](../Model/InventoryAlternateChild.md)
+[**\Jiwa\Model\InventoryAlternateChild[]**](../Model/InventoryAlternateChild.md)
 
 ### Authorization
 
@@ -536,7 +536,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateParentGETRequestInventoryIDAlternateParentsLinkedInventoryIDGet**
-> \Jiwa\JiwaModel\InventoryAlternateParent inventoryAlternateParentGETRequestInventoryIDAlternateParentsLinkedInventoryIDGet($accept, $inventory_id, $linked_inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAlternateParent inventoryAlternateParentGETRequestInventoryIDAlternateParentsLinkedInventoryIDGet($accept, $inventory_id, $linked_inventory_id, $jiwa_stateful)
 
 Retrieves an inventory alternate parent.
 
@@ -584,7 +584,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateParent**](../Model/InventoryAlternateParent.md)
+[**\Jiwa\Model\InventoryAlternateParent**](../Model/InventoryAlternateParent.md)
 
 ### Authorization
 
@@ -598,7 +598,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAlternateParentsGETManyRequestInventoryIDAlternateParentsGet**
-> \Jiwa\JiwaModel\InventoryAlternateParent[] inventoryAlternateParentsGETManyRequestInventoryIDAlternateParentsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAlternateParent[] inventoryAlternateParentsGETManyRequestInventoryIDAlternateParentsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory alternate parents.
 
@@ -644,7 +644,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAlternateParent[]**](../Model/InventoryAlternateParent.md)
+[**\Jiwa\Model\InventoryAlternateParent[]**](../Model/InventoryAlternateParent.md)
 
 ### Authorization
 
@@ -658,7 +658,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupDELETERequestInventoryIDAttributeGroupsAttributeGroupIDDelete**
-> \Jiwa\JiwaModel\Object inventoryAttributeGroupDELETERequestInventoryIDAttributeGroupsAttributeGroupIDDelete($accept, $inventory_id, $attribute_group_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes)
+> \Jiwa\Model\Object inventoryAttributeGroupDELETERequestInventoryIDAttributeGroupsAttributeGroupIDDelete($accept, $inventory_id, $attribute_group_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes)
 
 Deletes a inventory attribute group.
 
@@ -714,7 +714,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -728,7 +728,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupGETRequestInventoryIDAttributeGroupsAttributeGroupIDGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroup inventoryAttributeGroupGETRequestInventoryIDAttributeGroupsAttributeGroupIDGet($accept, $inventory_id, $attribute_group_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroup inventoryAttributeGroupGETRequestInventoryIDAttributeGroupsAttributeGroupIDGet($accept, $inventory_id, $attribute_group_id, $jiwa_stateful)
 
 Retrieves an inventory attribute group.
 
@@ -776,7 +776,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
+[**\Jiwa\Model\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
 
 ### Authorization
 
@@ -790,7 +790,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupPATCHRequestInventoryIDAttributeGroupsAttributeGroupIDUpdate**
-> \Jiwa\JiwaModel\InventoryAttributeGroup inventoryAttributeGroupPATCHRequestInventoryIDAttributeGroupsAttributeGroupIDUpdate($accept, $inventory_id, $attribute_group_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body)
+> \Jiwa\Model\InventoryAttributeGroup inventoryAttributeGroupPATCHRequestInventoryIDAttributeGroupsAttributeGroupIDUpdate($accept, $inventory_id, $attribute_group_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body)
 
 Updates a inventory attribute group.
 
@@ -821,7 +821,7 @@ $template = "template_example"; // string |
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $description = "description_example"; // string | 
 $attributes = "attributes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupPATCHRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupPATCHRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupPATCHRequest(); // \Jiwa\Model\InventoryAttributeGroupPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupPATCHRequestInventoryIDAttributeGroupsAttributeGroupIDUpdate($accept, $inventory_id, $attribute_group_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body);
@@ -844,11 +844,11 @@ Name | Type | Description  | Notes
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **description** | **string**|  | [optional]
  **attributes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupPATCHRequest**](../Model/InventoryAttributeGroupPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupPATCHRequest**](../Model/InventoryAttributeGroupPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
+[**\Jiwa\Model\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
 
 ### Authorization
 
@@ -862,7 +862,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupPOSTRequestInventoryIDAttributeGroupsPost**
-> \Jiwa\JiwaModel\InventoryAttributeGroup inventoryAttributeGroupPOSTRequestInventoryIDAttributeGroupsPost($accept, $inventory_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body)
+> \Jiwa\Model\InventoryAttributeGroup inventoryAttributeGroupPOSTRequestInventoryIDAttributeGroupsPost($accept, $inventory_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body)
 
 Appends an attribute group to an inventory item.
 
@@ -892,7 +892,7 @@ $template = "template_example"; // string |
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $description = "description_example"; // string | 
 $attributes = "attributes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupPOSTRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupPOSTRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupPOSTRequest(); // \Jiwa\Model\InventoryAttributeGroupPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupPOSTRequestInventoryIDAttributeGroupsPost($accept, $inventory_id, $jiwa_stateful, $template, $last_saved_date_time, $description, $attributes, $body);
@@ -914,11 +914,11 @@ Name | Type | Description  | Notes
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **description** | **string**|  | [optional]
  **attributes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupPOSTRequest**](../Model/InventoryAttributeGroupPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupPOSTRequest**](../Model/InventoryAttributeGroupPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
+[**\Jiwa\Model\InventoryAttributeGroup**](../Model/InventoryAttributeGroup.md)
 
 ### Authorization
 
@@ -932,7 +932,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateABANDONRequestAttributeGroupTemplatesAbandonDelete**
-> \Jiwa\JiwaModel\Object inventoryAttributeGroupTemplateABANDONRequestAttributeGroupTemplatesAbandonDelete($accept, $jiwa_stateful, $attribute_group_template_id)
+> \Jiwa\Model\Object inventoryAttributeGroupTemplateABANDONRequestAttributeGroupTemplatesAbandonDelete($accept, $jiwa_stateful, $attribute_group_template_id)
 
 Abandons a stateful inventory attribute group template.
 
@@ -978,7 +978,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -992,7 +992,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateAttributeDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDDelete**
-> \Jiwa\JiwaModel\Object inventoryAttributeGroupTemplateAttributeDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDDelete($accept, $template_attribute_id, $attribute_group_template_id, $jiwa_stateful, $attribute_type, $item_no, $name)
+> \Jiwa\Model\Object inventoryAttributeGroupTemplateAttributeDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDDelete($accept, $template_attribute_id, $attribute_group_template_id, $jiwa_stateful, $attribute_type, $item_no, $name)
 
 Deletes an inventory attribute group template attribute.
 
@@ -1046,7 +1046,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1060,7 +1060,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateAttributeGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributeGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDGet($accept, $attribute_group_template_id, $template_attribute_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributeGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDGet($accept, $attribute_group_template_id, $template_attribute_id, $jiwa_stateful)
 
 Retrieves an inventory attribute group template attribute.
 
@@ -1108,7 +1108,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
 
 ### Authorization
 
@@ -1122,7 +1122,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateAttributePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDUpdate**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDUpdate($accept, $template_attribute_id, $attribute_group_template_id, $jiwa_stateful, $attribute_type, $item_no, $name, $body)
+> \Jiwa\Model\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDUpdate($accept, $template_attribute_id, $attribute_group_template_id, $jiwa_stateful, $attribute_type, $item_no, $name, $body)
 
 Updates an inventory attribute group template attribute.
 
@@ -1152,7 +1152,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $attribute_type = 56; // int | 
 $item_no = 56; // int | 
 $name = "name_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePATCHRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePATCHRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupTemplateAttributePATCHRequest(); // \Jiwa\Model\InventoryAttributeGroupTemplateAttributePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupTemplateAttributePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesTemplateAttributeIDUpdate($accept, $template_attribute_id, $attribute_group_template_id, $jiwa_stateful, $attribute_type, $item_no, $name, $body);
@@ -1174,11 +1174,11 @@ Name | Type | Description  | Notes
  **attribute_type** | **int**|  | [optional]
  **item_no** | **int**|  | [optional]
  **name** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePATCHRequest**](../Model/InventoryAttributeGroupTemplateAttributePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupTemplateAttributePATCHRequest**](../Model/InventoryAttributeGroupTemplateAttributePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
 
 ### Authorization
 
@@ -1192,7 +1192,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateAttributePOSTRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributePost**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributePOSTRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributePost($accept, $attribute_group_template_id, $jiwa_stateful, $template_attribute_id, $attribute_type, $item_no, $name, $body)
+> \Jiwa\Model\InventoryAttributeGroupTemplateAttribute inventoryAttributeGroupTemplateAttributePOSTRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributePost($accept, $attribute_group_template_id, $jiwa_stateful, $template_attribute_id, $attribute_type, $item_no, $name, $body)
 
 Appends an inventory attribute group template attribute to an inventory attribute group template.
 
@@ -1222,7 +1222,7 @@ $template_attribute_id = "template_attribute_id_example"; // string |
 $attribute_type = 56; // int | 
 $item_no = 56; // int | 
 $name = "name_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePOSTRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePOSTRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupTemplateAttributePOSTRequest(); // \Jiwa\Model\InventoryAttributeGroupTemplateAttributePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupTemplateAttributePOSTRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributePost($accept, $attribute_group_template_id, $jiwa_stateful, $template_attribute_id, $attribute_type, $item_no, $name, $body);
@@ -1244,11 +1244,11 @@ Name | Type | Description  | Notes
  **attribute_type** | **int**|  | [optional]
  **item_no** | **int**|  | [optional]
  **name** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttributePOSTRequest**](../Model/InventoryAttributeGroupTemplateAttributePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupTemplateAttributePOSTRequest**](../Model/InventoryAttributeGroupTemplateAttributePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplateAttribute**](../Model/InventoryAttributeGroupTemplateAttribute.md)
 
 ### Authorization
 
@@ -1262,7 +1262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateAttributesGETManyRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[] inventoryAttributeGroupTemplateAttributesGETManyRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesGet($accept, $attribute_group_template_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroupTemplateAttribute[] inventoryAttributeGroupTemplateAttributesGETManyRequestAttributeGroupTemplatesAttributeGroupTemplateIDAttributesGet($accept, $attribute_group_template_id, $jiwa_stateful)
 
 Retrieves a list of inventory attribute group template attributes.
 
@@ -1308,7 +1308,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute[]**](../Model/InventoryAttributeGroupTemplateAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplateAttribute[]**](../Model/InventoryAttributeGroupTemplateAttribute.md)
 
 ### Authorization
 
@@ -1322,7 +1322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDDelete**
-> \Jiwa\JiwaModel\Object inventoryAttributeGroupTemplateDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDDelete($accept, $attribute_group_template_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryAttributeGroupTemplateDELETERequestAttributeGroupTemplatesAttributeGroupTemplateIDDelete($accept, $attribute_group_template_id, $jiwa_stateful)
 
 Deletes an inventory attribute group template.
 
@@ -1368,7 +1368,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1382,7 +1382,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplateGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDGet($accept, $attribute_group_template_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplateGETRequestAttributeGroupTemplatesAttributeGroupTemplateIDGet($accept, $attribute_group_template_id, $jiwa_stateful)
 
 Retrieves an inventory attribute group template.
 
@@ -1428,7 +1428,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
 
 ### Authorization
 
@@ -1442,7 +1442,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplatePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDUpdate**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplatePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDUpdate($accept, $attribute_group_template_id, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body)
+> \Jiwa\Model\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplatePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDUpdate($accept, $attribute_group_template_id, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body)
 
 Updates an inventory attribute group template.
 
@@ -1471,7 +1471,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $name = "name_example"; // string | 
 $is_enabled = true; // bool | 
 $template_attributes = "template_attributes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupTemplatePATCHRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupTemplatePATCHRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupTemplatePATCHRequest(); // \Jiwa\Model\InventoryAttributeGroupTemplatePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupTemplatePATCHRequestAttributeGroupTemplatesAttributeGroupTemplateIDUpdate($accept, $attribute_group_template_id, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body);
@@ -1492,11 +1492,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
  **template_attributes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupTemplatePATCHRequest**](../Model/InventoryAttributeGroupTemplatePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupTemplatePATCHRequest**](../Model/InventoryAttributeGroupTemplatePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
 
 ### Authorization
 
@@ -1510,7 +1510,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplatePOSTRequestAttributeGroupTemplatesPost**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplatePOSTRequestAttributeGroupTemplatesPost($accept, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body)
+> \Jiwa\Model\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplatePOSTRequestAttributeGroupTemplatesPost($accept, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body)
 
 Creates a new inventory attribute group template.
 
@@ -1538,7 +1538,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $name = "name_example"; // string | 
 $is_enabled = true; // bool | 
 $template_attributes = "template_attributes_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeGroupTemplatePOSTRequest(); // \Jiwa\JiwaModel\InventoryAttributeGroupTemplatePOSTRequest | 
+$body = new \Jiwa\Model\InventoryAttributeGroupTemplatePOSTRequest(); // \Jiwa\Model\InventoryAttributeGroupTemplatePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeGroupTemplatePOSTRequestAttributeGroupTemplatesPost($accept, $jiwa_stateful, $name, $is_enabled, $template_attributes, $body);
@@ -1558,11 +1558,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **is_enabled** | **bool**|  | [optional]
  **template_attributes** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeGroupTemplatePOSTRequest**](../Model/InventoryAttributeGroupTemplatePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeGroupTemplatePOSTRequest**](../Model/InventoryAttributeGroupTemplatePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
 
 ### Authorization
 
@@ -1576,7 +1576,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupTemplateSAVERequestAttributeGroupTemplatesSaveGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplateSAVERequestAttributeGroupTemplatesSaveGet($accept, $jiwa_stateful, $attribute_group_template_id)
+> \Jiwa\Model\InventoryAttributeGroupTemplate inventoryAttributeGroupTemplateSAVERequestAttributeGroupTemplatesSaveGet($accept, $jiwa_stateful, $attribute_group_template_id)
 
 Saves a stateful inventory attribute group template.
 
@@ -1622,7 +1622,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
+[**\Jiwa\Model\InventoryAttributeGroupTemplate**](../Model/InventoryAttributeGroupTemplate.md)
 
 ### Authorization
 
@@ -1636,7 +1636,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeGroupsGETManyRequestInventoryIDAttributeGroupsGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroup[] inventoryAttributeGroupsGETManyRequestInventoryIDAttributeGroupsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroup[] inventoryAttributeGroupsGETManyRequestInventoryIDAttributeGroupsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory attribute groups.
 
@@ -1682,7 +1682,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroup[]**](../Model/InventoryAttributeGroup.md)
+[**\Jiwa\Model\InventoryAttributeGroup[]**](../Model/InventoryAttributeGroup.md)
 
 ### Authorization
 
@@ -1696,7 +1696,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeValueGETRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDGet**
-> \Jiwa\JiwaModel\InventoryAttributeGroupAttribute inventoryAttributeValueGETRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDGet($accept, $inventory_id, $attribute_group_id, $attribute_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryAttributeGroupAttribute inventoryAttributeValueGETRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDGet($accept, $inventory_id, $attribute_group_id, $attribute_id, $jiwa_stateful)
 
 Retrieves an inventory attribute value.
 
@@ -1746,7 +1746,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupAttribute**](../Model/InventoryAttributeGroupAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupAttribute**](../Model/InventoryAttributeGroupAttribute.md)
 
 ### Authorization
 
@@ -1760,7 +1760,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryAttributeValuePATCHRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDUpdate**
-> \Jiwa\JiwaModel\InventoryAttributeGroupAttribute inventoryAttributeValuePATCHRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDUpdate($accept, $inventory_id, $attribute_group_id, $attribute_id, $jiwa_stateful, $template_attribute, $last_saved_date_time, $contents, $body)
+> \Jiwa\Model\InventoryAttributeGroupAttribute inventoryAttributeValuePATCHRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDUpdate($accept, $inventory_id, $attribute_group_id, $attribute_id, $jiwa_stateful, $template_attribute, $last_saved_date_time, $contents, $body)
 
 Updates an inventory attribute value.
 
@@ -1791,7 +1791,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $template_attribute = "template_attribute_example"; // string | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryAttributeValuePATCHRequest(); // \Jiwa\JiwaModel\InventoryAttributeValuePATCHRequest | 
+$body = new \Jiwa\Model\InventoryAttributeValuePATCHRequest(); // \Jiwa\Model\InventoryAttributeValuePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryAttributeValuePATCHRequestInventoryIDAttributeGroupsAttributeGroupIDAttributeValuesAttributeIDUpdate($accept, $inventory_id, $attribute_group_id, $attribute_id, $jiwa_stateful, $template_attribute, $last_saved_date_time, $contents, $body);
@@ -1814,11 +1814,11 @@ Name | Type | Description  | Notes
  **template_attribute** | **string**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryAttributeValuePATCHRequest**](../Model/InventoryAttributeValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryAttributeValuePATCHRequest**](../Model/InventoryAttributeValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryAttributeGroupAttribute**](../Model/InventoryAttributeGroupAttribute.md)
+[**\Jiwa\Model\InventoryAttributeGroupAttribute**](../Model/InventoryAttributeGroupAttribute.md)
 
 ### Authorization
 
@@ -1832,7 +1832,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryBudgetGETRequestInventoryIDBudgetsLogicalWarehouseIDGet**
-> \Jiwa\JiwaModel\InventoryBudget inventoryBudgetGETRequestInventoryIDBudgetsLogicalWarehouseIDGet($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $month_index)
+> \Jiwa\Model\InventoryBudget inventoryBudgetGETRequestInventoryIDBudgetsLogicalWarehouseIDGet($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $month_index)
 
 Retrieves a budget from an inventory item.
 
@@ -1882,7 +1882,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryBudget**](../Model/InventoryBudget.md)
+[**\Jiwa\Model\InventoryBudget**](../Model/InventoryBudget.md)
 
 ### Authorization
 
@@ -1896,7 +1896,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryBudgetPATCHRequestInventoryIDBudgetsLogicalWarehouseIDUpdate**
-> \Jiwa\JiwaModel\InventoryBudget inventoryBudgetPATCHRequestInventoryIDBudgetsLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $month_index, $month_start_date, $month_end_date, $budget_units, $budget_value, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
+> \Jiwa\Model\InventoryBudget inventoryBudgetPATCHRequestInventoryIDBudgetsLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $month_index, $month_start_date, $month_end_date, $budget_units, $budget_value, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
 
 Updates a budget.
 
@@ -1931,7 +1931,7 @@ $budget_value = 1.2; // double |
 $logical_warehouse_description = "logical_warehouse_description_example"; // string | 
 $physical_warehouse_id = "physical_warehouse_id_example"; // string | 
 $physical_warehouse_description = "physical_warehouse_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryBudgetPATCHRequest(); // \Jiwa\JiwaModel\InventoryBudgetPATCHRequest | 
+$body = new \Jiwa\Model\InventoryBudgetPATCHRequest(); // \Jiwa\Model\InventoryBudgetPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryBudgetPATCHRequestInventoryIDBudgetsLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $month_index, $month_start_date, $month_end_date, $budget_units, $budget_value, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body);
@@ -1958,11 +1958,11 @@ Name | Type | Description  | Notes
  **logical_warehouse_description** | **string**|  | [optional]
  **physical_warehouse_id** | **string**|  | [optional]
  **physical_warehouse_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryBudgetPATCHRequest**](../Model/InventoryBudgetPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryBudgetPATCHRequest**](../Model/InventoryBudgetPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryBudget**](../Model/InventoryBudget.md)
+[**\Jiwa\Model\InventoryBudget**](../Model/InventoryBudget.md)
 
 ### Authorization
 
@@ -1976,7 +1976,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryBudgetsGETManyRequestInventoryIDBudgetsGet**
-> \Jiwa\JiwaModel\InventoryBudget[] inventoryBudgetsGETManyRequestInventoryIDBudgetsGet($accept, $inventory_id, $jiwa_stateful, $logical_warehouse_id)
+> \Jiwa\Model\InventoryBudget[] inventoryBudgetsGETManyRequestInventoryIDBudgetsGet($accept, $inventory_id, $jiwa_stateful, $logical_warehouse_id)
 
 Retrieves a list of budgets for an inventory item.
 
@@ -2024,7 +2024,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryBudget[]**](../Model/InventoryBudget.md)
+[**\Jiwa\Model\InventoryBudget[]**](../Model/InventoryBudget.md)
 
 ### Authorization
 
@@ -2038,7 +2038,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoriesABANDONRequestCategoriesAbandonDelete**
-> \Jiwa\JiwaModel\Object inventoryCategoriesABANDONRequestCategoriesAbandonDelete($accept, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryCategoriesABANDONRequestCategoriesAbandonDelete($accept, $jiwa_stateful)
 
 Abandons a stateful inventory categories collection.
 
@@ -2082,7 +2082,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2096,7 +2096,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoriesSAVERequestCategoriesSaveGet**
-> \Jiwa\JiwaModel\InventoryCategory[] inventoryCategoriesSAVERequestCategoriesSaveGet($accept, $jiwa_stateful)
+> \Jiwa\Model\InventoryCategory[] inventoryCategoriesSAVERequestCategoriesSaveGet($accept, $jiwa_stateful)
 
 Saves a stateful inventory categories collection.
 
@@ -2140,7 +2140,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryCategory[]**](../Model/InventoryCategory.md)
+[**\Jiwa\Model\InventoryCategory[]**](../Model/InventoryCategory.md)
 
 ### Authorization
 
@@ -2154,7 +2154,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoryDELETERequestCategoriesCategoryIDDelete**
-> \Jiwa\JiwaModel\Object inventoryCategoryDELETERequestCategoriesCategoryIDDelete($accept, $category_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryCategoryDELETERequestCategoriesCategoryIDDelete($accept, $category_id, $jiwa_stateful)
 
 Deletes an inventory category.
 
@@ -2200,7 +2200,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2214,7 +2214,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoryGETRequestCategoriesCategoryIDGet**
-> \Jiwa\JiwaModel\InventoryCategory inventoryCategoryGETRequestCategoriesCategoryIDGet($accept, $category_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryCategory inventoryCategoryGETRequestCategoriesCategoryIDGet($accept, $category_id, $jiwa_stateful)
 
 Retrieves an inventory category.
 
@@ -2260,7 +2260,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryCategory**](../Model/InventoryCategory.md)
+[**\Jiwa\Model\InventoryCategory**](../Model/InventoryCategory.md)
 
 ### Authorization
 
@@ -2274,7 +2274,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoryPATCHRequestCategoriesCategoryIDUpdate**
-> \Jiwa\JiwaModel\InventoryCategory inventoryCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $category_no, $description, $is_default, $last_saved_date_time, $picture, $custom_field_values, $body)
+> \Jiwa\Model\InventoryCategory inventoryCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $category_no, $description, $is_default, $last_saved_date_time, $picture, $custom_field_values, $body)
 
 Updates an inventory category.
 
@@ -2306,7 +2306,7 @@ $is_default = true; // bool |
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $picture = "B"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryCategoryPATCHRequest(); // \Jiwa\JiwaModel\InventoryCategoryPATCHRequest | 
+$body = new \Jiwa\Model\InventoryCategoryPATCHRequest(); // \Jiwa\Model\InventoryCategoryPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryCategoryPATCHRequestCategoriesCategoryIDUpdate($accept, $category_id, $jiwa_stateful, $category_no, $description, $is_default, $last_saved_date_time, $picture, $custom_field_values, $body);
@@ -2330,11 +2330,11 @@ Name | Type | Description  | Notes
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **picture** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryCategoryPATCHRequest**](../Model/InventoryCategoryPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryCategoryPATCHRequest**](../Model/InventoryCategoryPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryCategory**](../Model/InventoryCategory.md)
+[**\Jiwa\Model\InventoryCategory**](../Model/InventoryCategory.md)
 
 ### Authorization
 
@@ -2348,7 +2348,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCategoryPOSTRequestCategoriesPost**
-> \Jiwa\JiwaModel\InventoryCategory inventoryCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $category_no, $description, $is_default, $picture, $custom_field_values, $body)
+> \Jiwa\Model\InventoryCategory inventoryCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $category_no, $description, $is_default, $picture, $custom_field_values, $body)
 
 Creates an inventory category.
 
@@ -2378,7 +2378,7 @@ $description = "description_example"; // string |
 $is_default = true; // bool | 
 $picture = "B"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryCategoryPOSTRequest(); // \Jiwa\JiwaModel\InventoryCategoryPOSTRequest | 
+$body = new \Jiwa\Model\InventoryCategoryPOSTRequest(); // \Jiwa\Model\InventoryCategoryPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryCategoryPOSTRequestCategoriesPost($accept, $jiwa_stateful, $category_no, $description, $is_default, $picture, $custom_field_values, $body);
@@ -2400,11 +2400,11 @@ Name | Type | Description  | Notes
  **is_default** | **bool**|  | [optional]
  **picture** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryCategoryPOSTRequest**](../Model/InventoryCategoryPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryCategoryPOSTRequest**](../Model/InventoryCategoryPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryCategory**](../Model/InventoryCategory.md)
+[**\Jiwa\Model\InventoryCategory**](../Model/InventoryCategory.md)
 
 ### Authorization
 
@@ -2418,7 +2418,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationABANDONRequestClassificationsAbandonDelete**
-> \Jiwa\JiwaModel\Object inventoryClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $rec_id)
+> \Jiwa\Model\Object inventoryClassificationABANDONRequestClassificationsAbandonDelete($accept, $jiwa_stateful, $rec_id)
 
 Abandons a stateful inventory classification.
 
@@ -2464,7 +2464,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2478,7 +2478,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationDELETERequestClassificationsClassificationIDDelete**
-> \Jiwa\JiwaModel\Object inventoryClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryClassificationDELETERequestClassificationsClassificationIDDelete($accept, $classification_id, $jiwa_stateful)
 
 Deletes an inventory classification.
 
@@ -2524,7 +2524,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2538,7 +2538,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationGETRequestClassificationsClassificationIDGet**
-> \Jiwa\JiwaModel\InventoryClassification inventoryClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryClassification inventoryClassificationGETRequestClassificationsClassificationIDGet($accept, $classification_id, $jiwa_stateful)
 
 Retrieves an inventory classification.
 
@@ -2584,7 +2584,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryClassification**](../Model/InventoryClassification.md)
+[**\Jiwa\Model\InventoryClassification**](../Model/InventoryClassification.md)
 
 ### Authorization
 
@@ -2598,7 +2598,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationPATCHRequestClassificationsClassificationIDUpdate**
-> \Jiwa\JiwaModel\InventoryClassification inventoryClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body)
+> \Jiwa\Model\InventoryClassification inventoryClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body)
 
 Updates an inventory classification.
 
@@ -2644,7 +2644,7 @@ $inventory_ledgers = "inventory_ledgers_example"; // string |
 $pricing_group_id = "pricing_group_id_example"; // string | 
 $pricing_group_description = "pricing_group_description_example"; // string | 
 $custom_fields = "custom_fields_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryClassificationPATCHRequest(); // \Jiwa\JiwaModel\InventoryClassificationPATCHRequest | 
+$body = new \Jiwa\Model\InventoryClassificationPATCHRequest(); // \Jiwa\Model\InventoryClassificationPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryClassificationPATCHRequestClassificationsClassificationIDUpdate($accept, $classification_id, $jiwa_stateful, $description, $last_saved_date_time, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body);
@@ -2682,11 +2682,11 @@ Name | Type | Description  | Notes
  **pricing_group_id** | **string**|  | [optional]
  **pricing_group_description** | **string**|  | [optional]
  **custom_fields** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryClassificationPATCHRequest**](../Model/InventoryClassificationPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryClassificationPATCHRequest**](../Model/InventoryClassificationPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryClassification**](../Model/InventoryClassification.md)
+[**\Jiwa\Model\InventoryClassification**](../Model/InventoryClassification.md)
 
 ### Authorization
 
@@ -2700,7 +2700,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationPOSTRequestClassificationsPost**
-> \Jiwa\JiwaModel\InventoryClassification inventoryClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body)
+> \Jiwa\Model\InventoryClassification inventoryClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body)
 
 Creates an inventory classification.
 
@@ -2744,7 +2744,7 @@ $inventory_ledgers = "inventory_ledgers_example"; // string |
 $pricing_group_id = "pricing_group_id_example"; // string | 
 $pricing_group_description = "pricing_group_description_example"; // string | 
 $custom_fields = "custom_fields_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryClassificationPOSTRequest(); // \Jiwa\JiwaModel\InventoryClassificationPOSTRequest | 
+$body = new \Jiwa\Model\InventoryClassificationPOSTRequest(); // \Jiwa\Model\InventoryClassificationPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryClassificationPOSTRequestClassificationsPost($accept, $jiwa_stateful, $description, $web_enabled, $is_default, $gst_inwards_tax_rate_id, $gst_inwards_tax_rate_description, $gst_inwards_tax_rate, $gst_outwards_tax_rate_id, $gst_outwards_tax_rate_description, $gst_outwards_tax_rate, $gst_adjustments_in_tax_rate_id, $gst_adjustments_in_tax_rate_description, $gst_adjustments_in_tax_rate, $gst_adjustments_out_tax_rate_id, $gst_adjustments_out_tax_rate_description, $gst_adjustments_out_tax_rate, $inventory_ledgers, $pricing_group_id, $pricing_group_description, $custom_fields, $body);
@@ -2780,11 +2780,11 @@ Name | Type | Description  | Notes
  **pricing_group_id** | **string**|  | [optional]
  **pricing_group_description** | **string**|  | [optional]
  **custom_fields** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryClassificationPOSTRequest**](../Model/InventoryClassificationPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryClassificationPOSTRequest**](../Model/InventoryClassificationPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryClassification**](../Model/InventoryClassification.md)
+[**\Jiwa\Model\InventoryClassification**](../Model/InventoryClassification.md)
 
 ### Authorization
 
@@ -2798,7 +2798,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryClassificationSAVERequestClassificationsSaveGet**
-> \Jiwa\JiwaModel\InventoryClassification inventoryClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $rec_id)
+> \Jiwa\Model\InventoryClassification inventoryClassificationSAVERequestClassificationsSaveGet($accept, $jiwa_stateful, $rec_id)
 
 Saves a stateful inventory classification.
 
@@ -2844,7 +2844,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryClassification**](../Model/InventoryClassification.md)
+[**\Jiwa\Model\InventoryClassification**](../Model/InventoryClassification.md)
 
 ### Authorization
 
@@ -2858,7 +2858,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryComponentDELETERequestInventoryIDComponentsComponentIDDelete**
-> \Jiwa\JiwaModel\Object inventoryComponentDELETERequestInventoryIDComponentsComponentIDDelete($accept, $inventory_id, $component_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description)
+> \Jiwa\Model\Object inventoryComponentDELETERequestInventoryIDComponentsComponentIDDelete($accept, $inventory_id, $component_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description)
 
 Deletes a component.
 
@@ -2916,7 +2916,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2930,7 +2930,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryComponentGETRequestInventoryIDComponentsComponentIDGet**
-> \Jiwa\JiwaModel\InventoryComponent inventoryComponentGETRequestInventoryIDComponentsComponentIDGet($accept, $inventory_id, $component_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryComponent inventoryComponentGETRequestInventoryIDComponentsComponentIDGet($accept, $inventory_id, $component_id, $jiwa_stateful)
 
 Retrieves a component from an inventory item.
 
@@ -2978,7 +2978,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryComponent**](../Model/InventoryComponent.md)
+[**\Jiwa\Model\InventoryComponent**](../Model/InventoryComponent.md)
 
 ### Authorization
 
@@ -2992,7 +2992,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryComponentPATCHRequestInventoryIDComponentsComponentIDUpdate**
-> \Jiwa\JiwaModel\InventoryComponent inventoryComponentPATCHRequestInventoryIDComponentsComponentIDUpdate($accept, $inventory_id, $component_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body)
+> \Jiwa\Model\InventoryComponent inventoryComponentPATCHRequestInventoryIDComponentsComponentIDUpdate($accept, $inventory_id, $component_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body)
 
 Updates a component.
 
@@ -3024,7 +3024,7 @@ $item_no = 56; // int |
 $component_inventory_id = "component_inventory_id_example"; // string | 
 $component_inventory_part_no = "component_inventory_part_no_example"; // string | 
 $component_inventory_description = "component_inventory_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryComponentPATCHRequest(); // \Jiwa\JiwaModel\InventoryComponentPATCHRequest | 
+$body = new \Jiwa\Model\InventoryComponentPATCHRequest(); // \Jiwa\Model\InventoryComponentPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryComponentPATCHRequestInventoryIDComponentsComponentIDUpdate($accept, $inventory_id, $component_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body);
@@ -3048,11 +3048,11 @@ Name | Type | Description  | Notes
  **component_inventory_id** | **string**|  | [optional]
  **component_inventory_part_no** | **string**|  | [optional]
  **component_inventory_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryComponentPATCHRequest**](../Model/InventoryComponentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryComponentPATCHRequest**](../Model/InventoryComponentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryComponent**](../Model/InventoryComponent.md)
+[**\Jiwa\Model\InventoryComponent**](../Model/InventoryComponent.md)
 
 ### Authorization
 
@@ -3066,7 +3066,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryComponentPOSTRequestInventoryIDComponentsPost**
-> \Jiwa\JiwaModel\InventoryComponent inventoryComponentPOSTRequestInventoryIDComponentsPost($accept, $inventory_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body)
+> \Jiwa\Model\InventoryComponent inventoryComponentPOSTRequestInventoryIDComponentsPost($accept, $inventory_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body)
 
 Appends a component to an inventory item.
 
@@ -3097,7 +3097,7 @@ $item_no = 56; // int |
 $component_inventory_id = "component_inventory_id_example"; // string | 
 $component_inventory_part_no = "component_inventory_part_no_example"; // string | 
 $component_inventory_description = "component_inventory_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryComponentPOSTRequest(); // \Jiwa\JiwaModel\InventoryComponentPOSTRequest | 
+$body = new \Jiwa\Model\InventoryComponentPOSTRequest(); // \Jiwa\Model\InventoryComponentPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryComponentPOSTRequestInventoryIDComponentsPost($accept, $inventory_id, $jiwa_stateful, $component_quantity, $item_no, $component_inventory_id, $component_inventory_part_no, $component_inventory_description, $body);
@@ -3120,11 +3120,11 @@ Name | Type | Description  | Notes
  **component_inventory_id** | **string**|  | [optional]
  **component_inventory_part_no** | **string**|  | [optional]
  **component_inventory_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryComponentPOSTRequest**](../Model/InventoryComponentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryComponentPOSTRequest**](../Model/InventoryComponentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryComponent**](../Model/InventoryComponent.md)
+[**\Jiwa\Model\InventoryComponent**](../Model/InventoryComponent.md)
 
 ### Authorization
 
@@ -3138,7 +3138,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryComponentsGETManyRequestInventoryIDComponentsGet**
-> \Jiwa\JiwaModel\InventoryComponent[] inventoryComponentsGETManyRequestInventoryIDComponentsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryComponent[] inventoryComponentsGETManyRequestInventoryIDComponentsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of components for an inventory item.
 
@@ -3184,7 +3184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryComponent[]**](../Model/InventoryComponent.md)
+[**\Jiwa\Model\InventoryComponent[]**](../Model/InventoryComponent.md)
 
 ### Authorization
 
@@ -3198,7 +3198,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCustomFieldValueGETRequestInventoryIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue inventoryCustomFieldValueGETRequestInventoryIDCustomFieldValuesSettingIDGet($accept, $inventory_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue inventoryCustomFieldValueGETRequestInventoryIDCustomFieldValuesSettingIDGet($accept, $inventory_id, $setting_id, $jiwa_stateful)
 
 Retrieves an inventory custom field value.
 
@@ -3246,7 +3246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3260,7 +3260,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCustomFieldValuePATCHRequestInventoryIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue inventoryCustomFieldValuePATCHRequestInventoryIDCustomFieldValuesSettingIDUpdate($accept, $inventory_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue inventoryCustomFieldValuePATCHRequestInventoryIDCustomFieldValuesSettingIDUpdate($accept, $inventory_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates an inventory custom field value.
 
@@ -3288,7 +3288,7 @@ $inventory_id = "inventory_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\InventoryCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\InventoryCustomFieldValuePATCHRequest(); // \Jiwa\Model\InventoryCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryCustomFieldValuePATCHRequestInventoryIDCustomFieldValuesSettingIDUpdate($accept, $inventory_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -3308,11 +3308,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryCustomFieldValuePATCHRequest**](../Model/InventoryCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryCustomFieldValuePATCHRequest**](../Model/InventoryCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3326,7 +3326,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCustomFieldValuesGETManyRequestInventoryIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] inventoryCustomFieldValuesGETManyRequestInventoryIDCustomFieldValuesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] inventoryCustomFieldValuesGETManyRequestInventoryIDCustomFieldValuesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for an inventory item.
 
@@ -3372,7 +3372,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -3386,7 +3386,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryCustomFieldsGETManyRequestCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] inventoryCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] inventoryCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of inventory custom fields.
 
@@ -3430,7 +3430,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -3444,7 +3444,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDELETERequestInventoryIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDELETERequestInventoryIDDelete($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryDELETERequestInventoryIDDelete($accept, $inventory_id, $jiwa_stateful)
 
 Deletes an inventory item.
 
@@ -3490,7 +3490,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3504,7 +3504,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorClassificationPriceDELETERequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDebtorClassificationPriceDELETERequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDDelete($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note)
+> \Jiwa\Model\Object inventoryDebtorClassificationPriceDELETERequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDDelete($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note)
 
 Deletes a debtor classification price.
 
@@ -3574,7 +3574,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3588,7 +3588,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorClassificationPriceGETRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDGet**
-> \Jiwa\JiwaModel\InventoryDebtorClassificationPrice inventoryDebtorClassificationPriceGETRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDGet($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorClassificationPrice inventoryDebtorClassificationPriceGETRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDGet($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful)
 
 Retrieves a debtor classification price from an inventory item.
 
@@ -3636,7 +3636,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
+[**\Jiwa\Model\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
 
 ### Authorization
 
@@ -3650,7 +3650,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorClassificationPricePATCHRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDUpdate**
-> \Jiwa\JiwaModel\InventoryDebtorClassificationPrice inventoryDebtorClassificationPricePATCHRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDUpdate($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorClassificationPrice inventoryDebtorClassificationPricePATCHRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDUpdate($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body)
 
 Updates a debtor classification price.
 
@@ -3688,7 +3688,7 @@ $debtor_classification_id = "debtor_classification_id_example"; // string |
 $debtor_classification_description = "debtor_classification_description_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorClassificationPricePATCHRequest(); // \Jiwa\JiwaModel\InventoryDebtorClassificationPricePATCHRequest | 
+$body = new \Jiwa\Model\InventoryDebtorClassificationPricePATCHRequest(); // \Jiwa\Model\InventoryDebtorClassificationPricePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorClassificationPricePATCHRequestInventoryIDDebtorClassificationPricesDebtorClassificationPriceIDUpdate($accept, $inventory_id, $debtor_classification_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body);
@@ -3718,11 +3718,11 @@ Name | Type | Description  | Notes
  **debtor_classification_description** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorClassificationPricePATCHRequest**](../Model/InventoryDebtorClassificationPricePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorClassificationPricePATCHRequest**](../Model/InventoryDebtorClassificationPricePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
+[**\Jiwa\Model\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
 
 ### Authorization
 
@@ -3736,7 +3736,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorClassificationPricePOSTRequestInventoryIDDebtorClassificationPricesPost**
-> \Jiwa\JiwaModel\InventoryDebtorClassificationPrice inventoryDebtorClassificationPricePOSTRequestInventoryIDDebtorClassificationPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_classification_price_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorClassificationPrice inventoryDebtorClassificationPricePOSTRequestInventoryIDDebtorClassificationPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_classification_price_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body)
 
 Adds a debtor classification price to an inventory item.
 
@@ -3774,7 +3774,7 @@ $debtor_classification_id = "debtor_classification_id_example"; // string |
 $debtor_classification_description = "debtor_classification_description_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorClassificationPricePOSTRequest(); // \Jiwa\JiwaModel\InventoryDebtorClassificationPricePOSTRequest | 
+$body = new \Jiwa\Model\InventoryDebtorClassificationPricePOSTRequest(); // \Jiwa\Model\InventoryDebtorClassificationPricePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorClassificationPricePOSTRequestInventoryIDDebtorClassificationPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_classification_price_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_classification_id, $debtor_classification_description, $price, $note, $body);
@@ -3804,11 +3804,11 @@ Name | Type | Description  | Notes
  **debtor_classification_description** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorClassificationPricePOSTRequest**](../Model/InventoryDebtorClassificationPricePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorClassificationPricePOSTRequest**](../Model/InventoryDebtorClassificationPricePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
+[**\Jiwa\Model\InventoryDebtorClassificationPrice**](../Model/InventoryDebtorClassificationPrice.md)
 
 ### Authorization
 
@@ -3822,7 +3822,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorClassificationPricesGETManyRequestInventoryIDDebtorClassificationPricesGet**
-> \Jiwa\JiwaModel\InventoryDebtorClassificationPrice[] inventoryDebtorClassificationPricesGETManyRequestInventoryIDDebtorClassificationPricesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorClassificationPrice[] inventoryDebtorClassificationPricesGETManyRequestInventoryIDDebtorClassificationPricesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of debtor classification prices for an inventory item.
 
@@ -3868,7 +3868,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorClassificationPrice[]**](../Model/InventoryDebtorClassificationPrice.md)
+[**\Jiwa\Model\InventoryDebtorClassificationPrice[]**](../Model/InventoryDebtorClassificationPrice.md)
 
 ### Authorization
 
@@ -3882,7 +3882,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorPriceGroupPriceDELETERequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDebtorPriceGroupPriceDELETERequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDDelete($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note)
+> \Jiwa\Model\Object inventoryDebtorPriceGroupPriceDELETERequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDDelete($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note)
 
 Deletes a debtor price group price.
 
@@ -3952,7 +3952,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -3966,7 +3966,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorPriceGroupPriceGETRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDGet**
-> \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPriceGETRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDGet($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPriceGETRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDGet($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful)
 
 Retrieves a debtor price group price from an inventory item.
 
@@ -4014,7 +4014,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
+[**\Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
 
 ### Authorization
 
@@ -4028,7 +4028,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorPriceGroupPricePATCHRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDUpdate**
-> \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPricePATCHRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDUpdate($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPricePATCHRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDUpdate($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body)
 
 Updates a debtor price group price.
 
@@ -4066,7 +4066,7 @@ $debtor_price_group_id = "debtor_price_group_id_example"; // string |
 $debtor_price_group_description = "debtor_price_group_description_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePATCHRequest(); // \Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePATCHRequest | 
+$body = new \Jiwa\Model\InventoryDebtorPriceGroupPricePATCHRequest(); // \Jiwa\Model\InventoryDebtorPriceGroupPricePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorPriceGroupPricePATCHRequestInventoryIDDebtorPriceGroupPricesDebtorPriceGroupInventorySpecificIDUpdate($accept, $inventory_id, $debtor_price_group_inventory_specific_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body);
@@ -4096,11 +4096,11 @@ Name | Type | Description  | Notes
  **debtor_price_group_description** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePATCHRequest**](../Model/InventoryDebtorPriceGroupPricePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorPriceGroupPricePATCHRequest**](../Model/InventoryDebtorPriceGroupPricePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
+[**\Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
 
 ### Authorization
 
@@ -4114,7 +4114,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorPriceGroupPricePOSTRequestInventoryIDDebtorPriceGroupPricesPost**
-> \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPricePOSTRequestInventoryIDDebtorPriceGroupPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_price_group_inventory_specific_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific inventoryDebtorPriceGroupPricePOSTRequestInventoryIDDebtorPriceGroupPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_price_group_inventory_specific_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body)
 
 Adds a debtor price group price to an inventory item.
 
@@ -4152,7 +4152,7 @@ $debtor_price_group_id = "debtor_price_group_id_example"; // string |
 $debtor_price_group_description = "debtor_price_group_description_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePOSTRequest(); // \Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePOSTRequest | 
+$body = new \Jiwa\Model\InventoryDebtorPriceGroupPricePOSTRequest(); // \Jiwa\Model\InventoryDebtorPriceGroupPricePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorPriceGroupPricePOSTRequestInventoryIDDebtorPriceGroupPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_price_group_inventory_specific_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_price_group_id, $debtor_price_group_description, $price, $note, $body);
@@ -4182,11 +4182,11 @@ Name | Type | Description  | Notes
  **debtor_price_group_description** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorPriceGroupPricePOSTRequest**](../Model/InventoryDebtorPriceGroupPricePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorPriceGroupPricePOSTRequest**](../Model/InventoryDebtorPriceGroupPricePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
+[**\Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
 
 ### Authorization
 
@@ -4200,7 +4200,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorPriceGroupPricesGETManyRequestInventoryIDDebtorPriceGroupPricesGet**
-> \Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific[] inventoryDebtorPriceGroupPricesGETManyRequestInventoryIDDebtorPriceGroupPricesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific[] inventoryDebtorPriceGroupPricesGETManyRequestInventoryIDDebtorPriceGroupPricesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of debtor price group prices for an inventory item.
 
@@ -4246,7 +4246,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPriceGroupInventorySpecific[]**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
+[**\Jiwa\Model\InventoryDebtorPriceGroupInventorySpecific[]**](../Model/InventoryDebtorPriceGroupInventorySpecific.md)
 
 ### Authorization
 
@@ -4260,7 +4260,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorSpecificPriceDELETERequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDebtorSpecificPriceDELETERequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDDelete($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_id, $debtor_account_no, $debtor_name, $price, $note)
+> \Jiwa\Model\Object inventoryDebtorSpecificPriceDELETERequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDDelete($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_id, $debtor_account_no, $debtor_name, $price, $note)
 
 Deletes a debtor specific price.
 
@@ -4332,7 +4332,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -4346,7 +4346,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorSpecificPriceGETRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDGet**
-> \Jiwa\JiwaModel\InventoryDebtorPrice inventoryDebtorSpecificPriceGETRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDGet($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorPrice inventoryDebtorSpecificPriceGETRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDGet($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful)
 
 Retrieves a debtor specific price from an inventory item.
 
@@ -4394,7 +4394,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
+[**\Jiwa\Model\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
 
 ### Authorization
 
@@ -4408,7 +4408,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorSpecificPricePATCHRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDUpdate**
-> \Jiwa\JiwaModel\InventoryDebtorPrice inventoryDebtorSpecificPricePATCHRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDUpdate($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_id, $debtor_account_no, $debtor_name, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorPrice inventoryDebtorSpecificPricePATCHRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDUpdate($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_id, $debtor_account_no, $debtor_name, $price, $note, $body)
 
 Updates a debtor specific price.
 
@@ -4447,7 +4447,7 @@ $debtor_account_no = "debtor_account_no_example"; // string |
 $debtor_name = "debtor_name_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorSpecificPricePATCHRequest(); // \Jiwa\JiwaModel\InventoryDebtorSpecificPricePATCHRequest | 
+$body = new \Jiwa\Model\InventoryDebtorSpecificPricePATCHRequest(); // \Jiwa\Model\InventoryDebtorSpecificPricePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorSpecificPricePATCHRequestInventoryIDDebtorSpecificPricesDebtorSpecificPriceIDUpdate($accept, $inventory_id, $debtor_specific_price_id, $jiwa_stateful, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_id, $debtor_account_no, $debtor_name, $price, $note, $body);
@@ -4478,11 +4478,11 @@ Name | Type | Description  | Notes
  **debtor_name** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorSpecificPricePATCHRequest**](../Model/InventoryDebtorSpecificPricePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorSpecificPricePATCHRequest**](../Model/InventoryDebtorSpecificPricePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
+[**\Jiwa\Model\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
 
 ### Authorization
 
@@ -4496,7 +4496,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorSpecificPricePOSTRequestInventoryIDDebtorSpecificPricesPost**
-> \Jiwa\JiwaModel\InventoryDebtorPrice inventoryDebtorSpecificPricePOSTRequestInventoryIDDebtorSpecificPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_specific_price_id, $debtor_account_no, $debtor_name, $price, $note, $body)
+> \Jiwa\Model\InventoryDebtorPrice inventoryDebtorSpecificPricePOSTRequestInventoryIDDebtorSpecificPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_specific_price_id, $debtor_account_no, $debtor_name, $price, $note, $body)
 
 Adds a debtor specific price to an inventory item.
 
@@ -4535,7 +4535,7 @@ $debtor_account_no = "debtor_account_no_example"; // string |
 $debtor_name = "debtor_name_example"; // string | 
 $price = 1.2; // double | 
 $note = "note_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDebtorSpecificPricePOSTRequest(); // \Jiwa\JiwaModel\InventoryDebtorSpecificPricePOSTRequest | 
+$body = new \Jiwa\Model\InventoryDebtorSpecificPricePOSTRequest(); // \Jiwa\Model\InventoryDebtorSpecificPricePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryDebtorSpecificPricePOSTRequestInventoryIDDebtorSpecificPricesPost($accept, $inventory_id, $jiwa_stateful, $debtor_id, $source, $mode, $amount, $start_date, $end_date, $use_quantity_price_break, $quantity_price_break, $debtor_specific_price_id, $debtor_account_no, $debtor_name, $price, $note, $body);
@@ -4566,11 +4566,11 @@ Name | Type | Description  | Notes
  **debtor_name** | **string**|  | [optional]
  **price** | **double**|  | [optional]
  **note** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDebtorSpecificPricePOSTRequest**](../Model/InventoryDebtorSpecificPricePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDebtorSpecificPricePOSTRequest**](../Model/InventoryDebtorSpecificPricePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
+[**\Jiwa\Model\InventoryDebtorPrice**](../Model/InventoryDebtorPrice.md)
 
 ### Authorization
 
@@ -4584,7 +4584,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDebtorSpecificPricesGETManyRequestInventoryIDDebtorSpecificPricesGet**
-> \Jiwa\JiwaModel\InventoryDebtorPrice[] inventoryDebtorSpecificPricesGETManyRequestInventoryIDDebtorSpecificPricesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryDebtorPrice[] inventoryDebtorSpecificPricesGETManyRequestInventoryIDDebtorSpecificPricesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of debtor specific prices for an inventory item.
 
@@ -4630,7 +4630,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryDebtorPrice[]**](../Model/InventoryDebtorPrice.md)
+[**\Jiwa\Model\InventoryDebtorPrice[]**](../Model/InventoryDebtorPrice.md)
 
 ### Authorization
 
@@ -4644,7 +4644,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentDELETERequestInventoryIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDocumentDELETERequestInventoryIDDocumentsDocumentIDDelete($accept, $inventory_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryDocumentDELETERequestInventoryIDDocumentsDocumentIDDelete($accept, $inventory_id, $document_id, $jiwa_stateful)
 
 Deletes an inventory document.
 
@@ -4692,7 +4692,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -4706,7 +4706,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentGETRequestInventoryIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document inventoryDocumentGETRequestInventoryIDDocumentsDocumentIDGet($accept, $inventory_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document inventoryDocumentGETRequestInventoryIDDocumentsDocumentIDGet($accept, $inventory_id, $document_id, $jiwa_stateful)
 
 Retrieves an inventory document.
 
@@ -4754,7 +4754,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -4768,7 +4768,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentPATCHRequestInventoryIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document inventoryDocumentPATCHRequestInventoryIDDocumentsDocumentIDUpdate($accept, $inventory_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document inventoryDocumentPATCHRequestInventoryIDDocumentsDocumentIDUpdate($accept, $inventory_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates an inventory document.
 
@@ -4807,7 +4807,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDocumentPATCHRequest(); // \Jiwa\JiwaModel\InventoryDocumentPATCHRequest | 
+$body = new \Jiwa\Model\InventoryDocumentPATCHRequest(); // \Jiwa\Model\InventoryDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryDocumentPATCHRequestInventoryIDDocumentsDocumentIDUpdate($accept, $inventory_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -4838,11 +4838,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDocumentPATCHRequest**](../Model/InventoryDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDocumentPATCHRequest**](../Model/InventoryDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -4856,7 +4856,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentPOSTRequestInventoryIDDocumentsPost**
-> \Jiwa\JiwaModel\Document inventoryDocumentPOSTRequestInventoryIDDocumentsPost($accept, $inventory_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document inventoryDocumentPOSTRequestInventoryIDDocumentsPost($accept, $inventory_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to an inventory item.
 
@@ -4893,7 +4893,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryDocumentPOSTRequest(); // \Jiwa\JiwaModel\InventoryDocumentPOSTRequest | 
+$body = new \Jiwa\Model\InventoryDocumentPOSTRequest(); // \Jiwa\Model\InventoryDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryDocumentPOSTRequestInventoryIDDocumentsPost($accept, $inventory_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -4922,11 +4922,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDocumentPOSTRequest**](../Model/InventoryDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDocumentPOSTRequest**](../Model/InventoryDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -4940,7 +4940,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object inventoryDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes an inventory document type.
 
@@ -4986,7 +4986,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -5000,7 +5000,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType inventoryDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType inventoryDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves an inventory document type.
 
@@ -5046,7 +5046,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -5060,7 +5060,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType inventoryDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType inventoryDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates an inventory document type.
 
@@ -5089,7 +5089,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\InventoryDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\InventoryDocumentTypePATCHRequest(); // \Jiwa\Model\InventoryDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -5110,11 +5110,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDocumentTypePATCHRequest**](../Model/InventoryDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDocumentTypePATCHRequest**](../Model/InventoryDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -5128,7 +5128,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType inventoryDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType inventoryDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new inventory document type.
 
@@ -5156,7 +5156,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\InventoryDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\InventoryDocumentTypePOSTRequest(); // \Jiwa\Model\InventoryDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -5176,11 +5176,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryDocumentTypePOSTRequest**](../Model/InventoryDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryDocumentTypePOSTRequest**](../Model/InventoryDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -5194,7 +5194,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] inventoryDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] inventoryDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of inventory document types.
 
@@ -5238,7 +5238,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -5252,7 +5252,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryDocumentsGETManyRequestInventoryIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] inventoryDocumentsGETManyRequestInventoryIDDocumentsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] inventoryDocumentsGETManyRequestInventoryIDDocumentsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory documents.
 
@@ -5298,7 +5298,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -5312,7 +5312,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryGETRequestInventoryIDGet**
-> \Jiwa\JiwaModel\InventoryItem inventoryGETRequestInventoryIDGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryItem inventoryGETRequestInventoryIDGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves an inventory item.
 
@@ -5358,7 +5358,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryItem**](../Model/InventoryItem.md)
+[**\Jiwa\Model\InventoryItem**](../Model/InventoryItem.md)
 
 ### Authorization
 
@@ -5372,7 +5372,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryLedgerGETRequestInventoryIDLedgersNameGet**
-> \Jiwa\JiwaModel\InventoryLedger inventoryLedgerGETRequestInventoryIDLedgersNameGet($accept, $inventory_id, $name, $jiwa_stateful)
+> \Jiwa\Model\InventoryLedger inventoryLedgerGETRequestInventoryIDLedgersNameGet($accept, $inventory_id, $name, $jiwa_stateful)
 
 Retrieves an inventory ledger.
 
@@ -5420,7 +5420,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryLedger**](../Model/InventoryLedger.md)
+[**\Jiwa\Model\InventoryLedger**](../Model/InventoryLedger.md)
 
 ### Authorization
 
@@ -5434,7 +5434,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryLedgerPATCHRequestInventoryIDLedgersNameUpdate**
-> \Jiwa\JiwaModel\InventoryLedger inventoryLedgerPATCHRequestInventoryIDLedgersNameUpdate($accept, $inventory_id, $name, $jiwa_stateful, $ledger_id, $ledger_account_id, $ledger_account_no, $ledger_account_description, $body)
+> \Jiwa\Model\InventoryLedger inventoryLedgerPATCHRequestInventoryIDLedgersNameUpdate($accept, $inventory_id, $name, $jiwa_stateful, $ledger_id, $ledger_account_id, $ledger_account_no, $ledger_account_description, $body)
 
 Updates a inventory ledger.
 
@@ -5465,7 +5465,7 @@ $ledger_id = "ledger_id_example"; // string |
 $ledger_account_id = "ledger_account_id_example"; // string | 
 $ledger_account_no = "ledger_account_no_example"; // string | 
 $ledger_account_description = "ledger_account_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryLedgerPATCHRequest(); // \Jiwa\JiwaModel\InventoryLedgerPATCHRequest | 
+$body = new \Jiwa\Model\InventoryLedgerPATCHRequest(); // \Jiwa\Model\InventoryLedgerPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryLedgerPATCHRequestInventoryIDLedgersNameUpdate($accept, $inventory_id, $name, $jiwa_stateful, $ledger_id, $ledger_account_id, $ledger_account_no, $ledger_account_description, $body);
@@ -5488,11 +5488,11 @@ Name | Type | Description  | Notes
  **ledger_account_id** | **string**|  | [optional]
  **ledger_account_no** | **string**|  | [optional]
  **ledger_account_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryLedgerPATCHRequest**](../Model/InventoryLedgerPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryLedgerPATCHRequest**](../Model/InventoryLedgerPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryLedger**](../Model/InventoryLedger.md)
+[**\Jiwa\Model\InventoryLedger**](../Model/InventoryLedger.md)
 
 ### Authorization
 
@@ -5506,7 +5506,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryLedgersGETManyRequestInventoryIDLedgersGet**
-> \Jiwa\JiwaModel\InventoryLedger[] inventoryLedgersGETManyRequestInventoryIDLedgersGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryLedger[] inventoryLedgersGETManyRequestInventoryIDLedgersGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory ledgers.
 
@@ -5552,7 +5552,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryLedger[]**](../Model/InventoryLedger.md)
+[**\Jiwa\Model\InventoryLedger[]**](../Model/InventoryLedger.md)
 
 ### Authorization
 
@@ -5566,7 +5566,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteDELETERequestInventoryIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object inventoryNoteDELETERequestInventoryIDNotesNoteIDDelete($accept, $inventory_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryNoteDELETERequestInventoryIDNotesNoteIDDelete($accept, $inventory_id, $note_id, $jiwa_stateful)
 
 Deletes an inventory note.
 
@@ -5614,7 +5614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -5628,7 +5628,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteGETRequestInventoryIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note inventoryNoteGETRequestInventoryIDNotesNoteIDGet($accept, $inventory_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note inventoryNoteGETRequestInventoryIDNotesNoteIDGet($accept, $inventory_id, $note_id, $jiwa_stateful)
 
 Retrieves an inventory note.
 
@@ -5676,7 +5676,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -5690,7 +5690,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNotePATCHRequestInventoryIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note inventoryNotePATCHRequestInventoryIDNotesNoteIDUpdate($accept, $inventory_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note inventoryNotePATCHRequestInventoryIDNotesNoteIDUpdate($accept, $inventory_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates an inventory note.
 
@@ -5726,7 +5726,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryNotePATCHRequest(); // \Jiwa\JiwaModel\InventoryNotePATCHRequest | 
+$body = new \Jiwa\Model\InventoryNotePATCHRequest(); // \Jiwa\Model\InventoryNotePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryNotePATCHRequestInventoryIDNotesNoteIDUpdate($accept, $inventory_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -5754,11 +5754,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryNotePATCHRequest**](../Model/InventoryNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryNotePATCHRequest**](../Model/InventoryNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -5772,7 +5772,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNotePOSTRequestInventoryIDNotesPost**
-> \Jiwa\JiwaModel\Note inventoryNotePOSTRequestInventoryIDNotesPost($accept, $inventory_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note inventoryNotePOSTRequestInventoryIDNotesPost($accept, $inventory_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to an inventory item.
 
@@ -5807,7 +5807,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryNotePOSTRequest(); // \Jiwa\JiwaModel\InventoryNotePOSTRequest | 
+$body = new \Jiwa\Model\InventoryNotePOSTRequest(); // \Jiwa\Model\InventoryNotePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryNotePOSTRequestInventoryIDNotesPost($accept, $inventory_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -5834,11 +5834,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryNotePOSTRequest**](../Model/InventoryNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryNotePOSTRequest**](../Model/InventoryNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -5852,7 +5852,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object inventoryNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes an inventory note type.
 
@@ -5898,7 +5898,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -5912,7 +5912,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType inventoryNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType inventoryNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves an inventory note type.
 
@@ -5958,7 +5958,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -5972,7 +5972,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType inventoryNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType inventoryNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates an inventory note type.
 
@@ -6001,7 +6001,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryNoteTypePATCHRequest(); // \Jiwa\JiwaModel\InventoryNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\InventoryNoteTypePATCHRequest(); // \Jiwa\Model\InventoryNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -6022,11 +6022,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryNoteTypePATCHRequest**](../Model/InventoryNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryNoteTypePATCHRequest**](../Model/InventoryNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -6040,7 +6040,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType inventoryNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType inventoryNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new inventory note type.
 
@@ -6068,7 +6068,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryNoteTypePOSTRequest(); // \Jiwa\JiwaModel\InventoryNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\InventoryNoteTypePOSTRequest(); // \Jiwa\Model\InventoryNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -6088,11 +6088,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryNoteTypePOSTRequest**](../Model/InventoryNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryNoteTypePOSTRequest**](../Model/InventoryNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -6106,7 +6106,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] inventoryNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] inventoryNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of inventory note types.
 
@@ -6150,7 +6150,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -6164,7 +6164,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryNotesGETManyRequestInventoryIDNotesGet**
-> \Jiwa\JiwaModel\Note[] inventoryNotesGETManyRequestInventoryIDNotesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] inventoryNotesGETManyRequestInventoryIDNotesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory notes.
 
@@ -6210,7 +6210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -6224,7 +6224,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOrderLevelGETRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoGet**
-> \Jiwa\JiwaModel\InventoryOrderLevel inventoryOrderLevelGETRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoGet($accept, $logical_warehouse_id, $inventory_id, $period_no, $jiwa_stateful)
+> \Jiwa\Model\InventoryOrderLevel inventoryOrderLevelGETRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoGet($accept, $logical_warehouse_id, $inventory_id, $period_no, $jiwa_stateful)
 
 Retrieves a order level from an inventory item for a particular logical warehouse.
 
@@ -6274,7 +6274,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOrderLevel**](../Model/InventoryOrderLevel.md)
+[**\Jiwa\Model\InventoryOrderLevel**](../Model/InventoryOrderLevel.md)
 
 ### Authorization
 
@@ -6288,7 +6288,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOrderLevelPATCHRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoUpdate**
-> \Jiwa\JiwaModel\InventoryOrderLevel inventoryOrderLevelPATCHRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoUpdate($accept, $logical_warehouse_id, $inventory_id, $period_no, $jiwa_stateful, $month_start_date, $month_end_date, $min_soh_units, $min_safety_soh_units, $max_safety_soh_units, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
+> \Jiwa\Model\InventoryOrderLevel inventoryOrderLevelPATCHRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoUpdate($accept, $logical_warehouse_id, $inventory_id, $period_no, $jiwa_stateful, $month_start_date, $month_end_date, $min_soh_units, $min_safety_soh_units, $max_safety_soh_units, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
 
 Updates an order level.
 
@@ -6324,7 +6324,7 @@ $max_safety_soh_units = 1.2; // double |
 $logical_warehouse_description = "logical_warehouse_description_example"; // string | 
 $physical_warehouse_id = "physical_warehouse_id_example"; // string | 
 $physical_warehouse_description = "physical_warehouse_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryOrderLevelPATCHRequest(); // \Jiwa\JiwaModel\InventoryOrderLevelPATCHRequest | 
+$body = new \Jiwa\Model\InventoryOrderLevelPATCHRequest(); // \Jiwa\Model\InventoryOrderLevelPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryOrderLevelPATCHRequestInventoryIDOrderLevelsLogicalWarehouseIDPeriodsPeriodNoUpdate($accept, $logical_warehouse_id, $inventory_id, $period_no, $jiwa_stateful, $month_start_date, $month_end_date, $min_soh_units, $min_safety_soh_units, $max_safety_soh_units, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body);
@@ -6352,11 +6352,11 @@ Name | Type | Description  | Notes
  **logical_warehouse_description** | **string**|  | [optional]
  **physical_warehouse_id** | **string**|  | [optional]
  **physical_warehouse_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryOrderLevelPATCHRequest**](../Model/InventoryOrderLevelPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryOrderLevelPATCHRequest**](../Model/InventoryOrderLevelPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOrderLevel**](../Model/InventoryOrderLevel.md)
+[**\Jiwa\Model\InventoryOrderLevel**](../Model/InventoryOrderLevel.md)
 
 ### Authorization
 
@@ -6370,7 +6370,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOrderLevelsGETManyRequestInventoryIDOrderLevelsGet**
-> \Jiwa\JiwaModel\InventoryOrderLevel[] inventoryOrderLevelsGETManyRequestInventoryIDOrderLevelsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryOrderLevel[] inventoryOrderLevelsGETManyRequestInventoryIDOrderLevelsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of order levels for an inventory item.
 
@@ -6416,7 +6416,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOrderLevel[]**](../Model/InventoryOrderLevel.md)
+[**\Jiwa\Model\InventoryOrderLevel[]**](../Model/InventoryOrderLevel.md)
 
 ### Authorization
 
@@ -6430,7 +6430,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOtherDescriptionDELETERequestInventoryIDOtherDescriptionsOtherDescriptionIDDelete**
-> \Jiwa\JiwaModel\Object inventoryOtherDescriptionDELETERequestInventoryIDOtherDescriptionsOtherDescriptionIDDelete($accept, $inventory_id, $other_description_id, $jiwa_stateful, $description)
+> \Jiwa\Model\Object inventoryOtherDescriptionDELETERequestInventoryIDOtherDescriptionsOtherDescriptionIDDelete($accept, $inventory_id, $other_description_id, $jiwa_stateful, $description)
 
 Deletes an inventory other description.
 
@@ -6480,7 +6480,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -6494,7 +6494,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOtherDescriptionGETRequestInventoryIDOtherDescriptionsOtherDescriptionIDGet**
-> \Jiwa\JiwaModel\InventoryOtherDescription inventoryOtherDescriptionGETRequestInventoryIDOtherDescriptionsOtherDescriptionIDGet($accept, $inventory_id, $other_description_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryOtherDescription inventoryOtherDescriptionGETRequestInventoryIDOtherDescriptionsOtherDescriptionIDGet($accept, $inventory_id, $other_description_id, $jiwa_stateful)
 
 Retrieves an inventory other description.
 
@@ -6542,7 +6542,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
+[**\Jiwa\Model\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
 
 ### Authorization
 
@@ -6556,7 +6556,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOtherDescriptionPATCHRequestInventoryIDOtherDescriptionsOtherDescriptionIDUpdate**
-> \Jiwa\JiwaModel\InventoryOtherDescription inventoryOtherDescriptionPATCHRequestInventoryIDOtherDescriptionsOtherDescriptionIDUpdate($accept, $inventory_id, $other_description_id, $jiwa_stateful, $description, $body)
+> \Jiwa\Model\InventoryOtherDescription inventoryOtherDescriptionPATCHRequestInventoryIDOtherDescriptionsOtherDescriptionIDUpdate($accept, $inventory_id, $other_description_id, $jiwa_stateful, $description, $body)
 
 Updates an inventory other description.
 
@@ -6584,7 +6584,7 @@ $inventory_id = "inventory_id_example"; // string |
 $other_description_id = "other_description_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryOtherDescriptionPATCHRequest(); // \Jiwa\JiwaModel\InventoryOtherDescriptionPATCHRequest | 
+$body = new \Jiwa\Model\InventoryOtherDescriptionPATCHRequest(); // \Jiwa\Model\InventoryOtherDescriptionPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryOtherDescriptionPATCHRequestInventoryIDOtherDescriptionsOtherDescriptionIDUpdate($accept, $inventory_id, $other_description_id, $jiwa_stateful, $description, $body);
@@ -6604,11 +6604,11 @@ Name | Type | Description  | Notes
  **other_description_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryOtherDescriptionPATCHRequest**](../Model/InventoryOtherDescriptionPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryOtherDescriptionPATCHRequest**](../Model/InventoryOtherDescriptionPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
+[**\Jiwa\Model\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
 
 ### Authorization
 
@@ -6622,7 +6622,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOtherDescriptionPOSTRequestInventoryIDOtherDescriptionsPost**
-> \Jiwa\JiwaModel\InventoryOtherDescription inventoryOtherDescriptionPOSTRequestInventoryIDOtherDescriptionsPost($accept, $inventory_id, $jiwa_stateful, $description, $body)
+> \Jiwa\Model\InventoryOtherDescription inventoryOtherDescriptionPOSTRequestInventoryIDOtherDescriptionsPost($accept, $inventory_id, $jiwa_stateful, $description, $body)
 
 Appends an other description to an inventory item.
 
@@ -6649,7 +6649,7 @@ $accept = "accept_example"; // string | Accept Header
 $inventory_id = "inventory_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryOtherDescriptionPOSTRequest(); // \Jiwa\JiwaModel\InventoryOtherDescriptionPOSTRequest | 
+$body = new \Jiwa\Model\InventoryOtherDescriptionPOSTRequest(); // \Jiwa\Model\InventoryOtherDescriptionPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryOtherDescriptionPOSTRequestInventoryIDOtherDescriptionsPost($accept, $inventory_id, $jiwa_stateful, $description, $body);
@@ -6668,11 +6668,11 @@ Name | Type | Description  | Notes
  **inventory_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryOtherDescriptionPOSTRequest**](../Model/InventoryOtherDescriptionPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryOtherDescriptionPOSTRequest**](../Model/InventoryOtherDescriptionPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
+[**\Jiwa\Model\InventoryOtherDescription**](../Model/InventoryOtherDescription.md)
 
 ### Authorization
 
@@ -6686,7 +6686,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryOtherDescriptionsGETManyRequestInventoryIDOtherDescriptionsGet**
-> \Jiwa\JiwaModel\InventoryOtherDescription[] inventoryOtherDescriptionsGETManyRequestInventoryIDOtherDescriptionsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryOtherDescription[] inventoryOtherDescriptionsGETManyRequestInventoryIDOtherDescriptionsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory other descriptions.
 
@@ -6732,7 +6732,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryOtherDescription[]**](../Model/InventoryOtherDescription.md)
+[**\Jiwa\Model\InventoryOtherDescription[]**](../Model/InventoryOtherDescription.md)
 
 ### Authorization
 
@@ -6746,7 +6746,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPATCHRequestInventoryIDUpdate**
-> \Jiwa\JiwaModel\InventoryItem inventoryPATCHRequestInventoryIDUpdate($accept, $inventory_id, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $last_saved_date_time, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body)
+> \Jiwa\Model\InventoryItem inventoryPATCHRequestInventoryIDUpdate($accept, $inventory_id, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $last_saved_date_time, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body)
 
 Updates an inventory item.
 
@@ -6854,7 +6854,7 @@ $selling_prices = "selling_prices_example"; // string |
 $up_sells = "up_sells_example"; // string | 
 $attribute_groups = "attribute_groups_example"; // string | 
 $unit_of_measures = "unit_of_measures_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryPATCHRequest(); // \Jiwa\JiwaModel\InventoryPATCHRequest | 
+$body = new \Jiwa\Model\InventoryPATCHRequest(); // \Jiwa\Model\InventoryPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryPATCHRequestInventoryIDUpdate($accept, $inventory_id, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $last_saved_date_time, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body);
@@ -6954,11 +6954,11 @@ Name | Type | Description  | Notes
  **up_sells** | **string**|  | [optional]
  **attribute_groups** | **string**|  | [optional]
  **unit_of_measures** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryPATCHRequest**](../Model/InventoryPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryPATCHRequest**](../Model/InventoryPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryItem**](../Model/InventoryItem.md)
+[**\Jiwa\Model\InventoryItem**](../Model/InventoryItem.md)
 
 ### Authorization
 
@@ -6972,7 +6972,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPOSTRequestPost**
-> \Jiwa\JiwaModel\InventoryItem inventoryPOSTRequestPost($accept, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body)
+> \Jiwa\Model\InventoryItem inventoryPOSTRequestPost($accept, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body)
 
 Creates an inventory item.
 
@@ -7078,7 +7078,7 @@ $selling_prices = "selling_prices_example"; // string |
 $up_sells = "up_sells_example"; // string | 
 $attribute_groups = "attribute_groups_example"; // string | 
 $unit_of_measures = "unit_of_measures_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryPOSTRequest(); // \Jiwa\JiwaModel\InventoryPOSTRequest | 
+$body = new \Jiwa\Model\InventoryPOSTRequest(); // \Jiwa\Model\InventoryPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryPOSTRequestPost($accept, $jiwa_stateful, $physical_item, $ship_with_physical_item, $discountable, $direct_tax, $status, $default_price, $rrp_price, $l_cost, $s_cost, $decimal_places, $minimum_gp, $weight, $cubic, $use_serial_no, $back_orderable, $sales_man_cost, $secondary_cost, $bom_object, $use_expiry_date, $use_standard_cost, $standard_cost, $web_enabled, $sell_price_inc_tax, $style, $colour, $size, $part_encode_order, $part_no, $picture, $description, $unit_measure, $classification, $category1, $category2, $category3, $category4, $category5, $aux1, $aux2, $aux3, $aux4, $aux5, $gst_inwards_id, $gst_inwards_description, $gst_inwards_rate, $gst_outwards_id, $gst_outwards_description, $gst_outwards_rate, $gst_adjustments_inid, $gst_adjustments_in_description, $gst_adjustments_in_rate, $gst_adjustments_outid, $gst_adjustments_out_description, $gst_adjustments_out_rate, $matrix_description, $pricing_group_id, $pricing_group_description, $inventory_ledgers, $notes, $documents, $custom_field_values, $regions, $debtor_prices, $debtor_class_prices, $debtor_price_group_inventory_specific_prices, $alternate_children, $alternate_parents, $components, $warehouse_so_hs, $debtor_part_numbers, $group_memberships, $other_descriptions, $order_levels, $budgets, $logical_orders, $default_bin_locations, $product_availabilities, $selling_prices, $up_sells, $attribute_groups, $unit_of_measures, $body);
@@ -7176,11 +7176,11 @@ Name | Type | Description  | Notes
  **up_sells** | **string**|  | [optional]
  **attribute_groups** | **string**|  | [optional]
  **unit_of_measures** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryPOSTRequest**](../Model/InventoryPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryPOSTRequest**](../Model/InventoryPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryItem**](../Model/InventoryItem.md)
+[**\Jiwa\Model\InventoryItem**](../Model/InventoryItem.md)
 
 ### Authorization
 
@@ -7194,7 +7194,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPriceGETRequestInventoryIDPricingDebtorIDINLogicalIDDateQuantityGet**
-> \Jiwa\JiwaModel\InventoryPriceGETResponse inventoryPriceGETRequestInventoryIDPricingDebtorIDINLogicalIDDateQuantityGet($accept, $inventory_id, $debtor_id, $in_logical_id, $date, $quantity, $jiwa_stateful)
+> \Jiwa\Model\InventoryPriceGETResponse inventoryPriceGETRequestInventoryIDPricingDebtorIDINLogicalIDDateQuantityGet($accept, $inventory_id, $debtor_id, $in_logical_id, $date, $quantity, $jiwa_stateful)
 
 Retrieves a price for a product, for a debtor, warehouse, date and quantity
 
@@ -7248,7 +7248,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryPriceGETResponse**](../Model/InventoryPriceGETResponse.md)
+[**\Jiwa\Model\InventoryPriceGETResponse**](../Model/InventoryPriceGETResponse.md)
 
 ### Authorization
 
@@ -7262,7 +7262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete**
-> \Jiwa\JiwaModel\Object inventoryPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete($accept, $pricing_group_id, $jiwa_stateful)
+> \Jiwa\Model\Object inventoryPricingGroupDELETERequestPricingGroupsPricingGroupIDDelete($accept, $pricing_group_id, $jiwa_stateful)
 
 Deletes an inventory pricing group.
 
@@ -7308,7 +7308,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -7322,7 +7322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPricingGroupGETRequestPricingGroupsPricingGroupIDGet**
-> \Jiwa\JiwaModel\InventoryPricingGroup inventoryPricingGroupGETRequestPricingGroupsPricingGroupIDGet($accept, $pricing_group_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryPricingGroup inventoryPricingGroupGETRequestPricingGroupsPricingGroupIDGet($accept, $pricing_group_id, $jiwa_stateful)
 
 Retrieves an inventory pricing group.
 
@@ -7368,7 +7368,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
+[**\Jiwa\Model\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
 
 ### Authorization
 
@@ -7382,7 +7382,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate**
-> \Jiwa\JiwaModel\InventoryPricingGroup inventoryPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body)
+> \Jiwa\Model\InventoryPricingGroup inventoryPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body)
 
 Updates an inventory pricing group.
 
@@ -7411,7 +7411,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $is_default = true; // bool | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\InventoryPricingGroupPATCHRequest(); // \Jiwa\JiwaModel\InventoryPricingGroupPATCHRequest | 
+$body = new \Jiwa\Model\InventoryPricingGroupPATCHRequest(); // \Jiwa\Model\InventoryPricingGroupPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryPricingGroupPATCHRequestPricingGroupsPricingGroupIDUpdate($accept, $pricing_group_id, $jiwa_stateful, $description, $is_default, $last_saved_date_time, $body);
@@ -7432,11 +7432,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryPricingGroupPATCHRequest**](../Model/InventoryPricingGroupPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryPricingGroupPATCHRequest**](../Model/InventoryPricingGroupPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
+[**\Jiwa\Model\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
 
 ### Authorization
 
@@ -7450,7 +7450,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPricingGroupPOSTRequestPricingGroupsPost**
-> \Jiwa\JiwaModel\InventoryPricingGroup inventoryPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body)
+> \Jiwa\Model\InventoryPricingGroup inventoryPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body)
 
 Creates a new inventory pricing group.
 
@@ -7477,7 +7477,7 @@ $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $is_default = true; // bool | 
-$body = new \Jiwa\JiwaModel\InventoryPricingGroupPOSTRequest(); // \Jiwa\JiwaModel\InventoryPricingGroupPOSTRequest | 
+$body = new \Jiwa\Model\InventoryPricingGroupPOSTRequest(); // \Jiwa\Model\InventoryPricingGroupPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryPricingGroupPOSTRequestPricingGroupsPost($accept, $jiwa_stateful, $description, $is_default, $body);
@@ -7496,11 +7496,11 @@ Name | Type | Description  | Notes
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **description** | **string**|  | [optional]
  **is_default** | **bool**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryPricingGroupPOSTRequest**](../Model/InventoryPricingGroupPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryPricingGroupPOSTRequest**](../Model/InventoryPricingGroupPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
+[**\Jiwa\Model\InventoryPricingGroup**](../Model/InventoryPricingGroup.md)
 
 ### Authorization
 
@@ -7514,7 +7514,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryPricingGroupsGETManyRequestPricingGroupsGet**
-> \Jiwa\JiwaModel\InventoryPricingGroup[] inventoryPricingGroupsGETManyRequestPricingGroupsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\InventoryPricingGroup[] inventoryPricingGroupsGETManyRequestPricingGroupsGet($accept, $jiwa_stateful)
 
 Retrieves a list of inventory pricing groups.
 
@@ -7558,7 +7558,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryPricingGroup[]**](../Model/InventoryPricingGroup.md)
+[**\Jiwa\Model\InventoryPricingGroup[]**](../Model/InventoryPricingGroup.md)
 
 ### Authorization
 
@@ -7572,7 +7572,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryProductAvailabilitiesGETManyRequestInventoryIDProductAvailabilitiesGet**
-> \Jiwa\JiwaModel\InventoryProductAvailability[] inventoryProductAvailabilitiesGETManyRequestInventoryIDProductAvailabilitiesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryProductAvailability[] inventoryProductAvailabilitiesGETManyRequestInventoryIDProductAvailabilitiesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of product availabilities for an inventory item.
 
@@ -7618,7 +7618,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryProductAvailability[]**](../Model/InventoryProductAvailability.md)
+[**\Jiwa\Model\InventoryProductAvailability[]**](../Model/InventoryProductAvailability.md)
 
 ### Authorization
 
@@ -7632,7 +7632,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryProductAvailabilityGETRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDGet**
-> \Jiwa\JiwaModel\InventoryProductAvailability inventoryProductAvailabilityGETRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDGet($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryProductAvailability inventoryProductAvailabilityGETRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDGet($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful)
 
 Retrieves a product availability from an inventory item.
 
@@ -7680,7 +7680,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryProductAvailability**](../Model/InventoryProductAvailability.md)
+[**\Jiwa\Model\InventoryProductAvailability**](../Model/InventoryProductAvailability.md)
 
 ### Authorization
 
@@ -7694,7 +7694,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryProductAvailabilityPATCHRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDUpdate**
-> \Jiwa\JiwaModel\InventoryProductAvailability inventoryProductAvailabilityPATCHRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $available, $product_availability_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
+> \Jiwa\Model\InventoryProductAvailability inventoryProductAvailabilityPATCHRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $available, $product_availability_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body)
 
 Updates a product availability.
 
@@ -7726,7 +7726,7 @@ $product_availability_id = "product_availability_id_example"; // string |
 $logical_warehouse_description = "logical_warehouse_description_example"; // string | 
 $physical_warehouse_id = "physical_warehouse_id_example"; // string | 
 $physical_warehouse_description = "physical_warehouse_description_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryProductAvailabilityPATCHRequest(); // \Jiwa\JiwaModel\InventoryProductAvailabilityPATCHRequest | 
+$body = new \Jiwa\Model\InventoryProductAvailabilityPATCHRequest(); // \Jiwa\Model\InventoryProductAvailabilityPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryProductAvailabilityPATCHRequestInventoryIDProductAvailabilitiesLogicalWarehouseIDUpdate($accept, $inventory_id, $logical_warehouse_id, $jiwa_stateful, $available, $product_availability_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $body);
@@ -7750,11 +7750,11 @@ Name | Type | Description  | Notes
  **logical_warehouse_description** | **string**|  | [optional]
  **physical_warehouse_id** | **string**|  | [optional]
  **physical_warehouse_description** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryProductAvailabilityPATCHRequest**](../Model/InventoryProductAvailabilityPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryProductAvailabilityPATCHRequest**](../Model/InventoryProductAvailabilityPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryProductAvailability**](../Model/InventoryProductAvailability.md)
+[**\Jiwa\Model\InventoryProductAvailability**](../Model/InventoryProductAvailability.md)
 
 ### Authorization
 
@@ -7768,7 +7768,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryRegionGETRequestInventoryIDRegionsRegionNameGet**
-> \Jiwa\JiwaModel\InventoryRegion inventoryRegionGETRequestInventoryIDRegionsRegionNameGet($accept, $inventory_id, $region_name, $jiwa_stateful)
+> \Jiwa\Model\InventoryRegion inventoryRegionGETRequestInventoryIDRegionsRegionNameGet($accept, $inventory_id, $region_name, $jiwa_stateful)
 
 Retrieves an inventory region.
 
@@ -7816,7 +7816,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryRegion**](../Model/InventoryRegion.md)
+[**\Jiwa\Model\InventoryRegion**](../Model/InventoryRegion.md)
 
 ### Authorization
 
@@ -7830,7 +7830,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryRegionPATCHRequestInventoryIDRegionsRegionNameUpdate**
-> \Jiwa\JiwaModel\InventoryRegion inventoryRegionPATCHRequestInventoryIDRegionsRegionNameUpdate($accept, $inventory_id, $region_name, $jiwa_stateful, $region_supplier_ordering_id, $order_enabled, $region_id, $suppliers, $body)
+> \Jiwa\Model\InventoryRegion inventoryRegionPATCHRequestInventoryIDRegionsRegionNameUpdate($accept, $inventory_id, $region_name, $jiwa_stateful, $region_supplier_ordering_id, $order_enabled, $region_id, $suppliers, $body)
 
 Updates a inventory region.
 
@@ -7861,7 +7861,7 @@ $region_supplier_ordering_id = "region_supplier_ordering_id_example"; // string 
 $order_enabled = true; // bool | 
 $region_id = "region_id_example"; // string | 
 $suppliers = "suppliers_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryRegionPATCHRequest(); // \Jiwa\JiwaModel\InventoryRegionPATCHRequest | 
+$body = new \Jiwa\Model\InventoryRegionPATCHRequest(); // \Jiwa\Model\InventoryRegionPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryRegionPATCHRequestInventoryIDRegionsRegionNameUpdate($accept, $inventory_id, $region_name, $jiwa_stateful, $region_supplier_ordering_id, $order_enabled, $region_id, $suppliers, $body);
@@ -7884,11 +7884,11 @@ Name | Type | Description  | Notes
  **order_enabled** | **bool**|  | [optional]
  **region_id** | **string**|  | [optional]
  **suppliers** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryRegionPATCHRequest**](../Model/InventoryRegionPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryRegionPATCHRequest**](../Model/InventoryRegionPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryRegion**](../Model/InventoryRegion.md)
+[**\Jiwa\Model\InventoryRegion**](../Model/InventoryRegion.md)
 
 ### Authorization
 
@@ -7902,7 +7902,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryRegionsGETManyRequestInventoryIDRegionsGet**
-> \Jiwa\JiwaModel\InventoryRegion[] inventoryRegionsGETManyRequestInventoryIDRegionsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryRegion[] inventoryRegionsGETManyRequestInventoryIDRegionsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory regions.
 
@@ -7948,7 +7948,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryRegion[]**](../Model/InventoryRegion.md)
+[**\Jiwa\Model\InventoryRegion[]**](../Model/InventoryRegion.md)
 
 ### Authorization
 
@@ -7962,7 +7962,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySAVERequestSaveGet**
-> \Jiwa\JiwaModel\InventoryItem inventorySAVERequestSaveGet($accept, $jiwa_stateful, $inventory_id)
+> \Jiwa\Model\InventoryItem inventorySAVERequestSaveGet($accept, $jiwa_stateful, $inventory_id)
 
 Saves a stateful inventory item.
 
@@ -8008,7 +8008,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryItem**](../Model/InventoryItem.md)
+[**\Jiwa\Model\InventoryItem**](../Model/InventoryItem.md)
 
 ### Authorization
 
@@ -8022,7 +8022,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySellingPriceGETRequestInventoryIDSellingPricesGet**
-> \Jiwa\JiwaModel\InventorySellingPrices inventorySellingPriceGETRequestInventoryIDSellingPricesGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventorySellingPrices inventorySellingPriceGETRequestInventoryIDSellingPricesGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves the selling prices for an inventory item.
 
@@ -8068,7 +8068,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySellingPrices**](../Model/InventorySellingPrices.md)
+[**\Jiwa\Model\InventorySellingPrices**](../Model/InventorySellingPrices.md)
 
 ### Authorization
 
@@ -8082,7 +8082,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySellingPricePATCHRequestInventoryIDSellingPricesUpdate**
-> \Jiwa\JiwaModel\InventorySellingPrices inventorySellingPricePATCHRequestInventoryIDSellingPricesUpdate($accept, $inventory_id, $jiwa_stateful, $sell_prices, $current_price_date, $forward_price_date, $body)
+> \Jiwa\Model\InventorySellingPrices inventorySellingPricePATCHRequestInventoryIDSellingPricesUpdate($accept, $inventory_id, $jiwa_stateful, $sell_prices, $current_price_date, $forward_price_date, $body)
 
 Updates the selling prices.
 
@@ -8111,7 +8111,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $sell_prices = "sell_prices_example"; // string | 
 $current_price_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $forward_price_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\InventorySellingPricePATCHRequest(); // \Jiwa\JiwaModel\InventorySellingPricePATCHRequest | 
+$body = new \Jiwa\Model\InventorySellingPricePATCHRequest(); // \Jiwa\Model\InventorySellingPricePATCHRequest | 
 
 try {
     $result = $apiInstance->inventorySellingPricePATCHRequestInventoryIDSellingPricesUpdate($accept, $inventory_id, $jiwa_stateful, $sell_prices, $current_price_date, $forward_price_date, $body);
@@ -8132,11 +8132,11 @@ Name | Type | Description  | Notes
  **sell_prices** | **string**|  | [optional]
  **current_price_date** | **\DateTime**|  | [optional]
  **forward_price_date** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventorySellingPricePATCHRequest**](../Model/InventorySellingPricePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventorySellingPricePATCHRequest**](../Model/InventorySellingPricePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySellingPrices**](../Model/InventorySellingPrices.md)
+[**\Jiwa\Model\InventorySellingPrices**](../Model/InventorySellingPrices.md)
 
 ### Authorization
 
@@ -8150,7 +8150,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDDelete**
-> \Jiwa\JiwaModel\Object inventorySupplierDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDDelete($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks)
+> \Jiwa\Model\Object inventorySupplierDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDDelete($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks)
 
 Deletes an inventory item supplier.
 
@@ -8238,7 +8238,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -8252,7 +8252,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDGet**
-> \Jiwa\JiwaModel\InventorySupplier inventorySupplierGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDGet($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful)
+> \Jiwa\Model\InventorySupplier inventorySupplierGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDGet($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful)
 
 Retrieves an inventory item supplier.
 
@@ -8302,7 +8302,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplier**](../Model/InventorySupplier.md)
+[**\Jiwa\Model\InventorySupplier**](../Model/InventorySupplier.md)
 
 ### Authorization
 
@@ -8316,7 +8316,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierPATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDUpdate**
-> \Jiwa\JiwaModel\InventorySupplier inventorySupplierPATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body)
+> \Jiwa\Model\InventorySupplier inventorySupplierPATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body)
 
 Updates an inventory item supplier.
 
@@ -8363,7 +8363,7 @@ $spare_string3 = "spare_string3_example"; // string |
 $custom_field_values = "custom_field_values_example"; // string | 
 $supplier_warehouses = "supplier_warehouses_example"; // string | 
 $supplier_quantity_price_breaks = "supplier_quantity_price_breaks_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventorySupplierPATCHRequest(); // \Jiwa\JiwaModel\InventorySupplierPATCHRequest | 
+$body = new \Jiwa\Model\InventorySupplierPATCHRequest(); // \Jiwa\Model\InventorySupplierPATCHRequest | 
 
 try {
     $result = $apiInstance->inventorySupplierPATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body);
@@ -8402,11 +8402,11 @@ Name | Type | Description  | Notes
  **custom_field_values** | **string**|  | [optional]
  **supplier_warehouses** | **string**|  | [optional]
  **supplier_quantity_price_breaks** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventorySupplierPATCHRequest**](../Model/InventorySupplierPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventorySupplierPATCHRequest**](../Model/InventorySupplierPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplier**](../Model/InventorySupplier.md)
+[**\Jiwa\Model\InventorySupplier**](../Model/InventorySupplier.md)
 
 ### Authorization
 
@@ -8420,7 +8420,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierPOSTRequestInventoryIDRegionsRegionNameSuppliersPost**
-> \Jiwa\JiwaModel\InventorySupplier inventorySupplierPOSTRequestInventoryIDRegionsRegionNameSuppliersPost($accept, $inventory_id, $region_name, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body)
+> \Jiwa\Model\InventorySupplier inventorySupplierPOSTRequestInventoryIDRegionsRegionNameSuppliersPost($accept, $inventory_id, $region_name, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body)
 
 Appends a supplier to an inventory item.
 
@@ -8466,7 +8466,7 @@ $spare_string3 = "spare_string3_example"; // string |
 $custom_field_values = "custom_field_values_example"; // string | 
 $supplier_warehouses = "supplier_warehouses_example"; // string | 
 $supplier_quantity_price_breaks = "supplier_quantity_price_breaks_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventorySupplierPOSTRequest(); // \Jiwa\JiwaModel\InventorySupplierPOSTRequest | 
+$body = new \Jiwa\Model\InventorySupplierPOSTRequest(); // \Jiwa\Model\InventorySupplierPOSTRequest | 
 
 try {
     $result = $apiInstance->inventorySupplierPOSTRequestInventoryIDRegionsRegionNameSuppliersPost($accept, $inventory_id, $region_name, $jiwa_stateful, $fx_rate, $default_supplier, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_id, $creditor_account_no, $creditor_name, $supplier_part_no, $supplier_upc, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $supplier_warehouses, $supplier_quantity_price_breaks, $body);
@@ -8504,11 +8504,11 @@ Name | Type | Description  | Notes
  **custom_field_values** | **string**|  | [optional]
  **supplier_warehouses** | **string**|  | [optional]
  **supplier_quantity_price_breaks** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventorySupplierPOSTRequest**](../Model/InventorySupplierPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventorySupplierPOSTRequest**](../Model/InventorySupplierPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplier**](../Model/InventorySupplier.md)
+[**\Jiwa\Model\InventorySupplier**](../Model/InventorySupplier.md)
 
 ### Authorization
 
@@ -8522,7 +8522,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierWarehouseDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDDelete**
-> \Jiwa\JiwaModel\Object inventorySupplierWarehouseDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDDelete($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure)
+> \Jiwa\Model\Object inventorySupplierWarehouseDELETERequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDDelete($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure)
 
 Deletes a supplier warehouse from an inventory item.
 
@@ -8614,7 +8614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -8628,7 +8628,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierWarehouseGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDGet**
-> \Jiwa\JiwaModel\InventorySupplierWarehouse inventorySupplierWarehouseGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDGet($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful)
+> \Jiwa\Model\InventorySupplierWarehouse inventorySupplierWarehouseGETRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDGet($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful)
 
 Retrieves an inventory item supplier warehouse.
 
@@ -8680,7 +8680,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
+[**\Jiwa\Model\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
 
 ### Authorization
 
@@ -8694,7 +8694,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierWarehousePATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDUpdate**
-> \Jiwa\JiwaModel\InventorySupplierWarehouse inventorySupplierWarehousePATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body)
+> \Jiwa\Model\InventorySupplierWarehouse inventorySupplierWarehousePATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body)
 
 Updates a supplier warehouse for an inventory item.
 
@@ -8743,7 +8743,7 @@ $spare_string2 = "spare_string2_example"; // string |
 $spare_string3 = "spare_string3_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
 $unit_of_measure = "unit_of_measure_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventorySupplierWarehousePATCHRequest(); // \Jiwa\JiwaModel\InventorySupplierWarehousePATCHRequest | 
+$body = new \Jiwa\Model\InventorySupplierWarehousePATCHRequest(); // \Jiwa\Model\InventorySupplierWarehousePATCHRequest | 
 
 try {
     $result = $apiInstance->inventorySupplierWarehousePATCHRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesSupplierWarehouseIDUpdate($accept, $inventory_id, $region_name, $supplier_id, $supplier_warehouse_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body);
@@ -8784,11 +8784,11 @@ Name | Type | Description  | Notes
  **spare_string3** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
  **unit_of_measure** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventorySupplierWarehousePATCHRequest**](../Model/InventorySupplierWarehousePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventorySupplierWarehousePATCHRequest**](../Model/InventorySupplierWarehousePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
+[**\Jiwa\Model\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
 
 ### Authorization
 
@@ -8802,7 +8802,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierWarehousePOSTRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesPost**
-> \Jiwa\JiwaModel\InventorySupplierWarehouse inventorySupplierWarehousePOSTRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesPost($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body)
+> \Jiwa\Model\InventorySupplierWarehouse inventorySupplierWarehousePOSTRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesPost($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body)
 
 Appends a supplier warehouse to an inventory item.
 
@@ -8850,7 +8850,7 @@ $spare_string2 = "spare_string2_example"; // string |
 $spare_string3 = "spare_string3_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
 $unit_of_measure = "unit_of_measure_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventorySupplierWarehousePOSTRequest(); // \Jiwa\JiwaModel\InventorySupplierWarehousePOSTRequest | 
+$body = new \Jiwa\Model\InventorySupplierWarehousePOSTRequest(); // \Jiwa\Model\InventorySupplierWarehousePOSTRequest | 
 
 try {
     $result = $apiInstance->inventorySupplierWarehousePOSTRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesPost($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful, $default_warehouse, $home_suppliers_cost, $suppliers_cost, $suppliers_cost2, $home_suppliers_cost2, $supplier_soh, $delivery_days, $spare_float1, $spare_float2, $spare_float3, $spare_date1, $spare_date2, $spare_date3, $creditor_warehouse_id, $creditor_warehouse_description, $spare_string1, $spare_string2, $spare_string3, $custom_field_values, $unit_of_measure, $body);
@@ -8890,11 +8890,11 @@ Name | Type | Description  | Notes
  **spare_string3** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
  **unit_of_measure** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventorySupplierWarehousePOSTRequest**](../Model/InventorySupplierWarehousePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventorySupplierWarehousePOSTRequest**](../Model/InventorySupplierWarehousePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
+[**\Jiwa\Model\InventorySupplierWarehouse**](../Model/InventorySupplierWarehouse.md)
 
 ### Authorization
 
@@ -8908,7 +8908,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySupplierWarehousesGETManyRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesGet**
-> \Jiwa\JiwaModel\InventorySupplierWarehouse[] inventorySupplierWarehousesGETManyRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesGet($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful)
+> \Jiwa\Model\InventorySupplierWarehouse[] inventorySupplierWarehousesGETManyRequestInventoryIDRegionsRegionNameSuppliersSupplierIDSupplierWarehousesGet($accept, $inventory_id, $region_name, $supplier_id, $jiwa_stateful)
 
 Retrieves a list of inventory supplier warehouses.
 
@@ -8958,7 +8958,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplierWarehouse[]**](../Model/InventorySupplierWarehouse.md)
+[**\Jiwa\Model\InventorySupplierWarehouse[]**](../Model/InventorySupplierWarehouse.md)
 
 ### Authorization
 
@@ -8972,7 +8972,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventorySuppliersGETManyRequestInventoryIDRegionsRegionNameSuppliersGet**
-> \Jiwa\JiwaModel\InventorySupplier[] inventorySuppliersGETManyRequestInventoryIDRegionsRegionNameSuppliersGet($accept, $inventory_id, $region_name, $jiwa_stateful)
+> \Jiwa\Model\InventorySupplier[] inventorySuppliersGETManyRequestInventoryIDRegionsRegionNameSuppliersGet($accept, $inventory_id, $region_name, $jiwa_stateful)
 
 Retrieves a list of suppliers for a given inventory item in a particular region.
 
@@ -9020,7 +9020,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventorySupplier[]**](../Model/InventorySupplier.md)
+[**\Jiwa\Model\InventorySupplier[]**](../Model/InventorySupplier.md)
 
 ### Authorization
 
@@ -9034,7 +9034,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUnitOfMeasureDELETERequestInventoryIDUnitOfMeasuresUnitOfMeasureIDDelete**
-> \Jiwa\JiwaModel\Object inventoryUnitOfMeasureDELETERequestInventoryIDUnitOfMeasuresUnitOfMeasureIDDelete($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode)
+> \Jiwa\Model\Object inventoryUnitOfMeasureDELETERequestInventoryIDUnitOfMeasuresUnitOfMeasureIDDelete($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode)
 
 Deletes a inventory unit of measure.
 
@@ -9102,7 +9102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -9116,7 +9116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUnitOfMeasureGETRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDGet**
-> \Jiwa\JiwaModel\InventoryUnitOfMeasure inventoryUnitOfMeasureGETRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDGet($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryUnitOfMeasure inventoryUnitOfMeasureGETRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDGet($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful)
 
 Retrieves an inventory unit of measure.
 
@@ -9164,7 +9164,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
+[**\Jiwa\Model\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
 
 ### Authorization
 
@@ -9178,7 +9178,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUnitOfMeasurePATCHRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDUpdate**
-> \Jiwa\JiwaModel\InventoryUnitOfMeasure inventoryUnitOfMeasurePATCHRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDUpdate($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body)
+> \Jiwa\Model\InventoryUnitOfMeasure inventoryUnitOfMeasurePATCHRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDUpdate($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body)
 
 Updates a inventory unit of measure.
 
@@ -9215,7 +9215,7 @@ $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime
 $name = "name_example"; // string | 
 $part_no = "part_no_example"; // string | 
 $barcode = "barcode_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryUnitOfMeasurePATCHRequest(); // \Jiwa\JiwaModel\InventoryUnitOfMeasurePATCHRequest | 
+$body = new \Jiwa\Model\InventoryUnitOfMeasurePATCHRequest(); // \Jiwa\Model\InventoryUnitOfMeasurePATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryUnitOfMeasurePATCHRequestInventoryIDUnitOfMeasuresUnitOfMeasureIDUpdate($accept, $inventory_id, $unit_of_measure_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body);
@@ -9244,11 +9244,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **part_no** | **string**|  | [optional]
  **barcode** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryUnitOfMeasurePATCHRequest**](../Model/InventoryUnitOfMeasurePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryUnitOfMeasurePATCHRequest**](../Model/InventoryUnitOfMeasurePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
+[**\Jiwa\Model\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
 
 ### Authorization
 
@@ -9262,7 +9262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUnitOfMeasurePOSTRequestInventoryIDUnitOfMeasuresPost**
-> \Jiwa\JiwaModel\InventoryUnitOfMeasure inventoryUnitOfMeasurePOSTRequestInventoryIDUnitOfMeasuresPost($accept, $inventory_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body)
+> \Jiwa\Model\InventoryUnitOfMeasure inventoryUnitOfMeasurePOSTRequestInventoryIDUnitOfMeasuresPost($accept, $inventory_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body)
 
 Appends an alternate child to an inventory item.
 
@@ -9298,7 +9298,7 @@ $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime
 $name = "name_example"; // string | 
 $part_no = "part_no_example"; // string | 
 $barcode = "barcode_example"; // string | 
-$body = new \Jiwa\JiwaModel\InventoryUnitOfMeasurePOSTRequest(); // \Jiwa\JiwaModel\InventoryUnitOfMeasurePOSTRequest | 
+$body = new \Jiwa\Model\InventoryUnitOfMeasurePOSTRequest(); // \Jiwa\Model\InventoryUnitOfMeasurePOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryUnitOfMeasurePOSTRequestInventoryIDUnitOfMeasuresPost($accept, $inventory_id, $jiwa_stateful, $rec_id, $inner_unit_of_measure, $quantity_inners_per_unit_of_measure, $is_sell, $is_purchase, $item_no, $last_saved_date_time, $name, $part_no, $barcode, $body);
@@ -9326,11 +9326,11 @@ Name | Type | Description  | Notes
  **name** | **string**|  | [optional]
  **part_no** | **string**|  | [optional]
  **barcode** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryUnitOfMeasurePOSTRequest**](../Model/InventoryUnitOfMeasurePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryUnitOfMeasurePOSTRequest**](../Model/InventoryUnitOfMeasurePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
+[**\Jiwa\Model\InventoryUnitOfMeasure**](../Model/InventoryUnitOfMeasure.md)
 
 ### Authorization
 
@@ -9344,7 +9344,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUnitOfMeasuresGETManyRequestInventoryIDUnitOfMeasuresGet**
-> \Jiwa\JiwaModel\InventoryUnitOfMeasure[] inventoryUnitOfMeasuresGETManyRequestInventoryIDUnitOfMeasuresGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryUnitOfMeasure[] inventoryUnitOfMeasuresGETManyRequestInventoryIDUnitOfMeasuresGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory unit of measures.
 
@@ -9390,7 +9390,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUnitOfMeasure[]**](../Model/InventoryUnitOfMeasure.md)
+[**\Jiwa\Model\InventoryUnitOfMeasure[]**](../Model/InventoryUnitOfMeasure.md)
 
 ### Authorization
 
@@ -9404,7 +9404,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUpSellDELETERequestInventoryIDUpSellsUpSellIDDelete**
-> \Jiwa\JiwaModel\Object inventoryUpSellDELETERequestInventoryIDUpSellsUpSellIDDelete($accept, $inventory_id, $up_sell_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no)
+> \Jiwa\Model\Object inventoryUpSellDELETERequestInventoryIDUpSellsUpSellIDDelete($accept, $inventory_id, $up_sell_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no)
 
 Deletes a inventory up sell.
 
@@ -9474,7 +9474,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -9488,7 +9488,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUpSellGETRequestInventoryIDUpSellsUpSellIDGet**
-> \Jiwa\JiwaModel\InventoryUpSell inventoryUpSellGETRequestInventoryIDUpSellsUpSellIDGet($accept, $inventory_id, $up_sell_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryUpSell inventoryUpSellGETRequestInventoryIDUpSellsUpSellIDGet($accept, $inventory_id, $up_sell_id, $jiwa_stateful)
 
 Retrieves an inventory up sell.
 
@@ -9536,7 +9536,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUpSell**](../Model/InventoryUpSell.md)
+[**\Jiwa\Model\InventoryUpSell**](../Model/InventoryUpSell.md)
 
 ### Authorization
 
@@ -9550,7 +9550,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUpSellPATCHRequestInventoryIDUpSellsUpSellIDUpdate**
-> \Jiwa\JiwaModel\InventoryUpSell inventoryUpSellPATCHRequestInventoryIDUpSellsUpSellIDUpdate($accept, $inventory_id, $up_sell_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body)
+> \Jiwa\Model\InventoryUpSell inventoryUpSellPATCHRequestInventoryIDUpSellsUpSellIDUpdate($accept, $inventory_id, $up_sell_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body)
 
 Updates a inventory up sell.
 
@@ -9588,7 +9588,7 @@ $primary_category_no = 56; // int |
 $secondary_category_id = "secondary_category_id_example"; // string | 
 $secondary_category_description = "secondary_category_description_example"; // string | 
 $secondary_category_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryUpSellPATCHRequest(); // \Jiwa\JiwaModel\InventoryUpSellPATCHRequest | 
+$body = new \Jiwa\Model\InventoryUpSellPATCHRequest(); // \Jiwa\Model\InventoryUpSellPATCHRequest | 
 
 try {
     $result = $apiInstance->inventoryUpSellPATCHRequestInventoryIDUpSellsUpSellIDUpdate($accept, $inventory_id, $up_sell_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body);
@@ -9618,11 +9618,11 @@ Name | Type | Description  | Notes
  **secondary_category_id** | **string**|  | [optional]
  **secondary_category_description** | **string**|  | [optional]
  **secondary_category_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryUpSellPATCHRequest**](../Model/InventoryUpSellPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryUpSellPATCHRequest**](../Model/InventoryUpSellPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUpSell**](../Model/InventoryUpSell.md)
+[**\Jiwa\Model\InventoryUpSell**](../Model/InventoryUpSell.md)
 
 ### Authorization
 
@@ -9636,7 +9636,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUpSellPOSTRequestInventoryIDUpSellsPost**
-> \Jiwa\JiwaModel\InventoryUpSell inventoryUpSellPOSTRequestInventoryIDUpSellsPost($accept, $inventory_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body)
+> \Jiwa\Model\InventoryUpSell inventoryUpSellPOSTRequestInventoryIDUpSellsPost($accept, $inventory_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body)
 
 Appends an up sell to an inventory item.
 
@@ -9673,7 +9673,7 @@ $primary_category_no = 56; // int |
 $secondary_category_id = "secondary_category_id_example"; // string | 
 $secondary_category_description = "secondary_category_description_example"; // string | 
 $secondary_category_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\InventoryUpSellPOSTRequest(); // \Jiwa\JiwaModel\InventoryUpSellPOSTRequest | 
+$body = new \Jiwa\Model\InventoryUpSellPOSTRequest(); // \Jiwa\Model\InventoryUpSellPOSTRequest | 
 
 try {
     $result = $apiInstance->inventoryUpSellPOSTRequestInventoryIDUpSellsPost($accept, $inventory_id, $jiwa_stateful, $up_sell_quantity, $up_sell_inventory_id, $up_sell_inventory_part_no, $up_sell_inventory_description, $up_sell_description, $primary_category_id, $primary_category_description, $primary_category_no, $secondary_category_id, $secondary_category_description, $secondary_category_no, $body);
@@ -9702,11 +9702,11 @@ Name | Type | Description  | Notes
  **secondary_category_id** | **string**|  | [optional]
  **secondary_category_description** | **string**|  | [optional]
  **secondary_category_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\InventoryUpSellPOSTRequest**](../Model/InventoryUpSellPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\InventoryUpSellPOSTRequest**](../Model/InventoryUpSellPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUpSell**](../Model/InventoryUpSell.md)
+[**\Jiwa\Model\InventoryUpSell**](../Model/InventoryUpSell.md)
 
 ### Authorization
 
@@ -9720,7 +9720,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **inventoryUpSellsGETManyRequestInventoryIDUpSellsGet**
-> \Jiwa\JiwaModel\InventoryUpSell[] inventoryUpSellsGETManyRequestInventoryIDUpSellsGet($accept, $inventory_id, $jiwa_stateful)
+> \Jiwa\Model\InventoryUpSell[] inventoryUpSellsGETManyRequestInventoryIDUpSellsGet($accept, $inventory_id, $jiwa_stateful)
 
 Retrieves a list of inventory up sells.
 
@@ -9766,7 +9766,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\InventoryUpSell[]**](../Model/InventoryUpSell.md)
+[**\Jiwa\Model\InventoryUpSell[]**](../Model/InventoryUpSell.md)
 
 ### Authorization
 

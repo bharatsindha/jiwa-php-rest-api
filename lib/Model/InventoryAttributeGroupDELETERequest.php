@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,10 +60,10 @@ class InventoryAttributeGroupDELETERequest implements ModelInterface, ArrayAcces
     protected static $swaggerTypes = [
         'inventory_id' => 'string',
         'attribute_group_id' => 'string',
-        'template' => '\Jiwa\JiwaModel\InventoryAttributeGroupTemplate',
+        'template' => '\Jiwa\Model\InventoryAttributeGroupTemplate',
         'last_saved_date_time' => '\DateTime',
         'description' => 'string',
-        'attributes' => '\Jiwa\JiwaModel\InventoryAttributeGroupAttribute[]'
+        'attributes' => '\Jiwa\Model\InventoryAttributeGroupAttribute[]'
     ];
 
     /**
@@ -286,7 +286,7 @@ class InventoryAttributeGroupDELETERequest implements ModelInterface, ArrayAcces
     /**
      * Gets template
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupTemplate
+     * @return \Jiwa\Model\InventoryAttributeGroupTemplate
      */
     public function getTemplate()
     {
@@ -296,7 +296,7 @@ class InventoryAttributeGroupDELETERequest implements ModelInterface, ArrayAcces
     /**
      * Sets template
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupTemplate $template template
+     * @param \Jiwa\Model\InventoryAttributeGroupTemplate $template template
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class InventoryAttributeGroupDELETERequest implements ModelInterface, ArrayAcces
     /**
      * Gets attributes
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupAttribute[]
+     * @return \Jiwa\Model\InventoryAttributeGroupAttribute[]
      */
     public function getAttributes()
     {
@@ -368,7 +368,7 @@ class InventoryAttributeGroupDELETERequest implements ModelInterface, ArrayAcces
     /**
      * Sets attributes
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupAttribute[] $attributes attributes
+     * @param \Jiwa\Model\InventoryAttributeGroupAttribute[] $attributes attributes
      *
      * @return $this
      */

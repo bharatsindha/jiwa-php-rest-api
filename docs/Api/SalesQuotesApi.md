@@ -50,7 +50,7 @@ Method | HTTP request | Description
 
 
 # **salesQuoteABANDONRequestQuoteIDAbandonDelete**
-> \Jiwa\JiwaModel\Object salesQuoteABANDONRequestQuoteIDAbandonDelete($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteABANDONRequestQuoteIDAbandonDelete($accept, $quote_id, $jiwa_stateful)
 
 Abandons a stateful sales Quote.
 
@@ -96,7 +96,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteCustomFieldValueGETRequestQuoteIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue salesQuoteCustomFieldValueGETRequestQuoteIDCustomFieldValuesSettingIDGet($accept, $quote_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue salesQuoteCustomFieldValueGETRequestQuoteIDCustomFieldValuesSettingIDGet($accept, $quote_id, $setting_id, $jiwa_stateful)
 
 Retrieves a sales Quote custom field value.
 
@@ -158,7 +158,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -172,7 +172,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteCustomFieldValuePATCHRequestQuoteIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue salesQuoteCustomFieldValuePATCHRequestQuoteIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue salesQuoteCustomFieldValuePATCHRequestQuoteIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a sales Quote custom field value.
 
@@ -200,7 +200,7 @@ $quote_id = "quote_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteCustomFieldValuePATCHRequest(); // \Jiwa\Model\SalesQuoteCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteCustomFieldValuePATCHRequestQuoteIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -220,11 +220,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteCustomFieldValuePATCHRequest**](../Model/SalesQuoteCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteCustomFieldValuePATCHRequest**](../Model/SalesQuoteCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -238,7 +238,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteCustomFieldValuesGETManyRequestQuoteIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] salesQuoteCustomFieldValuesGETManyRequestQuoteIDCustomFieldValuesGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] salesQuoteCustomFieldValuesGETManyRequestQuoteIDCustomFieldValuesGet($accept, $quote_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a sales Quote.
 
@@ -284,7 +284,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -298,7 +298,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteCustomFieldsGETManyRequestCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] salesQuoteCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] salesQuoteCustomFieldsGETManyRequestCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales Quote custom fields.
 
@@ -342,7 +342,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -356,7 +356,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentDELETERequestQuoteIDDocumentsDocumentIDDelete**
-> \Jiwa\JiwaModel\Object salesQuoteDocumentDELETERequestQuoteIDDocumentsDocumentIDDelete($accept, $quote_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteDocumentDELETERequestQuoteIDDocumentsDocumentIDDelete($accept, $quote_id, $document_id, $jiwa_stateful)
 
 Deletes a sales Quote document.
 
@@ -404,7 +404,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -418,7 +418,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentGETRequestQuoteIDDocumentsDocumentIDGet**
-> \Jiwa\JiwaModel\Document salesQuoteDocumentGETRequestQuoteIDDocumentsDocumentIDGet($accept, $quote_id, $document_id, $jiwa_stateful)
+> \Jiwa\Model\Document salesQuoteDocumentGETRequestQuoteIDDocumentsDocumentIDGet($accept, $quote_id, $document_id, $jiwa_stateful)
 
 Retrieves a sales Quote document.
 
@@ -466,7 +466,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -480,7 +480,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentPATCHRequestQuoteIDDocumentsDocumentIDUpdate**
-> \Jiwa\JiwaModel\Document salesQuoteDocumentPATCHRequestQuoteIDDocumentsDocumentIDUpdate($accept, $quote_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document salesQuoteDocumentPATCHRequestQuoteIDDocumentsDocumentIDUpdate($accept, $quote_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Updates a sales Quote document.
 
@@ -519,7 +519,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteDocumentPATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteDocumentPATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteDocumentPATCHRequest(); // \Jiwa\Model\SalesQuoteDocumentPATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteDocumentPATCHRequestQuoteIDDocumentsDocumentIDUpdate($accept, $quote_id, $document_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -550,11 +550,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteDocumentPATCHRequest**](../Model/SalesQuoteDocumentPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteDocumentPATCHRequest**](../Model/SalesQuoteDocumentPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -568,7 +568,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentPOSTRequestQuoteIDDocumentsPost**
-> \Jiwa\JiwaModel\Document salesQuoteDocumentPOSTRequestQuoteIDDocumentsPost($accept, $quote_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
+> \Jiwa\Model\Document salesQuoteDocumentPOSTRequestQuoteIDDocumentsPost($accept, $quote_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body)
 
 Appends a document to a sales Quote.
 
@@ -605,7 +605,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $file_binary = "B"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteDocumentPOSTRequest(); // \Jiwa\JiwaModel\SalesQuoteDocumentPOSTRequest | 
+$body = new \Jiwa\Model\SalesQuoteDocumentPOSTRequest(); // \Jiwa\Model\SalesQuoteDocumentPOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuoteDocumentPOSTRequestQuoteIDDocumentsPost($accept, $quote_id, $jiwa_stateful, $document_type, $file_id, $physical_file_name, $full_physical_file_name, $description, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $file_binary, $body);
@@ -634,11 +634,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **file_binary** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteDocumentPOSTRequest**](../Model/SalesQuoteDocumentPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteDocumentPOSTRequest**](../Model/SalesQuoteDocumentPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document**](../Model/Document.md)
+[**\Jiwa\Model\Document**](../Model/Document.md)
 
 ### Authorization
 
@@ -652,7 +652,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete**
-> \Jiwa\JiwaModel\Object salesQuoteDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteDocumentTypeDELETERequestDocumentTypesDocumentTypeIDDelete($accept, $document_type_id, $jiwa_stateful)
 
 Deletes a sales Quote document type.
 
@@ -698,7 +698,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -712,7 +712,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet**
-> \Jiwa\JiwaModel\DocumentType salesQuoteDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
+> \Jiwa\Model\DocumentType salesQuoteDocumentTypeGETRequestDocumentTypesDocumentTypeIDGet($accept, $document_type_id, $jiwa_stateful)
 
 Retrieves a sales Quote document type.
 
@@ -758,7 +758,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -772,7 +772,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate**
-> \Jiwa\JiwaModel\DocumentType salesQuoteDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType salesQuoteDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a sales Quote document type.
 
@@ -801,7 +801,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesQuoteDocumentTypePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteDocumentTypePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteDocumentTypePATCHRequest(); // \Jiwa\Model\SalesQuoteDocumentTypePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteDocumentTypePATCHRequestDocumentTypesDocumentTypeIDUpdate($accept, $document_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -822,11 +822,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteDocumentTypePATCHRequest**](../Model/SalesQuoteDocumentTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteDocumentTypePATCHRequest**](../Model/SalesQuoteDocumentTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -840,7 +840,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentTypePOSTRequestDocumentTypesPost**
-> \Jiwa\JiwaModel\DocumentType salesQuoteDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\DocumentType salesQuoteDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new sales Quote document type.
 
@@ -868,7 +868,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesQuoteDocumentTypePOSTRequest(); // \Jiwa\JiwaModel\SalesQuoteDocumentTypePOSTRequest | 
+$body = new \Jiwa\Model\SalesQuoteDocumentTypePOSTRequest(); // \Jiwa\Model\SalesQuoteDocumentTypePOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuoteDocumentTypePOSTRequestDocumentTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -888,11 +888,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteDocumentTypePOSTRequest**](../Model/SalesQuoteDocumentTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteDocumentTypePOSTRequest**](../Model/SalesQuoteDocumentTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -906,7 +906,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentTypesGETManyRequestDocumentTypesGet**
-> \Jiwa\JiwaModel\DocumentType[] salesQuoteDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\DocumentType[] salesQuoteDocumentTypesGETManyRequestDocumentTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales Quote document types.
 
@@ -950,7 +950,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\DocumentType[]**](../Model/DocumentType.md)
+[**\Jiwa\Model\DocumentType[]**](../Model/DocumentType.md)
 
 ### Authorization
 
@@ -964,7 +964,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteDocumentsGETManyRequestQuoteIDDocumentsGet**
-> \Jiwa\JiwaModel\Document[] salesQuoteDocumentsGETManyRequestQuoteIDDocumentsGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\Document[] salesQuoteDocumentsGETManyRequestQuoteIDDocumentsGet($accept, $quote_id, $jiwa_stateful)
 
 Retrieves a list of sales Quote documents.
 
@@ -1010,7 +1010,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Document[]**](../Model/Document.md)
+[**\Jiwa\Model\Document[]**](../Model/Document.md)
 
 ### Authorization
 
@@ -1024,7 +1024,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteGETRequestQuoteIDGet**
-> \Jiwa\JiwaModel\SalesQuote salesQuoteGETRequestQuoteIDGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuote salesQuoteGETRequestQuoteIDGet($accept, $quote_id, $jiwa_stateful)
 
 Retrieves a sales Quote.
 
@@ -1070,7 +1070,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 
@@ -1084,7 +1084,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteHistorysGETManyRequestQuoteIDHistorysGet**
-> \Jiwa\JiwaModel\SalesQuoteHistory[] salesQuoteHistorysGETManyRequestQuoteIDHistorysGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuoteHistory[] salesQuoteHistorysGETManyRequestQuoteIDHistorysGet($accept, $quote_id, $jiwa_stateful)
 
 Retrieves a list of sales Quote histories.
 
@@ -1130,7 +1130,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteHistory[]**](../Model/SalesQuoteHistory.md)
+[**\Jiwa\Model\SalesQuoteHistory[]**](../Model/SalesQuoteHistory.md)
 
 ### Authorization
 
@@ -1144,7 +1144,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteHistorysGETRequestQuoteIDHistorysQuoteHistoryIDGet**
-> \Jiwa\JiwaModel\SalesQuoteHistory salesQuoteHistorysGETRequestQuoteIDHistorysQuoteHistoryIDGet($accept, $quote_id, $quote_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuoteHistory salesQuoteHistorysGETRequestQuoteIDHistorysQuoteHistoryIDGet($accept, $quote_id, $quote_history_id, $jiwa_stateful)
 
 Retrieves a sales Quote history.
 
@@ -1192,7 +1192,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteHistory**](../Model/SalesQuoteHistory.md)
+[**\Jiwa\Model\SalesQuoteHistory**](../Model/SalesQuoteHistory.md)
 
 ### Authorization
 
@@ -1206,7 +1206,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteHistorysPATCHRequestQuoteIDHistorysQuoteHistoryIDUpdate**
-> \Jiwa\JiwaModel\SalesQuoteHistory salesQuoteHistorysPATCHRequestQuoteIDHistorysQuoteHistoryIDUpdate($accept, $quote_id, $quote_history_id, $jiwa_stateful, $history_no, $sales_stage, $cartage_charge1, $cartage_charge2, $cartage_charge3, $opportunity_status_reason, $ref, $last_modified_by, $history_total, $record_date, $expiry_date, $expiry_days, $docket_printed, $del_address1, $del_address2, $del_address3, $del_address4, $post_code, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_notes, $invoice_printed, $del_contact_name, $expected_close_date, $opportunity_status, $opportunity_note, $invoice_emailed, $drop_shipment, $delivery_addressee, $body)
+> \Jiwa\Model\SalesQuoteHistory salesQuoteHistorysPATCHRequestQuoteIDHistorysQuoteHistoryIDUpdate($accept, $quote_id, $quote_history_id, $jiwa_stateful, $history_no, $sales_stage, $cartage_charge1, $cartage_charge2, $cartage_charge3, $opportunity_status_reason, $ref, $last_modified_by, $history_total, $record_date, $expiry_date, $expiry_days, $docket_printed, $del_address1, $del_address2, $del_address3, $del_address4, $post_code, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_notes, $invoice_printed, $del_contact_name, $expected_close_date, $opportunity_status, $opportunity_note, $invoice_emailed, $drop_shipment, $delivery_addressee, $body)
 
 Updates a sales Quote history.
 
@@ -1268,7 +1268,7 @@ $opportunity_note = "opportunity_note_example"; // string |
 $invoice_emailed = true; // bool | 
 $drop_shipment = true; // bool | 
 $delivery_addressee = "delivery_addressee_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteHistorysPATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteHistorysPATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteHistorysPATCHRequest(); // \Jiwa\Model\SalesQuoteHistorysPATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteHistorysPATCHRequestQuoteIDHistorysQuoteHistoryIDUpdate($accept, $quote_id, $quote_history_id, $jiwa_stateful, $history_no, $sales_stage, $cartage_charge1, $cartage_charge2, $cartage_charge3, $opportunity_status_reason, $ref, $last_modified_by, $history_total, $record_date, $expiry_date, $expiry_days, $docket_printed, $del_address1, $del_address2, $del_address3, $del_address4, $post_code, $delivery_address_country, $notes, $courier_details, $freight_forward_address1, $freight_forward_address2, $freight_forward_address3, $freight_forward_address4, $freight_forward_address_country, $freight_forward_notes, $invoice_printed, $del_contact_name, $expected_close_date, $opportunity_status, $opportunity_note, $invoice_emailed, $drop_shipment, $delivery_addressee, $body);
@@ -1322,11 +1322,11 @@ Name | Type | Description  | Notes
  **invoice_emailed** | **bool**|  | [optional]
  **drop_shipment** | **bool**|  | [optional]
  **delivery_addressee** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteHistorysPATCHRequest**](../Model/SalesQuoteHistorysPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteHistorysPATCHRequest**](../Model/SalesQuoteHistorysPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteHistory**](../Model/SalesQuoteHistory.md)
+[**\Jiwa\Model\SalesQuoteHistory**](../Model/SalesQuoteHistory.md)
 
 ### Authorization
 
@@ -1340,7 +1340,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineCustomFieldValueGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDGet**
-> \Jiwa\JiwaModel\CustomFieldValue salesQuoteLineCustomFieldValueGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDGet($accept, $quote_id, $quote_history_id, $quote_line_id, $setting_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue salesQuoteLineCustomFieldValueGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDGet($accept, $quote_id, $quote_history_id, $quote_line_id, $setting_id, $jiwa_stateful)
 
 Retrieves a sales Quote line custom field value.
 
@@ -1392,7 +1392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1406,7 +1406,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineCustomFieldValuePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDUpdate**
-> \Jiwa\JiwaModel\CustomFieldValue salesQuoteLineCustomFieldValuePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $setting_id, $jiwa_stateful, $contents, $body)
+> \Jiwa\Model\CustomFieldValue salesQuoteLineCustomFieldValuePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $setting_id, $jiwa_stateful, $contents, $body)
 
 Updates a sales Quote line custom field value.
 
@@ -1436,7 +1436,7 @@ $quote_line_id = "quote_line_id_example"; // string |
 $setting_id = "setting_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
 $contents = "contents_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteLineCustomFieldValuePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteLineCustomFieldValuePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteLineCustomFieldValuePATCHRequest(); // \Jiwa\Model\SalesQuoteLineCustomFieldValuePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteLineCustomFieldValuePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesSettingIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $setting_id, $jiwa_stateful, $contents, $body);
@@ -1458,11 +1458,11 @@ Name | Type | Description  | Notes
  **setting_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **contents** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteLineCustomFieldValuePATCHRequest**](../Model/SalesQuoteLineCustomFieldValuePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteLineCustomFieldValuePATCHRequest**](../Model/SalesQuoteLineCustomFieldValuePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1476,7 +1476,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineCustomFieldValuesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesGet**
-> \Jiwa\JiwaModel\CustomFieldValue[] salesQuoteLineCustomFieldValuesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesGet($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
+> \Jiwa\Model\CustomFieldValue[] salesQuoteLineCustomFieldValuesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDCustomFieldValuesGet($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
 
 Retrieves a list of custom field values for a sales Quote line.
 
@@ -1526,7 +1526,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomFieldValue[]**](../Model/CustomFieldValue.md)
+[**\Jiwa\Model\CustomFieldValue[]**](../Model/CustomFieldValue.md)
 
 ### Authorization
 
@@ -1540,7 +1540,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineCustomFieldsGETManyRequestLinesCustomFieldsGet**
-> \Jiwa\JiwaModel\CustomField[] salesQuoteLineCustomFieldsGETManyRequestLinesCustomFieldsGet($accept, $jiwa_stateful)
+> \Jiwa\Model\CustomField[] salesQuoteLineCustomFieldsGETManyRequestLinesCustomFieldsGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales Quote line custom fields.
 
@@ -1584,7 +1584,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CustomField[]**](../Model/CustomField.md)
+[**\Jiwa\Model\CustomField[]**](../Model/CustomField.md)
 
 ### Authorization
 
@@ -1598,7 +1598,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineDELETERequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDDelete**
-> \Jiwa\JiwaModel\Object salesQuoteLineDELETERequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDDelete($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteLineDELETERequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDDelete($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
 
 Deletes a sales Quote line.
 
@@ -1648,7 +1648,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1662,7 +1662,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLineGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDGet**
-> \Jiwa\JiwaModel\SalesQuoteLine salesQuoteLineGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDGet($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuoteLine salesQuoteLineGETRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDGet($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful)
 
 Retrieves a sales Quote line.
 
@@ -1712,7 +1712,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteLine**](../Model/SalesQuoteLine.md)
+[**\Jiwa\Model\SalesQuoteLine**](../Model/SalesQuoteLine.md)
 
 ### Authorization
 
@@ -1726,7 +1726,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLinePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDUpdate**
-> \Jiwa\JiwaModel\SalesQuoteLine salesQuoteLinePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body)
+> \Jiwa\Model\SalesQuoteLine salesQuoteLinePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body)
 
 Updates a sales Quote line.
 
@@ -1784,7 +1784,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $kit_line_type = "kit_line_type_example"; // string | 
 $kit_units = 1.2; // double | 
 $kit_header_line_id = "kit_header_line_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteLinePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteLinePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteLinePATCHRequest(); // \Jiwa\Model\SalesQuoteLinePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteLinePATCHRequestQuoteIDHistorysQuoteHistoryIDLinesQuoteLineIDUpdate($accept, $quote_id, $quote_history_id, $quote_line_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body);
@@ -1834,11 +1834,11 @@ Name | Type | Description  | Notes
  **kit_line_type** | **string**|  | [optional]
  **kit_units** | **double**|  | [optional]
  **kit_header_line_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteLinePATCHRequest**](../Model/SalesQuoteLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteLinePATCHRequest**](../Model/SalesQuoteLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteLine**](../Model/SalesQuoteLine.md)
+[**\Jiwa\Model\SalesQuoteLine**](../Model/SalesQuoteLine.md)
 
 ### Authorization
 
@@ -1852,7 +1852,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLinePOSTRequestQuoteIDHistorysQuoteHistoryIDLinesPost**
-> \Jiwa\JiwaModel\SalesQuoteLine salesQuoteLinePOSTRequestQuoteIDHistorysQuoteHistoryIDLinesPost($accept, $quote_id, $quote_history_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body)
+> \Jiwa\Model\SalesQuoteLine salesQuoteLinePOSTRequestQuoteIDHistorysQuoteHistoryIDLinesPost($accept, $quote_id, $quote_history_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body)
 
 Appends a line to a sales Quote.
 
@@ -1909,7 +1909,7 @@ $custom_field_values = "custom_field_values_example"; // string |
 $kit_line_type = "kit_line_type_example"; // string | 
 $kit_units = 1.2; // double | 
 $kit_header_line_id = "kit_header_line_id_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteLinePOSTRequest(); // \Jiwa\JiwaModel\SalesQuoteLinePOSTRequest | 
+$body = new \Jiwa\Model\SalesQuoteLinePOSTRequest(); // \Jiwa\Model\SalesQuoteLinePOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuoteLinePOSTRequestQuoteIDHistorysQuoteHistoryIDLinesPost($accept, $quote_id, $quote_history_id, $jiwa_stateful, $item_no, $inventory_id, $part_no, $description, $comment_line, $comment_text, $quantity_ordered, $price_ex_gst, $price_inc_gst, $discounted_price, $tax_to_charge, $tax_rate, $unit_cost, $line_link_id, $fix_sell_price, $user_defined_float1, $user_defined_float2, $user_defined_float3, $line_total, $weight, $cubic, $discounted_percentage, $discount_given, $quantity_decimal_places, $quantity_original_ordered, $non_inventory, $custom_field_values, $kit_line_type, $kit_units, $kit_header_line_id, $body);
@@ -1958,11 +1958,11 @@ Name | Type | Description  | Notes
  **kit_line_type** | **string**|  | [optional]
  **kit_units** | **double**|  | [optional]
  **kit_header_line_id** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteLinePOSTRequest**](../Model/SalesQuoteLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteLinePOSTRequest**](../Model/SalesQuoteLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteLine**](../Model/SalesQuoteLine.md)
+[**\Jiwa\Model\SalesQuoteLine**](../Model/SalesQuoteLine.md)
 
 ### Authorization
 
@@ -1976,7 +1976,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteLinesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesGet**
-> \Jiwa\JiwaModel\SalesQuoteLine[] salesQuoteLinesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesGet($accept, $quote_id, $quote_history_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuoteLine[] salesQuoteLinesGETManyRequestQuoteIDHistorysQuoteHistoryIDLinesGet($accept, $quote_id, $quote_history_id, $jiwa_stateful)
 
 Retrieves a list of sales Quote lines.
 
@@ -2024,7 +2024,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuoteLine[]**](../Model/SalesQuoteLine.md)
+[**\Jiwa\Model\SalesQuoteLine[]**](../Model/SalesQuoteLine.md)
 
 ### Authorization
 
@@ -2038,7 +2038,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteMAKEORDERB2BRequestQuoteIDMakeOrderB2BPost**
-> \Jiwa\JiwaModel\SalesQuote salesQuoteMAKEORDERB2BRequestQuoteIDMakeOrderB2BPost($accept, $quote_id, $jiwa_stateful, $body)
+> \Jiwa\Model\SalesQuote salesQuoteMAKEORDERB2BRequestQuoteIDMakeOrderB2BPost($accept, $quote_id, $jiwa_stateful, $body)
 
 Makes a back to back sales order from a quote.
 
@@ -2064,7 +2064,7 @@ $apiInstance = new Jiwa\Api\SalesQuotesApi(
 $accept = "accept_example"; // string | Accept Header
 $quote_id = "quote_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\SalesQuoteMAKEORDERB2BRequest(); // \Jiwa\JiwaModel\SalesQuoteMAKEORDERB2BRequest | 
+$body = new \Jiwa\Model\SalesQuoteMAKEORDERB2BRequest(); // \Jiwa\Model\SalesQuoteMAKEORDERB2BRequest | 
 
 try {
     $result = $apiInstance->salesQuoteMAKEORDERB2BRequestQuoteIDMakeOrderB2BPost($accept, $quote_id, $jiwa_stateful, $body);
@@ -2082,11 +2082,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **quote_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteMAKEORDERB2BRequest**](../Model/SalesQuoteMAKEORDERB2BRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteMAKEORDERB2BRequest**](../Model/SalesQuoteMAKEORDERB2BRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 
@@ -2100,7 +2100,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteMAKEORDERRequestQuoteIDMakeOrderPost**
-> \Jiwa\JiwaModel\SalesQuote salesQuoteMAKEORDERRequestQuoteIDMakeOrderPost($accept, $quote_id, $jiwa_stateful, $body)
+> \Jiwa\Model\SalesQuote salesQuoteMAKEORDERRequestQuoteIDMakeOrderPost($accept, $quote_id, $jiwa_stateful, $body)
 
 Makes a sales order from a quote.
 
@@ -2126,7 +2126,7 @@ $apiInstance = new Jiwa\Api\SalesQuotesApi(
 $accept = "accept_example"; // string | Accept Header
 $quote_id = "quote_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\SalesQuoteMAKEORDERRequest(); // \Jiwa\JiwaModel\SalesQuoteMAKEORDERRequest | 
+$body = new \Jiwa\Model\SalesQuoteMAKEORDERRequest(); // \Jiwa\Model\SalesQuoteMAKEORDERRequest | 
 
 try {
     $result = $apiInstance->salesQuoteMAKEORDERRequestQuoteIDMakeOrderPost($accept, $quote_id, $jiwa_stateful, $body);
@@ -2144,11 +2144,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **quote_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteMAKEORDERRequest**](../Model/SalesQuoteMAKEORDERRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteMAKEORDERRequest**](../Model/SalesQuoteMAKEORDERRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 
@@ -2162,7 +2162,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteDELETERequestQuoteIDNotesNoteIDDelete**
-> \Jiwa\JiwaModel\Object salesQuoteNoteDELETERequestQuoteIDNotesNoteIDDelete($accept, $quote_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteNoteDELETERequestQuoteIDNotesNoteIDDelete($accept, $quote_id, $note_id, $jiwa_stateful)
 
 Deletes a sales Quote note.
 
@@ -2210,7 +2210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2224,7 +2224,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteGETRequestQuoteIDNotesNoteIDGet**
-> \Jiwa\JiwaModel\Note salesQuoteNoteGETRequestQuoteIDNotesNoteIDGet($accept, $quote_id, $note_id, $jiwa_stateful)
+> \Jiwa\Model\Note salesQuoteNoteGETRequestQuoteIDNotesNoteIDGet($accept, $quote_id, $note_id, $jiwa_stateful)
 
 Retrieves a sales Quote note.
 
@@ -2272,7 +2272,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2286,7 +2286,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNotePATCHRequestQuoteIDNotesNoteIDUpdate**
-> \Jiwa\JiwaModel\Note salesQuoteNotePATCHRequestQuoteIDNotesNoteIDUpdate($accept, $quote_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note salesQuoteNotePATCHRequestQuoteIDNotesNoteIDUpdate($accept, $quote_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Updates a sales Quote note.
 
@@ -2322,7 +2322,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteNotePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteNotePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteNotePATCHRequest(); // \Jiwa\Model\SalesQuoteNotePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteNotePATCHRequestQuoteIDNotesNoteIDUpdate($accept, $quote_id, $note_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -2350,11 +2350,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteNotePATCHRequest**](../Model/SalesQuoteNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteNotePATCHRequest**](../Model/SalesQuoteNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2368,7 +2368,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNotePOSTRequestQuoteIDNotesPost**
-> \Jiwa\JiwaModel\Note salesQuoteNotePOSTRequestQuoteIDNotesPost($accept, $quote_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
+> \Jiwa\Model\Note salesQuoteNotePOSTRequestQuoteIDNotesPost($accept, $quote_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body)
 
 Appends a note to a sales Quote.
 
@@ -2403,7 +2403,7 @@ $last_modified_by_staff_title = "last_modified_by_staff_title_example"; // strin
 $last_modified_by_staff_first_name = "last_modified_by_staff_first_name_example"; // string | 
 $last_modified_by_staff_surname = "last_modified_by_staff_surname_example"; // string | 
 $note_text = "note_text_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuoteNotePOSTRequest(); // \Jiwa\JiwaModel\SalesQuoteNotePOSTRequest | 
+$body = new \Jiwa\Model\SalesQuoteNotePOSTRequest(); // \Jiwa\Model\SalesQuoteNotePOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuoteNotePOSTRequestQuoteIDNotesPost($accept, $quote_id, $jiwa_stateful, $note_type, $line_no, $last_saved_date_time, $last_modified_by_staff_id, $last_modified_by_staff_username, $last_modified_by_staff_title, $last_modified_by_staff_first_name, $last_modified_by_staff_surname, $note_text, $body);
@@ -2430,11 +2430,11 @@ Name | Type | Description  | Notes
  **last_modified_by_staff_first_name** | **string**|  | [optional]
  **last_modified_by_staff_surname** | **string**|  | [optional]
  **note_text** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteNotePOSTRequest**](../Model/SalesQuoteNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteNotePOSTRequest**](../Model/SalesQuoteNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note**](../Model/Note.md)
+[**\Jiwa\Model\Note**](../Model/Note.md)
 
 ### Authorization
 
@@ -2448,7 +2448,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteTypeDELETERequestNoteTypesNoteTypeIDDelete**
-> \Jiwa\JiwaModel\Object salesQuoteNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\Object salesQuoteNoteTypeDELETERequestNoteTypesNoteTypeIDDelete($accept, $note_type_id, $jiwa_stateful)
 
 Deletes a sales Quote note type.
 
@@ -2494,7 +2494,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -2508,7 +2508,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteTypeGETRequestNoteTypesNoteTypeIDGet**
-> \Jiwa\JiwaModel\NoteType salesQuoteNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
+> \Jiwa\Model\NoteType salesQuoteNoteTypeGETRequestNoteTypesNoteTypeIDGet($accept, $note_type_id, $jiwa_stateful)
 
 Retrieves a sales Quote note type.
 
@@ -2554,7 +2554,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -2568,7 +2568,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate**
-> \Jiwa\JiwaModel\NoteType salesQuoteNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType salesQuoteNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Updates a sales Quote note type.
 
@@ -2597,7 +2597,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesQuoteNoteTypePATCHRequest(); // \Jiwa\JiwaModel\SalesQuoteNoteTypePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuoteNoteTypePATCHRequest(); // \Jiwa\Model\SalesQuoteNoteTypePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuoteNoteTypePATCHRequestNoteTypesNoteTypeIDUpdate($accept, $note_type_id, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -2618,11 +2618,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteNoteTypePATCHRequest**](../Model/SalesQuoteNoteTypePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteNoteTypePATCHRequest**](../Model/SalesQuoteNoteTypePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -2636,7 +2636,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteTypePOSTRequestNoteTypesPost**
-> \Jiwa\JiwaModel\NoteType salesQuoteNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
+> \Jiwa\Model\NoteType salesQuoteNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body)
 
 Creates a new sales Quote note type.
 
@@ -2664,7 +2664,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $description = "description_example"; // string | 
 $default_type = true; // bool | 
 $item_no = 56; // int | 
-$body = new \Jiwa\JiwaModel\SalesQuoteNoteTypePOSTRequest(); // \Jiwa\JiwaModel\SalesQuoteNoteTypePOSTRequest | 
+$body = new \Jiwa\Model\SalesQuoteNoteTypePOSTRequest(); // \Jiwa\Model\SalesQuoteNoteTypePOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuoteNoteTypePOSTRequestNoteTypesPost($accept, $jiwa_stateful, $description, $default_type, $item_no, $body);
@@ -2684,11 +2684,11 @@ Name | Type | Description  | Notes
  **description** | **string**|  | [optional]
  **default_type** | **bool**|  | [optional]
  **item_no** | **int**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuoteNoteTypePOSTRequest**](../Model/SalesQuoteNoteTypePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuoteNoteTypePOSTRequest**](../Model/SalesQuoteNoteTypePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -2702,7 +2702,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNoteTypesGETManyRequestNoteTypesGet**
-> \Jiwa\JiwaModel\NoteType[] salesQuoteNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
+> \Jiwa\Model\NoteType[] salesQuoteNoteTypesGETManyRequestNoteTypesGet($accept, $jiwa_stateful)
 
 Retrieves a list of sales Quote note types.
 
@@ -2746,7 +2746,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\NoteType[]**](../Model/NoteType.md)
+[**\Jiwa\Model\NoteType[]**](../Model/NoteType.md)
 
 ### Authorization
 
@@ -2760,7 +2760,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteNotesGETManyRequestQuoteIDNotesGet**
-> \Jiwa\JiwaModel\Note[] salesQuoteNotesGETManyRequestQuoteIDNotesGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\Note[] salesQuoteNotesGETManyRequestQuoteIDNotesGet($accept, $quote_id, $jiwa_stateful)
 
 Retrieves a list of sales Quote notes.
 
@@ -2806,7 +2806,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Note[]**](../Model/Note.md)
+[**\Jiwa\Model\Note[]**](../Model/Note.md)
 
 ### Authorization
 
@@ -2820,7 +2820,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuotePATCHRequestQuoteIDUpdate**
-> \Jiwa\JiwaModel\SalesQuote salesQuotePATCHRequestQuoteIDUpdate($accept, $quote_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body)
+> \Jiwa\Model\SalesQuote salesQuotePATCHRequestQuoteIDUpdate($accept, $quote_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body)
 
 Updates a sales Quote.
 
@@ -2903,7 +2903,7 @@ $lines = "lines_example"; // string |
 $histories = "histories_example"; // string | 
 $cash_sales = "cash_sales_example"; // string | 
 $job_costing = "job_costing_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuotePATCHRequest(); // \Jiwa\JiwaModel\SalesQuotePATCHRequest | 
+$body = new \Jiwa\Model\SalesQuotePATCHRequest(); // \Jiwa\Model\SalesQuotePATCHRequest | 
 
 try {
     $result = $apiInstance->salesQuotePATCHRequestQuoteIDUpdate($accept, $quote_id, $jiwa_stateful, $type, $system_settings, $last_saved_date_time, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body);
@@ -2978,11 +2978,11 @@ Name | Type | Description  | Notes
  **histories** | **string**|  | [optional]
  **cash_sales** | **string**|  | [optional]
  **job_costing** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuotePATCHRequest**](../Model/SalesQuotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuotePATCHRequest**](../Model/SalesQuotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 
@@ -2996,7 +2996,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuotePOSTRequestPost**
-> \Jiwa\JiwaModel\SalesQuote salesQuotePOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body)
+> \Jiwa\Model\SalesQuote salesQuotePOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body)
 
 Creates a new sales Quote.
 
@@ -3077,7 +3077,7 @@ $lines = "lines_example"; // string |
 $histories = "histories_example"; // string | 
 $cash_sales = "cash_sales_example"; // string | 
 $job_costing = "job_costing_example"; // string | 
-$body = new \Jiwa\JiwaModel\SalesQuotePOSTRequest(); // \Jiwa\JiwaModel\SalesQuotePOSTRequest | 
+$body = new \Jiwa\Model\SalesQuotePOSTRequest(); // \Jiwa\Model\SalesQuotePOSTRequest | 
 
 try {
     $result = $apiInstance->salesQuotePOSTRequestPost($accept, $jiwa_stateful, $type, $system_settings, $quote_no, $logical_id, $logical_warehouse_description, $physical_warehouse_description, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $branch_id, $branch_name, $branch_description, $initiated_date, $invoice_init_date, $order_no, $tax_exemption_no, $so_reference, $sales_quote_type, $order_type, $status, $bill_type, $expected_delivery_date, $debtor_id, $debtor_account_no, $debtor_name, $debtor_email_address, $debtor_contact_name, $delivery_addressee, $delivery_address1, $delivery_address2, $delivery_address_suburb, $delivery_address_state, $delivery_address_contact_name, $delivery_address_postcode, $delivery_address_country, $delivery_address_notes, $delivery_address_courier_details, $drop_shipment, $cartage1_ex_gst, $cartage1_gst_rate, $cartage1_gst, $cartage2_ex_gst, $cartage2_gst_rate, $cartage2_gst, $cartage3_ex_gst, $cartage3_gst_rate, $cartage3_gst, $custom_field_values, $notes, $documents, $lines, $histories, $cash_sales, $job_costing, $body);
@@ -3150,11 +3150,11 @@ Name | Type | Description  | Notes
  **histories** | **string**|  | [optional]
  **cash_sales** | **string**|  | [optional]
  **job_costing** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\SalesQuotePOSTRequest**](../Model/SalesQuotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\SalesQuotePOSTRequest**](../Model/SalesQuotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 
@@ -3168,7 +3168,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesQuoteSAVERequestQuoteIDSaveGet**
-> \Jiwa\JiwaModel\SalesQuote salesQuoteSAVERequestQuoteIDSaveGet($accept, $quote_id, $jiwa_stateful)
+> \Jiwa\Model\SalesQuote salesQuoteSAVERequestQuoteIDSaveGet($accept, $quote_id, $jiwa_stateful)
 
 Saves a stateful sales Quote.
 
@@ -3214,7 +3214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SalesQuote**](../Model/SalesQuote.md)
+[**\Jiwa\Model\SalesQuote**](../Model/SalesQuote.md)
 
 ### Authorization
 

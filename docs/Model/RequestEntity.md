@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **request_no** | **string** |  | [optional] 
 **reference** | **string** |  | [optional] 
 **status** | **string** |  | [optional] 
-**return_code** | [**\Jiwa\JiwaModel\ReturnCode**](ReturnCode.md) |  | [optional] 
+**return_code** | [**\Jiwa\Model\ReturnCode**](ReturnCode.md) |  | [optional] 
 **creditor_id** | **string** |  | [optional] 
 **creditor_account_no** | **string** |  | [optional] 
 **creditor_name** | **string** |  | [optional] 

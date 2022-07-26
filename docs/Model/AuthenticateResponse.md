@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **referrer_url** | **string** |  | [optional] 
 **bearer_token** | **string** |  | [optional] 
 **refresh_token** | **string** |  | [optional] 
-**response_status** | [**\Jiwa\JiwaModel\ResponseStatus**](ResponseStatus.md) |  | [optional] 
-**meta** | [**\Jiwa\JiwaModel\DictionaryStringString_**](DictionaryStringString_.md) |  | [optional] 
+**response_status** | [**\Jiwa\Model\ResponseStatus**](ResponseStatus.md) |  | [optional] 
+**meta** | [**\Jiwa\Model\DictionaryStringString_**](DictionaryStringString_.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

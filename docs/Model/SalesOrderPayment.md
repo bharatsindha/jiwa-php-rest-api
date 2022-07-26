@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **history_no** | **int** |  | [optional] 
-**payment_type** | [**\Jiwa\JiwaModel\PaymentType**](PaymentType.md) |  | [optional] 
+**payment_type** | [**\Jiwa\Model\PaymentType**](PaymentType.md) |  | [optional] 
 **amount_paid** | **double** |  | [optional] 
 **payment_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **process_payment** | **bool** |  | [optional] 

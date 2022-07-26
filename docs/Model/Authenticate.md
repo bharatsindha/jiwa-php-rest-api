@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **use_token_cookie** | **bool** |  | [optional] 
 **access_token** | **string** |  | [optional] 
 **access_token_secret** | **string** |  | [optional] 
-**meta** | [**\Jiwa\JiwaModel\DictionaryStringString_**](DictionaryStringString_.md) |  | [optional] 
+**meta** | [**\Jiwa\Model\DictionaryStringString_**](DictionaryStringString_.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

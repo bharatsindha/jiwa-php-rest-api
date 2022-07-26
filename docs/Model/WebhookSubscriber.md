@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**subscriptions** | [**\Jiwa\JiwaModel\SYWebhookSubscription[]**](SYWebhookSubscription.md) |  | [optional] 
+**subscriptions** | [**\Jiwa\Model\SYWebhookSubscription[]**](SYWebhookSubscription.md) |  | [optional] 
 **rec_id** | **string** |  | [optional] 
 **name** | **string** |  | [optional] 
 **is_enabled** | **bool** |  | [optional] 

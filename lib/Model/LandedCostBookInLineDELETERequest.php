@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -64,9 +64,9 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
         'quantity' => 'double',
         'quantity_previously_booked_in' => 'double',
         'quantity_outstanding' => 'double',
-        'shipment_line' => '\Jiwa\JiwaModel\BookInShipmentLine',
-        'line_details' => '\Jiwa\JiwaModel\InventorySOHLineDetail[]',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]'
+        'shipment_line' => '\Jiwa\Model\BookInShipmentLine',
+        'line_details' => '\Jiwa\Model\InventorySOHLineDetail[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]'
     ];
 
     /**
@@ -400,7 +400,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_line
      *
-     * @return \Jiwa\JiwaModel\BookInShipmentLine
+     * @return \Jiwa\Model\BookInShipmentLine
      */
     public function getShipmentLine()
     {
@@ -410,7 +410,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_line
      *
-     * @param \Jiwa\JiwaModel\BookInShipmentLine $shipment_line shipment_line
+     * @param \Jiwa\Model\BookInShipmentLine $shipment_line shipment_line
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\InventorySOHLineDetail[]
+     * @return \Jiwa\Model\InventorySOHLineDetail[]
      */
     public function getLineDetails()
     {
@@ -434,7 +434,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\InventorySOHLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\InventorySOHLineDetail[] $line_details line_details
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -458,7 +458,7 @@ class LandedCostBookInLineDELETERequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */

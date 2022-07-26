@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **systemInformationGETRequestGet**
-> \Jiwa\JiwaModel\SystemInformationGETResponse systemInformationGETRequestGet($accept, $jiwa_stateful)
+> \Jiwa\Model\SystemInformationGETResponse systemInformationGETRequestGet($accept, $jiwa_stateful)
 
 Retrieves system information.
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\SystemInformationGETResponse**](../Model/SystemInformationGETResponse.md)
+[**\Jiwa\Model\SystemInformationGETResponse**](../Model/SystemInformationGETResponse.md)
 
 ### Authorization
 

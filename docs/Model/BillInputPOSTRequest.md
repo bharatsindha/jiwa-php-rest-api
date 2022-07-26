@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 **is_bo_m_item** | **bool** |  | [optional] 
 **sub_assembly_bill_id** | **string** |  | [optional] 
 **sub_assembly_explode_policy** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 **total_line_cost** | **double** |  | [optional] 
 **last_cost** | **double** |  | [optional] 
 **unit_measure** | **string** |  | [optional] 

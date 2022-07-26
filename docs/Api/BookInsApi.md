@@ -18,7 +18,7 @@ Method | HTTP request | Description
 
 
 # **landedCostBookInABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object landedCostBookInABANDONRequestAbandonDelete($accept, $jiwa_stateful, $book_in_id)
+> \Jiwa\Model\Object landedCostBookInABANDONRequestAbandonDelete($accept, $jiwa_stateful, $book_in_id)
 
 Abandons a stateful book in.
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInACTIVATERequestActivateBookInIDPost**
-> \Jiwa\JiwaModel\BookIn landedCostBookInACTIVATERequestActivateBookInIDPost($accept, $book_in_id, $jiwa_stateful, $body)
+> \Jiwa\Model\BookIn landedCostBookInACTIVATERequestActivateBookInIDPost($accept, $book_in_id, $jiwa_stateful, $body)
 
 Activates a book in.
 
@@ -104,7 +104,7 @@ $apiInstance = new Jiwa\Api\BookInsApi(
 $accept = "accept_example"; // string | Accept Header
 $book_in_id = "book_in_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\LandedCostBookInACTIVATERequest(); // \Jiwa\JiwaModel\LandedCostBookInACTIVATERequest | 
+$body = new \Jiwa\Model\LandedCostBookInACTIVATERequest(); // \Jiwa\Model\LandedCostBookInACTIVATERequest | 
 
 try {
     $result = $apiInstance->landedCostBookInACTIVATERequestActivateBookInIDPost($accept, $book_in_id, $jiwa_stateful, $body);
@@ -122,11 +122,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **book_in_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostBookInACTIVATERequest**](../Model/LandedCostBookInACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostBookInACTIVATERequest**](../Model/LandedCostBookInACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 
@@ -140,7 +140,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInCREATEFromShipmentIDRequestFromShipmentIDShipmentIDPost**
-> \Jiwa\JiwaModel\BookIn landedCostBookInCREATEFromShipmentIDRequestFromShipmentIDShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body)
+> \Jiwa\Model\BookIn landedCostBookInCREATEFromShipmentIDRequestFromShipmentIDShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body)
 
 Creates a book in from the supplied shipment id.
 
@@ -166,7 +166,7 @@ $apiInstance = new Jiwa\Api\BookInsApi(
 $accept = "accept_example"; // string | Accept Header
 $shipment_id = "shipment_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentIDRequest(); // \Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentIDRequest | 
+$body = new \Jiwa\Model\LandedCostBookInCREATEFromShipmentIDRequest(); // \Jiwa\Model\LandedCostBookInCREATEFromShipmentIDRequest | 
 
 try {
     $result = $apiInstance->landedCostBookInCREATEFromShipmentIDRequestFromShipmentIDShipmentIDPost($accept, $shipment_id, $jiwa_stateful, $body);
@@ -184,11 +184,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **shipment_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentIDRequest**](../Model/LandedCostBookInCREATEFromShipmentIDRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostBookInCREATEFromShipmentIDRequest**](../Model/LandedCostBookInCREATEFromShipmentIDRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 
@@ -202,7 +202,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInCREATEFromShipmentNoRequestFromShipmentNoShipmentNoPost**
-> \Jiwa\JiwaModel\BookIn landedCostBookInCREATEFromShipmentNoRequestFromShipmentNoShipmentNoPost($accept, $shipment_no, $jiwa_stateful, $body)
+> \Jiwa\Model\BookIn landedCostBookInCREATEFromShipmentNoRequestFromShipmentNoShipmentNoPost($accept, $shipment_no, $jiwa_stateful, $body)
 
 Creates a book in from the supplied shipment no.
 
@@ -228,7 +228,7 @@ $apiInstance = new Jiwa\Api\BookInsApi(
 $accept = "accept_example"; // string | Accept Header
 $shipment_no = "shipment_no_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentNoRequest(); // \Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentNoRequest | 
+$body = new \Jiwa\Model\LandedCostBookInCREATEFromShipmentNoRequest(); // \Jiwa\Model\LandedCostBookInCREATEFromShipmentNoRequest | 
 
 try {
     $result = $apiInstance->landedCostBookInCREATEFromShipmentNoRequestFromShipmentNoShipmentNoPost($accept, $shipment_no, $jiwa_stateful, $body);
@@ -246,11 +246,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **shipment_no** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostBookInCREATEFromShipmentNoRequest**](../Model/LandedCostBookInCREATEFromShipmentNoRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostBookInCREATEFromShipmentNoRequest**](../Model/LandedCostBookInCREATEFromShipmentNoRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 
@@ -264,7 +264,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInGETRequestBookInIDGet**
-> \Jiwa\JiwaModel\BookIn landedCostBookInGETRequestBookInIDGet($accept, $book_in_id, $jiwa_stateful)
+> \Jiwa\Model\BookIn landedCostBookInGETRequestBookInIDGet($accept, $book_in_id, $jiwa_stateful)
 
 Retrieves a book in.
 
@@ -310,7 +310,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 
@@ -324,7 +324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInLineDELETERequestBookInIDLinesLineIDDelete**
-> \Jiwa\JiwaModel\Object landedCostBookInLineDELETERequestBookInIDLinesLineIDDelete($accept, $book_in_id, $line_id, $jiwa_stateful, $item_no, $quantity, $quantity_previously_booked_in, $quantity_outstanding, $shipment_line, $line_details, $custom_field_values)
+> \Jiwa\Model\Object landedCostBookInLineDELETERequestBookInIDLinesLineIDDelete($accept, $book_in_id, $line_id, $jiwa_stateful, $item_no, $quantity, $quantity_previously_booked_in, $quantity_outstanding, $shipment_line, $line_details, $custom_field_values)
 
 Deletes a line from a book in.
 
@@ -386,7 +386,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -400,7 +400,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInLineGETRequestBookInIDLinesLineIDGet**
-> \Jiwa\JiwaModel\BookInLine landedCostBookInLineGETRequestBookInIDLinesLineIDGet($accept, $book_in_id, $line_id, $jiwa_stateful)
+> \Jiwa\Model\BookInLine landedCostBookInLineGETRequestBookInIDLinesLineIDGet($accept, $book_in_id, $line_id, $jiwa_stateful)
 
 Retrieves a book in line.
 
@@ -448,7 +448,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookInLine**](../Model/BookInLine.md)
+[**\Jiwa\Model\BookInLine**](../Model/BookInLine.md)
 
 ### Authorization
 
@@ -462,7 +462,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInLinePATCHRequestBookInIDLinesLineIDUpdate**
-> \Jiwa\JiwaModel\BookInLine landedCostBookInLinePATCHRequestBookInIDLinesLineIDUpdate($accept, $book_in_id, $line_id, $jiwa_stateful, $item_no, $quantity, $quantity_previously_booked_in, $quantity_outstanding, $shipment_line, $line_details, $custom_field_values, $body)
+> \Jiwa\Model\BookInLine landedCostBookInLinePATCHRequestBookInIDLinesLineIDUpdate($accept, $book_in_id, $line_id, $jiwa_stateful, $item_no, $quantity, $quantity_previously_booked_in, $quantity_outstanding, $shipment_line, $line_details, $custom_field_values, $body)
 
 Updates a line for a book in.
 
@@ -496,7 +496,7 @@ $quantity_outstanding = 1.2; // double |
 $shipment_line = "shipment_line_example"; // string | 
 $line_details = "line_details_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\LandedCostBookInLinePATCHRequest(); // \Jiwa\JiwaModel\LandedCostBookInLinePATCHRequest | 
+$body = new \Jiwa\Model\LandedCostBookInLinePATCHRequest(); // \Jiwa\Model\LandedCostBookInLinePATCHRequest | 
 
 try {
     $result = $apiInstance->landedCostBookInLinePATCHRequestBookInIDLinesLineIDUpdate($accept, $book_in_id, $line_id, $jiwa_stateful, $item_no, $quantity, $quantity_previously_booked_in, $quantity_outstanding, $shipment_line, $line_details, $custom_field_values, $body);
@@ -522,11 +522,11 @@ Name | Type | Description  | Notes
  **shipment_line** | **string**|  | [optional]
  **line_details** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostBookInLinePATCHRequest**](../Model/LandedCostBookInLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostBookInLinePATCHRequest**](../Model/LandedCostBookInLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookInLine**](../Model/BookInLine.md)
+[**\Jiwa\Model\BookInLine**](../Model/BookInLine.md)
 
 ### Authorization
 
@@ -540,7 +540,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInLinesGETManyRequestBookInIDLinesGet**
-> \Jiwa\JiwaModel\BookInLine[] landedCostBookInLinesGETManyRequestBookInIDLinesGet($accept, $book_in_id, $jiwa_stateful)
+> \Jiwa\Model\BookInLine[] landedCostBookInLinesGETManyRequestBookInIDLinesGet($accept, $book_in_id, $jiwa_stateful)
 
 Retrieves a list of book in lines.
 
@@ -586,7 +586,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookInLine[]**](../Model/BookInLine.md)
+[**\Jiwa\Model\BookInLine[]**](../Model/BookInLine.md)
 
 ### Authorization
 
@@ -600,7 +600,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInPATCHRequestBookInIDUpdate**
-> \Jiwa\JiwaModel\BookIn landedCostBookInPATCHRequestBookInIDUpdate($accept, $book_in_id, $jiwa_stateful, $book_in_no, $shipment, $book_in_date, $activated, $gl_sets_rec_id, $last_saved_date_time, $lines, $other_book_ins_for_this_shipment, $body)
+> \Jiwa\Model\BookIn landedCostBookInPATCHRequestBookInIDUpdate($accept, $book_in_id, $jiwa_stateful, $book_in_no, $shipment, $book_in_date, $activated, $gl_sets_rec_id, $last_saved_date_time, $lines, $other_book_ins_for_this_shipment, $body)
 
 Updates a book in.
 
@@ -634,7 +634,7 @@ $gl_sets_rec_id = "gl_sets_rec_id_example"; // string |
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $lines = "lines_example"; // string | 
 $other_book_ins_for_this_shipment = "other_book_ins_for_this_shipment_example"; // string | 
-$body = new \Jiwa\JiwaModel\LandedCostBookInPATCHRequest(); // \Jiwa\JiwaModel\LandedCostBookInPATCHRequest | 
+$body = new \Jiwa\Model\LandedCostBookInPATCHRequest(); // \Jiwa\Model\LandedCostBookInPATCHRequest | 
 
 try {
     $result = $apiInstance->landedCostBookInPATCHRequestBookInIDUpdate($accept, $book_in_id, $jiwa_stateful, $book_in_no, $shipment, $book_in_date, $activated, $gl_sets_rec_id, $last_saved_date_time, $lines, $other_book_ins_for_this_shipment, $body);
@@ -660,11 +660,11 @@ Name | Type | Description  | Notes
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **lines** | **string**|  | [optional]
  **other_book_ins_for_this_shipment** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\LandedCostBookInPATCHRequest**](../Model/LandedCostBookInPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\LandedCostBookInPATCHRequest**](../Model/LandedCostBookInPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 
@@ -678,7 +678,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **landedCostBookInSAVERequestSaveGet**
-> \Jiwa\JiwaModel\BookIn landedCostBookInSAVERequestSaveGet($accept, $jiwa_stateful, $book_in_id)
+> \Jiwa\Model\BookIn landedCostBookInSAVERequestSaveGet($accept, $jiwa_stateful, $book_in_id)
 
 Saves a stateful book in.
 
@@ -724,7 +724,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\BookIn**](../Model/BookIn.md)
+[**\Jiwa\Model\BookIn**](../Model/BookIn.md)
 
 ### Authorization
 

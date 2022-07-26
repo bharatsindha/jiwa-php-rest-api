@@ -31,7 +31,7 @@ Method | HTTP request | Description
 
 
 # **goodsReceivedNoteABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object goodsReceivedNoteABANDONRequestAbandonDelete($accept, $jiwa_stateful, $grnid)
+> \Jiwa\Model\Object goodsReceivedNoteABANDONRequestAbandonDelete($accept, $jiwa_stateful, $grnid)
 
 Abandons a stateful goods received note.
 
@@ -77,7 +77,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -91,7 +91,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteACTIVATERequestActivateGRNIDPost**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNoteACTIVATERequestActivateGRNIDPost($accept, $grnid, $jiwa_stateful, $body)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNoteACTIVATERequestActivateGRNIDPost($accept, $grnid, $jiwa_stateful, $body)
 
 Activates a GRN.
 
@@ -117,7 +117,7 @@ $apiInstance = new Jiwa\Api\GoodsReceivedNotesApi(
 $accept = "accept_example"; // string | Accept Header
 $grnid = "grnid_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteACTIVATERequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteACTIVATERequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteACTIVATERequest(); // \Jiwa\Model\GoodsReceivedNoteACTIVATERequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteACTIVATERequestActivateGRNIDPost($accept, $grnid, $jiwa_stateful, $body);
@@ -135,11 +135,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **grnid** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteACTIVATERequest**](../Model/GoodsReceivedNoteACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteACTIVATERequest**](../Model/GoodsReceivedNoteACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteCREATEFromPOLinesRequestFromPurchaseOrderLinesPost**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNoteCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNoteCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body)
 
 Creates a GRN from the supplied list of ReceivedPOLineQuantity.
 
@@ -179,7 +179,7 @@ $apiInstance = new Jiwa\Api\GoodsReceivedNotesApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $received_po_line_quantities = "received_po_line_quantities_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPOLinesRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPOLinesRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteCREATEFromPOLinesRequest(); // \Jiwa\Model\GoodsReceivedNoteCREATEFromPOLinesRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body);
@@ -197,11 +197,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **received_po_line_quantities** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPOLinesRequest**](../Model/GoodsReceivedNoteCREATEFromPOLinesRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteCREATEFromPOLinesRequest**](../Model/GoodsReceivedNoteCREATEFromPOLinesRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -215,7 +215,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteCREATEFromPORequestFromPurchaseOrdersOrderNosPost**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNoteCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNoteCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body)
 
 Creates a GRN from the supplied purchase orders.
 
@@ -241,7 +241,7 @@ $apiInstance = new Jiwa\Api\GoodsReceivedNotesApi(
 $accept = "accept_example"; // string | Accept Header
 $order_nos = "order_nos_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPORequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPORequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteCREATEFromPORequest(); // \Jiwa\Model\GoodsReceivedNoteCREATEFromPORequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteCREATEFromPORequestFromPurchaseOrdersOrderNosPost($accept, $order_nos, $jiwa_stateful, $body);
@@ -259,11 +259,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **order_nos** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteCREATEFromPORequest**](../Model/GoodsReceivedNoteCREATEFromPORequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteCREATEFromPORequest**](../Model/GoodsReceivedNoteCREATEFromPORequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -277,7 +277,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteDELETERequestGRNIDDelete**
-> \Jiwa\JiwaModel\Object goodsReceivedNoteDELETERequestGRNIDDelete($accept, $grnid, $jiwa_stateful)
+> \Jiwa\Model\Object goodsReceivedNoteDELETERequestGRNIDDelete($accept, $grnid, $jiwa_stateful)
 
 Deletes a GRN.
 
@@ -323,7 +323,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -337,7 +337,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteGETRequestGRNIDGet**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNoteGETRequestGRNIDGet($accept, $grnid, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNoteGETRequestGRNIDGet($accept, $grnid, $jiwa_stateful)
 
 Retrieves a GRN.
 
@@ -383,7 +383,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -397,7 +397,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDELETERequestGRNIDLinesLineIDDelete**
-> \Jiwa\JiwaModel\Object goodsReceivedNoteLineDELETERequestGRNIDLinesLineIDDelete($accept, $grnid, $line_id, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values)
+> \Jiwa\Model\Object goodsReceivedNoteLineDELETERequestGRNIDLinesLineIDDelete($accept, $grnid, $line_id, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values)
 
 Deletes a line from a goods received note.
 
@@ -579,7 +579,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -593,7 +593,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailDELETERequestGRNIDLinesLineIDLineDetailsLineDetailIDDelete**
-> \Jiwa\JiwaModel\Object goodsReceivedNoteLineDetailDELETERequestGRNIDLinesLineIDLineDetailsLineDetailIDDelete($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful)
+> \Jiwa\Model\Object goodsReceivedNoteLineDetailDELETERequestGRNIDLinesLineIDLineDetailsLineDetailIDDelete($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful)
 
 Deletes a goods received note line detail.
 
@@ -643,7 +643,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -657,7 +657,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailGETRequestGRNIDLinesLineIDLineDetailsLineDetailIDGet**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailGETRequestGRNIDLinesLineIDLineDetailsLineDetailIDGet($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailGETRequestGRNIDLinesLineIDLineDetailsLineDetailIDGet($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful)
 
 Retrieves a goods received note line detail.
 
@@ -707,7 +707,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
+[**\Jiwa\Model\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
 
 ### Authorization
 
@@ -721,7 +721,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailPATCHRequestGRNIDLinesLineIDLineDetailsLineDetailIDUpdate**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailPATCHRequestGRNIDLinesLineIDLineDetailsLineDetailIDUpdate($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body)
+> \Jiwa\Model\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailPATCHRequestGRNIDLinesLineIDLineDetailsLineDetailIDUpdate($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body)
 
 Updates a goods received note line detail.
 
@@ -756,7 +756,7 @@ $serial_no = "serial_no_example"; // string |
 $bin_location_id = "bin_location_id_example"; // string | 
 $bin_location_description = "bin_location_description_example"; // string | 
 $expiry_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPATCHRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPATCHRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteLineDetailPATCHRequest(); // \Jiwa\Model\GoodsReceivedNoteLineDetailPATCHRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteLineDetailPATCHRequestGRNIDLinesLineIDLineDetailsLineDetailIDUpdate($accept, $grnid, $line_id, $line_detail_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body);
@@ -783,11 +783,11 @@ Name | Type | Description  | Notes
  **bin_location_id** | **string**|  | [optional]
  **bin_location_description** | **string**|  | [optional]
  **expiry_date** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPATCHRequest**](../Model/GoodsReceivedNoteLineDetailPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteLineDetailPATCHRequest**](../Model/GoodsReceivedNoteLineDetailPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
+[**\Jiwa\Model\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
 
 ### Authorization
 
@@ -801,7 +801,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailPOSTRequestGRNIDLinesLineIDLineDetailsPost**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailPOSTRequestGRNIDLinesLineIDLineDetailsPost($accept, $grnid, $line_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body)
+> \Jiwa\Model\GoodsReceivedNoteLineDetail goodsReceivedNoteLineDetailPOSTRequestGRNIDLinesLineIDLineDetailsPost($accept, $grnid, $line_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body)
 
 Appends a line detail to a goods received note line.
 
@@ -835,7 +835,7 @@ $serial_no = "serial_no_example"; // string |
 $bin_location_id = "bin_location_id_example"; // string | 
 $bin_location_description = "bin_location_description_example"; // string | 
 $expiry_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPOSTRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPOSTRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteLineDetailPOSTRequest(); // \Jiwa\Model\GoodsReceivedNoteLineDetailPOSTRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteLineDetailPOSTRequestGRNIDLinesLineIDLineDetailsPost($accept, $grnid, $line_id, $jiwa_stateful, $link_id, $quantity, $last_saved_date_time, $serial_no, $bin_location_id, $bin_location_description, $expiry_date, $body);
@@ -861,11 +861,11 @@ Name | Type | Description  | Notes
  **bin_location_id** | **string**|  | [optional]
  **bin_location_description** | **string**|  | [optional]
  **expiry_date** | **\DateTime**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPOSTRequest**](../Model/GoodsReceivedNoteLineDetailPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteLineDetailPOSTRequest**](../Model/GoodsReceivedNoteLineDetailPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
+[**\Jiwa\Model\GoodsReceivedNoteLineDetail**](../Model/GoodsReceivedNoteLineDetail.md)
 
 ### Authorization
 
@@ -879,7 +879,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailPUTRequestGRNIDLinesLineIDLineDetailsCreate**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[] goodsReceivedNoteLineDetailPUTRequestGRNIDLinesLineIDLineDetailsCreate($accept, $grnid, $line_id, $jiwa_stateful, $capacity, $count, $item, $body)
+> \Jiwa\Model\GoodsReceivedNoteLineDetail[] goodsReceivedNoteLineDetailPUTRequestGRNIDLinesLineIDLineDetailsCreate($accept, $grnid, $line_id, $jiwa_stateful, $capacity, $count, $item, $body)
 
 Sets the line details for a goods received note line. Existing line details for that line will be replaced.
 
@@ -909,7 +909,7 @@ $jiwa_stateful = true; // bool | Stateful indicator
 $capacity = 56; // int | 
 $count = 56; // int | 
 $item = "item_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPUTRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPUTRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteLineDetailPUTRequest(); // \Jiwa\Model\GoodsReceivedNoteLineDetailPUTRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteLineDetailPUTRequestGRNIDLinesLineIDLineDetailsCreate($accept, $grnid, $line_id, $jiwa_stateful, $capacity, $count, $item, $body);
@@ -931,11 +931,11 @@ Name | Type | Description  | Notes
  **capacity** | **int**|  | [optional]
  **count** | **int**|  | [optional]
  **item** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetailPUTRequest**](../Model/GoodsReceivedNoteLineDetailPUTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteLineDetailPUTRequest**](../Model/GoodsReceivedNoteLineDetailPUTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[]**](../Model/GoodsReceivedNoteLineDetail.md)
+[**\Jiwa\Model\GoodsReceivedNoteLineDetail[]**](../Model/GoodsReceivedNoteLineDetail.md)
 
 ### Authorization
 
@@ -949,7 +949,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineDetailsGETManyRequestGRNIDLinesLineIDLineDetailsGet**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[] goodsReceivedNoteLineDetailsGETManyRequestGRNIDLinesLineIDLineDetailsGet($accept, $grnid, $line_id, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNoteLineDetail[] goodsReceivedNoteLineDetailsGETManyRequestGRNIDLinesLineIDLineDetailsGet($accept, $grnid, $line_id, $jiwa_stateful)
 
 Retrieves a list of line details for a goods received note line.
 
@@ -997,7 +997,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[]**](../Model/GoodsReceivedNoteLineDetail.md)
+[**\Jiwa\Model\GoodsReceivedNoteLineDetail[]**](../Model/GoodsReceivedNoteLineDetail.md)
 
 ### Authorization
 
@@ -1011,7 +1011,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLineGETRequestGRNIDLinesLineIDGet**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLine goodsReceivedNoteLineGETRequestGRNIDLinesLineIDGet($accept, $grnid, $line_id, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNoteLine goodsReceivedNoteLineGETRequestGRNIDLinesLineIDGet($accept, $grnid, $line_id, $jiwa_stateful)
 
 Retrieves a goods received note line.
 
@@ -1059,7 +1059,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
+[**\Jiwa\Model\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
 
 ### Authorization
 
@@ -1073,7 +1073,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLinePATCHRequestGRNIDLinesLineIDUpdate**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLine goodsReceivedNoteLinePATCHRequestGRNIDLinesLineIDUpdate($accept, $grnid, $line_id, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body)
+> \Jiwa\Model\GoodsReceivedNoteLine goodsReceivedNoteLinePATCHRequestGRNIDLinesLineIDUpdate($accept, $grnid, $line_id, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body)
 
 Updates a line for a goods received note.
 
@@ -1167,7 +1167,7 @@ $home_decimal_places = 56; // int |
 $use_expiry_date = true; // bool | 
 $line_details = "line_details_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteLinePATCHRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteLinePATCHRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteLinePATCHRequest(); // \Jiwa\Model\GoodsReceivedNoteLinePATCHRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteLinePATCHRequestGRNIDLinesLineIDUpdate($accept, $grnid, $line_id, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body);
@@ -1253,11 +1253,11 @@ Name | Type | Description  | Notes
  **use_expiry_date** | **bool**|  | [optional]
  **line_details** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLinePATCHRequest**](../Model/GoodsReceivedNoteLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteLinePATCHRequest**](../Model/GoodsReceivedNoteLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
+[**\Jiwa\Model\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
 
 ### Authorization
 
@@ -1271,7 +1271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLinePOSTRequestGRNIDLinesPost**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLine goodsReceivedNoteLinePOSTRequestGRNIDLinesPost($accept, $grnid, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body)
+> \Jiwa\Model\GoodsReceivedNoteLine goodsReceivedNoteLinePOSTRequestGRNIDLinesPost($accept, $grnid, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body)
 
 Appends a line to a goods received note.
 
@@ -1364,7 +1364,7 @@ $home_decimal_places = 56; // int |
 $use_expiry_date = true; // bool | 
 $line_details = "line_details_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNoteLinePOSTRequest(); // \Jiwa\JiwaModel\GoodsReceivedNoteLinePOSTRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNoteLinePOSTRequest(); // \Jiwa\Model\GoodsReceivedNoteLinePOSTRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNoteLinePOSTRequestGRNIDLinesPost($accept, $grnid, $jiwa_stateful, $quantity_ordered, $quantity_delivered, $order_id, $order_no, $order_line_id, $quantity, $inventory_id, $part_no, $aux2, $description, $supplier_part_no, $grn_line_type, $quantity_decimal_places, $last_saved_date_time, $classification_id, $classification_description, $tax_amount, $tax_id, $tax_rate, $cost, $currency_rate_used, $purchasing_classification_id, $purchasing_classification_description, $posted_to_wip, $job_charge, $use_serial_no, $fx_cost, $physical_item, $inventory_expected_liability_ledger_account_id, $inventory_expected_liability_ledger_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_id, $inventory_expected_asset_ledger_account_no, $inventory_expected_asset_ledger_account_description, $inventory_delivered_asset_ledger_account_id, $inventory_delivered_asset_ledger_account_no, $inventory_delivered_asset_ledger_account_description, $inventory_value_ledger_account_id, $inventory_value_ledger_account_no, $inventory_value_ledger_account_description, $inventory_delivered_liability_ledger_account_id, $inventory_delivered_liability_ledger_account_no, $inventory_delivered_liability_ledger_account_description, $inventory_wip_ledger_account_id, $inventory_wip_ledger_account_no, $inventory_wip_ledger_account_description, $po_line_last_saved_date_time, $order_units, $item_no, $in_creditor_rec_id, $in_supplier_warehouse_rec_id, $job_costing_stage_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_cost_centre_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_id, $job_costing_job_no, $unit_inc_tax, $line_total_inc_tax, $fx_line_total_ex_tax, $fx_decimal_places, $home_decimal_places, $use_expiry_date, $line_details, $custom_field_values, $body);
@@ -1449,11 +1449,11 @@ Name | Type | Description  | Notes
  **use_expiry_date** | **bool**|  | [optional]
  **line_details** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLinePOSTRequest**](../Model/GoodsReceivedNoteLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNoteLinePOSTRequest**](../Model/GoodsReceivedNoteLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
+[**\Jiwa\Model\GoodsReceivedNoteLine**](../Model/GoodsReceivedNoteLine.md)
 
 ### Authorization
 
@@ -1467,7 +1467,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteLinesGETManyRequestGRNIDLinesGet**
-> \Jiwa\JiwaModel\GoodsReceivedNoteLine[] goodsReceivedNoteLinesGETManyRequestGRNIDLinesGet($accept, $grnid, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNoteLine[] goodsReceivedNoteLinesGETManyRequestGRNIDLinesGet($accept, $grnid, $jiwa_stateful)
 
 Retrieves a list of goods received note lines.
 
@@ -1513,7 +1513,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNoteLine[]**](../Model/GoodsReceivedNoteLine.md)
+[**\Jiwa\Model\GoodsReceivedNoteLine[]**](../Model/GoodsReceivedNoteLine.md)
 
 ### Authorization
 
@@ -1527,7 +1527,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePATCHRequestGRNIDUpdate**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNotePATCHRequestGRNIDUpdate($accept, $grnid, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNotePATCHRequestGRNIDUpdate($accept, $grnid, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body)
 
 Updates a GRN.
 
@@ -1591,7 +1591,7 @@ $inventory_total_quantity_decimal_places = 1.2; // double |
 $lines = "lines_example"; // string | 
 $purchase_orders = "purchase_orders_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNotePATCHRequest(); // \Jiwa\JiwaModel\GoodsReceivedNotePATCHRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNotePATCHRequest(); // \Jiwa\Model\GoodsReceivedNotePATCHRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNotePATCHRequestGRNIDUpdate($accept, $grnid, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $last_saved_date_time, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body);
@@ -1647,11 +1647,11 @@ Name | Type | Description  | Notes
  **lines** | **string**|  | [optional]
  **purchase_orders** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNotePATCHRequest**](../Model/GoodsReceivedNotePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNotePATCHRequest**](../Model/GoodsReceivedNotePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -1665,7 +1665,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePOSTRequestPost**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNotePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNotePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body)
 
 Creates a GRN.
 
@@ -1727,7 +1727,7 @@ $inventory_total_quantity_decimal_places = 1.2; // double |
 $lines = "lines_example"; // string | 
 $purchase_orders = "purchase_orders_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNotePOSTRequest(); // \Jiwa\JiwaModel\GoodsReceivedNotePOSTRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNotePOSTRequest(); // \Jiwa\Model\GoodsReceivedNotePOSTRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNotePOSTRequestPost($accept, $jiwa_stateful, $creditor_id, $creditor_account_no, $creditor_name, $slip_no, $slip_date, $status, $freight, $duty, $invoiced, $pi_main_id, $insurance, $logical_warehouse_id, $logical_warehouse_description, $physical_warehouse_id, $physical_warehouse_description, $tax_total, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $reference, $total_gross, $total_net, $total_fx, $freight_inc, $duty_inc, $insurance_inc, $inventory_total_quantity, $inventory_total_quantity_decimal_places, $lines, $purchase_orders, $custom_field_values, $body);
@@ -1781,11 +1781,11 @@ Name | Type | Description  | Notes
  **lines** | **string**|  | [optional]
  **purchase_orders** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNotePOSTRequest**](../Model/GoodsReceivedNotePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNotePOSTRequest**](../Model/GoodsReceivedNotePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 
@@ -1799,7 +1799,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePurchaseOrderDELETERequestGRNIDPurchaseOrdersOrderIDDelete**
-> \Jiwa\JiwaModel\Object goodsReceivedNotePurchaseOrderDELETERequestGRNIDPurchaseOrdersOrderIDDelete($accept, $grnid, $order_id, $jiwa_stateful, $purchase_order_received_id, $order_no, $order_type, $ordered_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount)
+> \Jiwa\Model\Object goodsReceivedNotePurchaseOrderDELETERequestGRNIDPurchaseOrdersOrderIDDelete($accept, $grnid, $order_id, $jiwa_stateful, $purchase_order_received_id, $order_no, $order_type, $ordered_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount)
 
 Deletes a purchase order from a goods received note.
 
@@ -1873,7 +1873,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -1887,7 +1887,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePurchaseOrderGETRequestGRNIDPurchaseOrdersOrderIDGet**
-> \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived goodsReceivedNotePurchaseOrderGETRequestGRNIDPurchaseOrdersOrderIDGet($accept, $grnid, $order_id, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived goodsReceivedNotePurchaseOrderGETRequestGRNIDPurchaseOrdersOrderIDGet($accept, $grnid, $order_id, $jiwa_stateful)
 
 Retrieves a goods received note purchase order.
 
@@ -1935,7 +1935,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
+[**\Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -1949,7 +1949,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePurchaseOrderPOSTRequestGRNIDPurchaseOrdersPost**
-> \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived goodsReceivedNotePurchaseOrderPOSTRequestGRNIDPurchaseOrdersPost($accept, $grnid, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $order_type, $ordered_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $body)
+> \Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived goodsReceivedNotePurchaseOrderPOSTRequestGRNIDPurchaseOrdersPost($accept, $grnid, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $order_type, $ordered_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $body)
 
 Appends a purchase order to a goods received note.
 
@@ -1989,7 +1989,7 @@ $duty_tax_amount = 1.2; // double |
 $insurance_tax_id = "insurance_tax_id_example"; // string | 
 $insurance = 1.2; // double | 
 $insurance_tax_amount = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderPOSTRequest(); // \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderPOSTRequest | 
+$body = new \Jiwa\Model\GoodsReceivedNotePurchaseOrderPOSTRequest(); // \Jiwa\Model\GoodsReceivedNotePurchaseOrderPOSTRequest | 
 
 try {
     $result = $apiInstance->goodsReceivedNotePurchaseOrderPOSTRequestGRNIDPurchaseOrdersPost($accept, $grnid, $jiwa_stateful, $order_id, $purchase_order_received_id, $order_no, $order_type, $ordered_date, $freight_tax_id, $freight, $freight_tax_amount, $duty_tax_id, $duty, $duty_tax_amount, $insurance_tax_id, $insurance, $insurance_tax_amount, $body);
@@ -2021,11 +2021,11 @@ Name | Type | Description  | Notes
  **insurance_tax_id** | **string**|  | [optional]
  **insurance** | **double**|  | [optional]
  **insurance_tax_amount** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderPOSTRequest**](../Model/GoodsReceivedNotePurchaseOrderPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\GoodsReceivedNotePurchaseOrderPOSTRequest**](../Model/GoodsReceivedNotePurchaseOrderPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
+[**\Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -2039,7 +2039,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNotePurchaseOrdersGETManyRequestGRNIDPurchaseOrdersGet**
-> \Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[] goodsReceivedNotePurchaseOrdersGETManyRequestGRNIDPurchaseOrdersGet($accept, $grnid, $jiwa_stateful)
+> \Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[] goodsReceivedNotePurchaseOrdersGETManyRequestGRNIDPurchaseOrdersGet($accept, $grnid, $jiwa_stateful)
 
 Retrieves a list of goods received note purchase orders.
 
@@ -2085,7 +2085,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNotePurchaseOrderReceived[]**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
+[**\Jiwa\Model\GoodsReceivedNotePurchaseOrderReceived[]**](../Model/GoodsReceivedNotePurchaseOrderReceived.md)
 
 ### Authorization
 
@@ -2099,7 +2099,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **goodsReceivedNoteSAVERequestSaveGet**
-> \Jiwa\JiwaModel\GoodsReceivedNote goodsReceivedNoteSAVERequestSaveGet($accept, $jiwa_stateful, $grnid)
+> \Jiwa\Model\GoodsReceivedNote goodsReceivedNoteSAVERequestSaveGet($accept, $jiwa_stateful, $grnid)
 
 Saves a stateful stateful goods received note.
 
@@ -2145,7 +2145,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
+[**\Jiwa\Model\GoodsReceivedNote**](../Model/GoodsReceivedNote.md)
 
 ### Authorization
 

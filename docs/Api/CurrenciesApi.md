@@ -17,7 +17,7 @@ Method | HTTP request | Description
 
 
 # **currencyABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object currencyABANDONRequestAbandonDelete($accept, $jiwa_stateful, $currency_id)
+> \Jiwa\Model\Object currencyABANDONRequestAbandonDelete($accept, $jiwa_stateful, $currency_id)
 
 Abandons a stateful currency.
 
@@ -63,7 +63,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -77,7 +77,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyDELETERequestCurrencyIDDelete**
-> \Jiwa\JiwaModel\Object currencyDELETERequestCurrencyIDDelete($accept, $currency_id, $jiwa_stateful)
+> \Jiwa\Model\Object currencyDELETERequestCurrencyIDDelete($accept, $currency_id, $jiwa_stateful)
 
 Deletes a currency.
 
@@ -123,7 +123,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -137,7 +137,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyGETRequestCurrencyIDGet**
-> \Jiwa\JiwaModel\Currency currencyGETRequestCurrencyIDGet($accept, $currency_id, $jiwa_stateful)
+> \Jiwa\Model\Currency currencyGETRequestCurrencyIDGet($accept, $currency_id, $jiwa_stateful)
 
 Retrieves a currency.
 
@@ -183,7 +183,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Currency**](../Model/Currency.md)
+[**\Jiwa\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -197,7 +197,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyPATCHRequestCurrencyIDUpdate**
-> \Jiwa\JiwaModel\Currency currencyPATCHRequestCurrencyIDUpdate($accept, $currency_id, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $last_saved_date_time, $rates, $body)
+> \Jiwa\Model\Currency currencyPATCHRequestCurrencyIDUpdate($accept, $currency_id, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $last_saved_date_time, $rates, $body)
 
 Updates a currency.
 
@@ -230,7 +230,7 @@ $is_enabled = true; // bool |
 $is_local = true; // bool | 
 $last_saved_date_time = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $rates = "rates_example"; // string | 
-$body = new \Jiwa\JiwaModel\CurrencyPATCHRequest(); // \Jiwa\JiwaModel\CurrencyPATCHRequest | 
+$body = new \Jiwa\Model\CurrencyPATCHRequest(); // \Jiwa\Model\CurrencyPATCHRequest | 
 
 try {
     $result = $apiInstance->currencyPATCHRequestCurrencyIDUpdate($accept, $currency_id, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $last_saved_date_time, $rates, $body);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
  **is_local** | **bool**|  | [optional]
  **last_saved_date_time** | **\DateTime**|  | [optional]
  **rates** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CurrencyPATCHRequest**](../Model/CurrencyPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CurrencyPATCHRequest**](../Model/CurrencyPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Currency**](../Model/Currency.md)
+[**\Jiwa\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyPOSTRequestPost**
-> \Jiwa\JiwaModel\Currency currencyPOSTRequestPost($accept, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $rates, $body)
+> \Jiwa\Model\Currency currencyPOSTRequestPost($accept, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $rates, $body)
 
 Creates a currency.
 
@@ -304,7 +304,7 @@ $decimal_places = 56; // int |
 $is_enabled = true; // bool | 
 $is_local = true; // bool | 
 $rates = "rates_example"; // string | 
-$body = new \Jiwa\JiwaModel\CurrencyPOSTRequest(); // \Jiwa\JiwaModel\CurrencyPOSTRequest | 
+$body = new \Jiwa\Model\CurrencyPOSTRequest(); // \Jiwa\Model\CurrencyPOSTRequest | 
 
 try {
     $result = $apiInstance->currencyPOSTRequestPost($accept, $jiwa_stateful, $name, $short_name, $decimal_places, $is_enabled, $is_local, $rates, $body);
@@ -327,11 +327,11 @@ Name | Type | Description  | Notes
  **is_enabled** | **bool**|  | [optional]
  **is_local** | **bool**|  | [optional]
  **rates** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CurrencyPOSTRequest**](../Model/CurrencyPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CurrencyPOSTRequest**](../Model/CurrencyPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Currency**](../Model/Currency.md)
+[**\Jiwa\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -345,7 +345,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyRateDELETERequestCurrencyIDRatesRateIDDelete**
-> \Jiwa\JiwaModel\Object currencyRateDELETERequestCurrencyIDRatesRateIDDelete($accept, $currency_id, $rate_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate)
+> \Jiwa\Model\Object currencyRateDELETERequestCurrencyIDRatesRateIDDelete($accept, $currency_id, $rate_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate)
 
 Deletes a rate from a currency.
 
@@ -401,7 +401,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -415,7 +415,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyRateGETRequestCurrencyIDRatesRateIDGet**
-> \Jiwa\JiwaModel\CurrencyRate currencyRateGETRequestCurrencyIDRatesRateIDGet($accept, $currency_id, $rate_id, $jiwa_stateful)
+> \Jiwa\Model\CurrencyRate currencyRateGETRequestCurrencyIDRatesRateIDGet($accept, $currency_id, $rate_id, $jiwa_stateful)
 
 Retrieves a currency rate.
 
@@ -463,7 +463,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CurrencyRate**](../Model/CurrencyRate.md)
+[**\Jiwa\Model\CurrencyRate**](../Model/CurrencyRate.md)
 
 ### Authorization
 
@@ -477,7 +477,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyRatePATCHRequestCurrencyIDRatesRateIDUpdate**
-> \Jiwa\JiwaModel\CurrencyRate currencyRatePATCHRequestCurrencyIDRatesRateIDUpdate($accept, $currency_id, $rate_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body)
+> \Jiwa\Model\CurrencyRate currencyRatePATCHRequestCurrencyIDRatesRateIDUpdate($accept, $currency_id, $rate_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body)
 
 Updates a rate for a currency.
 
@@ -508,7 +508,7 @@ $date_entered = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime |
 $effective_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $effective_date_end = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $transaction_rate = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\CurrencyRatePATCHRequest(); // \Jiwa\JiwaModel\CurrencyRatePATCHRequest | 
+$body = new \Jiwa\Model\CurrencyRatePATCHRequest(); // \Jiwa\Model\CurrencyRatePATCHRequest | 
 
 try {
     $result = $apiInstance->currencyRatePATCHRequestCurrencyIDRatesRateIDUpdate($accept, $currency_id, $rate_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body);
@@ -531,11 +531,11 @@ Name | Type | Description  | Notes
  **effective_date** | **\DateTime**|  | [optional]
  **effective_date_end** | **\DateTime**|  | [optional]
  **transaction_rate** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CurrencyRatePATCHRequest**](../Model/CurrencyRatePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CurrencyRatePATCHRequest**](../Model/CurrencyRatePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CurrencyRate**](../Model/CurrencyRate.md)
+[**\Jiwa\Model\CurrencyRate**](../Model/CurrencyRate.md)
 
 ### Authorization
 
@@ -549,7 +549,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencyRatePOSTRequestCurrencyIDRatesPost**
-> \Jiwa\JiwaModel\CurrencyRate currencyRatePOSTRequestCurrencyIDRatesPost($accept, $currency_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body)
+> \Jiwa\Model\CurrencyRate currencyRatePOSTRequestCurrencyIDRatesPost($accept, $currency_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body)
 
 Appends a rate to a currency.
 
@@ -579,7 +579,7 @@ $date_entered = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime |
 $effective_date = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $effective_date_end = new \DateTime("2013-10-20T19:20:30+01:00"); // \DateTime | 
 $transaction_rate = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\CurrencyRatePOSTRequest(); // \Jiwa\JiwaModel\CurrencyRatePOSTRequest | 
+$body = new \Jiwa\Model\CurrencyRatePOSTRequest(); // \Jiwa\Model\CurrencyRatePOSTRequest | 
 
 try {
     $result = $apiInstance->currencyRatePOSTRequestCurrencyIDRatesPost($accept, $currency_id, $jiwa_stateful, $date_entered, $effective_date, $effective_date_end, $transaction_rate, $body);
@@ -601,11 +601,11 @@ Name | Type | Description  | Notes
  **effective_date** | **\DateTime**|  | [optional]
  **effective_date_end** | **\DateTime**|  | [optional]
  **transaction_rate** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\CurrencyRatePOSTRequest**](../Model/CurrencyRatePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\CurrencyRatePOSTRequest**](../Model/CurrencyRatePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\CurrencyRate**](../Model/CurrencyRate.md)
+[**\Jiwa\Model\CurrencyRate**](../Model/CurrencyRate.md)
 
 ### Authorization
 
@@ -619,7 +619,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **currencySAVERequestSaveGet**
-> \Jiwa\JiwaModel\Currency currencySAVERequestSaveGet($accept, $jiwa_stateful, $currency_id)
+> \Jiwa\Model\Currency currencySAVERequestSaveGet($accept, $jiwa_stateful, $currency_id)
 
 Saves a stateful currency.
 
@@ -665,7 +665,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Currency**](../Model/Currency.md)
+[**\Jiwa\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class CartageCharge implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'ex_tax_amount' => 'double',
         'tax_amount' => 'double',
-        'tax_rate' => '\Jiwa\JiwaModel\TaxRate'
+        'tax_rate' => '\Jiwa\Model\TaxRate'
     ];
 
     /**
@@ -268,7 +268,7 @@ class CartageCharge implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rate
      *
-     * @return \Jiwa\JiwaModel\TaxRate
+     * @return \Jiwa\Model\TaxRate
      */
     public function getTaxRate()
     {
@@ -278,7 +278,7 @@ class CartageCharge implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rate
      *
-     * @param \Jiwa\JiwaModel\TaxRate $tax_rate tax_rate
+     * @param \Jiwa\Model\TaxRate $tax_rate tax_rate
      *
      * @return $this
      */

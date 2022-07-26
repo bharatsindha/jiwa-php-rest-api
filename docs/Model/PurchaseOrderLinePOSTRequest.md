@@ -81,7 +81,7 @@ Name | Type | Description | Notes
 **inventory_expected_asset_ledger_account_description** | **string** |  | [optional] 
 **classification_id** | **string** |  | [optional] 
 **classification_description** | **string** |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

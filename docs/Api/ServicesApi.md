@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **restartRequestRestartGet**
-> \Jiwa\JiwaModel\Object restartRequestRestartGet($accept, $jiwa_stateful)
+> \Jiwa\Model\Object restartRequestRestartGet($accept, $jiwa_stateful)
 
 Restarts the API site.
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **stopRequestStopGet**
-> \Jiwa\JiwaModel\Object stopRequestStopGet($accept, $jiwa_stateful)
+> \Jiwa\Model\Object stopRequestStopGet($accept, $jiwa_stateful)
 
 Stops the API Service.
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 

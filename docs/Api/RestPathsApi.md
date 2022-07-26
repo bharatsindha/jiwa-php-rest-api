@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **restPathsGETManyRequestGet**
-> \Jiwa\JiwaModel\RestPath[] restPathsGETManyRequestGet($accept, $jiwa_stateful)
+> \Jiwa\Model\RestPath[] restPathsGETManyRequestGet($accept, $jiwa_stateful)
 
 Retrieves a list of routes.
 
@@ -45,7 +45,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\RestPath[]**](../Model/RestPath.md)
+[**\Jiwa\Model\RestPath[]**](../Model/RestPath.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -80,8 +80,8 @@ class InventorySupplierWarehousePATCHRequest implements ModelInterface, ArrayAcc
         'spare_string1' => 'string',
         'spare_string2' => 'string',
         'spare_string3' => 'string',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'unit_of_measure' => '\Jiwa\JiwaModel\InventoryUnitOfMeasure'
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'unit_of_measure' => '\Jiwa\Model\InventoryUnitOfMeasure'
     ];
 
     /**
@@ -874,7 +874,7 @@ class InventorySupplierWarehousePATCHRequest implements ModelInterface, ArrayAcc
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -884,7 +884,7 @@ class InventorySupplierWarehousePATCHRequest implements ModelInterface, ArrayAcc
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -898,7 +898,7 @@ class InventorySupplierWarehousePATCHRequest implements ModelInterface, ArrayAcc
     /**
      * Gets unit_of_measure
      *
-     * @return \Jiwa\JiwaModel\InventoryUnitOfMeasure
+     * @return \Jiwa\Model\InventoryUnitOfMeasure
      */
     public function getUnitOfMeasure()
     {
@@ -908,7 +908,7 @@ class InventorySupplierWarehousePATCHRequest implements ModelInterface, ArrayAcc
     /**
      * Sets unit_of_measure
      *
-     * @param \Jiwa\JiwaModel\InventoryUnitOfMeasure $unit_of_measure unit_of_measure
+     * @param \Jiwa\Model\InventoryUnitOfMeasure $unit_of_measure unit_of_measure
      *
      * @return $this
      */

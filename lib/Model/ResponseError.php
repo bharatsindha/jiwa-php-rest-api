@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -61,7 +61,7 @@ class ResponseError implements ModelInterface, ArrayAccess
         'error_code' => 'string',
         'field_name' => 'string',
         'message' => 'string',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_'
+        'meta' => '\Jiwa\Model\DictionaryStringString_'
     ];
 
     /**
@@ -298,7 +298,7 @@ class ResponseError implements ModelInterface, ArrayAccess
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -308,7 +308,7 @@ class ResponseError implements ModelInterface, ArrayAccess
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */

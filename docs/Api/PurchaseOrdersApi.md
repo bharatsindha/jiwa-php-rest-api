@@ -20,7 +20,7 @@ Method | HTTP request | Description
 
 
 # **purchaseOrderABANDONRequestAbandonDelete**
-> \Jiwa\JiwaModel\Object purchaseOrderABANDONRequestAbandonDelete($accept, $jiwa_stateful, $purchase_order_id)
+> \Jiwa\Model\Object purchaseOrderABANDONRequestAbandonDelete($accept, $jiwa_stateful, $purchase_order_id)
 
 Abandons a stateful purchase order.
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -80,7 +80,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderACTIVATERequestActivatePurchaseOrderIDPost**
-> \Jiwa\JiwaModel\PurchaseOrder purchaseOrderACTIVATERequestActivatePurchaseOrderIDPost($accept, $purchase_order_id, $jiwa_stateful, $body)
+> \Jiwa\Model\PurchaseOrder purchaseOrderACTIVATERequestActivatePurchaseOrderIDPost($accept, $purchase_order_id, $jiwa_stateful, $body)
 
 Sets the status of a purchase order to 'Sent'.
 
@@ -106,7 +106,7 @@ $apiInstance = new Jiwa\Api\PurchaseOrdersApi(
 $accept = "accept_example"; // string | Accept Header
 $purchase_order_id = "purchase_order_id_example"; // string | 
 $jiwa_stateful = true; // bool | Stateful indicator
-$body = new \Jiwa\JiwaModel\PurchaseOrderACTIVATERequest(); // \Jiwa\JiwaModel\PurchaseOrderACTIVATERequest | 
+$body = new \Jiwa\Model\PurchaseOrderACTIVATERequest(); // \Jiwa\Model\PurchaseOrderACTIVATERequest | 
 
 try {
     $result = $apiInstance->purchaseOrderACTIVATERequestActivatePurchaseOrderIDPost($accept, $purchase_order_id, $jiwa_stateful, $body);
@@ -124,11 +124,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **purchase_order_id** | **string**|  |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderACTIVATERequest**](../Model/PurchaseOrderACTIVATERequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderACTIVATERequest**](../Model/PurchaseOrderACTIVATERequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Jiwa\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -142,7 +142,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderDELETERequestPurchaseOrderIDDelete**
-> \Jiwa\JiwaModel\Object purchaseOrderDELETERequestPurchaseOrderIDDelete($accept, $purchase_order_id, $jiwa_stateful)
+> \Jiwa\Model\Object purchaseOrderDELETERequestPurchaseOrderIDDelete($accept, $purchase_order_id, $jiwa_stateful)
 
 Deletes a purchase order.
 
@@ -188,7 +188,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -202,7 +202,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderGETRequestPurchaseOrderIDGet**
-> \Jiwa\JiwaModel\PurchaseOrder purchaseOrderGETRequestPurchaseOrderIDGet($accept, $purchase_order_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseOrder purchaseOrderGETRequestPurchaseOrderIDGet($accept, $purchase_order_id, $jiwa_stateful)
 
 Retrieves a purchase order.
 
@@ -248,7 +248,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Jiwa\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -262,7 +262,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderLineDELETERequestPurchaseOrderIDLinesPurchaseOrderLineIDDelete**
-> \Jiwa\JiwaModel\Object purchaseOrderLineDELETERequestPurchaseOrderIDLinesPurchaseOrderLineIDDelete($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values)
+> \Jiwa\Model\Object purchaseOrderLineDELETERequestPurchaseOrderIDLinesPurchaseOrderLineIDDelete($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values)
 
 Deletes a line from a purchase order.
 
@@ -466,7 +466,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\Object**](../Model/Object.md)
+[**\Jiwa\Model\Object**](../Model/Object.md)
 
 ### Authorization
 
@@ -480,7 +480,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderLineGETRequestPurchaseOrderIDLinesPurchaseOrderLineIDGet**
-> \Jiwa\JiwaModel\PurchaseOrderLine purchaseOrderLineGETRequestPurchaseOrderIDLinesPurchaseOrderLineIDGet($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseOrderLine purchaseOrderLineGETRequestPurchaseOrderIDLinesPurchaseOrderLineIDGet($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful)
 
 Retrieves a purchase order line.
 
@@ -528,7 +528,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
+[**\Jiwa\Model\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
 
 ### Authorization
 
@@ -542,7 +542,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderLinePATCHRequestPurchaseOrderIDLinesPurchaseOrderLineIDUpdate**
-> \Jiwa\JiwaModel\PurchaseOrderLine purchaseOrderLinePATCHRequestPurchaseOrderIDLinesPurchaseOrderLineIDUpdate($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body)
+> \Jiwa\Model\PurchaseOrderLine purchaseOrderLinePATCHRequestPurchaseOrderIDLinesPurchaseOrderLineIDUpdate($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body)
 
 Updates a line for a purchase order.
 
@@ -647,7 +647,7 @@ $inventory_expected_asset_ledger_account_description = "inventory_expected_asset
 $classification_id = "classification_id_example"; // string | 
 $classification_description = "classification_description_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseOrderLinePATCHRequest(); // \Jiwa\JiwaModel\PurchaseOrderLinePATCHRequest | 
+$body = new \Jiwa\Model\PurchaseOrderLinePATCHRequest(); // \Jiwa\Model\PurchaseOrderLinePATCHRequest | 
 
 try {
     $result = $apiInstance->purchaseOrderLinePATCHRequestPurchaseOrderIDLinesPurchaseOrderLineIDUpdate($accept, $purchase_order_id, $purchase_order_line_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body);
@@ -744,11 +744,11 @@ Name | Type | Description  | Notes
  **classification_id** | **string**|  | [optional]
  **classification_description** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderLinePATCHRequest**](../Model/PurchaseOrderLinePATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderLinePATCHRequest**](../Model/PurchaseOrderLinePATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
+[**\Jiwa\Model\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
 
 ### Authorization
 
@@ -762,7 +762,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderLinePOSTRequestPurchaseOrderIDLinesPost**
-> \Jiwa\JiwaModel\PurchaseOrderLine purchaseOrderLinePOSTRequestPurchaseOrderIDLinesPost($accept, $purchase_order_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body)
+> \Jiwa\Model\PurchaseOrderLine purchaseOrderLinePOSTRequestPurchaseOrderIDLinesPost($accept, $purchase_order_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body)
 
 Appends a line to a purchase order.
 
@@ -866,7 +866,7 @@ $inventory_expected_asset_ledger_account_description = "inventory_expected_asset
 $classification_id = "classification_id_example"; // string | 
 $classification_description = "classification_description_example"; // string | 
 $custom_field_values = "custom_field_values_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseOrderLinePOSTRequest(); // \Jiwa\JiwaModel\PurchaseOrderLinePOSTRequest | 
+$body = new \Jiwa\Model\PurchaseOrderLinePOSTRequest(); // \Jiwa\Model\PurchaseOrderLinePOSTRequest | 
 
 try {
     $result = $apiInstance->purchaseOrderLinePOSTRequestPurchaseOrderIDLinesPost($accept, $purchase_order_id, $jiwa_stateful, $item_no, $inventory_id, $is_physical, $part_no, $description, $quantity_decimal_places, $make_supplier_the_new_default, $purchase_order_line_type, $quantity, $inc_price, $tax_amount, $line_total, $line_total_ex_tax, $fx_total, $currency_rate_used, $fx_decimal_places, $home_currency_decimal_places, $delivery_date, $delivered, $history_text_comment, $job_costing_stage_rec_id, $job_costing_stage_no, $job_costing_stage_name, $job_costing_stage_classification_rec_id, $job_costing_stage_classification_description, $job_costing_cost_centre_rec_id, $job_costing_cost_centre_no, $job_costing_cost_centre_name, $job_costing_job_rec_id, $job_costing_job_no, $job_costing_job_description, $in_on_back_order_orders_on_back_id, $in_on_back_order_quantity, $in_on_back_order_est_bo_value, $in_on_back_order_last_saved_date_time, $invoice_line_id, $user_defined_float1, $user_defined_float2, $user_defined_float3, $user_defined_date1, $user_defined_date2, $user_defined_date3, $user_defined_string1, $user_defined_string2, $user_defined_string3, $purchasing_classification_rec_id, $purchasing_classification_description, $purchasing_classification_ledger_account_rec_id, $purchasing_classification_ledger_account_account_no, $purchasing_classification_ledger_account_description, $service_manager_task_rec_id, $service_manager_task_no, $service_manager_task_description, $service_manager_job_rec_id, $service_manager_job_no, $service_manager_job_description, $in_creditor_rec_id, $supplier_part_no, $in_supplier_warehouse_rec_id, $order_units, $delivery_days, $fx_cost, $cost, $cost_original, $units, $tax_rate_rec_id, $tax_rate_description, $tax_rate, $tax_rate_bas_code, $inventory_expected_liability_ledger_account_rec_id, $inventory_expected_liability_ledger_account_account_no, $inventory_expected_liability_ledger_account_description, $inventory_expected_asset_ledger_account_rec_id, $inventory_expected_asset_ledger_account_account_no, $inventory_expected_asset_ledger_account_description, $classification_id, $classification_description, $custom_field_values, $body);
@@ -962,11 +962,11 @@ Name | Type | Description  | Notes
  **classification_id** | **string**|  | [optional]
  **classification_description** | **string**|  | [optional]
  **custom_field_values** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderLinePOSTRequest**](../Model/PurchaseOrderLinePOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderLinePOSTRequest**](../Model/PurchaseOrderLinePOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
+[**\Jiwa\Model\PurchaseOrderLine**](../Model/PurchaseOrderLine.md)
 
 ### Authorization
 
@@ -980,7 +980,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderLinesGETManyRequestPurchaseOrderIDLinesGet**
-> \Jiwa\JiwaModel\PurchaseOrderLine[] purchaseOrderLinesGETManyRequestPurchaseOrderIDLinesGet($accept, $purchase_order_id, $jiwa_stateful)
+> \Jiwa\Model\PurchaseOrderLine[] purchaseOrderLinesGETManyRequestPurchaseOrderIDLinesGet($accept, $purchase_order_id, $jiwa_stateful)
 
 Retrieves a list of purchase order lines.
 
@@ -1026,7 +1026,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrderLine[]**](../Model/PurchaseOrderLine.md)
+[**\Jiwa\Model\PurchaseOrderLine[]**](../Model/PurchaseOrderLine.md)
 
 ### Authorization
 
@@ -1040,7 +1040,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderPATCHRequestPurchaseOrderIDUpdate**
-> \Jiwa\JiwaModel\PurchaseOrder purchaseOrderPATCHRequestPurchaseOrderIDUpdate($accept, $purchase_order_id, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body)
+> \Jiwa\Model\PurchaseOrder purchaseOrderPATCHRequestPurchaseOrderIDUpdate($accept, $purchase_order_id, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body)
 
 Updates a purchase order.
 
@@ -1135,7 +1135,7 @@ $insurance_tax_amount = 1.2; // double |
 $freight_inc = 1.2; // double | 
 $duty_inc = 1.2; // double | 
 $insurance_inc = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\PurchaseOrderPATCHRequest(); // \Jiwa\JiwaModel\PurchaseOrderPATCHRequest | 
+$body = new \Jiwa\Model\PurchaseOrderPATCHRequest(); // \Jiwa\Model\PurchaseOrderPATCHRequest | 
 
 try {
     $result = $apiInstance->purchaseOrderPATCHRequestPurchaseOrderIDUpdate($accept, $purchase_order_id, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body);
@@ -1222,11 +1222,11 @@ Name | Type | Description  | Notes
  **freight_inc** | **double**|  | [optional]
  **duty_inc** | **double**|  | [optional]
  **insurance_inc** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderPATCHRequest**](../Model/PurchaseOrderPATCHRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderPATCHRequest**](../Model/PurchaseOrderPATCHRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Jiwa\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -1240,7 +1240,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderPOSTRequestPost**
-> \Jiwa\JiwaModel\PurchaseOrder purchaseOrderPOSTRequestPost($accept, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body)
+> \Jiwa\Model\PurchaseOrder purchaseOrderPOSTRequestPost($accept, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body)
 
 Creates a purchase order.
 
@@ -1334,7 +1334,7 @@ $insurance_tax_amount = 1.2; // double |
 $freight_inc = 1.2; // double | 
 $duty_inc = 1.2; // double | 
 $insurance_inc = 1.2; // double | 
-$body = new \Jiwa\JiwaModel\PurchaseOrderPOSTRequest(); // \Jiwa\JiwaModel\PurchaseOrderPOSTRequest | 
+$body = new \Jiwa\Model\PurchaseOrderPOSTRequest(); // \Jiwa\Model\PurchaseOrderPOSTRequest | 
 
 try {
     $result = $apiInstance->purchaseOrderPOSTRequestPost($accept, $jiwa_stateful, $creditor_rec_id, $creditor_account_no, $creditor_name, $creditor_warehouse_rec_id, $creditor_warehouse_description, $logical_warehouse_residing_in_rec_id, $logical_warehouse_residing_in_description, $physical_warehouse_residing_in_rec_id, $physical_warehouse_residing_in_description, $logical_warehouse_ordering_from_rec_id, $logical_warehouse_ordering_from_description, $physical_warehouse_ordering_from_rec_id, $physical_warehouse_ordering_from_description, $in_transit_logical_warehouse_rec_id, $in_transit_logical_warehouse_description, $in_transit_physical_warehouse_rec_id, $in_transit_physical_warehouse_description, $order_no, $order_date, $attention, $contact_by, $staff_id, $staff_user_name, $staff_title, $staff_first_name, $staff_surname, $order_status, $order_type, $order_supplier_type, $tax_total, $use_in_transit, $reference, $total_gross, $total_net, $total_fx, $notes, $documents, $custom_field_values, $lines, $shipping_address_address_line1, $shipping_address_address_line2, $shipping_address_address_line3, $shipping_address_address_line4, $shipping_address_address_line5, $shipping_address_country, $shipping_address_post_code, $shipping_address_contact_name, $shipping_address_phone, $shipping_address_fax, $shipping_address_spare1, $shipping_address_spare2, $shipping_address_spare3, $shipping_address_spare4, $shipping_address_spare5, $freight, $duty, $insurance, $freight_tax_id, $freight_tax_rate, $freight_tax_amount, $duty_tax_id, $duty_tax_rate, $duty_tax_amount, $insurance_tax_id, $insurance_tax_rate, $insurance_tax_amount, $freight_inc, $duty_inc, $insurance_inc, $body);
@@ -1420,11 +1420,11 @@ Name | Type | Description  | Notes
  **freight_inc** | **double**|  | [optional]
  **duty_inc** | **double**|  | [optional]
  **insurance_inc** | **double**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderPOSTRequest**](../Model/PurchaseOrderPOSTRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderPOSTRequest**](../Model/PurchaseOrderPOSTRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Jiwa\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 
@@ -1438,7 +1438,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderReceiveStockCREATEFromPOLinesRequestFromPurchaseOrderLinesPost**
-> \Jiwa\JiwaModel\ReceivalDocument[] purchaseOrderReceiveStockCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body)
+> \Jiwa\Model\ReceivalDocument[] purchaseOrderReceiveStockCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body)
 
 Creates a landed cost book in if the purchase order is on a shipment, otherwise creates a goods received note from the supplied list of ReceivedPOLineQuantity.
 
@@ -1464,7 +1464,7 @@ $apiInstance = new Jiwa\Api\PurchaseOrdersApi(
 $accept = "accept_example"; // string | Accept Header
 $jiwa_stateful = true; // bool | Stateful indicator
 $received_po_line_quantities = "received_po_line_quantities_example"; // string | 
-$body = new \Jiwa\JiwaModel\PurchaseOrderReceiveStockCREATEFromPOLinesRequest(); // \Jiwa\JiwaModel\PurchaseOrderReceiveStockCREATEFromPOLinesRequest | 
+$body = new \Jiwa\Model\PurchaseOrderReceiveStockCREATEFromPOLinesRequest(); // \Jiwa\Model\PurchaseOrderReceiveStockCREATEFromPOLinesRequest | 
 
 try {
     $result = $apiInstance->purchaseOrderReceiveStockCREATEFromPOLinesRequestFromPurchaseOrderLinesPost($accept, $jiwa_stateful, $received_po_line_quantities, $body);
@@ -1482,11 +1482,11 @@ Name | Type | Description  | Notes
  **accept** | **string**| Accept Header |
  **jiwa_stateful** | **bool**| Stateful indicator | [optional]
  **received_po_line_quantities** | **string**|  | [optional]
- **body** | [**\Jiwa\JiwaModel\PurchaseOrderReceiveStockCREATEFromPOLinesRequest**](../Model/PurchaseOrderReceiveStockCREATEFromPOLinesRequest.md)|  | [optional]
+ **body** | [**\Jiwa\Model\PurchaseOrderReceiveStockCREATEFromPOLinesRequest**](../Model/PurchaseOrderReceiveStockCREATEFromPOLinesRequest.md)|  | [optional]
 
 ### Return type
 
-[**\Jiwa\JiwaModel\ReceivalDocument[]**](../Model/ReceivalDocument.md)
+[**\Jiwa\Model\ReceivalDocument[]**](../Model/ReceivalDocument.md)
 
 ### Authorization
 
@@ -1500,7 +1500,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **purchaseOrderSAVERequestSaveGet**
-> \Jiwa\JiwaModel\PurchaseOrder purchaseOrderSAVERequestSaveGet($accept, $jiwa_stateful, $purchase_order_id)
+> \Jiwa\Model\PurchaseOrder purchaseOrderSAVERequestSaveGet($accept, $jiwa_stateful, $purchase_order_id)
 
 Saves a stateful stateful purchase order.
 
@@ -1546,7 +1546,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\PurchaseOrder**](../Model/PurchaseOrder.md)
+[**\Jiwa\Model\PurchaseOrder**](../Model/PurchaseOrder.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class CreditorPATCHRequest implements ModelInterface, ArrayAccess
         'account_no' => 'string',
         'alt_account_no' => 'string',
         'name' => 'string',
-        'warehouse_addresses' => '\Jiwa\JiwaModel\CreditorWarehouseAddress[]',
+        'warehouse_addresses' => '\Jiwa\Model\CreditorWarehouseAddress[]',
         'last_saved_date_time' => '\DateTime'
     ];
 
@@ -334,7 +334,7 @@ class CreditorPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets warehouse_addresses
      *
-     * @return \Jiwa\JiwaModel\CreditorWarehouseAddress[]
+     * @return \Jiwa\Model\CreditorWarehouseAddress[]
      */
     public function getWarehouseAddresses()
     {
@@ -344,7 +344,7 @@ class CreditorPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets warehouse_addresses
      *
-     * @param \Jiwa\JiwaModel\CreditorWarehouseAddress[] $warehouse_addresses warehouse_addresses
+     * @param \Jiwa\Model\CreditorWarehouseAddress[] $warehouse_addresses warehouse_addresses
      *
      * @return $this
      */

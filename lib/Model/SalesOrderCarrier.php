@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -61,12 +61,12 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
         'carrier_id' => 'string',
         'carrier_name' => 'string',
         'account_no' => 'string',
-        'service' => '\Jiwa\JiwaModel\SalesOrderCarrierService',
+        'service' => '\Jiwa\Model\SalesOrderCarrierService',
         'use_least_cost' => 'bool',
         'charge_to' => 'string',
         'status' => 'string',
-        'freight_item_collection' => '\Jiwa\JiwaModel\SalesOrderFreightItem[]',
-        'consignment_note_collection' => '\Jiwa\JiwaModel\SalesOrderConsignmentNote[]'
+        'freight_item_collection' => '\Jiwa\Model\SalesOrderFreightItem[]',
+        'consignment_note_collection' => '\Jiwa\Model\SalesOrderConsignmentNote[]'
     ];
 
     /**
@@ -328,7 +328,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Gets service
      *
-     * @return \Jiwa\JiwaModel\SalesOrderCarrierService
+     * @return \Jiwa\Model\SalesOrderCarrierService
      */
     public function getService()
     {
@@ -338,7 +338,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Sets service
      *
-     * @param \Jiwa\JiwaModel\SalesOrderCarrierService $service service
+     * @param \Jiwa\Model\SalesOrderCarrierService $service service
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Gets freight_item_collection
      *
-     * @return \Jiwa\JiwaModel\SalesOrderFreightItem[]
+     * @return \Jiwa\Model\SalesOrderFreightItem[]
      */
     public function getFreightItemCollection()
     {
@@ -434,7 +434,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Sets freight_item_collection
      *
-     * @param \Jiwa\JiwaModel\SalesOrderFreightItem[] $freight_item_collection freight_item_collection
+     * @param \Jiwa\Model\SalesOrderFreightItem[] $freight_item_collection freight_item_collection
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Gets consignment_note_collection
      *
-     * @return \Jiwa\JiwaModel\SalesOrderConsignmentNote[]
+     * @return \Jiwa\Model\SalesOrderConsignmentNote[]
      */
     public function getConsignmentNoteCollection()
     {
@@ -458,7 +458,7 @@ class SalesOrderCarrier implements ModelInterface, ArrayAccess
     /**
      * Sets consignment_note_collection
      *
-     * @param \Jiwa\JiwaModel\SalesOrderConsignmentNote[] $consignment_note_collection consignment_note_collection
+     * @param \Jiwa\Model\SalesOrderConsignmentNote[] $consignment_note_collection consignment_note_collection
      *
      * @return $this
      */

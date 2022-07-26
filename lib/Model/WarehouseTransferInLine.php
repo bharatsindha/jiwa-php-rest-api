@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -84,7 +84,7 @@ class WarehouseTransferInLine implements ModelInterface, ArrayAccess
         'added_cost_ledger3_rec_id' => 'string',
         'added_cost_ledger3_account_no' => 'string',
         'added_cost_ledger3_description' => 'string',
-        'line_details' => '\Jiwa\JiwaModel\WarehouseTransferInLineDetail[]'
+        'line_details' => '\Jiwa\Model\WarehouseTransferInLineDetail[]'
     ];
 
     /**
@@ -988,7 +988,7 @@ class WarehouseTransferInLine implements ModelInterface, ArrayAccess
     /**
      * Gets line_details
      *
-     * @return \Jiwa\JiwaModel\WarehouseTransferInLineDetail[]
+     * @return \Jiwa\Model\WarehouseTransferInLineDetail[]
      */
     public function getLineDetails()
     {
@@ -998,7 +998,7 @@ class WarehouseTransferInLine implements ModelInterface, ArrayAccess
     /**
      * Sets line_details
      *
-     * @param \Jiwa\JiwaModel\WarehouseTransferInLineDetail[] $line_details line_details
+     * @param \Jiwa\Model\WarehouseTransferInLineDetail[] $line_details line_details
      *
      * @return $this
      */

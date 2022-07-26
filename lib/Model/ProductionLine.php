@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class ProductionLine implements ModelInterface, ArrayAccess
         'name' => 'string',
         'description' => 'string',
         'is_enabled' => 'bool',
-        'production_area' => '\Jiwa\JiwaModel\ProductionArea'
+        'production_area' => '\Jiwa\Model\ProductionArea'
     ];
 
     /**
@@ -328,7 +328,7 @@ class ProductionLine implements ModelInterface, ArrayAccess
     /**
      * Gets production_area
      *
-     * @return \Jiwa\JiwaModel\ProductionArea
+     * @return \Jiwa\Model\ProductionArea
      */
     public function getProductionArea()
     {
@@ -338,7 +338,7 @@ class ProductionLine implements ModelInterface, ArrayAccess
     /**
      * Sets production_area
      *
-     * @param \Jiwa\JiwaModel\ProductionArea $production_area production_area
+     * @param \Jiwa\Model\ProductionArea $production_area production_area
      *
      * @return $this
      */

@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **line_key** | **string** |  | [optional] 
 **forward_cover_contract_transaction_id** | **string** |  | [optional] 
-**forward_cover_contract** | [**\Jiwa\JiwaModel\ForwardCoverContract**](ForwardCoverContract.md) |  | [optional] 
+**forward_cover_contract** | [**\Jiwa\Model\ForwardCoverContract**](ForwardCoverContract.md) |  | [optional] 
 **fx_amount** | **double** |  | [optional] 
 **home_amount** | **double** |  | [optional] 
 

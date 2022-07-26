@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -62,7 +62,7 @@ class InventoryRegion implements ModelInterface, ArrayAccess
         'order_enabled' => 'bool',
         'region_id' => 'string',
         'region_name' => 'string',
-        'suppliers' => '\Jiwa\JiwaModel\InventorySupplier[]'
+        'suppliers' => '\Jiwa\Model\InventorySupplier[]'
     ];
 
     /**
@@ -328,7 +328,7 @@ class InventoryRegion implements ModelInterface, ArrayAccess
     /**
      * Gets suppliers
      *
-     * @return \Jiwa\JiwaModel\InventorySupplier[]
+     * @return \Jiwa\Model\InventorySupplier[]
      */
     public function getSuppliers()
     {
@@ -338,7 +338,7 @@ class InventoryRegion implements ModelInterface, ArrayAccess
     /**
      * Sets suppliers
      *
-     * @param \Jiwa\JiwaModel\InventorySupplier[] $suppliers suppliers
+     * @param \Jiwa\Model\InventorySupplier[] $suppliers suppliers
      *
      * @return $this
      */

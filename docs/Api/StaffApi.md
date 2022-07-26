@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **staffCurrentUserGETRequestCurrentGet**
-> \Jiwa\JiwaModel\StaffCurrentUserGETResponse staffCurrentUserGETRequestCurrentGet($accept, $jiwa_stateful)
+> \Jiwa\Model\StaffCurrentUserGETResponse staffCurrentUserGETRequestCurrentGet($accept, $jiwa_stateful)
 
 Retrieves the current user.
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\StaffCurrentUserGETResponse**](../Model/StaffCurrentUserGETResponse.md)
+[**\Jiwa\Model\StaffCurrentUserGETResponse**](../Model/StaffCurrentUserGETResponse.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **staffCurrentUserListGETRequestCurrentListGet**
-> \Jiwa\JiwaModel\StaffCurrentUserGETResponse[] staffCurrentUserListGETRequestCurrentListGet($accept, $jiwa_stateful)
+> \Jiwa\Model\StaffCurrentUserGETResponse[] staffCurrentUserListGETRequestCurrentListGet($accept, $jiwa_stateful)
 
 Retrieves a list of all REST API session users.
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Jiwa\JiwaModel\StaffCurrentUserGETResponse[]**](../Model/StaffCurrentUserGETResponse.md)
+[**\Jiwa\Model\StaffCurrentUserGETResponse[]**](../Model/StaffCurrentUserGETResponse.md)
 
 ### Authorization
 

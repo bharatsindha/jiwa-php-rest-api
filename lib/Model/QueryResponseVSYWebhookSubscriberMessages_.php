@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,9 +60,9 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     protected static $swaggerTypes = [
         'offset' => 'int',
         'total' => 'int',
-        'results' => '\Jiwa\JiwaModel\VSYWebhookSubscriberMessages[]',
-        'meta' => '\Jiwa\JiwaModel\DictionaryStringString_',
-        'response_status' => '\Jiwa\JiwaModel\ResponseStatus'
+        'results' => '\Jiwa\Model\VSYWebhookSubscriberMessages[]',
+        'meta' => '\Jiwa\Model\DictionaryStringString_',
+        'response_status' => '\Jiwa\Model\ResponseStatus'
     ];
 
     /**
@@ -280,7 +280,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Gets results
      *
-     * @return \Jiwa\JiwaModel\VSYWebhookSubscriberMessages[]
+     * @return \Jiwa\Model\VSYWebhookSubscriberMessages[]
      */
     public function getResults()
     {
@@ -290,7 +290,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Sets results
      *
-     * @param \Jiwa\JiwaModel\VSYWebhookSubscriberMessages[] $results results
+     * @param \Jiwa\Model\VSYWebhookSubscriberMessages[] $results results
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Gets meta
      *
-     * @return \Jiwa\JiwaModel\DictionaryStringString_
+     * @return \Jiwa\Model\DictionaryStringString_
      */
     public function getMeta()
     {
@@ -314,7 +314,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Sets meta
      *
-     * @param \Jiwa\JiwaModel\DictionaryStringString_ $meta meta
+     * @param \Jiwa\Model\DictionaryStringString_ $meta meta
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Gets response_status
      *
-     * @return \Jiwa\JiwaModel\ResponseStatus
+     * @return \Jiwa\Model\ResponseStatus
      */
     public function getResponseStatus()
     {
@@ -338,7 +338,7 @@ class QueryResponseVSYWebhookSubscriberMessages_ implements ModelInterface, Arra
     /**
      * Sets response_status
      *
-     * @param \Jiwa\JiwaModel\ResponseStatus $response_status response_status
+     * @param \Jiwa\Model\ResponseStatus $response_status response_status
      *
      * @return $this
      */

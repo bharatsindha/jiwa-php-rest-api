@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -64,8 +64,8 @@ class CarrierPATCHRequest implements ModelInterface, ArrayAccess
         'enabled' => 'bool',
         'notes' => 'string',
         'last_saved_date_time' => '\DateTime',
-        'services' => '\Jiwa\JiwaModel\CarrierService[]',
-        'freight_descriptions' => '\Jiwa\JiwaModel\CarrierFreightDescription[]'
+        'services' => '\Jiwa\Model\CarrierService[]',
+        'freight_descriptions' => '\Jiwa\Model\CarrierFreightDescription[]'
     ];
 
     /**
@@ -394,7 +394,7 @@ class CarrierPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets services
      *
-     * @return \Jiwa\JiwaModel\CarrierService[]
+     * @return \Jiwa\Model\CarrierService[]
      */
     public function getServices()
     {
@@ -404,7 +404,7 @@ class CarrierPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets services
      *
-     * @param \Jiwa\JiwaModel\CarrierService[] $services services
+     * @param \Jiwa\Model\CarrierService[] $services services
      *
      * @return $this
      */
@@ -418,7 +418,7 @@ class CarrierPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Gets freight_descriptions
      *
-     * @return \Jiwa\JiwaModel\CarrierFreightDescription[]
+     * @return \Jiwa\Model\CarrierFreightDescription[]
      */
     public function getFreightDescriptions()
     {
@@ -428,7 +428,7 @@ class CarrierPATCHRequest implements ModelInterface, ArrayAccess
     /**
      * Sets freight_descriptions
      *
-     * @param \Jiwa\JiwaModel\CarrierFreightDescription[] $freight_descriptions freight_descriptions
+     * @param \Jiwa\Model\CarrierFreightDescription[] $freight_descriptions freight_descriptions
      *
      * @return $this
      */

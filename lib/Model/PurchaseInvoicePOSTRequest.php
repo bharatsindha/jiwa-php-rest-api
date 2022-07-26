@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -77,8 +77,8 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
         'insurance_tax_id' => 'string',
         'insurance_tax_rate' => 'double',
         'insurance_tax_amount' => 'double',
-        'lines' => '\Jiwa\JiwaModel\PurchaseInvoiceLine[]',
-        'goods_received_notes' => '\Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced[]',
+        'lines' => '\Jiwa\Model\PurchaseInvoiceLine[]',
+        'goods_received_notes' => '\Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced[]',
         'total_gross' => 'double',
         'total_net' => 'double',
         'total_fx' => 'double',
@@ -91,9 +91,9 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
         'due_date' => '\DateTime',
         'currency_id' => 'string',
         'total_net_on_inventory_receivals' => 'double',
-        'custom_field_values' => '\Jiwa\JiwaModel\CustomFieldValue[]',
-        'notes' => '\Jiwa\JiwaModel\Note[]',
-        'documents' => '\Jiwa\JiwaModel\Document[]',
+        'custom_field_values' => '\Jiwa\Model\CustomFieldValue[]',
+        'notes' => '\Jiwa\Model\Note[]',
+        'documents' => '\Jiwa\Model\Document[]',
         'logical_warehouse_id' => 'string',
         'logical_warehouse_description' => 'string',
         'physical_warehouse_id' => 'string',
@@ -898,7 +898,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets lines
      *
-     * @return \Jiwa\JiwaModel\PurchaseInvoiceLine[]
+     * @return \Jiwa\Model\PurchaseInvoiceLine[]
      */
     public function getLines()
     {
@@ -908,7 +908,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets lines
      *
-     * @param \Jiwa\JiwaModel\PurchaseInvoiceLine[] $lines lines
+     * @param \Jiwa\Model\PurchaseInvoiceLine[] $lines lines
      *
      * @return $this
      */
@@ -922,7 +922,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets goods_received_notes
      *
-     * @return \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced[]
+     * @return \Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced[]
      */
     public function getGoodsReceivedNotes()
     {
@@ -932,7 +932,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets goods_received_notes
      *
-     * @param \Jiwa\JiwaModel\PurchaseInvoiceGoodsReceivedNoteInvoiced[] $goods_received_notes goods_received_notes
+     * @param \Jiwa\Model\PurchaseInvoiceGoodsReceivedNoteInvoiced[] $goods_received_notes goods_received_notes
      *
      * @return $this
      */
@@ -1234,7 +1234,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets custom_field_values
      *
-     * @return \Jiwa\JiwaModel\CustomFieldValue[]
+     * @return \Jiwa\Model\CustomFieldValue[]
      */
     public function getCustomFieldValues()
     {
@@ -1244,7 +1244,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets custom_field_values
      *
-     * @param \Jiwa\JiwaModel\CustomFieldValue[] $custom_field_values custom_field_values
+     * @param \Jiwa\Model\CustomFieldValue[] $custom_field_values custom_field_values
      *
      * @return $this
      */
@@ -1258,7 +1258,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notes
      *
-     * @return \Jiwa\JiwaModel\Note[]
+     * @return \Jiwa\Model\Note[]
      */
     public function getNotes()
     {
@@ -1268,7 +1268,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notes
      *
-     * @param \Jiwa\JiwaModel\Note[] $notes notes
+     * @param \Jiwa\Model\Note[] $notes notes
      *
      * @return $this
      */
@@ -1282,7 +1282,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \Jiwa\JiwaModel\Document[]
+     * @return \Jiwa\Model\Document[]
      */
     public function getDocuments()
     {
@@ -1292,7 +1292,7 @@ class PurchaseInvoicePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \Jiwa\JiwaModel\Document[] $documents documents
+     * @param \Jiwa\Model\Document[] $documents documents
      *
      * @return $this
      */

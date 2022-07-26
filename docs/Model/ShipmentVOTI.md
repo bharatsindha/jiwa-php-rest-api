@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **creditor_id** | **string** |  | [optional] 
 **creditor_account_no** | **string** |  | [optional] 
 **creditor_name** | **string** |  | [optional] 
-**tax_rate** | [**\Jiwa\JiwaModel\TaxRate**](TaxRate.md) |  | [optional] 
+**tax_rate** | [**\Jiwa\Model\TaxRate**](TaxRate.md) |  | [optional] 
 **description** | **string** |  | [optional] 
 **invoice_no** | **string** |  | [optional] 
 **reference** | **string** |  | [optional] 

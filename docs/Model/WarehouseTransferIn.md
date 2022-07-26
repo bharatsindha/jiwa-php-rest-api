@@ -45,8 +45,8 @@ Name | Type | Description | Notes
 **added_cost_method_name** | **string** |  | [optional] 
 **transferred_cost** | **double** |  | [optional] 
 **total_cost** | **double** |  | [optional] 
-**receive_ins** | [**\Jiwa\JiwaModel\WarehouseTransferInReceiveIn[]**](WarehouseTransferInReceiveIn.md) |  | [optional] 
-**lines** | [**\Jiwa\JiwaModel\WarehouseTransferInLine[]**](WarehouseTransferInLine.md) |  | [optional] 
+**receive_ins** | [**\Jiwa\Model\WarehouseTransferInReceiveIn[]**](WarehouseTransferInReceiveIn.md) |  | [optional] 
+**lines** | [**\Jiwa\Model\WarehouseTransferInLine[]**](WarehouseTransferInLine.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

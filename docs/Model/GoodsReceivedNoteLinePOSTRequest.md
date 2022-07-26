@@ -69,8 +69,8 @@ Name | Type | Description | Notes
 **fx_decimal_places** | **int** |  | [optional] 
 **home_decimal_places** | **int** |  | [optional] 
 **use_expiry_date** | **bool** |  | [optional] 
-**line_details** | [**\Jiwa\JiwaModel\GoodsReceivedNoteLineDetail[]**](GoodsReceivedNoteLineDetail.md) |  | [optional] 
-**custom_field_values** | [**\Jiwa\JiwaModel\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
+**line_details** | [**\Jiwa\Model\GoodsReceivedNoteLineDetail[]**](GoodsReceivedNoteLineDetail.md) |  | [optional] 
+**custom_field_values** | [**\Jiwa\Model\CustomFieldValue[]**](CustomFieldValue.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

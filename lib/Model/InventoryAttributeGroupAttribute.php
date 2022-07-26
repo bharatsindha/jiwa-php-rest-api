@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -60,7 +60,7 @@ class InventoryAttributeGroupAttribute implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'attribute_id' => 'string',
         'attribute_group_id' => 'string',
-        'template_attribute' => '\Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute',
+        'template_attribute' => '\Jiwa\Model\InventoryAttributeGroupTemplateAttribute',
         'last_saved_date_time' => '\DateTime',
         'contents' => 'string'
     ];
@@ -280,7 +280,7 @@ class InventoryAttributeGroupAttribute implements ModelInterface, ArrayAccess
     /**
      * Gets template_attribute
      *
-     * @return \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute
+     * @return \Jiwa\Model\InventoryAttributeGroupTemplateAttribute
      */
     public function getTemplateAttribute()
     {
@@ -290,7 +290,7 @@ class InventoryAttributeGroupAttribute implements ModelInterface, ArrayAccess
     /**
      * Sets template_attribute
      *
-     * @param \Jiwa\JiwaModel\InventoryAttributeGroupTemplateAttribute $template_attribute template_attribute
+     * @param \Jiwa\Model\InventoryAttributeGroupTemplateAttribute $template_attribute template_attribute
      *
      * @return $this
      */

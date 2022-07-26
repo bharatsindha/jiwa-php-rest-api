@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -66,9 +66,9 @@ class BookInShipmentLine implements ModelInterface, ArrayAccess
         'ordered_cost' => 'double',
         'fx_ordered_cost' => 'double',
         'unit_cost_ex_tax' => 'double',
-        'fx_rate' => '\Jiwa\JiwaModel\CurrencyRate',
+        'fx_rate' => '\Jiwa\Model\CurrencyRate',
         'fx_unit_cost_ex_tax' => 'double',
-        'tax_rate' => '\Jiwa\JiwaModel\TaxRate',
+        'tax_rate' => '\Jiwa\Model\TaxRate',
         'tax_amount' => 'double',
         'unit_cost_inc_tax' => 'double',
         'line_total_ex_tax' => 'double',
@@ -514,7 +514,7 @@ class BookInShipmentLine implements ModelInterface, ArrayAccess
     /**
      * Gets fx_rate
      *
-     * @return \Jiwa\JiwaModel\CurrencyRate
+     * @return \Jiwa\Model\CurrencyRate
      */
     public function getFxRate()
     {
@@ -524,7 +524,7 @@ class BookInShipmentLine implements ModelInterface, ArrayAccess
     /**
      * Sets fx_rate
      *
-     * @param \Jiwa\JiwaModel\CurrencyRate $fx_rate fx_rate
+     * @param \Jiwa\Model\CurrencyRate $fx_rate fx_rate
      *
      * @return $this
      */
@@ -562,7 +562,7 @@ class BookInShipmentLine implements ModelInterface, ArrayAccess
     /**
      * Gets tax_rate
      *
-     * @return \Jiwa\JiwaModel\TaxRate
+     * @return \Jiwa\Model\TaxRate
      */
     public function getTaxRate()
     {
@@ -572,7 +572,7 @@ class BookInShipmentLine implements ModelInterface, ArrayAccess
     /**
      * Sets tax_rate
      *
-     * @param \Jiwa\JiwaModel\TaxRate $tax_rate tax_rate
+     * @param \Jiwa\Model\TaxRate $tax_rate tax_rate
      *
      * @return $this
      */

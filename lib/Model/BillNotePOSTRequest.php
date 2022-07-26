@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Jiwa\JiwaModel;
+namespace Jiwa\Model;
 
 use \ArrayAccess;
 use \Jiwa\ObjectSerializer;
@@ -59,7 +59,7 @@ class BillNotePOSTRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'bill_id' => 'string',
-        'note_type' => '\Jiwa\JiwaModel\NoteType',
+        'note_type' => '\Jiwa\Model\NoteType',
         'line_no' => 'int',
         'last_modified_by_staff_id' => 'string',
         'last_modified_by_staff_username' => 'string',
@@ -280,7 +280,7 @@ class BillNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Gets note_type
      *
-     * @return \Jiwa\JiwaModel\NoteType
+     * @return \Jiwa\Model\NoteType
      */
     public function getNoteType()
     {
@@ -290,7 +290,7 @@ class BillNotePOSTRequest implements ModelInterface, ArrayAccess
     /**
      * Sets note_type
      *
-     * @param \Jiwa\JiwaModel\NoteType $note_type note_type
+     * @param \Jiwa\Model\NoteType $note_type note_type
      *
      * @return $this
      */
